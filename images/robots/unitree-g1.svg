@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Unitree G1 Placeholder</title>
+  <desc id="desc">Placeholder image for Unitree G1 robot card</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="600" cy="220" r="90" fill="#1e293b"/>
+  <rect x="530" y="300" width="140" height="220" rx="30" fill="#334155"/>
+  <rect x="430" y="320" width="90" height="170" rx="30" fill="#475569"/>
+  <rect x="680" y="320" width="90" height="170" rx="30" fill="#475569"/>
+  <rect x="540" y="520" width="50" height="170" rx="22" fill="#475569"/>
+  <rect x="610" y="520" width="50" height="170" rx="22" fill="#475569"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#0f172a">Unitree G1</text>
+</svg>

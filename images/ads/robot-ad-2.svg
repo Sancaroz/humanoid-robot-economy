@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">AI Factory Banner</title>
+  <desc id="desc">Ad banner for AI and factory automation</desc>
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#052e16"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="32" fill="url(#g2)"/>
+  <rect x="70" y="70" width="260" height="220" rx="26" fill="#86efac" opacity="0.22"/>
+  <circle cx="1000" cy="180" r="92" fill="#bbf7d0" opacity="0.24"/>
+  <text x="380" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#f0fdf4">AI FACTORY OS</text>
+  <text x="380" y="200" font-family="Arial, sans-serif" font-size="32" fill="#dcfce7">Automation + Vision + Safety</text>
+  <text x="380" y="255" font-family="Arial, sans-serif" font-size="26" fill="#bbf7d0">Deploy in 14 Days</text>
+</svg>

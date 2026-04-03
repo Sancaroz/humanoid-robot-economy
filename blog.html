@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Humanoid ve Yapay Zeka Gelecegi</title>
+  <meta name="description" content="Humanoid ve yapay zeka gelecegine dair analizler, stratejiler ve haftalik sektor yorumlari." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html">Humanoid ve Yapay Zeka Gelecegi</a>
+    <nav>
+      <button class="lang-btn active" data-lang="tr">Türkçe</button>
+      <button class="lang-btn" data-lang="en">English</button>
+        <button class="theme-btn" id="theme-toggle" aria-label="Tema değiştir">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="blog-hero">
+      <h1 data-lang="tr">Analizler ve Strateji Notlari</h1>
+      <h1 data-lang="en" class="hidden">Analysis and Strategy Notes</h1>
+      <p data-lang="tr">Humanoid robotik, yapay zeka ve yeni ekonomi ekseninde haftalik iceriklere ulas.</p>
+      <p data-lang="en" class="hidden">Access weekly content on humanoid robotics, AI, and the emerging economy.</p>
+    </section>
+
+    <section id="posts">
+      <div class="posts-top">
+        <h2 data-lang="tr">One Cikan Icerik</h2>
+        <h2 data-lang="en" class="hidden">Featured Content</h2>
+        <p data-lang="tr">En guncel rapor ve hizli erisim baglantilari.</p>
+        <p data-lang="en" class="hidden">Latest report and quick access links.</p>
+      </div>
+
+      <article class="post post-featured filterable-post" data-category="report">
+        <div class="post-meta">
+          <span class="post-chip" data-lang="tr">Rapor</span>
+          <span class="post-chip hidden" data-lang="en">Report</span>
+          <span class="post-date">2026</span>
+        </div>
+        <h3 data-lang="tr">XMAQUINA Profesyonel Raporu: Operasyonel Ciktilar ve Yol Haritasi</h3>
+        <h3 data-lang="en" class="hidden">XMAQUINA Professional Report: Operational Outcomes and Roadmap</h3>
+        <p data-lang="tr">Rapor ozeti, temel bulgular ve uygulanabilir aksiyon basliklari. Detay sayfasindan inceleyebilir veya Word dokumanini dogrudan indirebilirsin.</p>
+        <p data-lang="en" class="hidden">Report summary, key findings, and actionable priorities. Review on the detail page or download the Word document directly.</p>
+        <div class="post-actions">
+          <a href="article-xmaquina-profesyonel-rapor.html" class="read-more" data-lang="tr">Rapor detayini gor</a>
+          <a href="article-xmaquina-profesyonel-rapor.html" class="read-more hidden" data-lang="en">View report details</a>
+          <a href="docs/xmaquina_profesyonel_rapor.docx" class="read-more alt" download data-lang="tr">Word dosyasini indir</a>
+          <a href="docs/xmaquina_profesyonel_rapor.docx" class="read-more alt hidden" download data-lang="en">Download Word file</a>
+        </div>
+      </article>
+
+      <div class="posts-top posts-top-secondary">
+        <h2 data-lang="tr">Tum Yazilar</h2>
+        <h2 data-lang="en" class="hidden">All Articles</h2>
+      </div>
+
+      <div class="post-filters" aria-label="Blog filter controls">
+        <button class="post-filter active" type="button" data-filter="all">
+          <span data-lang="tr">Tumu</span>
+          <span data-lang="en" class="hidden">All</span>
+        </button>
+        <button class="post-filter" type="button" data-filter="report">
+          <span data-lang="tr">Rapor</span>
+          <span data-lang="en" class="hidden">Report</span>
+        </button>
+        <button class="post-filter" type="button" data-filter="analysis">
+          <span data-lang="tr">Analiz</span>
+          <span data-lang="en" class="hidden">Analysis</span>
+        </button>
+        <button class="post-filter" type="button" data-filter="strategy">
+          <span data-lang="tr">Strateji</span>
+          <span data-lang="en" class="hidden">Strategy</span>
+        </button>
+      </div>
+
+      <div class="posts-grid">
+        <article class="post filterable-post" data-category="analysis">
+          <div class="post-meta">
+            <span class="post-chip" data-lang="tr">Analiz</span>
+            <span class="post-chip hidden" data-lang="en">Analysis</span>
+            <span class="post-date">2026</span>
+          </div>
+          <h3 data-lang="tr">Humanoid Caginda Is ve Yatirim: 2026 Perspektifi</h3>
+          <h3 data-lang="en" class="hidden">Business and Investment in the Humanoid Era: 2026 View</h3>
+          <p data-lang="tr">Pazar buyuklugu, erken asama riskler ve sektorel sinyallerle yatirim kararini daha netlestiren bir cerceve.</p>
+          <p data-lang="en" class="hidden">A practical framework to evaluate market size, early-stage risks, and sector signals for better investment decisions.</p>
+          <div class="post-actions">
+            <a href="article-humanoid-2026.html" class="read-more" data-lang="tr">Devamini oku</a>
+            <a href="article-humanoid-2026.html" class="read-more hidden" data-lang="en">Read more</a>
+          </div>
+        </article>
+
+        <article class="post filterable-post" data-category="strategy">
+          <div class="post-meta">
+            <span class="post-chip" data-lang="tr">Strateji</span>
+            <span class="post-chip hidden" data-lang="en">Strategy</span>
+            <span class="post-date">2026</span>
+          </div>
+          <h3 data-lang="tr">Yapay Zeka Destekli Robotik Ekosistemde Gelir Modelleri</h3>
+          <h3 data-lang="en" class="hidden">Revenue Models in the AI-Powered Robotics Ecosystem</h3>
+          <p data-lang="tr">Egitim urunleri, abonelik servisleri ve B2B cozumlerle olceklenebilir gelir stratejileri.</p>
+          <p data-lang="en" class="hidden">Scalable revenue strategies through education products, subscription services, and B2B solutions.</p>
+          <div class="post-actions">
+            <a href="article-ai-robotics-revenue.html" class="read-more" data-lang="tr">Devamini oku</a>
+            <a href="article-ai-robotics-revenue.html" class="read-more hidden" data-lang="en">Read more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cta-blog">
+      <h2 data-lang="tr">Akilli Otomasyon Bultenine Katil</h2>
+      <h2 data-lang="en" class="hidden">Join the Smart Automation Brief</h2>
+      <p data-lang="tr">Her hafta AI + robotik odakli kisa icgoruler ve uygulanabilir fikirler al.</p>
+      <p data-lang="en" class="hidden">Get weekly AI + robotics insights and actionable ideas in a concise format.</p>
+      <a href="#" class="btn" data-lang="tr" data-subscribe="true">Abone Ol</a>
+      <a href="#" class="btn hidden" data-lang="en" data-subscribe="true">Subscribe</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Humanoid ve Yapay Zeka Gelecegi | TR + EN</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

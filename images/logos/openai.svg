@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI wordmark panel</title>
+  <desc id="desc">Local logo panel for OpenAI link card</desc>
+  <rect width="480" height="240" rx="32" fill="#111827"/>
+  <rect x="18" y="18" width="444" height="204" rx="24" fill="#f8fafc" opacity="0.05"/>
+  <text x="240" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#f9fafb">OpenAI</text>
+</svg>

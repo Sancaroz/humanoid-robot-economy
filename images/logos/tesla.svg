@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">Tesla wordmark panel</title>
+  <desc id="desc">Local logo panel for Tesla Optimus link card</desc>
+  <rect width="480" height="240" rx="32" fill="#111827"/>
+  <rect x="18" y="18" width="444" height="204" rx="24" fill="#ffffff" opacity="0.05"/>
+  <text x="240" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ef4444">TESLA</text>
+  <text x="240" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="600" fill="#f9fafb">Optimus</text>
+</svg>

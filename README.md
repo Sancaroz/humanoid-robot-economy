@@ -27,3 +27,6 @@ Bu proje, Türkçe ve İngilizce iki dilli statik web sitesi için hızla çalı
 ## Etkileşim
 - `lang-btn` butonları ile diller arası geçiş yap.
 - İçeriği genişlet: blog, kurs, danışmanlık, e-kitap.
+
+## Notlar
+- Dil secimi `localStorage` ile saklanir ve sayfalar arasi korunur.

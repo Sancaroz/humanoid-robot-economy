@@ -3,76 +3,497 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Humanoid Robot Ekonomisi & AI Income</title>
-  <meta name="description" content="Humanoid robot ekonomisi ve yapay zeka ile gelir modeli rehberi. Türkçe ve İngilizce içerikle ücretsiz statik site." />
+  <title>Humanoid ve Yapay Zeka Gelecegi</title>
+  <meta name="description" content="Humanoid robotik ve yapay zeka odakli yeni ekonomi, is gucu donusumu ve buyume stratejileri." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="topbar">
-    <a class="logo" href="#">Humanoid Economy</a>
+    <a class="logo" href="#">Humanoid ve Yapay Zeka Gelecegi</a>
     <nav>
       <button class="lang-btn active" data-lang="tr">Türkçe</button>
       <button class="lang-btn" data-lang="en">English</button>
+        <button class="theme-btn" id="theme-toggle" aria-label="Tema değiştir">🌙</button>
     </nav>
   </header>
 
-  <main class="container">
+  <section class="article-wide-banner article-wide-banner-full">
+    <img src="images/robots/near-touch-human-robot.png" alt="Insan ve robot temali ana gorsel" loading="eager" fetchpriority="high" />
+  </section>
+
+  <section id="ad-strip">
+      <div class="ad-marquee" aria-label="Robotik reklam seridi">
+        <div class="ad-track">
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/tesla-original.jpg" alt="Tesla Optimus" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/xmaquina-original.jpg" alt="XMAQUINA robot" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/1x-original.jpg" alt="1X robot" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/agility-original.jpg" alt="Agility Robotics robot" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/unitree-original.jpg" alt="Unitree robot" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/figure-original.jpg" alt="Figure AI robot" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/boston-original.jpg" alt="Boston Dynamics robot" loading="lazy" />
+          </article>
+          <article class="ad-item">
+            <img class="ad-robot" src="images/robots/fauna-original.jpg" alt="Fauna Robotics robot" loading="lazy" />
+          </article>
+
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/tesla-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/xmaquina-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/1x-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/agility-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/unitree-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/figure-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/boston-original.jpg" alt="" loading="lazy" />
+          </article>
+          <article class="ad-item" aria-hidden="true">
+            <img class="ad-robot" src="images/robots/fauna-original.jpg" alt="" loading="lazy" />
+          </article>
+        </div>
+      </div>
+    </section>
+
+  <div class="page-layout">
+    <aside class="left-sidebar">
+
+      <nav class="sidebar-nav">
+        <p class="sidebar-heading" data-lang="tr">Bölümler</p>
+        <p class="sidebar-heading hidden" data-lang="en">Sections</p>
+        <a class="sidebar-link" href="#about" data-lang="tr">Hakkımızda</a>
+        <a class="sidebar-link hidden" href="#about" data-lang="en">About</a>
+        <a class="sidebar-link" href="#company-links" data-lang="tr">Şirket Rehberi</a>
+        <a class="sidebar-link hidden" href="#company-links" data-lang="en">Company Guide</a>
+        <a class="sidebar-link" href="blog.html" data-lang="tr">Blog</a>
+        <a class="sidebar-link hidden" href="blog.html" data-lang="en">Blog</a>
+      </nav>
+
+      <div class="sidebar-emblems">
+        <p class="sidebar-heading" data-lang="tr">Şirketler</p>
+        <p class="sidebar-heading hidden" data-lang="en">Companies</p>
+        <a class="emblem-item" href="#company-links" title="Tesla"><img src="images/robots/tesla-original.jpg" alt="Tesla" loading="lazy" /><span>Tesla</span></a>
+        <a class="emblem-item" href="#company-links" title="1X"><img src="images/robots/1x-original.jpg" alt="1X" loading="lazy" /><span>1X</span></a>
+        <a class="emblem-item" href="#company-links" title="XMAQUINA"><img src="images/robots/xmaquina-original.jpg" alt="XMAQUINA" loading="lazy" /><span>XMAQUINA</span></a>
+        <a class="emblem-item" href="#company-links" title="Agility"><img src="images/robots/agility-original.jpg" alt="Agility" loading="lazy" /><span>Agility</span></a>
+        <a class="emblem-item" href="#company-links" title="Unitree"><img src="images/robots/unitree-original.jpg" alt="Unitree" loading="lazy" /><span>Unitree</span></a>
+        <a class="emblem-item" href="#company-links" title="Figure AI"><img src="images/robots/figure-original.jpg" alt="Figure AI" loading="lazy" /><span>Figure</span></a>
+        <a class="emblem-item" href="#company-links" title="Boston Dynamics"><img src="images/robots/boston-original.jpg" alt="Boston" loading="lazy" /><span>Boston</span></a>
+        <a class="emblem-item" href="#company-links" title="Skild AI"><img src="images/robots/skild-original.jpg" alt="Skild" loading="lazy" /><span>Skild</span></a>
+        <a class="emblem-item" href="#company-links" title="NEURA"><img src="images/robots/neura-original.jpg" alt="NEURA" loading="lazy" /><span>NEURA</span></a>
+        <a class="emblem-item" href="#company-links" title="Apptronik"><img src="images/robots/apptronik-original.jpg" alt="Apptronik" loading="lazy" /><span>Apptronik</span></a>
+        <a class="emblem-item" href="#company-links" title="Fauna"><img src="images/robots/fauna-original.jpg" alt="Fauna" loading="lazy" /><span>Fauna</span></a>
+        <a class="emblem-item" href="#company-links" title="Robotico"><img src="images/robots/robotico-original.jpg" alt="Robotico" loading="lazy" /><span>Robotico</span></a>
+      </div>
+
+      <div class="sidebar-stats">
+        <div class="sidebar-stat">
+          <span class="stat-num">30M+</span>
+          <span class="stat-lbl" data-lang="tr">2030 robot tahmini</span>
+          <span class="stat-lbl hidden" data-lang="en">2030 robot forecast</span>
+        </div>
+        <div class="sidebar-stat">
+          <span class="stat-num">$38B</span>
+          <span class="stat-lbl" data-lang="tr">2025 sektör büyüklüğü</span>
+          <span class="stat-lbl hidden" data-lang="en">2025 sector size</span>
+        </div>
+        <div class="sidebar-stat">
+          <span class="stat-num">15+</span>
+          <span class="stat-lbl" data-lang="tr">Öne çıkan şirket</span>
+          <span class="stat-lbl hidden" data-lang="en">Leading companies</span>
+        </div>
+      </div>
+
+    </aside>
+    <main class="container">
     <section id="hero">
-      <h1 data-lang="tr">Humanoid Robot Ekonomisi ve Yapay Zeka ile Para Kazan</h1>
-      <h1 data-lang="en" class="hidden">Monetize Humanoid Robotics & AI Economy</h1>
-      <p data-lang="tr">Bu site, 2026 için robotik ve yapay zeka odaklı gelir stratejilerini iki dilde sunar.</p>
-      <p data-lang="en" class="hidden">This site delivers AI + robotics income strategies for 2026 in bilingual format.</p>
+      <h1 data-lang="tr">Gelecegin Is Gucu: Insan + Robot</h1>
+      <h1 data-lang="en" class="hidden">Future Workforce: Human + Robot</h1>
+      <p data-lang="tr">AI ve Robotik ile Buyume Stratejileri: is modelleri, yatirim bakisi ve uygulama ornekleri.</p>
+      <p data-lang="en" class="hidden">Growth Strategies with AI and Robotics: business models, investment perspective, and practical use cases.</p>
     </section>
 
     <section id="about">
-      <h2 data-lang="tr">Neler Öğreneceksin?</h2>
-      <h2 data-lang="en" class="hidden">What You Will Learn</h2>
+      <h2 data-lang="tr">Robotik ve AI ile Yeni Ekonomi</h2>
+      <h2 data-lang="en" class="hidden">A New Economy with Robotics and AI</h2>
       <ul>
-        <li data-lang="tr">Humanoid robot yatırımı ve gelir raporu</li>
-        <li data-lang="en" class="hidden">Humanoid robotics investment and income playbook</li>
-        <li data-lang="tr">AI ürünleri ile içerik, kurs ve abonelik modelleri</li>
-        <li data-lang="en" class="hidden">AI product, course & subscription models</li>
+        <li data-lang="tr">Humanoid caginda is ve yatirim firsatlari</li>
+        <li data-lang="en" class="hidden">Business and investment opportunities in the humanoid era</li>
+        <li data-lang="tr">Yapay zeka destekli robotik ekosistem ve gelir kanallari</li>
+        <li data-lang="en" class="hidden">AI-powered robotics ecosystem and monetization channels</li>
       </ul>
     </section>
 
-    <section id="monetize">
-      <h2 data-lang="tr">Para Kazanma Kanalları</h2>
-      <h2 data-lang="en" class="hidden">Monetization Channels</h2>
-      <div class="cards">
-        <article class="card">
-          <h3 data-lang="tr">Ücretli Eğitim ve Kurslar</h3>
-          <h3 data-lang="en" class="hidden">Paid Courses</h3>
-          <p data-lang="tr">AI ve robotik uygulamalı rehberlerle gelir elde et.</p>
-          <p data-lang="en" class="hidden">Earn via hands-on AI + robotics guides.</p>
-        </article>
+    <section id="media-showcase">
+      <div class="media-video">
+        <video autoplay muted loop playsinline controls preload="metadata" poster="images/video-poster.jpg">
+          <source src="videos/humanoid-demo.mp4" type="video/mp4" />
+          Tarayicin video etiketini desteklemiyor.
+        </video>
+        <p class="media-note" data-lang="tr">Ornek video yolu: videos/humanoid-demo.mp4</p>
+        <p class="media-note hidden" data-lang="en">Sample video path: videos/humanoid-demo.mp4</p>
+        <p class="media-note warning" data-lang="tr" style="display:none;">Video gorunmuyorsa videos/humanoid-demo.mp4 dosyasini bu klasore ekle.</p>
+        <p class="media-note warning hidden" data-lang="en" style="display:none;">If the video is not visible, add videos/humanoid-demo.mp4 to this folder.</p>
 
-        <article class="card">
-          <h3 data-lang="tr">Affiliate ve Sponsorluk</h3>
-          <h3 data-lang="en" class="hidden">Affiliate / Sponsorship</h3>
-          <p data-lang="tr">Robotics ve AI ürünlerine yönlendirme ile komisyon kazan.</p>
-          <p data-lang="en" class="hidden">Earn commissions from robotics & AI product referrals.</p>
-        </article>
+        <div class="media-fallback" style="display:none;">
+          <img src="images/video-poster.jpg" alt="Video yuklenemediginde gosterilen gorsel" loading="lazy" />
+          <p data-lang="tr">Video yuklenemedi. Lutfen videos/humanoid-demo.mp4 dosyasini ekleyin.</p>
+          <p data-lang="en" class="hidden">Video failed to load. Please add videos/humanoid-demo.mp4.</p>
+        </div>
 
-        <article class="card">
-          <h3 data-lang="tr">E-kitap ve Premium Haber Bülteni</h3>
-          <h3 data-lang="en" class="hidden">Ebook / Premium Newsletter</h3>
-          <p data-lang="tr">Niş raporlar ve aylık içgörü abonelikleri sat.</p>
-          <p data-lang="en" class="hidden">Sell niche reports and monthly insight subscriptions.</p>
-        </article>
+      </div>
+    </section>
+
+    <section id="company-links">
+      <h2 data-lang="tr">Akilli Otomasyon Ekosistemi: Sirket Rehberi</h2>
+      <h2 data-lang="en" class="hidden">Smart Automation Ecosystem: Company Guide</h2>
+
+      <p data-lang="tr">Asagidaki butonlara tiklayarak sirket sitelerine hizlica ulasabilirsin.</p>
+      <p data-lang="en" class="hidden">Use the buttons below to open company websites quickly.</p>
+
+      <div class="company-group">
+        <h3 data-lang="tr">Her Ikisi (AI + Robotik)</h3>
+        <h3 data-lang="en" class="hidden">Both (AI + Robotics)</h3>
+        <div class="link-grid">
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/tesla-original.jpg" alt="Tesla Optimus robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge both" data-lang="tr">Her Ikisi</span>
+              <span class="badge both hidden" data-lang="en">Both</span>
+            </div>
+            <h4>Tesla Optimus</h4>
+            <p data-lang="tr">Tesla'nin yapay zeka, goruntu isleme ve humanoid robot gelistirmesini birlestiren platformu.</p>
+            <p data-lang="en" class="hidden">Tesla's platform combining AI, vision systems, and humanoid robot development.</p>
+            <a class="link-btn" href="https://www.tesla.com/AI" target="_blank" rel="noopener noreferrer">tesla.com/AI</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.tesla.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.tesla.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.tesla.com/AI" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.tesla.com/AI" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.tesla.com/blog" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.tesla.com/blog" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/skild-original.jpg" alt="Skild AI robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge both" data-lang="tr">Her Ikisi</span>
+              <span class="badge both hidden" data-lang="en">Both</span>
+            </div>
+            <h4>Skild AI</h4>
+            <p data-lang="tr">Robot sistemlerini genel amacli yapay zeka yazilimlariyla destekleyen gelisim odakli girisim.</p>
+            <p data-lang="en" class="hidden">A growth-stage company building general-purpose AI software for robotic systems.</p>
+            <a class="link-btn" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer">www.skild.ai</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.skild.ai" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/rivrhero.png" alt="RIVR AI robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge both" data-lang="tr">Her Ikisi</span>
+              <span class="badge both hidden" data-lang="en">Both</span>
+            </div>
+            <h4>RIVR AI</h4>
+            <p data-lang="tr">Otonom hareket ve akilli karar sistemlerini birlestiren saha robot cozumleri sunar.</p>
+            <p data-lang="en" class="hidden">Delivers field robotics solutions combining autonomous motion and intelligent decision systems.</p>
+            <a class="link-btn" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer">www.rivr.ai</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.rivr.ai" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+              <img class="company-robot-photo" src="images/robots/xmaquina-original.jpg" alt="XMAQUINA robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge both" data-lang="tr">Her Ikisi</span>
+              <span class="badge both hidden" data-lang="en">Both</span>
+            </div>
+            <h4>XMAQUINA</h4>
+            <p data-lang="tr">Robotik ile yapay zeka odakli otomasyon cozumlerini bir araya getiren teknoloji girisimi.</p>
+            <p data-lang="en" class="hidden">A technology company combining robotics and AI-focused automation solutions.</p>
+            <a class="link-btn" href="https://www.xmaquina.io" target="_blank" rel="noopener noreferrer">www.xmaquina.io</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.xmaquina.io" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.xmaquina.io" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.xmaquina.io" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.xmaquina.io" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="article-xmaquina-profesyonel-rapor.html" data-lang="tr">Rapor Detayi</a>
+              <a class="sub-link hidden" href="article-xmaquina-profesyonel-rapor.html" data-lang="en">Report Details</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/1x-original.jpg" alt="1X robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge both" data-lang="tr">Her Ikisi</span>
+              <span class="badge both hidden" data-lang="en">Both</span>
+            </div>
+            <h4>1X Technologies</h4>
+            <p data-lang="tr">Ev ve gunluk yasam senaryolari icin insansi robot sistemleri gelistiren yapay zeka odakli sirket.</p>
+            <p data-lang="en" class="hidden">An AI-driven company building humanoid robots for home and everyday living scenarios.</p>
+            <a class="link-btn" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer">www.1x.tech</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.1x.tech" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/agility-original.jpg" alt="Agility Robotics robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge both" data-lang="tr">Her Ikisi</span>
+              <span class="badge both hidden" data-lang="en">Both</span>
+            </div>
+            <h4>Agility Robotics</h4>
+            <p data-lang="tr">Digit platformu ile lojistik ve endustriyel otomasyon icin insansi robot cozumleri uretir.</p>
+            <p data-lang="en" class="hidden">Builds humanoid robot solutions for logistics and industrial automation through its Digit platform.</p>
+            <a class="link-btn" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer">www.agilityrobotics.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.agilityrobotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="company-group">
+        <h3 data-lang="tr">Robotik Odakli Sirketler</h3>
+        <h3 data-lang="en" class="hidden">Robotics Focused Companies</h3>
+        <div class="link-grid">
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/unitree-original.jpg" alt="Unitree robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>Unitree</h4>
+            <p data-lang="tr">Insansi ve dort ayakli robot sistemleriyle otonom hareket teknolojilerine odaklanir.</p>
+            <p data-lang="en" class="hidden">Focused on autonomous motion technologies with humanoid and quadruped robots.</p>
+            <a class="link-btn" href="https://www.unitree.com" target="_blank" rel="noopener noreferrer">www.unitree.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.unitree.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.unitree.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.unitree.com/g1" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.unitree.com/g1" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.unitree.com/news" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.unitree.com/news" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/figure-original.jpg" alt="Figure AI robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>Figure AI</h4>
+            <p data-lang="tr">Insanlarla ayni is ortaminda gorev alabilecek genel amacli humanoid robotlar gelistirir.</p>
+            <p data-lang="en" class="hidden">Builds general-purpose humanoid robots designed to work alongside people.</p>
+            <a class="link-btn" href="https://www.figure.ai" target="_blank" rel="noopener noreferrer">www.figure.ai</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.figure.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.figure.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.figure.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.figure.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.figure.ai/news" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.figure.ai/news" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/boston-original.jpg" alt="Boston Dynamics robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>Boston Dynamics</h4>
+            <p data-lang="tr">Cevik hareket, denge ve saha robotlari konusunda ileri seviye robotik arastirmalariyla taninir.</p>
+            <p data-lang="en" class="hidden">Known for advanced robotics research in agility, balance, and field robotics.</p>
+            <a class="link-btn" href="https://www.bostondynamics.com" target="_blank" rel="noopener noreferrer">www.bostondynamics.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.bostondynamics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.bostondynamics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.bostondynamics.com/atlas" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.bostondynamics.com/atlas" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.bostondynamics.com/blog" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.bostondynamics.com/blog" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/fauna-original.jpg" alt="Fauna Robotics robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>Fauna Robotics</h4>
+            <p data-lang="tr">Robotik otomasyon ve yeni nesil saha uygulamalari icin otonom sistemler gelistirir.</p>
+            <p data-lang="en" class="hidden">Develops autonomous systems for robotics automation and next-generation field applications.</p>
+            <a class="link-btn" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer">faunarobotics.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://faunarobotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/apptronik-original.jpg" alt="Apptronik robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>Apptronik</h4>
+            <p data-lang="tr">Insansi robot platformlariyla endustri, depo ve fiziksel operasyonlar icin robotik cozumler gelistirir.</p>
+            <p data-lang="en" class="hidden">Builds humanoid robotics platforms for industrial, warehouse, and physical operations.</p>
+            <a class="link-btn" href="https://apptronik.com" target="_blank" rel="noopener noreferrer">apptronik.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://apptronik.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://apptronik.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://apptronik.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://apptronik.com" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://apptronik.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://apptronik.com" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/neura-original.jpg" alt="NEURA Robotics robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>NEURA Robotics</h4>
+            <p data-lang="tr">Bilişsel robotik ve insan-robot etkilesimi odakli sistemler gelistiren Avrupa merkezli robotik sirketi.</p>
+            <p data-lang="en" class="hidden">A European robotics company focused on cognitive robotics and human-robot interaction systems.</p>
+            <a class="link-btn" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer">neura-robotics.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://neura-robotics.com" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <img class="company-robot-photo" src="images/robots/robotico-original.jpg" alt="Robotico robot visual" loading="lazy" />
+            <div class="badges">
+              <span class="badge robot">Robotik</span>
+            </div>
+            <h4>Robotico</h4>
+            <p data-lang="tr">Insansi ve otonom robot teknolojileriyle yeni nesil fiziksel otomasyon cozumleri uzerinde calisir.</p>
+            <p data-lang="en" class="hidden">Works on next-generation physical automation with humanoid and autonomous robot technologies.</p>
+            <a class="link-btn" href="https://robotico.ai" target="_blank" rel="noopener noreferrer">robotico.ai</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://robotico.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://robotico.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://robotico.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://robotico.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://robotico.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://robotico.ai" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="company-group">
+        <h3 data-lang="tr">Yapay Zeka Odakli Sirketler</h3>
+        <h3 data-lang="en" class="hidden">AI Focused Companies</h3>
+        <div class="link-grid">
+          <article class="link-card">
+            <div class="badges">
+              <span class="badge ai">AI</span>
+            </div>
+            <h4>OpenAI</h4>
+            <p data-lang="tr">Buyuk dil modelleri, cok modlu yapay zeka ve gelistirici araclari uzerinde calisir.</p>
+            <p data-lang="en" class="hidden">Works on large language models, multimodal AI, and developer tools.</p>
+            <a class="link-btn" href="https://openai.com" target="_blank" rel="noopener noreferrer">openai.com</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://openai.com" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://openai.com" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://openai.com/chatgpt/overview" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://openai.com/chatgpt/overview" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://openai.com/news" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://openai.com/news" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+
+          <article class="link-card">
+            <div class="badges">
+              <span class="badge ai">AI</span>
+            </div>
+            <h4>Sunday AI</h4>
+            <p data-lang="tr">Is sureclerinde verimlilik ve tahminleme icin yapay zeka destekli platformlar sunar.</p>
+            <p data-lang="en" class="hidden">Provides AI-powered platforms for business efficiency and predictive insights.</p>
+            <a class="link-btn" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer">www.sunday.ai</a>
+            <div class="sub-links">
+              <a class="sub-link" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Resmi Site</a>
+              <a class="sub-link hidden" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Official Site</a>
+              <a class="sub-link" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Urun Sayfasi</a>
+              <a class="sub-link hidden" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer" data-lang="en">Product Page</a>
+              <a class="sub-link" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer" data-lang="tr">Haberler</a>
+              <a class="sub-link hidden" href="https://www.sunday.ai" target="_blank" rel="noopener noreferrer" data-lang="en">News</a>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section id="cta">
-      <h2 data-lang="tr">Hemen Başlayalım</h2>
-      <h2 data-lang="en" class="hidden">Let’s Start Now</h2>
-      <p data-lang="tr">Sıfır maliyetle GitHub Pages+Netlify kullanarak bugün online ol.</p>
-      <p data-lang="en" class="hidden">Launch today with zero cost using GitHub Pages + Netlify.</p>
-      <a href="#" class="btn">Başla / Start</a>
+      <h2 data-lang="tr">Gelecegin Ekonomisini Bugun Kur</h2>
+      <h2 data-lang="en" class="hidden">Build the Future Economy Today</h2>
+      <p data-lang="tr">Planini olustur, guvenilir kaynaklara ulas ve robotik + AI odakli buyume yolculugunu baslat.</p>
+      <p data-lang="en" class="hidden">Build your roadmap, access trusted resources, and start your robotics + AI growth journey.</p>
+      <a href="blog.html" class="btn" data-lang="tr">Basla</a>
+      <a href="blog.html" class="btn hidden" data-lang="en">Start</a>
     </section>
-  </main>
+    </main>
+  </div>
 
   <footer>
-    <p>© 2026 Humanoid Robot Economy | TR + EN</p>
+    <p>© 2026 Humanoid ve Yapay Zeka Gelecegi | TR + EN</p>
   </footer>
 
   <script src="script.js"></script>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">XMAQUINA logo panel</title>
+  <desc id="desc">Local logo panel for XMAQUINA company card</desc>
+  <rect width="480" height="240" rx="32" fill="#0f172a"/>
+  <rect x="18" y="18" width="444" height="204" rx="24" fill="#67e8f9" opacity="0.08"/>
+  <text x="240" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#cffafe">XMAQUINA</text>
+  <text x="240" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#a5f3fc">Robotics + AI</text>
+</svg>

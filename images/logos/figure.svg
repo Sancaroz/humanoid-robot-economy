@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">Figure AI wordmark panel</title>
+  <desc id="desc">Local logo panel for Figure AI link card</desc>
+  <rect width="480" height="240" rx="32" fill="#052e16"/>
+  <rect x="18" y="18" width="444" height="204" rx="24" fill="#86efac" opacity="0.08"/>
+  <text x="240" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#dcfce7">FIGURE</text>
+  <text x="240" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#86efac">AI</text>
+</svg>

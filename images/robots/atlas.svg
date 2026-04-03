@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas Placeholder</title>
+  <desc id="desc">Placeholder image for Atlas robot card</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fee2e2"/>
+      <stop offset="100%" stop-color="#fecaca"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="600" cy="215" r="88" fill="#111827"/>
+  <rect x="528" y="296" width="144" height="222" rx="28" fill="#1f2937"/>
+  <rect x="430" y="330" width="82" height="166" rx="24" fill="#374151"/>
+  <rect x="688" y="330" width="82" height="166" rx="24" fill="#374151"/>
+  <rect x="548" y="520" width="48" height="174" rx="22" fill="#374151"/>
+  <rect x="604" y="520" width="48" height="174" rx="22" fill="#374151"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#7f1d1d">Atlas</text>
+</svg>

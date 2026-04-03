@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Field Robot Banner</title>
+  <desc id="desc">Ad banner for field robotics applications</desc>
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="32" fill="url(#g3)"/>
+  <polygon points="0,360 260,220 520,360" fill="#fca5a5" opacity="0.24"/>
+  <rect x="870" y="40" width="240" height="280" rx="30" fill="#fecaca" opacity="0.25"/>
+  <text x="80" y="135" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#fff1f2">FIELD ROBOT FLEET</text>
+  <text x="80" y="195" font-family="Arial, sans-serif" font-size="32" fill="#ffe4e6">Logistics and Last-Mile AI</text>
+  <text x="80" y="250" font-family="Arial, sans-serif" font-size="26" fill="#fecdd3">Request Live Demo</text>
+</svg>

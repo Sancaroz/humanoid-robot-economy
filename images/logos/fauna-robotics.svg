@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">Fauna Robotics logo panel</title>
+  <desc id="desc">Local logo panel for Fauna Robotics card</desc>
+  <rect width="480" height="240" rx="32" fill="#0b3b2e"/>
+  <rect x="18" y="18" width="444" height="204" rx="24" fill="#bbf7d0" opacity="0.08"/>
+  <text x="240" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#dcfce7">FAUNA</text>
+  <text x="240" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#86efac">ROBOTICS</text>
+</svg>

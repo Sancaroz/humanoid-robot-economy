@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">Sunday AI logo panel</title>
+  <desc id="desc">Local logo panel for Sunday AI card</desc>
+  <rect width="480" height="240" rx="32" fill="#3f2a0f"/>
+  <rect x="18" y="18" width="444" height="204" rx="24" fill="#fde68a" opacity="0.08"/>
+  <text x="240" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#fef3c7">SUNDAY</text>
+  <text x="240" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="600" fill="#fde68a">AI</text>
+</svg>
