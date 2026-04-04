@@ -107,8 +107,8 @@ if (leadForm && leadName && leadEmail && leadFocus && leadStatus) {
 
     const subject =
       lang === 'tr'
-        ? 'RoboLogAI Hizli Plan Talebi'
-        : 'RoboLogAI Quick Plan Request';
+        ? 'RoboLogAI Okur Mesaji'
+        : 'RoboLogAI Reader Message';
 
     const body =
       (lang === 'tr'
@@ -119,19 +119,19 @@ if (leadForm && leadName && leadEmail && leadFocus && leadStatus) {
       (lang === 'tr' ? 'E-posta: ' : 'Email: ') +
       leadEmail.value +
       '\n\n' +
-      (lang === 'tr' ? 'Hedef: ' : 'Goal: ') +
+      (lang === 'tr' ? 'Mesaj: ' : 'Message: ') +
       leadFocus.value;
 
     window.location.href =
-      'mailto:hello@robologai.com?subject=' +
+      'mailto:robologai@gmail.com?subject=' +
       encodeURIComponent(subject) +
       '&body=' +
       encodeURIComponent(body);
 
     leadStatus.textContent =
       lang === 'tr'
-        ? 'E-posta taslagi acildi. Gonder dediginde talebin bize ulasacak.'
-        : 'Email draft opened. Send it to deliver your request.';
+        ? 'E-posta taslagi acildi. Gonder dediginde mesajin iletilecek.'
+        : 'Email draft opened. Send it to deliver your message.';
   });
 }
 
