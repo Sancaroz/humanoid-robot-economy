@@ -232,29 +232,6 @@
       <p id="site-search-status" class="search-status" aria-live="polite"></p>
     </section>
 
-    <section id="ai-platform">
-      <div class="ai-platform-head">
-        <h2 data-lang="tr">AI Destek Asistani (Beta)</h2>
-        <h2 data-lang="en" class="hidden">AI Support Assistant (Beta)</h2>
-        <span class="ai-badge" data-lang="tr">Kaynak odakli</span>
-        <span class="ai-badge hidden" data-lang="en">Source-focused</span>
-      </div>
-      <p data-lang="tr">Humanoid robotlar, sirketler ve son gelismeler hakkinda soru sor. Yanitlar bu sitedeki icerik akisiyla uyumlu sekilde yonlendirilir.</p>
-      <p data-lang="en" class="hidden">Ask about humanoid robots, companies, and latest developments. Responses are aligned with this site's content flow.</p>
-
-      <div class="ai-form-row">
-        <input id="ai-question-input" type="text" data-ph-tr="Ornek: Figure AI ile Unitree arasindaki farklar neler?" data-ph-en="Example: What are the differences between Figure AI and Unitree?" placeholder="Ornek: Figure AI ile Unitree arasindaki farklar neler?" />
-        <button id="ai-ask-btn" class="btn" type="button">
-          <span data-lang="tr">Sor</span>
-          <span data-lang="en" class="hidden">Ask</span>
-        </button>
-      </div>
-
-      <div id="ai-answer-box" class="ai-answer-box" aria-live="polite"></div>
-      <p class="ai-disclaimer" data-lang="tr">Not: Bu alan bilgilendirme amaclidir; resmi yatirim veya profesyonel tavsiye yerine gecmez.</p>
-      <p class="ai-disclaimer hidden" data-lang="en">Note: This area is for informational use; it is not official investment or professional advice.</p>
-    </section>
-
     <section id="company-links">
       <h2 data-lang="tr">Akilli Otomasyon Ekosistemi: Sirket Rehberi</h2>
       <h2 data-lang="en" class="hidden">Smart Automation Ecosystem: Company Guide</h2>
@@ -624,12 +601,40 @@
       </form>
     </section>
     </main>
+
+    <aside class="right-sidebar">
+      <section id="ai-platform">
+        <div class="ai-platform-head">
+          <h2 data-lang="tr">AI Destek Asistani (Beta)</h2>
+          <h2 data-lang="en" class="hidden">AI Support Assistant (Beta)</h2>
+          <span class="ai-badge" data-lang="tr">Kaynak odakli</span>
+          <span class="ai-badge hidden" data-lang="en">Source-focused</span>
+        </div>
+        <p data-lang="tr">Humanoid robotlar, sirketler ve son gelismeler hakkinda soru sor. Yanitlar bu sitedeki icerik akisiyla uyumlu sekilde yonlendirilir.</p>
+        <p data-lang="en" class="hidden">Ask about humanoid robots, companies, and latest developments. Responses are aligned with this site's content flow.</p>
+
+        <div class="ai-form-row">
+          <input id="ai-question-input" type="text" data-ph-tr="Ornek: Figure AI ile Unitree arasindaki farklar neler?" data-ph-en="Example: What are the differences between Figure AI and Unitree?" placeholder="Ornek: Figure AI ile Unitree arasindaki farklar neler?" />
+          <button id="ai-ask-btn" class="btn" type="button">
+            <span data-lang="tr">Sor</span>
+            <span data-lang="en" class="hidden">Ask</span>
+          </button>
+        </div>
+
+        <div id="ai-answer-box" class="ai-answer-box" aria-live="polite"></div>
+        <p class="ai-disclaimer" data-lang="tr">Not: Bu alan bilgilendirme amaclidir; resmi yatirim veya profesyonel tavsiye yerine gecmez.</p>
+        <p class="ai-disclaimer hidden" data-lang="en">Note: This area is for informational use; it is not official investment or professional advice.</p>
+      </section>
+    </aside>
   </div>
 
   <footer>
     <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
   </footer>
 
+  <script>
+    window.ROBOLOGAI_AI_ENDPOINT = "";
+  </script>
   <script src="script.js"></script>
 </body>
 </html>

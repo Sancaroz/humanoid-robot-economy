@@ -48,7 +48,7 @@ const topSearchMiniInput = document.getElementById('top-search-mini-input');
 const topSearchMiniGo = document.getElementById('top-search-mini-go');
 const TOP_SEARCH_RECENT_KEY = 'topSearchRecent';
 const AI_PLATFORM_CONFIG = {
-  endpoint: '',
+  endpoint: window.ROBOLOGAI_AI_ENDPOINT || '',
   timeoutMs: 20000,
 };
 let latestNewsItems = [];
