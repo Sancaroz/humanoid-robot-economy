@@ -43,7 +43,67 @@ const topSearchToggle = document.querySelector('.top-search-link');
 const topSearchPopover = document.getElementById('top-search-popover');
 const topSearchMiniInput = document.getElementById('top-search-mini-input');
 const topSearchMiniGo = document.getElementById('top-search-mini-go');
+const TOP_SEARCH_RECENT_KEY = 'topSearchRecent';
 let latestNewsItems = [];
+
+function getRecentTopSearches() {
+  try {
+    const saved = localStorage.getItem(TOP_SEARCH_RECENT_KEY);
+    const parsed = saved ? JSON.parse(saved) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function renderRecentTopSearches() {
+  if (!topSearchPopover) return;
+
+  let container = topSearchPopover.querySelector('.top-search-recent');
+  if (!container) {
+    container = document.createElement('div');
+    container.className = 'top-search-recent';
+    topSearchPopover.appendChild(container);
+  }
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  const recent = getRecentTopSearches();
+
+  if (!recent.length) {
+    container.innerHTML = '';
+    return;
+  }
+
+  container.innerHTML =
+    '<span class="recent-label">' +
+    (lang === 'tr' ? 'Son aramalar:' : 'Recent searches:') +
+    '</span>';
+
+  recent.forEach((term) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'recent-chip';
+    btn.textContent = term;
+    btn.addEventListener('click', () => {
+      if (!topSearchMiniInput) return;
+      topSearchMiniInput.value = term;
+      submitTopSearch();
+    });
+    container.appendChild(btn);
+  });
+}
+
+function saveRecentTopSearch(term) {
+  const normalized = term.trim();
+  if (!normalized) return;
+
+  const recent = getRecentTopSearches().filter(
+    (item) => item.toLowerCase() !== normalized.toLowerCase()
+  );
+  recent.unshift(normalized);
+  const limited = recent.slice(0, 6);
+  localStorage.setItem(TOP_SEARCH_RECENT_KEY, JSON.stringify(limited));
+}
 
 function updateLeadPlaceholders(lang) {
   [leadName, leadEmail, leadFocus].forEach((field) => {
@@ -74,6 +134,11 @@ function updateLeadPlaceholders(lang) {
 
 function submitTopSearch() {
   const keyword = (topSearchMiniInput?.value || '').trim();
+  if (keyword) {
+    saveRecentTopSearch(keyword);
+    renderRecentTopSearches();
+  }
+
   const onIndexPage =
     window.location.pathname.endsWith('/index.html') ||
     window.location.pathname === '/' ||
@@ -536,6 +601,7 @@ if (topSearchToggle && topSearchPopover) {
   topSearchToggle.addEventListener('click', () => {
     topSearchPopover.classList.toggle('hidden');
     if (!topSearchPopover.classList.contains('hidden') && topSearchMiniInput) {
+      renderRecentTopSearches();
       topSearchMiniInput.focus();
     }
   });
@@ -549,6 +615,15 @@ if (topSearchToggle && topSearchPopover) {
       !topSearchPopover.classList.contains('hidden')
     ) {
       topSearchPopover.classList.add('hidden');
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !topSearchPopover.classList.contains('hidden')) {
+      topSearchPopover.classList.add('hidden');
+      if (topSearchMiniInput) {
+        topSearchMiniInput.blur();
+      }
     }
   });
 }
