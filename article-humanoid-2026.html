@@ -18,13 +18,21 @@
     <nav>
       <button class="lang-btn active" data-lang="tr">Türkçe</button>
       <button class="lang-btn" data-lang="en">English</button>
-      <a class="top-search-link" href="index.html#site-search" aria-label="Quick search" title="Quick Search">
+      <button class="top-search-link" type="button" aria-label="Quick search" title="Quick Search">
         <span class="top-search-icon" aria-hidden="true">⌕</span>
-      </a>
+      </button>
       <a class="social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
       <a class="social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
     </nav>
   </header>
+
+  <div id="top-search-popover" class="top-search-popover hidden" role="dialog" aria-label="Quick search panel">
+    <input id="top-search-mini-input" type="search" data-ph-tr="Sirket veya haber ara..." data-ph-en="Search company or news..." placeholder="Sirket veya haber ara..." />
+    <button id="top-search-mini-go" class="btn" type="button">
+      <span data-lang="tr">Git</span>
+      <span data-lang="en" class="hidden">Go</span>
+    </button>
+  </div>
 
   <main class="container">
     <section id="article-hero">

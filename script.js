@@ -39,6 +39,10 @@ const siteSearchInput = document.getElementById('site-search-input');
 const siteSearchBtn = document.getElementById('site-search-btn');
 const siteSearchClearBtn = document.getElementById('site-search-clear');
 const siteSearchStatus = document.getElementById('site-search-status');
+const topSearchToggle = document.querySelector('.top-search-link');
+const topSearchPopover = document.getElementById('top-search-popover');
+const topSearchMiniInput = document.getElementById('top-search-mini-input');
+const topSearchMiniGo = document.getElementById('top-search-mini-go');
 let latestNewsItems = [];
 
 function updateLeadPlaceholders(lang) {
@@ -58,6 +62,34 @@ function updateLeadPlaceholders(lang) {
       siteSearchInput.placeholder = searchPlaceholder;
     }
   }
+
+  if (topSearchMiniInput) {
+    const miniPlaceholder =
+      lang === 'tr' ? topSearchMiniInput.dataset.phTr : topSearchMiniInput.dataset.phEn;
+    if (miniPlaceholder) {
+      topSearchMiniInput.placeholder = miniPlaceholder;
+    }
+  }
+}
+
+function submitTopSearch() {
+  const keyword = (topSearchMiniInput?.value || '').trim();
+  const onIndexPage =
+    window.location.pathname.endsWith('/index.html') ||
+    window.location.pathname === '/' ||
+    window.location.pathname.endsWith('/humanoid-robot-economy/');
+
+  if (onIndexPage && siteSearchInput) {
+    siteSearchInput.value = keyword;
+    applySiteSearch();
+    const target = document.getElementById('site-search');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (topSearchPopover) topSearchPopover.classList.add('hidden');
+    return;
+  }
+
+  const query = keyword ? '?q=' + encodeURIComponent(keyword) : '';
+  window.location.href = 'index.html' + query + '#site-search';
 }
 
 function applySiteSearch() {
@@ -221,6 +253,13 @@ if (mediaVideo && mediaWarnings.length) {
 
 const savedLang = localStorage.getItem('lang') || 'tr';
 setLanguage(savedLang);
+
+if (siteSearchInput) {
+  const searchParam = new URLSearchParams(window.location.search).get('q');
+  if (searchParam) {
+    siteSearchInput.value = searchParam;
+  }
+}
 
 const postFilters = document.querySelectorAll('.post-filter');
 const filterablePosts = document.querySelectorAll('.filterable-post');
@@ -490,6 +529,40 @@ if (siteSearchClearBtn && siteSearchInput) {
     siteSearchInput.value = '';
     applySiteSearch();
     siteSearchInput.focus();
+  });
+}
+
+if (topSearchToggle && topSearchPopover) {
+  topSearchToggle.addEventListener('click', () => {
+    topSearchPopover.classList.toggle('hidden');
+    if (!topSearchPopover.classList.contains('hidden') && topSearchMiniInput) {
+      topSearchMiniInput.focus();
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    if (
+      !topSearchPopover.contains(target) &&
+      !topSearchToggle.contains(target) &&
+      !topSearchPopover.classList.contains('hidden')
+    ) {
+      topSearchPopover.classList.add('hidden');
+    }
+  });
+}
+
+if (topSearchMiniGo) {
+  topSearchMiniGo.addEventListener('click', submitTopSearch);
+}
+
+if (topSearchMiniInput) {
+  topSearchMiniInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      submitTopSearch();
+    }
   });
 }
 
