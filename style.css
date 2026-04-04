@@ -1019,6 +1019,7 @@ ul{ margin-left:1.2rem; margin-bottom:1rem; color:var(--subtext); }
 
 .package-card h3{ color:var(--text); margin-bottom:0.4rem; }
 .package-card p{ color:var(--subtext); }
+.package-note{ margin-top:0.45rem; font-size:0.82rem; color:var(--muted); }
 
 .sponsor-contact{
   background:linear-gradient(140deg,rgba(34,211,238,0.08),rgba(99,102,241,0.09));
@@ -1029,6 +1030,21 @@ ul{ margin-left:1.2rem; margin-bottom:1rem; color:var(--subtext); }
 
 .sponsor-contact h2{ display:block; }
 .sponsor-contact p{ color:var(--subtext); margin-bottom:0.7rem; }
+
+.sponsor-inline-box{
+  margin-top:0.9rem;
+  border:1px solid var(--border);
+  border-radius:0.85rem;
+  background:linear-gradient(140deg,rgba(99,102,241,0.12),rgba(34,211,238,0.06));
+  padding:0.9rem;
+}
+
+.sponsor-inline-box h3{ color:var(--text); margin-bottom:0.35rem; }
+.sponsor-inline-box p{ color:var(--subtext); margin-bottom:0.6rem; }
+
+[data-theme="light"] .sponsor-inline-box{
+  background:linear-gradient(140deg,rgba(79,70,229,0.08),rgba(8,145,178,0.08));
+}
 
 [data-theme="light"] .sponsor-contact,
 [data-theme="light"] #sponsor-hero{
