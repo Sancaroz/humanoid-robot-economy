@@ -626,6 +626,79 @@ ul{ margin-left:1.2rem; margin-bottom:1rem; color:var(--subtext); }
 
 .is-search-hidden{ display:none !important; }
 
+/* ═══ AI PLATFORM ═══ */
+#ai-platform{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:1rem;
+  padding:1rem 1.1rem;
+}
+
+.ai-platform-head{
+  display:flex;
+  align-items:center;
+  gap:0.55rem;
+  flex-wrap:wrap;
+}
+
+.ai-platform-head h2{ margin-bottom:0; }
+
+.ai-badge{
+  font-size:0.72rem;
+  font-weight:700;
+  border-radius:999px;
+  padding:0.16rem 0.5rem;
+  border:1px solid rgba(34,211,238,0.35);
+  background:rgba(34,211,238,0.12);
+  color:#a5f3fc;
+}
+
+#ai-platform p{ color:var(--subtext); margin-top:0.5rem; }
+
+.ai-form-row{
+  margin-top:0.7rem;
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:0.55rem;
+}
+
+#ai-question-input{
+  border:1px solid var(--border);
+  background:var(--surface2);
+  color:var(--text);
+  border-radius:0.6rem;
+  padding:0.68rem 0.75rem;
+  font:inherit;
+}
+
+#ai-question-input:focus{
+  outline:none;
+  border-color:rgba(34,211,238,0.55);
+  box-shadow:0 0 0 3px rgba(34,211,238,0.16);
+}
+
+.ai-answer-box{
+  margin-top:0.65rem;
+  min-height:3.2rem;
+  border:1px solid var(--border);
+  background:var(--surface2);
+  border-radius:0.7rem;
+  padding:0.75rem;
+  color:var(--text);
+  line-height:1.5;
+}
+
+.ai-disclaimer{
+  font-size:0.8rem;
+  color:var(--muted);
+}
+
+[data-theme="light"] .ai-badge{
+  color:#0e7490;
+  background:rgba(8,145,178,0.12);
+  border-color:rgba(8,145,178,0.28);
+}
+
 /* ═══ COMPANY LINKS ═══ */
 #company-links{
   background:var(--surface); border:1px solid var(--border); border-radius:1rem; padding:1.2rem;
@@ -1128,6 +1201,8 @@ ul{ margin-left:1.2rem; margin-bottom:1rem; color:var(--subtext); }
   .creator-grid{ grid-template-columns:1fr; }
   .search-row{ grid-template-columns:1fr; }
   .search-row .btn{ width:100%; text-align:center; }
+  .ai-form-row{ grid-template-columns:1fr; }
+  .ai-form-row .btn{ width:100%; text-align:center; }
   .live-news-head{ flex-direction:column; }
   .refresh-news-btn{ width:100%; }
   #lead-hub{ grid-template-columns:1fr; padding:1rem; }

@@ -39,11 +39,18 @@ const siteSearchInput = document.getElementById('site-search-input');
 const siteSearchBtn = document.getElementById('site-search-btn');
 const siteSearchClearBtn = document.getElementById('site-search-clear');
 const siteSearchStatus = document.getElementById('site-search-status');
+const aiQuestionInput = document.getElementById('ai-question-input');
+const aiAskBtn = document.getElementById('ai-ask-btn');
+const aiAnswerBox = document.getElementById('ai-answer-box');
 const topSearchToggle = document.querySelector('.top-search-link');
 const topSearchPopover = document.getElementById('top-search-popover');
 const topSearchMiniInput = document.getElementById('top-search-mini-input');
 const topSearchMiniGo = document.getElementById('top-search-mini-go');
 const TOP_SEARCH_RECENT_KEY = 'topSearchRecent';
+const AI_PLATFORM_CONFIG = {
+  endpoint: '',
+  timeoutMs: 20000,
+};
 let latestNewsItems = [];
 
 function getRecentTopSearches() {
@@ -139,6 +146,98 @@ function updateLeadPlaceholders(lang) {
     if (miniPlaceholder) {
       topSearchMiniInput.placeholder = miniPlaceholder;
     }
+  }
+
+  if (aiQuestionInput) {
+    const aiPlaceholder =
+      lang === 'tr' ? aiQuestionInput.dataset.phTr : aiQuestionInput.dataset.phEn;
+    if (aiPlaceholder) {
+      aiQuestionInput.placeholder = aiPlaceholder;
+    }
+  }
+}
+
+function setAiAnswer(text) {
+  if (!aiAnswerBox) return;
+  aiAnswerBox.textContent = text;
+}
+
+function getLocalAiFallback(question, lang) {
+  const q = question.toLowerCase();
+
+  if (q.includes('tesla') || q.includes('optimus')) {
+    return lang === 'tr'
+      ? 'Tesla Optimus odaginda guncel haberler icin Once Haberler bolumunde "Tesla" arat, sonra sirket kartindan urun sayfasina gec.'
+      : 'For Tesla Optimus updates, search "Tesla" in Latest News first, then open the company card product page.';
+  }
+
+  if (q.includes('figure') || q.includes('unitree')) {
+    return lang === 'tr'
+      ? 'Figure ve Unitree karsilastirmasi icin hizli aramada her iki markayi arat. Sirket kartlari ve son haberler birlikte filtrelenir.'
+      : 'For Figure vs Unitree comparison, use quick search with both names. Company cards and latest news will be filtered together.';
+  }
+
+  if (q.includes('yatirim') || q.includes('investment') || q.includes('risk')) {
+    return lang === 'tr'
+      ? 'Yatirim/risk bakisi icin once "Humanoid Caginda Is ve Yatirim: 2026" yazisina, sonra blogdaki haftalik analizlere bakmani oneririm.'
+      : 'For investment/risk context, start with "Business and Investment in the Humanoid Era: 2026" and then continue with weekly blog analyses.';
+  }
+
+  return lang === 'tr'
+    ? 'Bu soru icin en iyi yol: ustteki hizli aramaya anahtar kelimeyi yaz ve haberler + sirket kartlarindaki kaynaklari birlikte incele.'
+    : 'Best path for this question: use quick search with keywords above and review sources from both news and company cards together.';
+}
+
+async function askAiAssistant() {
+  if (!aiQuestionInput || !aiAnswerBox) return;
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  const question = aiQuestionInput.value.trim();
+  if (!question) {
+    setAiAnswer(
+      lang === 'tr'
+        ? 'Lutfen bir soru yaz.'
+        : 'Please type a question.'
+    );
+    return;
+  }
+
+  setAiAnswer(
+    lang === 'tr' ? 'Yanit hazirlaniyor...' : 'Preparing answer...'
+  );
+
+  if (!AI_PLATFORM_CONFIG.endpoint) {
+    setAiAnswer(getLocalAiFallback(question, lang));
+    return;
+  }
+
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), AI_PLATFORM_CONFIG.timeoutMs);
+
+    const response = await fetch(AI_PLATFORM_CONFIG.endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, lang }),
+      signal: controller.signal,
+    });
+
+    clearTimeout(timer);
+
+    if (!response.ok) {
+      throw new Error('ai-endpoint-failed');
+    }
+
+    const payload = await response.json();
+    const answer = (payload.answer || '').trim();
+
+    if (!answer) {
+      throw new Error('empty-answer');
+    }
+
+    setAiAnswer(answer);
+  } catch (error) {
+    setAiAnswer(getLocalAiFallback(question, lang));
   }
 }
 
@@ -604,6 +703,19 @@ if (siteSearchClearBtn && siteSearchInput) {
     siteSearchInput.value = '';
     applySiteSearch();
     siteSearchInput.focus();
+  });
+}
+
+if (aiAskBtn) {
+  aiAskBtn.addEventListener('click', askAiAssistant);
+}
+
+if (aiQuestionInput) {
+  aiQuestionInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      askAiAssistant();
+    }
   });
 }
 
