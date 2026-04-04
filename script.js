@@ -35,6 +35,10 @@ const leadStatus = document.getElementById('lead-status');
 const leadName = document.getElementById('lead-name');
 const leadEmail = document.getElementById('lead-email');
 const leadFocus = document.getElementById('lead-focus');
+const siteSearchInput = document.getElementById('site-search-input');
+const siteSearchBtn = document.getElementById('site-search-btn');
+const siteSearchClearBtn = document.getElementById('site-search-clear');
+const siteSearchStatus = document.getElementById('site-search-status');
 let latestNewsItems = [];
 
 function updateLeadPlaceholders(lang) {
@@ -46,6 +50,55 @@ function updateLeadPlaceholders(lang) {
       field.placeholder = value;
     }
   });
+
+  if (siteSearchInput) {
+    const searchPlaceholder =
+      lang === 'tr' ? siteSearchInput.dataset.phTr : siteSearchInput.dataset.phEn;
+    if (searchPlaceholder) {
+      siteSearchInput.placeholder = searchPlaceholder;
+    }
+  }
+}
+
+function applySiteSearch() {
+  if (!siteSearchInput) return;
+
+  const keyword = siteSearchInput.value.trim().toLowerCase();
+  const lang = localStorage.getItem('lang') || 'tr';
+  const companyCards = document.querySelectorAll('#company-links .link-card');
+  const newsItems = document.querySelectorAll('#live-news-list .live-news-item');
+
+  let visibleCompanyCount = 0;
+  let visibleNewsCount = 0;
+
+  companyCards.forEach((card) => {
+    const text = (card.textContent || '').toLowerCase();
+    const show = !keyword || text.includes(keyword);
+    card.classList.toggle('is-search-hidden', !show);
+    if (show) visibleCompanyCount += 1;
+  });
+
+  newsItems.forEach((item) => {
+    const text = (item.textContent || '').toLowerCase();
+    const show = !keyword || text.includes(keyword);
+    item.classList.toggle('is-search-hidden', !show);
+    if (show) visibleNewsCount += 1;
+  });
+
+  if (!siteSearchStatus) return;
+
+  if (!keyword) {
+    siteSearchStatus.textContent =
+      lang === 'tr'
+        ? 'Arama filtresi kapali. Tum icerikler goruntuleniyor.'
+        : 'Search filter is off. Showing all content.';
+    return;
+  }
+
+  siteSearchStatus.textContent =
+    lang === 'tr'
+      ? `"${siteSearchInput.value}" icin ${visibleCompanyCount} sirket karti, ${visibleNewsCount} haber bulundu.`
+      : `Found ${visibleCompanyCount} company cards and ${visibleNewsCount} news items for "${siteSearchInput.value}".`;
 }
 
 function setLanguage(lang) {
@@ -69,6 +122,8 @@ function setLanguage(lang) {
   if (latestNewsItems.length) {
     renderNewsItems(latestNewsItems);
   }
+
+  applySiteSearch();
 }
 
 langButtons.forEach((btn) => {
@@ -327,6 +382,8 @@ function renderNewsItems(items) {
 
     newsList.appendChild(li);
   });
+
+  applySiteSearch();
 }
 
 async function fetchNewsFromStaticFile() {
@@ -413,6 +470,27 @@ async function loadLiveNews() {
 
 if (refreshNewsBtn) {
   refreshNewsBtn.addEventListener('click', loadLiveNews);
+}
+
+if (siteSearchBtn) {
+  siteSearchBtn.addEventListener('click', applySiteSearch);
+}
+
+if (siteSearchInput) {
+  siteSearchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      applySiteSearch();
+    }
+  });
+}
+
+if (siteSearchClearBtn && siteSearchInput) {
+  siteSearchClearBtn.addEventListener('click', () => {
+    siteSearchInput.value = '';
+    applySiteSearch();
+    siteSearchInput.focus();
+  });
 }
 
 loadLiveNews();

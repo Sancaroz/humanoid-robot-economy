@@ -201,24 +201,23 @@
       </ul>
     </section>
 
-    <section id="media-showcase">
-      <div class="media-video">
-        <video autoplay muted loop playsinline controls preload="metadata" poster="images/video-poster.jpg">
-          <source src="videos/humanoid-demo.mp4" type="video/mp4" />
-          Tarayicin video etiketini desteklemiyor.
-        </video>
-        <p class="media-note" data-lang="tr">Ornek video yolu: videos/humanoid-demo.mp4</p>
-        <p class="media-note hidden" data-lang="en">Sample video path: videos/humanoid-demo.mp4</p>
-        <p class="media-note warning" data-lang="tr" style="display:none;">Video gorunmuyorsa videos/humanoid-demo.mp4 dosyasini bu klasore ekle.</p>
-        <p class="media-note warning hidden" data-lang="en" style="display:none;">If the video is not visible, add videos/humanoid-demo.mp4 to this folder.</p>
-
-        <div class="media-fallback" style="display:none;">
-          <img src="images/video-poster.jpg" alt="Video yuklenemediginde gosterilen gorsel" loading="lazy" />
-          <p data-lang="tr">Video yuklenemedi. Lutfen videos/humanoid-demo.mp4 dosyasini ekleyin.</p>
-          <p data-lang="en" class="hidden">Video failed to load. Please add videos/humanoid-demo.mp4.</p>
-        </div>
-
+    <section id="site-search">
+      <h2 data-lang="tr">Hizli Arama</h2>
+      <h2 data-lang="en" class="hidden">Quick Search</h2>
+      <p data-lang="tr">Sirket kartlari ve guncel haber basliklari icinde anahtar kelimeye gore filtreleme yapabilirsin.</p>
+      <p data-lang="en" class="hidden">Filter company cards and latest news titles by keyword.</p>
+      <div class="search-row">
+        <input id="site-search-input" type="search" data-ph-tr="Ornek: Tesla, OpenAI, Figure" data-ph-en="Example: Tesla, OpenAI, Figure" placeholder="Ornek: Tesla, OpenAI, Figure" />
+        <button id="site-search-btn" class="btn" type="button">
+          <span data-lang="tr">Ara</span>
+          <span data-lang="en" class="hidden">Search</span>
+        </button>
+        <button id="site-search-clear" class="btn btn-alt" type="button">
+          <span data-lang="tr">Temizle</span>
+          <span data-lang="en" class="hidden">Clear</span>
+        </button>
       </div>
+      <p id="site-search-status" class="search-status" aria-live="polite"></p>
     </section>
 
     <section id="company-links">
