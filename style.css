@@ -661,6 +661,24 @@ ul{ margin-left:1.2rem; margin-bottom:1rem; color:var(--subtext); }
 .badge.ai{ background:rgba(5,150,105,0.2); color:#6ee7b7; border:1px solid rgba(16,185,129,0.3); }
 .badge.both{ background:rgba(146,64,14,0.25); color:#fcd34d; border:1px solid rgba(245,158,11,0.3); }
 
+[data-theme="light"] .badge.robot{
+  background:#dbeafe;
+  color:#1e3a8a;
+  border-color:#93c5fd;
+}
+
+[data-theme="light"] .badge.ai{
+  background:#d1fae5;
+  color:#065f46;
+  border-color:#6ee7b7;
+}
+
+[data-theme="light"] .badge.both{
+  background:#fef3c7;
+  color:#92400e;
+  border-color:#fcd34d;
+}
+
 /* ═══ BUTTONS ═══ */
 .link-btn{
   display:inline-block; width:100%; text-align:center;
