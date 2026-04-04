@@ -231,6 +231,21 @@ body {
 }
 #hero p{ margin-top:0.75rem; color:var(--subtext); }
 
+/* ═══ CREATOR NOTE ═══ */
+#creator-note{
+  background:linear-gradient(145deg,rgba(34,211,238,0.08),rgba(99,102,241,0.08));
+  border:1px solid var(--border);
+  border-radius:1rem;
+  padding:1.15rem 1.15rem 1rem;
+}
+
+#creator-note h2{ display:block; margin-bottom:0.55rem; }
+#creator-note p{ color:var(--subtext); margin-bottom:0.55rem; }
+
+[data-theme="light"] #creator-note{
+  background:linear-gradient(145deg,rgba(8,145,178,0.08),rgba(79,70,229,0.07));
+}
+
 /* ═══ LIVE NEWS ═══ */
 #live-news{
   background:var(--surface);
