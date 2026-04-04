@@ -91,6 +91,16 @@ function renderRecentTopSearches() {
     });
     container.appendChild(btn);
   });
+
+  const clearBtn = document.createElement('button');
+  clearBtn.type = 'button';
+  clearBtn.className = 'recent-clear-btn';
+  clearBtn.textContent = lang === 'tr' ? 'Temizle' : 'Clear';
+  clearBtn.addEventListener('click', () => {
+    localStorage.removeItem(TOP_SEARCH_RECENT_KEY);
+    renderRecentTopSearches();
+  });
+  container.appendChild(clearBtn);
 }
 
 function saveRecentTopSearch(term) {
