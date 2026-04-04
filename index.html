@@ -11,7 +11,10 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="logo" href="#">Humanoid ve Yapay Zeka Gelecegi</a>
+    <a class="logo" href="index.html" aria-label="RoboLogAI ana sayfa">
+      <img class="logo-mark" src="images/logos/site-logo.png" alt="RoboLogAI logosu" loading="eager" fetchpriority="high" />
+      <span class="logo-text">RoboLogAI</span>
+    </a>
     <nav>
       <button class="lang-btn active" data-lang="tr">Türkçe</button>
       <button class="lang-btn" data-lang="en">English</button>
@@ -135,6 +138,26 @@
       <h1 data-lang="en" class="hidden">Future Workforce: Human + Robot</h1>
       <p data-lang="tr">AI ve Robotik ile Buyume Stratejileri: is modelleri, yatirim bakisi ve uygulama ornekleri.</p>
       <p data-lang="en" class="hidden">Growth Strategies with AI and Robotics: business models, investment perspective, and practical use cases.</p>
+    </section>
+
+    <section id="live-news">
+      <div class="live-news-head">
+        <div>
+          <h2 data-lang="tr">Sirketlerden Son Gelismeler</h2>
+          <h2 data-lang="en" class="hidden">Latest Company Developments</h2>
+          <p data-lang="tr">OpenAI, Tesla, Figure, Unitree ve diger sirketler icin guncel haber akisi otomatik yenilenir.</p>
+          <p data-lang="en" class="hidden">Automated updates for OpenAI, Tesla, Figure, Unitree, and other major companies.</p>
+        </div>
+        <button id="refresh-news" class="refresh-news-btn" type="button">
+          <span data-lang="tr">Haberleri yenile</span>
+          <span data-lang="en" class="hidden">Refresh news</span>
+        </button>
+      </div>
+
+      <p id="news-status" class="news-status" data-lang="tr">Haberler yukleniyor...</p>
+      <p id="news-status-en" class="news-status hidden" data-lang="en">Loading latest news...</p>
+
+      <ul id="live-news-list" class="live-news-list"></ul>
     </section>
 
     <section id="about">
@@ -483,13 +506,58 @@
       </div>
     </section>
 
-    <section id="cta">
-      <h2 data-lang="tr">Gelecegin Ekonomisini Bugun Kur</h2>
-      <h2 data-lang="en" class="hidden">Build the Future Economy Today</h2>
-      <p data-lang="tr">Planini olustur, guvenilir kaynaklara ulas ve robotik + AI odakli buyume yolculugunu baslat.</p>
-      <p data-lang="en" class="hidden">Build your roadmap, access trusted resources, and start your robotics + AI growth journey.</p>
-      <a href="blog.html" class="btn" data-lang="tr">Basla</a>
-      <a href="blog.html" class="btn hidden" data-lang="en">Start</a>
+    <section id="lead-hub">
+      <div class="lead-copy">
+        <h2 data-lang="tr">15 Dakikada Yol Haritasi Cikaralim</h2>
+        <h2 data-lang="en" class="hidden">Build Your Roadmap in 15 Minutes</h2>
+        <p data-lang="tr">Robotik + AI odakli projen icin uygulanabilir bir ilk plan hazirlayalim: odak alanin, gelir modeli ve ilk 30 gun adimlari.</p>
+        <p data-lang="en" class="hidden">Let us shape a practical first plan for your robotics + AI project: focus area, revenue model, and first 30-day actions.</p>
+
+        <div class="lead-badges">
+          <span class="lead-pill" data-lang="tr">Ucretsiz on gorusme</span>
+          <span class="lead-pill hidden" data-lang="en">Free intro session</span>
+          <span class="lead-pill" data-lang="tr">Strateji + uygulama</span>
+          <span class="lead-pill hidden" data-lang="en">Strategy + execution</span>
+          <span class="lead-pill" data-lang="tr">TR / EN destek</span>
+          <span class="lead-pill hidden" data-lang="en">TR / EN support</span>
+        </div>
+
+        <div class="lead-actions">
+          <a class="btn" href="mailto:hello@robologai.com?subject=RoboLogAI%20Gorusme%20Talebi" data-lang="tr">E-posta ile ulas</a>
+          <a class="btn hidden" href="mailto:hello@robologai.com?subject=RoboLogAI%20Consultation%20Request" data-lang="en">Contact by email</a>
+          <a class="btn btn-alt" href="https://wa.me/905000000000" target="_blank" rel="noopener noreferrer" data-lang="tr">WhatsApp yaz</a>
+          <a class="btn btn-alt hidden" href="https://wa.me/905000000000" target="_blank" rel="noopener noreferrer" data-lang="en">Message on WhatsApp</a>
+        </div>
+      </div>
+
+      <form id="lead-form" class="lead-form" novalidate>
+        <h3 data-lang="tr">Hizli Talep Formu</h3>
+        <h3 data-lang="en" class="hidden">Quick Request Form</h3>
+
+        <label for="lead-name">
+          <span data-lang="tr">Ad Soyad</span>
+          <span data-lang="en" class="hidden">Full Name</span>
+        </label>
+        <input id="lead-name" name="name" type="text" required data-ph-tr="Adiniz Soyadiniz" data-ph-en="Your full name" />
+
+        <label for="lead-email">
+          <span data-lang="tr">E-posta</span>
+          <span data-lang="en" class="hidden">Email</span>
+        </label>
+        <input id="lead-email" name="email" type="email" required data-ph-tr="ornek@eposta.com" data-ph-en="name@email.com" />
+
+        <label for="lead-focus">
+          <span data-lang="tr">Hedefiniz</span>
+          <span data-lang="en" class="hidden">Your Goal</span>
+        </label>
+        <textarea id="lead-focus" name="focus" rows="4" required data-ph-tr="Kisa hedefinizi yazin (ornek: AI + robotik icerik ve danismanlik modeli)." data-ph-en="Write your goal briefly (example: AI + robotics content and consulting model)."></textarea>
+
+        <button class="btn" type="submit">
+          <span data-lang="tr">Plan talebi gonder</span>
+          <span data-lang="en" class="hidden">Send plan request</span>
+        </button>
+        <p id="lead-status" class="form-status" aria-live="polite"></p>
+      </form>
     </section>
     </main>
   </div>

@@ -30,6 +30,24 @@ const langButtons = document.querySelectorAll('.lang-btn');
 const trElems = document.querySelectorAll('[data-lang="tr"]:not(.lang-btn)');
 const enElems = document.querySelectorAll('[data-lang="en"]:not(.lang-btn)');
 
+const leadForm = document.getElementById('lead-form');
+const leadStatus = document.getElementById('lead-status');
+const leadName = document.getElementById('lead-name');
+const leadEmail = document.getElementById('lead-email');
+const leadFocus = document.getElementById('lead-focus');
+let latestNewsItems = [];
+
+function updateLeadPlaceholders(lang) {
+  [leadName, leadEmail, leadFocus].forEach((field) => {
+    if (!field) return;
+    const key = lang === 'tr' ? 'phTr' : 'phEn';
+    const value = field.dataset[key];
+    if (value) {
+      field.placeholder = value;
+    }
+  });
+}
+
 function setLanguage(lang) {
   localStorage.setItem('lang', lang);
   langButtons.forEach((btn) => {
@@ -45,6 +63,12 @@ function setLanguage(lang) {
     enElems.forEach((el) => el.classList.remove('hidden'));
     document.documentElement.lang = 'en';
   }
+
+  updateLeadPlaceholders(lang);
+
+  if (latestNewsItems.length) {
+    renderNewsItems(latestNewsItems);
+  }
 }
 
 langButtons.forEach((btn) => {
@@ -57,14 +81,59 @@ const subscribeButtons = document.querySelectorAll('[data-subscribe="true"]');
 subscribeButtons.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     e.preventDefault();
-    const lang = localStorage.getItem('lang') || 'tr';
-    const message =
-      lang === 'tr'
-        ? 'Abone olma ozelligi yakinda eklenecek!'
-        : 'Subscription feature coming soon!';
-    alert(message);
+
+    const leadHub = document.getElementById('lead-hub');
+    if (leadHub) {
+      leadHub.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (leadEmail) {
+        setTimeout(() => leadEmail.focus(), 300);
+      }
+      return;
+    }
+
+    window.location.href = 'index.html#lead-hub';
   });
 });
+
+if (leadForm && leadName && leadEmail && leadFocus && leadStatus) {
+  leadForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const lang = localStorage.getItem('lang') || 'tr';
+    if (!leadForm.checkValidity()) {
+      leadForm.reportValidity();
+      return;
+    }
+
+    const subject =
+      lang === 'tr'
+        ? 'RoboLogAI Hizli Plan Talebi'
+        : 'RoboLogAI Quick Plan Request';
+
+    const body =
+      (lang === 'tr'
+        ? 'Ad Soyad: '
+        : 'Full Name: ') +
+      leadName.value +
+      '\n' +
+      (lang === 'tr' ? 'E-posta: ' : 'Email: ') +
+      leadEmail.value +
+      '\n\n' +
+      (lang === 'tr' ? 'Hedef: ' : 'Goal: ') +
+      leadFocus.value;
+
+    window.location.href =
+      'mailto:hello@robologai.com?subject=' +
+      encodeURIComponent(subject) +
+      '&body=' +
+      encodeURIComponent(body);
+
+    leadStatus.textContent =
+      lang === 'tr'
+        ? 'E-posta taslagi acildi. Gonder dediginde talebin bize ulasacak.'
+        : 'Email draft opened. Send it to deliver your request.';
+  });
+}
 
 const mediaVideo = document.querySelector('.media-video video');
 const mediaWarnings = document.querySelectorAll('.media-note.warning');
@@ -130,3 +199,220 @@ if (postFilters.length && filterablePosts.length) {
   );
   applyPostFilter(filterExists ? savedFilter : 'all');
 }
+
+const newsList = document.getElementById('live-news-list');
+const newsStatusTr = document.getElementById('news-status');
+const newsStatusEn = document.getElementById('news-status-en');
+const refreshNewsBtn = document.getElementById('refresh-news');
+
+const NEWS_SOURCES = [
+  {
+    company: 'Tesla',
+    url: 'https://news.google.com/rss/search?q=Tesla+Optimus+robot&hl=en-US&gl=US&ceid=US:en',
+  },
+  {
+    company: 'OpenAI',
+    url: 'https://news.google.com/rss/search?q=OpenAI+robotics+news&hl=en-US&gl=US&ceid=US:en',
+  },
+  {
+    company: 'Figure AI',
+    url: 'https://news.google.com/rss/search?q=Figure+AI+humanoid+robot&hl=en-US&gl=US&ceid=US:en',
+  },
+  {
+    company: 'Unitree',
+    url: 'https://news.google.com/rss/search?q=Unitree+humanoid+robot&hl=en-US&gl=US&ceid=US:en',
+  },
+  {
+    company: 'Boston Dynamics',
+    url: 'https://news.google.com/rss/search?q=Boston+Dynamics+Atlas+news&hl=en-US&gl=US&ceid=US:en',
+  },
+  {
+    company: 'Agility Robotics',
+    url: 'https://news.google.com/rss/search?q=Agility+Robotics+Digit+news&hl=en-US&gl=US&ceid=US:en',
+  },
+];
+
+function setNewsStatus(trText, enText) {
+  if (newsStatusTr) newsStatusTr.textContent = trText;
+  if (newsStatusEn) newsStatusEn.textContent = enText;
+}
+
+function formatRelativeDate(dateValue, lang) {
+  if (!dateValue) {
+    return lang === 'tr' ? 'Tarih belirtilmedi' : 'Date unavailable';
+  }
+
+  const date = new Date(dateValue);
+  if (Number.isNaN(date.getTime())) {
+    return lang === 'tr' ? 'Tarih belirtilmedi' : 'Date unavailable';
+  }
+
+  return new Intl.DateTimeFormat(lang === 'tr' ? 'tr-TR' : 'en-US', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+  }).format(date);
+}
+
+function sanitizeHtml(text) {
+  const holder = document.createElement('div');
+  holder.innerHTML = text;
+  return holder.textContent || holder.innerText || '';
+}
+
+async function fetchRssItems(source) {
+  const proxyUrl =
+    'https://api.allorigins.win/raw?url=' + encodeURIComponent(source.url);
+
+  const response = await fetch(proxyUrl, { cache: 'no-store' });
+  if (!response.ok) {
+    throw new Error('Feed request failed: ' + source.company);
+  }
+
+  const xmlText = await response.text();
+  const parsed = new DOMParser().parseFromString(xmlText, 'text/xml');
+  const items = Array.from(parsed.querySelectorAll('item')).slice(0, 3);
+
+  return items
+    .map((item) => {
+      const title = sanitizeHtml(item.querySelector('title')?.textContent || '').trim();
+      const link = (item.querySelector('link')?.textContent || '').trim();
+      const pubDate = (item.querySelector('pubDate')?.textContent || '').trim();
+
+      if (!title || !link) {
+        return null;
+      }
+
+      return {
+        company: source.company,
+        title,
+        link,
+        pubDate,
+      };
+    })
+    .filter(Boolean);
+}
+
+function renderNewsItems(items) {
+  if (!newsList) return;
+
+  latestNewsItems = items.slice();
+  const lang = localStorage.getItem('lang') || 'tr';
+  newsList.innerHTML = '';
+
+  const finalItems = items.slice(0, 9);
+
+  finalItems.forEach((item) => {
+    const li = document.createElement('li');
+    li.className = 'live-news-item';
+
+    const safeTitle = sanitizeHtml(item.title);
+    const safeCompany = sanitizeHtml(item.company);
+    const safeDate = formatRelativeDate(item.pubDate, lang);
+
+    li.innerHTML =
+      '<div class="news-meta">' +
+      '<span class="news-source">' +
+      safeCompany +
+      '</span>' +
+      '<span class="news-time">' +
+      safeDate +
+      '</span>' +
+      '</div>' +
+      '<a class="news-title" href="' +
+      item.link +
+      '" target="_blank" rel="noopener noreferrer">' +
+      safeTitle +
+      '</a>';
+
+    newsList.appendChild(li);
+  });
+}
+
+async function fetchNewsFromStaticFile() {
+  const response = await fetch('data/news.json?ts=' + Date.now(), {
+    cache: 'no-store',
+  });
+
+  if (!response.ok) {
+    throw new Error('Static news file unavailable');
+  }
+
+  const payload = await response.json();
+  const items = Array.isArray(payload.items) ? payload.items : [];
+
+  if (!items.length) {
+    throw new Error('Static news file is empty');
+  }
+
+  return {
+    items,
+    generatedAt: payload.generatedAt || '',
+  };
+}
+
+async function loadLiveNews() {
+  if (!newsList || !newsStatusTr || !newsStatusEn) return;
+
+  setNewsStatus('Haberler yukleniyor...', 'Loading latest news...');
+  if (refreshNewsBtn) refreshNewsBtn.disabled = true;
+
+  try {
+    const staticNews = await fetchNewsFromStaticFile();
+    renderNewsItems(staticNews.items);
+
+    const generatedDate = new Date(staticNews.generatedAt || Date.now());
+    const trDate = new Intl.DateTimeFormat('tr-TR', {
+      hour: '2-digit',
+      minute: '2-digit',
+      day: '2-digit',
+      month: 'short',
+    }).format(generatedDate);
+
+    const enDate = new Intl.DateTimeFormat('en-US', {
+      hour: '2-digit',
+      minute: '2-digit',
+      day: '2-digit',
+      month: 'short',
+    }).format(generatedDate);
+
+    setNewsStatus(
+      'Son guncelleme: ' + trDate + ' (GitHub Actions)',
+      'Last update: ' + enDate + ' (GitHub Actions)'
+    );
+  } catch (error) {
+    try {
+      const responses = await Promise.allSettled(
+        NEWS_SOURCES.map((source) => fetchRssItems(source))
+      );
+
+      const collected = responses
+        .filter((result) => result.status === 'fulfilled')
+        .flatMap((result) => result.value)
+        .sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
+
+      if (!collected.length) {
+        throw new Error('No fallback items');
+      }
+
+      renderNewsItems(collected);
+      setNewsStatus(
+        'Canli yedek akistan gosteriliyor. GitHub veri dosyasi bekleniyor.',
+        'Showing live fallback feed. Waiting for GitHub data file.'
+      );
+    } catch (fallbackError) {
+      setNewsStatus(
+        'Su an haber akisi alinamadi. Biraz sonra tekrar deneyin.',
+        'Could not load news feed right now. Please try again shortly.'
+      );
+    }
+  } finally {
+    if (refreshNewsBtn) refreshNewsBtn.disabled = false;
+  }
+}
+
+if (refreshNewsBtn) {
+  refreshNewsBtn.addEventListener('click', loadLiveNews);
+}
+
+loadLiveNews();
