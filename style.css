@@ -1639,7 +1639,43 @@ body {
   background:#0b1220; transition:transform .2s;
 }
 .ad-item:hover{ transform:scale(1.04); }
+.ad-item-link{
+  position:relative;
+  width:100%;
+  height:100%;
+  display:block;
+  text-decoration:none;
+  color:#fff;
+}
 .ad-robot{ width:100%; height:100%; object-fit:cover; display:block; opacity:0.92; }
+.ad-company-name{
+  position:absolute;
+  left:0.42rem;
+  right:0.42rem;
+  bottom:0.42rem;
+  padding:0.22rem 0.42rem;
+  border-radius:0.45rem;
+  font-size:0.69rem;
+  font-weight:800;
+  letter-spacing:0.01em;
+  line-height:1.2;
+  color:#f8fafc;
+  background:linear-gradient(135deg,rgba(15,23,42,0.86),rgba(30,41,59,0.7));
+  border:1px solid rgba(34,211,238,0.3);
+  box-shadow:0 4px 10px rgba(2,6,23,0.24);
+  text-shadow:0 1px 2px rgba(2,6,23,0.45);
+}
+.ad-item-link::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 48%,rgba(2,6,23,0.55) 100%);
+  pointer-events:none;
+}
+.ad-item-link:focus-visible{
+  outline:2px solid var(--accent2);
+  outline-offset:2px;
+}
 .ad-marquee:hover .ad-track{ animation-play-state:paused; }
 @keyframes adScroll{ 0%{transform:translateX(0);} 100%{transform:translateX(-50%);} }
 
