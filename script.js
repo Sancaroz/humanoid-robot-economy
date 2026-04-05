@@ -70,6 +70,8 @@ const NEWS_IMAGE_BY_COMPANY = {
   figure: 'images/robots/figure-original.jpg',
   'boston dynamics': 'images/robots/boston-original.jpg',
   'agility robotics': 'images/robots/agility-original.jpg',
+  'reflex robotics': 'images/robots/reflex robotix.jpg',
+  reflex: 'images/robots/reflex robotix.jpg',
   openai: 'images/robots/near-touch-human-robot.png',
   apptronik: 'images/robots/apptronik-original.jpg',
   neura: 'images/robots/neura-original.jpg',
