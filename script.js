@@ -53,6 +53,17 @@ const drawerDock = document.getElementById('drawer-dock');
 const leftDrawer = document.getElementById('left-drawer-nav');
 const leftDrawerToggle = document.getElementById('left-drawer-toggle');
 const adMarquee = document.querySelector('.ad-marquee');
+const MARQUEE_COMPANY_META = {
+  'Tesla Optimus': { category: 'AI + Robotik' },
+  XMAQUINA: { category: 'AI + Robotik' },
+  '1X': { category: 'AI + Robotik' },
+  'Agility Robotics': { category: 'AI + Robotik' },
+  Unitree: { category: 'Robotik' },
+  'Figure AI': { category: 'Robotik' },
+  'Boston Dynamics': { category: 'Robotik' },
+  'Fauna Robotics': { category: 'Robotik' },
+  'Reflex Robotics': { category: 'Robotik' },
+};
 var homeNewsSourceBadge = null;
 var latestHomeNewsMode = 'loading';
 const AI_PLATFORM_CONFIG = {
@@ -669,6 +680,7 @@ if (drawerDock && leftDrawer && leftDrawerToggle) {
 }
 
 if (adMarquee) {
+  const adTrack = adMarquee.querySelector('.ad-track');
   let isDragging = false;
   let startX = 0;
   let startScrollLeft = 0;
@@ -676,6 +688,41 @@ if (adMarquee) {
   let suppressClick = false;
   let pointerDownLink = null;
   const DRAG_THRESHOLD = 8;
+
+  const enhanceMarqueeCards = () => {
+    adMarquee.querySelectorAll('.ad-item-link').forEach((link) => {
+      const companyName = link.querySelector('.ad-company-name')?.textContent?.trim();
+      const meta = MARQUEE_COMPANY_META[companyName] || { category: 'Robotik' };
+
+      if (!link.querySelector('.ad-company-type')) {
+        const badge = document.createElement('span');
+        badge.className = 'ad-company-type';
+        badge.textContent = meta.category;
+        link.appendChild(badge);
+      }
+
+      if (!link.querySelector('.ad-cta')) {
+        const cta = document.createElement('span');
+        cta.className = 'ad-cta';
+        cta.textContent = 'Siteye git';
+        link.appendChild(cta);
+      }
+    });
+  };
+
+  const updateMarqueeSpeed = () => {
+    if (!adTrack) return;
+
+    const itemCount = adTrack.querySelectorAll('.ad-item').length || 1;
+    const viewportWidth = window.innerWidth || 1280;
+    const baseDuration = viewportWidth >= 1400 ? 44 : viewportWidth >= 1024 ? 38 : viewportWidth >= 760 ? 32 : 26;
+    const densityOffset = Math.max(0, Math.round(itemCount / 6));
+    adTrack.style.animationDuration = `${baseDuration + densityOffset}s`;
+  };
+
+  enhanceMarqueeCards();
+  updateMarqueeSpeed();
+  window.addEventListener('resize', updateMarqueeSpeed);
 
   const stopDrag = () => {
     if (!isDragging) return;
