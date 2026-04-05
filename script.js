@@ -811,13 +811,30 @@ const postFilters = document.querySelectorAll('.post-filter');
 const filterablePosts = document.querySelectorAll('.filterable-post');
 const filmSearchInput = document.getElementById('films-search-input');
 const filmFilterButtons = document.querySelectorAll('#films-filters [data-film-filter]');
+const filmEraButtons = document.querySelectorAll('#films-era-filters [data-film-era]');
 const filterableFilms = document.querySelectorAll('.filterable-film');
 const filmsResultsStatus = document.getElementById('films-results-status');
 
 if (filterableFilms.length) {
   const FILM_FILTER_KEY = 'filmsFilter';
+  const FILM_ERA_KEY = 'filmsEraFilter';
   const FILM_SEARCH_KEY = 'filmsSearch';
   const FILM_RATING_KEY = 'filmsRatingsV1';
+
+  const getFilmYear = (card) => {
+    const yearText = card.querySelector('.film-meta span')?.textContent || '';
+    const yearMatch = yearText.match(/\d{4}/);
+    return yearMatch ? Number(yearMatch[0]) : null;
+  };
+
+  const matchesFilmEra = (year, eraFilter) => {
+    if (!year || eraFilter === 'all') return true;
+    if (eraFilter === 'pre1980') return year < 1980;
+    if (eraFilter === '1980_1999') return year >= 1980 && year <= 1999;
+    if (eraFilter === '2000_2014') return year >= 2000 && year <= 2014;
+    if (eraFilter === '2015_plus') return year >= 2015;
+    return true;
+  };
 
   const getSavedFilmRatings = () => {
     try {
@@ -888,6 +905,7 @@ if (filterableFilms.length) {
 
   const applyFilmFilters = () => {
     const selectedFilter = localStorage.getItem(FILM_FILTER_KEY) || 'all';
+    const selectedEra = localStorage.getItem(FILM_ERA_KEY) || 'all';
     const searchValue = String(filmSearchInput?.value || '').trim().toLowerCase();
     let visibleCount = 0;
 
@@ -895,12 +913,18 @@ if (filterableFilms.length) {
       button.classList.toggle('active', button.dataset.filmFilter === selectedFilter);
     });
 
+    filmEraButtons.forEach((button) => {
+      button.classList.toggle('active', button.dataset.filmEra === selectedEra);
+    });
+
     filterableFilms.forEach((card) => {
       const filterGroup = card.dataset.filmFilterGroup || 'all';
       const searchableText = card.textContent.toLowerCase();
+      const year = getFilmYear(card);
       const matchesFilter = selectedFilter === 'all' || filterGroup === selectedFilter;
+      const matchesEra = matchesFilmEra(year, selectedEra);
       const matchesSearch = !searchValue || searchableText.includes(searchValue);
-      const isVisible = matchesFilter && matchesSearch;
+      const isVisible = matchesFilter && matchesEra && matchesSearch;
 
       card.classList.toggle('is-filtered-out', !isVisible);
       if (isVisible) visibleCount += 1;
@@ -921,6 +945,13 @@ if (filterableFilms.length) {
   filmFilterButtons.forEach((button) => {
     button.addEventListener('click', () => {
       localStorage.setItem(FILM_FILTER_KEY, button.dataset.filmFilter || 'all');
+      applyFilmFilters();
+    });
+  });
+
+  filmEraButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      localStorage.setItem(FILM_ERA_KEY, button.dataset.filmEra || 'all');
       applyFilmFilters();
     });
   });

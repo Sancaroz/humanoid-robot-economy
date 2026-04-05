@@ -2166,6 +2166,10 @@ ul{ margin-left:1.2rem; margin-bottom:1rem; color:var(--subtext); }
   margin-bottom:0.85rem;
 }
 
+#films-era-filters{
+  margin-top:0.6rem;
+}
+
 .films-search-row input{
   width:100%;
   border:1px solid var(--border);
