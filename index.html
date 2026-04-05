@@ -11,14 +11,11 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="logo" href="index.html" aria-label="RoboLogAI ana sayfa">
-      <img class="logo-mark" src="images/logos/site-logo.png" alt="RoboLogAI logosu" loading="eager" fetchpriority="high" />
-      <span class="logo-text">RoboLogAI</span>
-    </a>
-    <nav>
-      <button class="lang-btn active" data-lang="tr">Türkçe</button>
-      <button class="lang-btn" data-lang="en">English</button>
-      <button class="theme-btn" id="theme-toggle" aria-label="Tema değiştir">🌙</button>
+    <div class="topbar-left">
+      <a class="logo" href="index.html" aria-label="RoboLogAI ana sayfa">
+        <img class="logo-mark" src="images/logos/site-logo.png" alt="RoboLogAI logosu" loading="eager" fetchpriority="high" />
+        <span class="logo-text">RoboLogAI</span>
+      </a>
 
       <section id="site-search" class="topbar-search" aria-label="Site search">
         <div class="search-row">
@@ -34,6 +31,12 @@
         </div>
         <p id="site-search-status" class="search-status" aria-live="polite"></p>
       </section>
+    </div>
+
+    <nav>
+      <button class="lang-btn active" data-lang="tr">Türkçe</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="theme-btn" id="theme-toggle" aria-label="Tema değiştir">🌙</button>
     </nav>
   </header>
 
