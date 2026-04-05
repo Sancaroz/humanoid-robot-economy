@@ -18,25 +18,34 @@
     <nav>
       <button class="lang-btn active" data-lang="tr">Turkce</button>
       <button class="lang-btn" data-lang="en">English</button>
-      <button class="top-search-link" type="button" aria-label="Quick search" title="Quick Search">
-        <span class="top-search-icon" aria-hidden="true">⌕</span>
-      </button>
-      <a class="social-link" href="sponsor.html" aria-label="Is birligi ve sponsorluk">Isbirligi</a>
-      <a class="social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
-      <a class="social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
       <button class="theme-btn" id="theme-toggle" aria-label="Tema degistir">🌙</button>
     </nav>
   </header>
 
-  <div id="top-search-popover" class="top-search-popover hidden" role="dialog" aria-label="Quick search panel">
-    <input id="top-search-mini-input" type="search" data-ph-tr="Sirket veya haber ara..." data-ph-en="Search company or news..." placeholder="Sirket veya haber ara..." />
-    <button id="top-search-mini-go" class="btn" type="button">
-      <span data-lang="tr">Git</span>
-      <span data-lang="en" class="hidden">Go</span>
-    </button>
-  </div>
-
   <main class="container">
+    <section class="mini-page-tabs" aria-label="Sayfa sekmeleri">
+      <a class="mini-tab" href="index.html">
+        <span data-lang="tr">Geri Don</span>
+        <span data-lang="en" class="hidden">Back</span>
+      </a>
+      <a class="mini-tab" href="member-blog.html">
+        <span data-lang="tr">Uye Blog</span>
+        <span data-lang="en" class="hidden">Member Blog</span>
+      </a>
+      <a class="mini-tab" href="news.html">
+        <span data-lang="tr">Haberler</span>
+        <span data-lang="en" class="hidden">News</span>
+      </a>
+      <a class="mini-tab" href="companies.html">
+        <span data-lang="tr">Sirketler</span>
+        <span data-lang="en" class="hidden">Companies</span>
+      </a>
+      <a class="mini-tab sponsor-tab active" href="sponsor.html">
+        <span data-lang="tr">Isbirligi ve Sponsorluk</span>
+        <span data-lang="en" class="hidden">Collaboration and Sponsorship</span>
+      </a>
+    </section>
+
     <section id="sponsor-hero">
       <h1 data-lang="tr">Is Birligi ve Sponsorluk</h1>
       <h1 data-lang="en" class="hidden">Partnership and Sponsorship</h1>
@@ -161,7 +170,13 @@
   </main>
 
   <footer>
-    <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+    <div class="footer-inner">
+      <div class="footer-social">
+        <a class="footer-social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
+        <a class="footer-social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
+      </div>
+      <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>

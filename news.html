@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboLogAI | Haberler</title>
+  <meta name="description" content="Humanoid robot ve yapay zeka sirketlerinden son gelismeler." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html" aria-label="RoboLogAI ana sayfa">
+      <img class="logo-mark" src="images/logos/site-logo.png" alt="RoboLogAI logosu" loading="eager" />
+      <span class="logo-text">RoboLogAI</span>
+    </a>
+    <nav>
+      <button class="lang-btn active" data-lang="tr">Turkce</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="theme-btn" id="theme-toggle" aria-label="Tema degistir">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container" style="padding-top: 1rem;">
+    <section class="mini-page-tabs" aria-label="Sayfa sekmeleri">
+      <a class="mini-tab" href="index.html">
+        <span data-lang="tr">Ana Sayfa</span>
+        <span data-lang="en" class="hidden">Home</span>
+      </a>
+      <a class="mini-tab" href="member-blog.html">
+        <span data-lang="tr">Uye Blog</span>
+        <span data-lang="en" class="hidden">Member Blog</span>
+      </a>
+      <a class="mini-tab" href="blog.html">
+        <span data-lang="tr">Blog</span>
+        <span data-lang="en" class="hidden">Blog</span>
+      </a>
+      <a class="mini-tab" href="companies.html">
+        <span data-lang="tr">Sirketler</span>
+        <span data-lang="en" class="hidden">Companies</span>
+      </a>
+      <a class="mini-tab active" href="news.html">
+        <span data-lang="tr">Haberler</span>
+        <span data-lang="en" class="hidden">News</span>
+      </a>
+      <a class="mini-tab" href="about.html">
+        <span data-lang="tr">Hakkinda</span>
+        <span data-lang="en" class="hidden">About</span>
+      </a>
+    </section>
+
+    <section id="live-news">
+      <div class="live-news-head">
+        <div>
+          <h1 data-lang="tr">Sirketlerden Son Gelismeler</h1>
+          <h1 data-lang="en" class="hidden">Latest Company Developments</h1>
+          <p data-lang="tr">OpenAI, Tesla, Figure, Unitree ve diger sirketler icin guncel haber akisi otomatik yenilenir.</p>
+          <p data-lang="en" class="hidden">Automated updates for OpenAI, Tesla, Figure, Unitree, and other major companies.</p>
+        </div>
+        <button id="refresh-news" class="refresh-news-btn" type="button">
+          <span data-lang="tr">Haberleri yenile</span>
+          <span data-lang="en" class="hidden">Refresh news</span>
+        </button>
+      </div>
+
+      <p id="news-status" class="news-status" data-lang="tr">Haberler yukleniyor...</p>
+      <p id="news-status-en" class="news-status hidden" data-lang="en">Loading latest news...</p>
+
+      <ul id="live-news-list" class="live-news-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-social">
+        <a class="footer-social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
+        <a class="footer-social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
+      </div>
+      <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+    </div>
+  </footer>
+
+  <script>
+    window.ROBOLOGAI_AI_ENDPOINT = "";
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

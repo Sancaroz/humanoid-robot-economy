@@ -22,8 +22,6 @@
         <span class="top-search-icon" aria-hidden="true">⌕</span>
       </button>
       <a class="social-link" href="sponsor.html" aria-label="Is birligi ve sponsorluk">Isbirligi</a>
-      <a class="social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
-      <a class="social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
         <button class="theme-btn" id="theme-toggle" aria-label="Tema değiştir">🌙</button>
     </nav>
   </header>
@@ -37,6 +35,33 @@
   </div>
 
   <main class="container">
+    <section class="mini-page-tabs" aria-label="Sayfa sekmeleri">
+      <a class="mini-tab" href="index.html">
+        <span data-lang="tr">Ana Sayfa</span>
+        <span data-lang="en" class="hidden">Home</span>
+      </a>
+      <a class="mini-tab" href="member-blog.html">
+        <span data-lang="tr">Uye Blog</span>
+        <span data-lang="en" class="hidden">Member Blog</span>
+      </a>
+      <a class="mini-tab active" href="blog.html">
+        <span data-lang="tr">Blog</span>
+        <span data-lang="en" class="hidden">Blog</span>
+      </a>
+      <a class="mini-tab" href="companies.html">
+        <span data-lang="tr">Sirketler</span>
+        <span data-lang="en" class="hidden">Companies</span>
+      </a>
+      <a class="mini-tab" href="news.html">
+        <span data-lang="tr">Haberler</span>
+        <span data-lang="en" class="hidden">News</span>
+      </a>
+      <a class="mini-tab" href="about.html">
+        <span data-lang="tr">Hakkinda</span>
+        <span data-lang="en" class="hidden">About</span>
+      </a>
+    </section>
+
     <section id="blog-hero">
       <h1 data-lang="tr">Analizler ve Strateji Notlari</h1>
       <h1 data-lang="en" class="hidden">Analysis and Strategy Notes</h1>
@@ -149,7 +174,13 @@
   </main>
 
   <footer>
-    <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+    <div class="footer-inner">
+      <div class="footer-social">
+        <a class="footer-social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
+        <a class="footer-social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
+      </div>
+      <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>

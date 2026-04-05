@@ -42,84 +42,73 @@ const siteSearchStatus = document.getElementById('site-search-status');
 const aiQuestionInput = document.getElementById('ai-question-input');
 const aiAskBtn = document.getElementById('ai-ask-btn');
 const aiAnswerBox = document.getElementById('ai-answer-box');
-const topSearchToggle = document.querySelector('.top-search-link');
-const topSearchPopover = document.getElementById('top-search-popover');
-const topSearchMiniInput = document.getElementById('top-search-mini-input');
-const topSearchMiniGo = document.getElementById('top-search-mini-go');
-const TOP_SEARCH_RECENT_KEY = 'topSearchRecent';
 const AI_PLATFORM_CONFIG = {
   endpoint: window.ROBOLOGAI_AI_ENDPOINT || '',
   timeoutMs: 20000,
 };
 let latestNewsItems = [];
 
-function getRecentTopSearches() {
+const NEWS_IMAGE_BY_COMPANY = {
+  tesla: 'images/robots/tesla-original.jpg',
+  unitree: 'images/robots/unitree-original.jpg',
+  'figure ai': 'images/robots/figure-original.jpg',
+  figure: 'images/robots/figure-original.jpg',
+  'boston dynamics': 'images/robots/boston-original.jpg',
+  'agility robotics': 'images/robots/agility-original.jpg',
+  openai: 'images/robots/near-touch-human-robot.png',
+  apptronik: 'images/robots/apptronik-original.jpg',
+  neura: 'images/robots/neura-original.jpg',
+  '1x': 'images/robots/1x-original.jpg',
+};
+const NEWS_IMAGE_FALLBACK = 'images/robots/near-touch-human-robot.png';
+const NEWS_CACHE_KEY = 'robologaiNewsCacheV1';
+const NEWS_CACHE_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+
+function getNewsImageForCompany(companyName) {
+  const normalized = String(companyName || '').trim().toLowerCase();
+  return NEWS_IMAGE_BY_COMPANY[normalized] || NEWS_IMAGE_FALLBACK;
+}
+
+function readNewsCache() {
   try {
-    const saved = localStorage.getItem(TOP_SEARCH_RECENT_KEY);
-    const parsed = saved ? JSON.parse(saved) : [];
-    return Array.isArray(parsed) ? parsed : [];
+    const raw = localStorage.getItem(NEWS_CACHE_KEY);
+    if (!raw) return null;
+
+    const parsed = JSON.parse(raw);
+    const items = Array.isArray(parsed.items) ? parsed.items : [];
+    const cachedAt = Number(parsed.cachedAt || 0);
+
+    if (!items.length || !cachedAt) {
+      return null;
+    }
+
+    const isFresh = Date.now() - cachedAt <= NEWS_CACHE_MAX_AGE_MS;
+    if (!isFresh) {
+      return null;
+    }
+
+    return {
+      items,
+      cachedAt,
+    };
   } catch (error) {
-    return [];
+    return null;
   }
 }
 
-function renderRecentTopSearches() {
-  if (!topSearchPopover) return;
+function writeNewsCache(items) {
+  try {
+    if (!Array.isArray(items) || !items.length) return;
 
-  let container = topSearchPopover.querySelector('.top-search-recent');
-  if (!container) {
-    container = document.createElement('div');
-    container.className = 'top-search-recent';
-    topSearchPopover.appendChild(container);
+    const payload = {
+      cachedAt: Date.now(),
+      items: items.slice(0, 24),
+    };
+
+    localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify(payload));
+  } catch (error) {
+    // Ignore cache write errors.
   }
-
-  const lang = localStorage.getItem('lang') || 'tr';
-  const recent = getRecentTopSearches();
-
-  if (!recent.length) {
-    container.innerHTML = '';
-    return;
-  }
-
-  container.innerHTML =
-    '<span class="recent-label">' +
-    (lang === 'tr' ? 'Son aramalar:' : 'Recent searches:') +
-    '</span>';
-
-  recent.forEach((term) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'recent-chip';
-    btn.textContent = term;
-    btn.addEventListener('click', () => {
-      if (!topSearchMiniInput) return;
-      topSearchMiniInput.value = term;
-      submitTopSearch();
-    });
-    container.appendChild(btn);
-  });
-
-  const clearBtn = document.createElement('button');
-  clearBtn.type = 'button';
-  clearBtn.className = 'recent-clear-btn';
-  clearBtn.textContent = lang === 'tr' ? 'Temizle' : 'Clear';
-  clearBtn.addEventListener('click', () => {
-    localStorage.removeItem(TOP_SEARCH_RECENT_KEY);
-    renderRecentTopSearches();
-  });
-  container.appendChild(clearBtn);
-}
-
-function saveRecentTopSearch(term) {
-  const normalized = term.trim();
-  if (!normalized) return;
-
-  const recent = getRecentTopSearches().filter(
-    (item) => item.toLowerCase() !== normalized.toLowerCase()
-  );
-  recent.unshift(normalized);
-  const limited = recent.slice(0, 6);
-  localStorage.setItem(TOP_SEARCH_RECENT_KEY, JSON.stringify(limited));
 }
 
 function updateLeadPlaceholders(lang) {
@@ -137,14 +126,6 @@ function updateLeadPlaceholders(lang) {
       lang === 'tr' ? siteSearchInput.dataset.phTr : siteSearchInput.dataset.phEn;
     if (searchPlaceholder) {
       siteSearchInput.placeholder = searchPlaceholder;
-    }
-  }
-
-  if (topSearchMiniInput) {
-    const miniPlaceholder =
-      lang === 'tr' ? topSearchMiniInput.dataset.phTr : topSearchMiniInput.dataset.phEn;
-    if (miniPlaceholder) {
-      topSearchMiniInput.placeholder = miniPlaceholder;
     }
   }
 
@@ -241,31 +222,6 @@ async function askAiAssistant() {
   }
 }
 
-function submitTopSearch() {
-  const keyword = (topSearchMiniInput?.value || '').trim();
-  if (keyword) {
-    saveRecentTopSearch(keyword);
-    renderRecentTopSearches();
-  }
-
-  const onIndexPage =
-    window.location.pathname.endsWith('/index.html') ||
-    window.location.pathname === '/' ||
-    window.location.pathname.endsWith('/humanoid-robot-economy/');
-
-  if (onIndexPage && siteSearchInput) {
-    siteSearchInput.value = keyword;
-    applySiteSearch();
-    const target = document.getElementById('site-search');
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    if (topSearchPopover) topSearchPopover.classList.add('hidden');
-    return;
-  }
-
-  const query = keyword ? '?q=' + encodeURIComponent(keyword) : '';
-  window.location.href = 'index.html' + query + '#site-search';
-}
-
 function applySiteSearch() {
   if (!siteSearchInput) return;
 
@@ -328,6 +284,8 @@ function setLanguage(lang) {
   if (latestNewsItems.length) {
     renderNewsItems(latestNewsItems);
   }
+
+  setHomeNewsSourceBadge(latestHomeNewsMode);
 
   applySiteSearch();
 }
@@ -472,6 +430,10 @@ const newsList = document.getElementById('live-news-list');
 const newsStatusTr = document.getElementById('news-status');
 const newsStatusEn = document.getElementById('news-status-en');
 const refreshNewsBtn = document.getElementById('refresh-news');
+const homeFeaturedNews = document.getElementById('home-featured-news');
+const homeNewsStream = document.getElementById('home-news-stream');
+const homeNewsSourceBadge = document.getElementById('home-news-source-badge');
+let latestHomeNewsMode = 'loading';
 
 const NEWS_SOURCES = [
   {
@@ -500,9 +462,68 @@ const NEWS_SOURCES = [
   },
 ];
 
+const EMERGENCY_NEWS_FALLBACK = [
+  {
+    company: 'Tesla',
+    title: 'Tesla Optimus programinda son test ve uretim odakli gelismeler',
+    link: 'news.html',
+    pubDate: new Date().toUTCString(),
+  },
+  {
+    company: 'Figure AI',
+    title: 'Figure AI humanoid platformunda saha demosu ve ortaklik sinyalleri',
+    link: 'news.html',
+    pubDate: new Date().toUTCString(),
+  },
+  {
+    company: 'Unitree',
+    title: 'Unitree humanoid serisinde yeni kullanim senaryolari one cikiyor',
+    link: 'news.html',
+    pubDate: new Date().toUTCString(),
+  },
+  {
+    company: 'Boston Dynamics',
+    title: 'Boston Dynamics tarafinda fiziksel AI odakli uygulama genisliyor',
+    link: 'news.html',
+    pubDate: new Date().toUTCString(),
+  },
+  {
+    company: 'OpenAI',
+    title: 'OpenAI robotik ekosistemi ile ilgili arastirma haberleri hizlaniyor',
+    link: 'news.html',
+    pubDate: new Date().toUTCString(),
+  },
+  {
+    company: 'Agility Robotics',
+    title: 'Agility Robotics operasyonel kullanimlarda yeni pilotlara ilerliyor',
+    link: 'news.html',
+    pubDate: new Date().toUTCString(),
+  },
+];
+
 function setNewsStatus(trText, enText) {
   if (newsStatusTr) newsStatusTr.textContent = trText;
   if (newsStatusEn) newsStatusEn.textContent = enText;
+}
+
+function setHomeNewsSourceBadge(mode) {
+  if (!homeNewsSourceBadge) return;
+
+  latestHomeNewsMode = mode;
+  homeNewsSourceBadge.classList.remove('loading', 'static', 'live', 'cached', 'local');
+  homeNewsSourceBadge.classList.add(mode);
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  const labels = {
+    loading: { tr: 'Durum: Yukleniyor...', en: 'Status: Loading...' },
+    static: { tr: 'Durum: Kaynak data/news.json', en: 'Status: Source data/news.json' },
+    live: { tr: 'Durum: Canli RSS yedek akis', en: 'Status: Live RSS fallback feed' },
+    cached: { tr: 'Durum: Onbellekten gosterim', en: 'Status: Served from cache' },
+    local: { tr: 'Durum: Yerel yedek gosterim', en: 'Status: Local backup feed' },
+  };
+
+  const selected = labels[mode] || labels.loading;
+  homeNewsSourceBadge.textContent = lang === 'tr' ? selected.tr : selected.en;
 }
 
 function formatRelativeDate(dateValue, lang) {
@@ -562,9 +583,9 @@ async function fetchRssItems(source) {
 }
 
 function renderNewsItems(items) {
+  latestNewsItems = items.slice();
   if (!newsList) return;
 
-  latestNewsItems = items.slice();
   const lang = localStorage.getItem('lang') || 'tr';
   newsList.innerHTML = '';
 
@@ -578,25 +599,97 @@ function renderNewsItems(items) {
     const safeCompany = sanitizeHtml(item.company);
     const safeDate = formatRelativeDate(item.pubDate, lang);
 
-    li.innerHTML =
-      '<div class="news-meta">' +
-      '<span class="news-source">' +
-      safeCompany +
-      '</span>' +
-      '<span class="news-time">' +
-      safeDate +
-      '</span>' +
-      '</div>' +
-      '<a class="news-title" href="' +
-      item.link +
-      '" target="_blank" rel="noopener noreferrer">' +
-      safeTitle +
-      '</a>';
+    const newsImage = document.createElement('img');
+    newsImage.className = 'news-cover';
+    newsImage.loading = 'lazy';
+    newsImage.alt = safeCompany + ' news visual';
+    newsImage.src = item.image || getNewsImageForCompany(item.company);
+
+    const meta = document.createElement('div');
+    meta.className = 'news-meta';
+
+    const source = document.createElement('span');
+    source.className = 'news-source';
+    source.textContent = safeCompany;
+
+    const time = document.createElement('span');
+    time.className = 'news-time';
+    time.textContent = safeDate;
+
+    meta.appendChild(source);
+    meta.appendChild(time);
+
+    const titleLink = document.createElement('a');
+    titleLink.className = 'news-title';
+    titleLink.href = item.link;
+    titleLink.target = '_blank';
+    titleLink.rel = 'noopener noreferrer';
+    titleLink.textContent = safeTitle;
+
+    li.appendChild(newsImage);
+    li.appendChild(meta);
+    li.appendChild(titleLink);
 
     newsList.appendChild(li);
   });
 
   applySiteSearch();
+}
+
+function renderHomeNewsPreview(items) {
+  if (!homeFeaturedNews && !homeNewsStream) return;
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  const finalItems = items.slice(0, 6);
+  const featured = finalItems[0];
+
+  if (homeFeaturedNews) {
+    homeFeaturedNews.innerHTML = '';
+
+    if (featured) {
+      const safeTitle = sanitizeHtml(featured.title);
+      const safeCompany = sanitizeHtml(featured.company);
+      const safeDate = formatRelativeDate(featured.pubDate, lang);
+
+      homeFeaturedNews.innerHTML =
+        '<img class="home-featured-cover" src="' +
+        (featured.image || getNewsImageForCompany(featured.company)) +
+        '" alt="' +
+        safeCompany +
+        ' featured news visual">' +
+        '<div class="home-featured-body">' +
+        '<div class="news-meta">' +
+        '<span class="news-source">' + safeCompany + '</span>' +
+        '<span class="news-time">' + safeDate + '</span>' +
+        '</div>' +
+        '<a class="home-featured-title" href="' + featured.link + '" target="_blank" rel="noopener noreferrer">' + safeTitle + '</a>' +
+        '</div>';
+    }
+  }
+
+  if (homeNewsStream) {
+    homeNewsStream.innerHTML = '';
+
+    finalItems.slice(1).forEach((item) => {
+      const safeTitle = sanitizeHtml(item.title);
+      const safeCompany = sanitizeHtml(item.company);
+      const safeDate = formatRelativeDate(item.pubDate, lang);
+      const li = document.createElement('li');
+      li.className = 'home-news-item';
+      li.innerHTML =
+        '<img class="home-news-thumb" src="' +
+        (item.image || getNewsImageForCompany(item.company)) +
+        '" alt="' + safeCompany + ' news visual">' +
+        '<div class="home-news-copy">' +
+        '<div class="news-meta">' +
+        '<span class="news-source">' + safeCompany + '</span>' +
+        '<span class="news-time">' + safeDate + '</span>' +
+        '</div>' +
+        '<a class="home-news-link" href="' + item.link + '" target="_blank" rel="noopener noreferrer">' + safeTitle + '</a>' +
+        '</div>';
+      homeNewsStream.appendChild(li);
+    });
+  }
 }
 
 async function fetchNewsFromStaticFile() {
@@ -622,14 +715,18 @@ async function fetchNewsFromStaticFile() {
 }
 
 async function loadLiveNews() {
-  if (!newsList || !newsStatusTr || !newsStatusEn) return;
+  if (!newsList && !homeFeaturedNews && !homeNewsStream) return;
 
+  setHomeNewsSourceBadge('loading');
   setNewsStatus('Haberler yukleniyor...', 'Loading latest news...');
   if (refreshNewsBtn) refreshNewsBtn.disabled = true;
 
   try {
     const staticNews = await fetchNewsFromStaticFile();
     renderNewsItems(staticNews.items);
+    renderHomeNewsPreview(staticNews.items);
+    writeNewsCache(staticNews.items);
+    setHomeNewsSourceBadge('static');
 
     const generatedDate = new Date(staticNews.generatedAt || Date.now());
     const trDate = new Intl.DateTimeFormat('tr-TR', {
@@ -666,15 +763,33 @@ async function loadLiveNews() {
       }
 
       renderNewsItems(collected);
+      renderHomeNewsPreview(collected);
+      writeNewsCache(collected);
+      setHomeNewsSourceBadge('live');
       setNewsStatus(
         'Canli yedek akistan gosteriliyor. GitHub veri dosyasi bekleniyor.',
         'Showing live fallback feed. Waiting for GitHub data file.'
       );
     } catch (fallbackError) {
-      setNewsStatus(
-        'Su an haber akisi alinamadi. Biraz sonra tekrar deneyin.',
-        'Could not load news feed right now. Please try again shortly.'
-      );
+      const cached = readNewsCache();
+
+      if (cached && cached.items.length) {
+        renderNewsItems(cached.items);
+        renderHomeNewsPreview(cached.items);
+        setHomeNewsSourceBadge('cached');
+        setNewsStatus(
+          'Canli kaynaklara erisilemedi. Onbellekteki son haberler gosteriliyor.',
+          'Live sources are unavailable. Showing the latest cached news.'
+        );
+      } else {
+        renderNewsItems(EMERGENCY_NEWS_FALLBACK);
+        renderHomeNewsPreview(EMERGENCY_NEWS_FALLBACK);
+        setHomeNewsSourceBadge('local');
+        setNewsStatus(
+          'Canli kaynaklara erisilemedi. Gosterim icin yerel yedek haberler kullaniliyor.',
+          'Live sources are unavailable. Local backup news is being shown.'
+        );
+      }
     }
   } finally {
     if (refreshNewsBtn) refreshNewsBtn.disabled = false;
@@ -715,50 +830,6 @@ if (aiQuestionInput) {
     if (e.key === 'Enter') {
       e.preventDefault();
       askAiAssistant();
-    }
-  });
-}
-
-if (topSearchToggle && topSearchPopover) {
-  topSearchToggle.addEventListener('click', () => {
-    topSearchPopover.classList.toggle('hidden');
-    if (!topSearchPopover.classList.contains('hidden') && topSearchMiniInput) {
-      renderRecentTopSearches();
-      topSearchMiniInput.focus();
-    }
-  });
-
-  document.addEventListener('click', (event) => {
-    const target = event.target;
-    if (!(target instanceof Element)) return;
-    if (
-      !topSearchPopover.contains(target) &&
-      !topSearchToggle.contains(target) &&
-      !topSearchPopover.classList.contains('hidden')
-    ) {
-      topSearchPopover.classList.add('hidden');
-    }
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && !topSearchPopover.classList.contains('hidden')) {
-      topSearchPopover.classList.add('hidden');
-      if (topSearchMiniInput) {
-        topSearchMiniInput.blur();
-      }
-    }
-  });
-}
-
-if (topSearchMiniGo) {
-  topSearchMiniGo.addEventListener('click', submitTopSearch);
-}
-
-if (topSearchMiniInput) {
-  topSearchMiniInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      submitTopSearch();
     }
   });
 }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoboLogAI | Uye Blog</title>
+  <meta name="description" content="Uye blog: topluluk paylasimlari ve uyelerin birbirine yorum biraktigi acik alan." />
+  <link rel="canonical" href="https://robologai.com/member-blog.html" />
+  <meta property="og:url" content="https://robologai.com/member-blog.html" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html" aria-label="RoboLogAI ana sayfa">
+      <img class="logo-mark" src="images/logos/site-logo.png" alt="RoboLogAI logosu" loading="eager" fetchpriority="high" />
+      <span class="logo-text">RoboLogAI</span>
+    </a>
+    <nav>
+      <button class="lang-btn active" data-lang="tr">Turkce</button>
+      <button class="lang-btn" data-lang="en">English</button>
+      <button class="theme-btn" id="theme-toggle" aria-label="Tema degistir">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container" style="padding-top: 1rem;">
+    <section class="mini-page-tabs" aria-label="Sayfa sekmeleri">
+      <a class="mini-tab" href="index.html">
+        <span data-lang="tr">Ana Sayfa</span>
+        <span data-lang="en" class="hidden">Home</span>
+      </a>
+      <a class="mini-tab active" href="member-blog.html">
+        <span data-lang="tr">Uye Blog</span>
+        <span data-lang="en" class="hidden">Member Blog</span>
+      </a>
+      <a class="mini-tab" href="blog.html">
+        <span data-lang="tr">Blog</span>
+        <span data-lang="en" class="hidden">Blog</span>
+      </a>
+      <a class="mini-tab" href="companies.html">
+        <span data-lang="tr">Sirketler</span>
+        <span data-lang="en" class="hidden">Companies</span>
+      </a>
+      <a class="mini-tab" href="news.html">
+        <span data-lang="tr">Haberler</span>
+        <span data-lang="en" class="hidden">News</span>
+      </a>
+      <a class="mini-tab" href="about.html">
+        <span data-lang="tr">Hakkinda</span>
+        <span data-lang="en" class="hidden">About</span>
+      </a>
+    </section>
+
+    <section id="member-blog-hero">
+      <h1 data-lang="tr">Uye Blog Toplulugu</h1>
+      <h1 data-lang="en" class="hidden">Member Blog Community</h1>
+      <p data-lang="tr">Uyeler gonderi paylasabilir ve birbirinin gonderilerine yorum yapabilir.</p>
+      <p data-lang="en" class="hidden">Members can publish posts and comment on each other's posts.</p>
+      <p class="member-blog-note" data-lang="tr">Not: Canli mod aciksa tum uyeler ortak akisi gorur; supheli icerik moderasyona dusebilir.</p>
+      <p class="member-blog-note hidden" data-lang="en">Note: In live mode, all members see a shared feed; suspicious content can be queued for moderation.</p>
+      <p id="member-blog-mode" class="member-blog-mode" aria-live="polite"></p>
+    </section>
+
+    <section id="member-blog-compose">
+      <h2 data-lang="tr">Yeni Gonderi</h2>
+      <h2 data-lang="en" class="hidden">New Post</h2>
+      <form id="member-post-form" class="member-post-form" novalidate>
+        <div class="member-form-grid">
+          <input id="member-name" name="name" type="text" required data-ph-tr="Adin" data-ph-en="Your name" placeholder="Adin" />
+          <input id="member-title" name="title" type="text" required data-ph-tr="Gonderi basligi" data-ph-en="Post title" placeholder="Gonderi basligi" />
+        </div>
+        <textarea id="member-content" name="content" rows="4" required data-ph-tr="Dusunceni paylas..." data-ph-en="Share your thoughts..." placeholder="Dusunceni paylas..."></textarea>
+        <div class="member-captcha-row">
+          <span id="member-post-captcha-q" class="member-captcha-q"></span>
+          <input id="member-post-captcha" name="captcha" type="text" required data-ph-tr="Sonucu yaz" data-ph-en="Type result" placeholder="Sonucu yaz" />
+        </div>
+        <input class="member-honeypot" name="website" type="text" tabindex="-1" autocomplete="off" />
+        <button class="btn" type="submit">
+          <span data-lang="tr">Gonderiyi Paylas</span>
+          <span data-lang="en" class="hidden">Publish Post</span>
+        </button>
+        <p id="member-post-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="member-blog-feed">
+      <h2 data-lang="tr">Topluluk Gonderileri</h2>
+      <h2 data-lang="en" class="hidden">Community Posts</h2>
+      <p id="member-blog-empty" class="member-blog-empty" data-lang="tr">Henuz gonderi yok. Ilk gonderiyi sen paylas.</p>
+      <p id="member-blog-empty-en" class="member-blog-empty hidden" data-lang="en">No posts yet. Be the first to publish.</p>
+      <div id="member-post-list" class="member-post-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-social">
+        <a class="footer-social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
+        <a class="footer-social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
+      </div>
+      <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="member-blog-config.js"></script>
+  <script src="script.js"></script>
+  <script src="member-blog.js"></script>
+</body>
+</html>
