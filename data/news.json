@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T13:20:53.466Z",
+  "generatedAt": "2026-04-05T19:03:23.297Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -11,21 +11,9 @@
     },
     {
       "company": "Tesla",
-      "title": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwY0R6VDhqUUFGZ04wSWtmRkhlZXlSY0pBTG1iSnZkUWJFdmdyZ2lwcG50bG5KMDNJM2FRWUpuNnNlbmsyTGhZRXlsOTRLVDNNSE5odVhhYUhnOHA3bXJfQVQwdktFOUVxY092eU9VcExWOEhFaktmckRjeErSAYABQVVfeXFMUGtmcFdoZFNDemtvejF5QmFHVHNYdHZ5QnBCVHN6UlE4Q1BHSGlzMFpUSVF1SW1TUnhhTUo4VDFrQklQQWJlLXVCQXpraWFYRUYzRGxQN3NOWHFUcS1WWFliOWh1bFMyM0RLVl83emQyZkhmM0RyS1ZqNm1nRGlxM1c?oc=5",
-      "pubDate": "Sun, 05 Apr 2026 03:16:19 GMT"
-    },
-    {
-      "company": "Tesla",
       "title": "Tesla Delays Optimus Gen 3 Unveil for 'Finishing Touches' - Not a Tesla App",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY0F6VFpzblJfNk1wNTY2dEpiQUZyQWVZaXp3cUVRd0pUU050aFprWUlIeGpuTDhFeGQxQlh6V2NTdUVzWTBpTE5HdEpJV0RDZWhnMUNTdURwM1BScWc0SzRmSk1WMWhfcERMbUtlWXBkVUc5WXMwZTloakRQOGhYVjFJUlkteEZVejg0VkdrSnZVN2pyV1owdnJ3?oc=5",
       "pubDate": "Sat, 04 Apr 2026 10:08:54 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI expands Bay Area footprint to relaunch robotics push - CHOSUNBIZ - biz.chosun.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xeURGRUpRQThHVTE2aGxIZjlrS1VjWmpZTG0tdVpBblVtM0hTQjhfbTlLTjlKMGpSZjF1U2lMUVRXUExtQnh0YlVNT2RjZEFjNTF5ckhqV2tqVGI5OXZHLWE2WVVON1JLNEdvcUl0bUY0WXNyYjFPVDl30gGOAUFVX3lxTE5Ib2VwVWJ6WnR4Smp0eTVKY1dnNXBxVGU0NS02TWMwajgyMmNXRk1QemhYMFNjbVVsbTYtQlQ0U3NERGt3YVQyTXp5Ykd3YUJqWm5kWEV4LTFlUXpoWHRFWVkxbUdHcERCWndKaThlMVdoRG5Pb2dVWFlwa3hMU0doVDNkSS1ncjgwcVFzR1E?oc=5",
-      "pubDate": "Sat, 04 Apr 2026 00:52:00 GMT"
     },
     {
       "company": "Unitree",
@@ -41,7 +29,7 @@
     },
     {
       "company": "Figure AI",
-      "title": "Figure AI Demonstrates Humanoid Robot Mobility - letsdatascience.com",
+      "title": "Figure AI Demonstrates Humanoid Robot Mobility - Let's Data Science",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZzFvXzQtcEtrSFYxQnQxNktTNDZOWXhnMFpybXRMNk00eUZZLUdSeWZkRllMR0RIZGhkNDdXNGVMeG5wV0NHM1FlWVFUTGdWUUlacjctV2NIOUJDQ3Z4ZFZiamR2eWFzV0JTUjNOVVNiVmxWZk1iSXE4MURaNzZWZWZXLVppQnZGMjh1eVNaam1nZw?oc=5",
       "pubDate": "Thu, 02 Apr 2026 13:12:53 GMT"
     },
@@ -56,6 +44,12 @@
       "title": "OpenAI to Expand to East Bay With Plans For Huge New Robotics Facility - SFist",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2IzejVvVkhOdU9YZE16LUJUNW1RWWU0YVJwSTVmZElMa0NXNUFMb0p1VUQ5ZHhlWVJrYmk2ZnNNdEVmRV9zcFA0anU1Z2RsLVU0bGFaWklxMVFLQjJCdGdwYXhEbHU5T0xEd2hOZkNTeXkyeFJxMnRJbzB3S1p5UGZNQ1g1amhXc01MVGtRTkJkNE1oTW9raGJjeVFvM2FsWFdmbnc3R3FZYjFZUm41OXBGbE1mZw?oc=5",
       "pubDate": "Tue, 31 Mar 2026 23:37:39 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Elon Musk announces disappointing Tesla Optimus update - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVVlibVZCXzFsLVpQQTZ2dlhEdEIyOHNfaG5NNlNlWkxkSjZrLXBIUDJtakt3aXRFMTY3cV9nMVVxb0R3emU5OUFpdWQtMHM5QW9WRjFWS0JsMXRBc09OaTVPYnl2cVQ1LWg0SDVkaEphZnBPbnV4MnlXQ2ZIc2xNbWE2dHVYVTYw?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 21:50:09 GMT"
     },
     {
       "company": "Tesla",
@@ -76,6 +70,12 @@
       "pubDate": "Tue, 31 Mar 2026 09:38:24 GMT"
     },
     {
+      "company": "OpenAI",
+      "title": "News | OpenAI inks deal for potential robotics hub in California’s Bay Area - CoStar",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOWVRM1E4TXlxTXZwaERRYmJtSXByZjEwLTE0ams2SkM5NFVPcnI3czVaOUp5al9uY3dRUTMyRHFuVVlXMlB3QmxJaDNfdV9jaU80a0VaZEtzZ3plNWx4TlhBQ0djeEk4Qm9FZkI0NW9DYUVBUmh6bGhfT2hYVGNLR0Frb1ladTNKQ05saG5NN2ZKZ3Bvd3VWMmlaWnJYc1dzeW9nZ2JoNzhyQTNuVXZqeDM3WEgyckV1UldoaXVFSFY?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
+    },
+    {
       "company": "Figure AI",
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
@@ -86,6 +86,12 @@
       "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
+      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
     },
     {
       "company": "Unitree",
@@ -134,12 +140,6 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI Ramps Up Robotics Work in Race Toward AGI - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRUl6NjB0MGZDZDRiYjNOWnBTTF9wOWJpV21hTlFNSzJVcVcyaUNkcFNrV0Z4Sk1aaDM2TjlSdFVwUVFCbnBueE1CSUo4MVR4bUI1d0hfdERDclpXOUVvVmdMWkxFU240S2t0QWNIR21mWHF6dERpcHpHcDBYX3R2UWg1WQ?oc=5",
-      "pubDate": "Mon, 15 Sep 2025 07:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
