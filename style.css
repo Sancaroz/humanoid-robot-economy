@@ -1685,9 +1685,6 @@ body {
   outline:2px solid var(--accent2);
   outline-offset:2px;
 }
-.ad-marquee.is-dragging .ad-item-link{
-  pointer-events:none;
-}
 .ad-marquee:hover .ad-track{ animation-play-state:paused; }
 @keyframes adScroll{ 0%{transform:translateX(0);} 100%{transform:translateX(-50%);} }
 

@@ -674,6 +674,7 @@ if (adMarquee) {
   let startScrollLeft = 0;
   let draggedDistance = 0;
   let suppressClick = false;
+  let pointerDownLink = null;
   const DRAG_THRESHOLD = 8;
 
   const stopDrag = () => {
@@ -698,6 +699,7 @@ if (adMarquee) {
     startScrollLeft = adMarquee.scrollLeft;
     draggedDistance = 0;
     suppressClick = false;
+    pointerDownLink = event.target.closest('.ad-item-link');
     adMarquee.classList.add('is-dragging');
 
     if (typeof adMarquee.setPointerCapture === 'function') {
@@ -713,7 +715,28 @@ if (adMarquee) {
     adMarquee.scrollLeft = startScrollLeft - deltaX;
   });
 
-  adMarquee.addEventListener('pointerup', stopDrag);
+  adMarquee.addEventListener('pointerup', (event) => {
+    const shouldOpenLink = draggedDistance <= DRAG_THRESHOLD && pointerDownLink;
+    stopDrag();
+
+    if (!shouldOpenLink) {
+      pointerDownLink = null;
+      return;
+    }
+
+    const href = pointerDownLink.getAttribute('href');
+    const target = pointerDownLink.getAttribute('target');
+    pointerDownLink = null;
+
+    if (!href) return;
+
+    if (target === '_blank') {
+      window.open(href, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    window.location.href = href;
+  });
   adMarquee.addEventListener('pointercancel', stopDrag);
   adMarquee.addEventListener('pointerleave', stopDrag);
   adMarquee.addEventListener('dragstart', (event) => event.preventDefault());
