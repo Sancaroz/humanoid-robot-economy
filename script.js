@@ -42,6 +42,16 @@ const siteSearchStatus = document.getElementById('site-search-status');
 const aiQuestionInput = document.getElementById('ai-question-input');
 const aiAskBtn = document.getElementById('ai-ask-btn');
 const aiAnswerBox = document.getElementById('ai-answer-box');
+const newsFilterButtons = document.querySelectorAll('#home-news-filters [data-news-filter]');
+const dailySummaryList = document.getElementById('daily-summary-list');
+const miniCompareBody = document.getElementById('mini-compare-body');
+const newsletterForm = document.getElementById('newsletter-form');
+const newsletterEmail = document.getElementById('newsletter-email');
+const newsletterStatus = document.getElementById('newsletter-status');
+const followCompanyChips = document.querySelectorAll('#follow-company-chips input[type="checkbox"]');
+const drawerDock = document.getElementById('drawer-dock');
+const leftDrawer = document.getElementById('left-drawer-nav');
+const leftDrawerToggle = document.getElementById('left-drawer-toggle');
 var homeNewsSourceBadge = null;
 var latestHomeNewsMode = 'loading';
 const AI_PLATFORM_CONFIG = {
@@ -49,6 +59,9 @@ const AI_PLATFORM_CONFIG = {
   timeoutMs: 20000,
 };
 let latestNewsItems = [];
+let activeNewsFilter = localStorage.getItem('homeNewsFilter') || 'all';
+const FOLLOWED_COMPANIES_KEY = 'robologaiFollowCompaniesV1';
+const COMPARE_TREND_CACHE_KEY = 'robologaiCompareTrendV1';
 
 const NEWS_IMAGE_BY_COMPANY = {
   tesla: 'images/robots/tesla-original.jpg',
@@ -138,6 +151,235 @@ function updateLeadPlaceholders(lang) {
       aiQuestionInput.placeholder = aiPlaceholder;
     }
   }
+
+  if (newsletterEmail) {
+    const newsletterPlaceholder =
+      lang === 'tr' ? newsletterEmail.dataset.phTr : newsletterEmail.dataset.phEn;
+    if (newsletterPlaceholder) {
+      newsletterEmail.placeholder = newsletterPlaceholder;
+    }
+  }
+}
+
+function normalizeCompanyName(company) {
+  return String(company || '').trim().toLowerCase();
+}
+
+function getSelectedFollowCompanies() {
+  if (!followCompanyChips.length) {
+    return [];
+  }
+
+  return Array.from(followCompanyChips)
+    .filter((chip) => chip.checked)
+    .map((chip) => normalizeCompanyName(chip.value));
+}
+
+function getNewsCategory(item) {
+  const text = (item.company + ' ' + item.title).toLowerCase();
+
+  if (/invest|fund|series|financ|yatirim|yatırım|degerleme|valuation/.test(text)) {
+    return 'investment';
+  }
+
+  if (/partner|isbir|işbir|joint|agreement|alliance|cooperate|ortak/.test(text)) {
+    return 'partnership';
+  }
+
+  if (/demo|showcase|pilot|test|trial|tanitim|tanıtım|saha/.test(text)) {
+    return 'demo';
+  }
+
+  if (/factory|manufact|production|line|deploy|rollout|uretim|üretim|seri/.test(text)) {
+    return 'production';
+  }
+
+  return 'all';
+}
+
+function getImportanceNote(item, lang) {
+  const category = getNewsCategory(item);
+
+  if (lang === 'tr') {
+    if (category === 'production') return 'Neden önemli: Ölçekleme ve gerçek operasyon sinyali veriyor.';
+    if (category === 'partnership') return 'Neden önemli: Ekosistem entegrasyonu ve dağıtım gücünü artırıyor.';
+    if (category === 'investment') return 'Neden önemli: Şirketin büyüme hızı için finansal güven oyu gösterir.';
+    if (category === 'demo') return 'Neden önemli: Teknolojinin saha olgunluğunu doğrular.';
+    return 'Neden önemli: Pazar yönünü okumak için erken bir sinyal sunuyor.';
+  }
+
+  if (category === 'production') return 'Why it matters: Signals scaling and real-world operations.';
+  if (category === 'partnership') return 'Why it matters: Strengthens ecosystem integration and distribution.';
+  if (category === 'investment') return 'Why it matters: Shows financial confidence in growth speed.';
+  if (category === 'demo') return 'Why it matters: Confirms field maturity of the technology.';
+  return 'Why it matters: Offers an early signal about market direction.';
+}
+
+function getFilteredNewsItems(items) {
+  const selectedCompanies = getSelectedFollowCompanies();
+
+  return items.filter((item) => {
+    const companyMatch =
+      !selectedCompanies.length ||
+      selectedCompanies.includes(normalizeCompanyName(item.company));
+
+    const categoryMatch =
+      activeNewsFilter === 'all' || getNewsCategory(item) === activeNewsFilter;
+
+    return companyMatch && categoryMatch;
+  });
+}
+
+function formatMomentumScore(value, lang) {
+  if (value >= 4) return lang === 'tr' ? 'Yuksek' : 'High';
+  if (value >= 2) return lang === 'tr' ? 'Orta' : 'Medium';
+  return lang === 'tr' ? 'Dusuk' : 'Low';
+}
+
+function getTrendDirection(current, previous) {
+  if (typeof previous !== 'number') return 'flat';
+  if (current > previous) return 'up';
+  if (current < previous) return 'down';
+  return 'flat';
+}
+
+function getTrendLabel(direction, lang) {
+  if (direction === 'up') return lang === 'tr' ? 'Yukari' : 'Up';
+  if (direction === 'down') return lang === 'tr' ? 'Asagi' : 'Down';
+  return lang === 'tr' ? 'Sabit' : 'Flat';
+}
+
+function buildMomentumMeter(value, lang, trendDirection, deltaValue) {
+  const score = Math.max(0, Math.min(5, Number(value) || 0));
+  const percent = Math.round((score / 5) * 100);
+  const delta = Number(deltaValue) || 0;
+
+  const wrap = document.createElement('div');
+  wrap.className = 'momentum-meter';
+
+  const label = document.createElement('span');
+  label.className = 'momentum-label';
+  label.textContent = formatMomentumScore(score, lang);
+
+  const trend = document.createElement('span');
+  trend.className = 'momentum-trend momentum-trend-' + (trendDirection || 'flat');
+  const deltaText = delta > 0 ? '+' + delta : String(delta);
+  trend.textContent =
+    (trendDirection === 'up' ? '▲ ' : trendDirection === 'down' ? '▼ ' : '● ') +
+    deltaText + ' ' + getTrendLabel(trendDirection || 'flat', lang);
+
+  const bar = document.createElement('div');
+  bar.className = 'momentum-bar';
+
+  const fill = document.createElement('div');
+  fill.className = 'momentum-fill';
+  fill.style.width = percent + '%';
+  bar.appendChild(fill);
+
+  const spark = document.createElement('div');
+  spark.className = 'momentum-spark';
+
+  for (let i = 1; i <= 5; i += 1) {
+    const dot = document.createElement('span');
+    dot.className = 'momentum-dot';
+    if (i <= score) {
+      dot.classList.add('active');
+    }
+    spark.appendChild(dot);
+  }
+
+  wrap.appendChild(label);
+  wrap.appendChild(trend);
+  wrap.appendChild(bar);
+  wrap.appendChild(spark);
+
+  return wrap;
+}
+
+function updateDailySummary(items) {
+  if (!dailySummaryList) return;
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  dailySummaryList.innerHTML = '';
+
+  const topItems = items.slice(0, 3);
+  if (!topItems.length) {
+    const li = document.createElement('li');
+    li.textContent =
+      lang === 'tr'
+        ? 'Filtreye uygun haber yok. Takip modunu veya filtreyi degistir.'
+        : 'No news matches this filter. Adjust follow mode or filters.';
+    dailySummaryList.appendChild(li);
+    return;
+  }
+
+  topItems.forEach((item) => {
+    const li = document.createElement('li');
+    li.textContent =
+      sanitizeHtml(item.company) + ': ' + sanitizeHtml(item.title) + ' - ' + getImportanceNote(item, lang);
+    dailySummaryList.appendChild(li);
+  });
+}
+
+function updateMiniCompareTable(items) {
+  if (!miniCompareBody) return;
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  let previousCounts = {};
+  try {
+    const raw = localStorage.getItem(COMPARE_TREND_CACHE_KEY);
+    previousCounts = raw ? JSON.parse(raw) : {};
+  } catch (error) {
+    previousCounts = {};
+  }
+
+  const nextCounts = {};
+
+  const targets = [
+    { name: 'Tesla', focusTr: 'Humanoid + uretim', focusEn: 'Humanoid + production' },
+    { name: 'Figure AI', focusTr: 'Saha demo + ortaklik', focusEn: 'Field demo + partnerships' },
+    { name: 'Unitree', focusTr: 'Maliyet/performans robotik', focusEn: 'Cost/performance robotics' },
+  ];
+
+  miniCompareBody.innerHTML = '';
+  targets.forEach((target) => {
+    const related = items.filter(
+      (item) => normalizeCompanyName(item.company) === normalizeCompanyName(target.name)
+    );
+    const normalizedTarget = normalizeCompanyName(target.name);
+    const previous = Number(previousCounts[normalizedTarget]);
+    const hasPrevious = Number.isFinite(previous);
+    const delta = hasPrevious ? related.length - previous : 0;
+    const trendDirection = getTrendDirection(related.length, previous);
+    nextCounts[normalizedTarget] = related.length;
+
+    const latest = related[0];
+    const tr = document.createElement('tr');
+
+    const c1 = document.createElement('td');
+    c1.textContent = target.name;
+
+    const c2 = document.createElement('td');
+    c2.textContent = lang === 'tr' ? target.focusTr : target.focusEn;
+
+    const c3 = document.createElement('td');
+    c3.textContent = latest
+      ? formatRelativeDate(latest.pubDate, lang)
+      : lang === 'tr'
+        ? 'Bekleniyor'
+        : 'Pending';
+
+    const c4 = document.createElement('td');
+    c4.appendChild(buildMomentumMeter(related.length, lang, trendDirection, delta));
+
+    tr.appendChild(c1);
+    tr.appendChild(c2);
+    tr.appendChild(c3);
+    tr.appendChild(c4);
+    miniCompareBody.appendChild(tr);
+  });
+
+  localStorage.setItem(COMPARE_TREND_CACHE_KEY, JSON.stringify(nextCounts));
 }
 
 function setAiAnswer(text) {
@@ -285,6 +527,7 @@ function setLanguage(lang) {
 
   if (latestNewsItems.length) {
     renderNewsItems(latestNewsItems);
+    renderHomeNewsPreview(latestNewsItems);
   }
 
   setHomeNewsSourceBadge(latestHomeNewsMode);
@@ -388,6 +631,40 @@ if (mediaVideo && mediaWarnings.length) {
 const savedLang = localStorage.getItem('lang') || 'tr';
 setLanguage(savedLang);
 
+if (drawerDock && leftDrawer && leftDrawerToggle) {
+  const narrowScreenQuery = window.matchMedia('(max-width: 980px)');
+
+  const setDrawerState = (isOpen) => {
+    drawerDock.classList.toggle('left-drawer-open', isOpen);
+    leftDrawerToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  };
+
+  setDrawerState(!narrowScreenQuery.matches);
+
+  leftDrawerToggle.addEventListener('click', () => {
+    const currentlyOpen = drawerDock.classList.contains('left-drawer-open');
+    setDrawerState(!currentlyOpen);
+  });
+
+  leftDrawer.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (narrowScreenQuery.matches) {
+        setDrawerState(false);
+      }
+    });
+  });
+
+  const handleScreenChange = () => {
+    setDrawerState(!narrowScreenQuery.matches);
+  };
+
+  if (typeof narrowScreenQuery.addEventListener === 'function') {
+    narrowScreenQuery.addEventListener('change', handleScreenChange);
+  } else if (typeof narrowScreenQuery.addListener === 'function') {
+    narrowScreenQuery.addListener(handleScreenChange);
+  }
+}
+
 if (siteSearchInput) {
   const searchParam = new URLSearchParams(window.location.search).get('q');
   if (searchParam) {
@@ -434,6 +711,7 @@ const newsStatusEn = document.getElementById('news-status-en');
 const refreshNewsBtn = document.getElementById('refresh-news');
 const homeFeaturedNews = document.getElementById('home-featured-news');
 const homeNewsStream = document.getElementById('home-news-stream');
+const drawerMiniNewsList = document.getElementById('drawer-mini-news-list');
 homeNewsSourceBadge = document.getElementById('home-news-source-badge');
 
 const NEWS_SOURCES = [
@@ -585,12 +863,20 @@ async function fetchRssItems(source) {
 
 function renderNewsItems(items) {
   latestNewsItems = items.slice();
-  if (!newsList) return;
+  const filteredItems = getFilteredNewsItems(items);
+  renderDrawerMiniNews(filteredItems);
+  updateDailySummary(filteredItems);
+  updateMiniCompareTable(filteredItems);
+
+  if (!newsList) {
+    applySiteSearch();
+    return;
+  }
 
   const lang = localStorage.getItem('lang') || 'tr';
   newsList.innerHTML = '';
 
-  const finalItems = items.slice(0, 9);
+  const finalItems = filteredItems.slice(0, 9);
 
   finalItems.forEach((item) => {
     const li = document.createElement('li');
@@ -627,9 +913,14 @@ function renderNewsItems(items) {
     titleLink.rel = 'noopener noreferrer';
     titleLink.textContent = safeTitle;
 
+    const importance = document.createElement('p');
+    importance.className = 'news-importance';
+    importance.textContent = getImportanceNote(item, lang);
+
     li.appendChild(newsImage);
     li.appendChild(meta);
     li.appendChild(titleLink);
+    li.appendChild(importance);
 
     newsList.appendChild(li);
   });
@@ -637,11 +928,75 @@ function renderNewsItems(items) {
   applySiteSearch();
 }
 
+function renderDrawerMiniNews(items) {
+  if (!drawerMiniNewsList) return;
+
+  const lang = localStorage.getItem('lang') || 'tr';
+  drawerMiniNewsList.innerHTML = '';
+
+  const miniItems = items.slice(0, 3);
+  if (!miniItems.length) {
+    const emptyState = document.createElement('li');
+    emptyState.className = 'drawer-mini-item';
+    emptyState.textContent =
+      lang === 'tr' ? 'Henüz haber bulunamadı.' : 'No news available yet.';
+    drawerMiniNewsList.appendChild(emptyState);
+    return;
+  }
+
+  miniItems.forEach((item) => {
+    const safeTitle = sanitizeHtml(item.title);
+    const safeCompany = sanitizeHtml(item.company);
+    const safeDate = formatRelativeDate(item.pubDate, lang);
+    const safeImage = item.image || getNewsImageForCompany(item.company);
+
+    const li = document.createElement('li');
+    li.className = 'drawer-mini-item';
+
+    const thumb = document.createElement('img');
+    thumb.className = 'drawer-mini-thumb';
+    thumb.loading = 'lazy';
+    thumb.alt = safeCompany + ' mini news visual';
+    thumb.src = safeImage;
+
+    const body = document.createElement('div');
+    body.className = 'drawer-mini-body';
+
+    const head = document.createElement('div');
+    head.className = 'drawer-mini-head';
+
+    const source = document.createElement('span');
+    source.className = 'drawer-mini-source';
+    source.textContent = safeCompany;
+
+    const time = document.createElement('span');
+    time.className = 'drawer-mini-time';
+    time.textContent = safeDate;
+
+    const link = document.createElement('a');
+    link.className = 'drawer-mini-link';
+    link.href = item.link;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = safeTitle;
+
+    head.appendChild(source);
+    head.appendChild(time);
+
+    body.appendChild(head);
+    body.appendChild(link);
+
+    li.appendChild(thumb);
+    li.appendChild(body);
+    drawerMiniNewsList.appendChild(li);
+  });
+}
+
 function renderHomeNewsPreview(items) {
   if (!homeFeaturedNews && !homeNewsStream) return;
 
   const lang = localStorage.getItem('lang') || 'tr';
-  const finalItems = items.slice(0, 6);
+  const finalItems = getFilteredNewsItems(items).slice(0, 6);
   const featured = finalItems[0];
 
   if (homeFeaturedNews) {
@@ -664,7 +1019,15 @@ function renderHomeNewsPreview(items) {
         '<span class="news-time">' + safeDate + '</span>' +
         '</div>' +
         '<a class="home-featured-title" href="' + featured.link + '" target="_blank" rel="noopener noreferrer">' + safeTitle + '</a>' +
+        '<p class="news-importance">' + getImportanceNote(featured, lang) + '</p>' +
         '</div>';
+    } else {
+      homeFeaturedNews.innerHTML =
+        '<div class="home-featured-body"><p class="news-importance">' +
+        (lang === 'tr'
+          ? 'Filtreye uygun haber bulunamadi. Filtreleri degistirebilirsin.'
+          : 'No news matched this filter. You can adjust filters.') +
+        '</p></div>';
     }
   }
 
@@ -686,11 +1049,83 @@ function renderHomeNewsPreview(items) {
         '<span class="news-source">' + safeCompany + '</span>' +
         '<span class="news-time">' + safeDate + '</span>' +
         '</div>' +
+        '<p class="news-importance">' + getImportanceNote(item, lang) + '</p>' +
         '<a class="home-news-link" href="' + item.link + '" target="_blank" rel="noopener noreferrer">' + safeTitle + '</a>' +
         '</div>';
       homeNewsStream.appendChild(li);
     });
   }
+}
+
+function syncNewsFilterButtons() {
+  if (!newsFilterButtons.length) return;
+
+  newsFilterButtons.forEach((button) => {
+    button.classList.toggle('active', button.dataset.newsFilter === activeNewsFilter);
+  });
+}
+
+function setupFollowMode() {
+  if (!followCompanyChips.length) return;
+
+  let selected = [];
+  try {
+    const saved = localStorage.getItem(FOLLOWED_COMPANIES_KEY);
+    const parsed = saved ? JSON.parse(saved) : [];
+    selected = Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    selected = [];
+  }
+
+  followCompanyChips.forEach((chip) => {
+    chip.checked = selected.includes(chip.value);
+    chip.addEventListener('change', () => {
+      const values = getSelectedFollowCompanies();
+      const originalCase = values.map((value) => {
+        const match = Array.from(followCompanyChips).find(
+          (chipItem) => normalizeCompanyName(chipItem.value) === value
+        );
+        return match ? match.value : value;
+      });
+      localStorage.setItem(FOLLOWED_COMPANIES_KEY, JSON.stringify(originalCase));
+      if (latestNewsItems.length) {
+        renderNewsItems(latestNewsItems);
+        renderHomeNewsPreview(latestNewsItems);
+      }
+    });
+  });
+}
+
+if (newsletterForm && newsletterEmail && newsletterStatus) {
+  newsletterForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const lang = localStorage.getItem('lang') || 'tr';
+    if (!newsletterForm.checkValidity()) {
+      newsletterForm.reportValidity();
+      return;
+    }
+
+    const email = newsletterEmail.value.trim();
+    const subject =
+      lang === 'tr'
+        ? 'RoboLogAI Haftalik Bulten Kaydi'
+        : 'RoboLogAI Weekly Digest Signup';
+    const body =
+      lang === 'tr'
+        ? 'Merhaba, haftalik bultene bu e-posta ile katilmak istiyorum: ' + email
+        : 'Hello, I want to join the weekly digest with this email: ' + email;
+
+    window.location.href =
+      'mailto:robologai@gmail.com?subject=' +
+      encodeURIComponent(subject) +
+      '&body=' +
+      encodeURIComponent(body);
+
+    newsletterStatus.textContent =
+      lang === 'tr'
+        ? 'E-posta taslagi acildi. Gonderince bultene kayit talebin iletilecek.'
+        : 'Email draft opened. Send it to request digest signup.';
+  });
 }
 
 async function fetchNewsFromStaticFile() {
@@ -800,6 +1235,23 @@ async function loadLiveNews() {
 if (refreshNewsBtn) {
   refreshNewsBtn.addEventListener('click', loadLiveNews);
 }
+
+if (newsFilterButtons.length) {
+  syncNewsFilterButtons();
+  newsFilterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      activeNewsFilter = button.dataset.newsFilter || 'all';
+      localStorage.setItem('homeNewsFilter', activeNewsFilter);
+      syncNewsFilterButtons();
+      if (latestNewsItems.length) {
+        renderNewsItems(latestNewsItems);
+        renderHomeNewsPreview(latestNewsItems);
+      }
+    });
+  });
+}
+
+setupFollowMode();
 
 if (siteSearchBtn) {
   siteSearchBtn.addEventListener('click', applySiteSearch);

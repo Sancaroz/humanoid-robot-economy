@@ -21,6 +21,8 @@ const MEMBER_BLOCKED_WORDS = [
   'porn',
 ];
 
+const MEMBER_EXPERT_AUTHORS = ['robologai', 'editor', 'mod', 'admin'];
+
 const memberPostForm = document.getElementById('member-post-form');
 const memberPostStatus = document.getElementById('member-post-status');
 const memberPostList = document.getElementById('member-post-list');
@@ -69,6 +71,11 @@ function containsBlockedWords(text) {
 function hasTooManyLinks(text) {
   const links = safeText(text).match(/https?:\/\/|www\./gi);
   return Array.isArray(links) && links.length > 2;
+}
+
+function isExpertAuthor(name) {
+  const normalized = toLowerSafe(name);
+  return MEMBER_EXPERT_AUTHORS.some((token) => normalized.includes(token));
 }
 
 function createCaptcha() {
@@ -450,6 +457,13 @@ function createPostCard(post) {
 
   const author = document.createElement('strong');
   author.textContent = safeText(post.name);
+
+  if (isExpertAuthor(post.name)) {
+    const badge = document.createElement('span');
+    badge.className = 'member-author-badge';
+    badge.textContent = memberText('Uzman Yorum', 'Expert Insight');
+    author.appendChild(badge);
+  }
 
   const time = document.createElement('span');
   time.className = 'member-post-time';

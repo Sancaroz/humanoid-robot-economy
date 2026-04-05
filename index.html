@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Humanoid ve Yapay Zeka Gelecegi</title>
-  <meta name="description" content="Humanoid robotik ve yapay zeka gelismelerini bagimsiz arastirma notlariyla takip eden bilgi paylasim platformu." />
+  <title>Humanoid ve Yapay Zeka Geleceği</title>
+  <meta name="description" content="Humanoid robotik ve yapay zeka gelişmelerini bağımsız araştırma notlarıyla takip eden bilgi paylaşım platformu." />
   <link rel="canonical" href="https://robologai.com/" />
   <meta property="og:url" content="https://robologai.com/" />
   <link rel="stylesheet" href="style.css" />
@@ -97,49 +97,115 @@
       </div>
     </section>
 
-  <section class="mini-page-tabs page-tabs-strip" aria-label="Hizli sayfa sekmeleri">
-    <a class="mini-tab" href="member-blog.html">
-      <span data-lang="tr">Uye Blog</span>
-      <span data-lang="en" class="hidden">Member Blog</span>
-    </a>
-    <a class="mini-tab" href="about.html">
-      <span data-lang="tr">Hakkinda</span>
-      <span data-lang="en" class="hidden">About</span>
-    </a>
-    <a class="mini-tab" href="news.html">
-      <span data-lang="tr">Haberler</span>
-      <span data-lang="en" class="hidden">News</span>
-    </a>
-    <a class="mini-tab" href="companies.html">
-      <span data-lang="tr">Sirketler</span>
-      <span data-lang="en" class="hidden">Companies</span>
-    </a>
-    <a class="mini-tab sponsor-tab" href="sponsor.html">
-      <span data-lang="tr">Isbirligi ve Sponsorluk</span>
-      <span data-lang="en" class="hidden">Collaboration and Sponsorship</span>
-    </a>
+  <section id="drawer-dock" class="drawer-dock" aria-label="Sabit hızlı menü">
+    <div class="drawer-dock-inner">
+      <button id="left-drawer-toggle" class="left-drawer-toggle" type="button" aria-expanded="false" aria-controls="left-drawer-nav">
+        <span class="left-drawer-icon" aria-hidden="true">☰</span>
+        <span data-lang="tr">Menü</span>
+        <span data-lang="en" class="hidden">Menu</span>
+      </button>
+
+      <div class="drawer-dock-row">
+        <aside id="left-drawer-nav" class="left-drawer vertical-drawer" aria-label="Site bölümleri">
+          <div class="vertical-drawer-inner">
+            <p class="sidebar-heading" data-lang="tr">Hızlı Geçiş</p>
+            <p class="sidebar-heading hidden" data-lang="en">Quick Access</p>
+            <nav class="sidebar-nav" aria-label="Sayfa bağlantıları">
+              <a class="sidebar-link" href="#hero">
+                <span data-lang="tr">Ana Giriş</span>
+                <span data-lang="en" class="hidden">Intro</span>
+              </a>
+              <a class="sidebar-link" href="#home-news-hub">
+                <span data-lang="tr">Güncel Haberler</span>
+                <span data-lang="en" class="hidden">Latest News</span>
+              </a>
+              <a class="sidebar-link" href="#about">
+                <span data-lang="tr">AI ve Robotik Ekonomi</span>
+                <span data-lang="en" class="hidden">AI and Robotics Economy</span>
+              </a>
+              <a class="sidebar-link" href="#lead-hub">
+                <span data-lang="tr">İletişim ve Mesaj</span>
+                <span data-lang="en" class="hidden">Contact and Message</span>
+              </a>
+              <a class="sidebar-link" href="member-blog.html">
+                <span data-lang="tr">Üye Blog</span>
+                <span data-lang="en" class="hidden">Member Blog</span>
+              </a>
+              <a class="sidebar-link" href="about.html">
+                <span data-lang="tr">Hakkında</span>
+                <span data-lang="en" class="hidden">About</span>
+              </a>
+              <a class="sidebar-link" href="news.html">
+                <span data-lang="tr">Haberler</span>
+                <span data-lang="en" class="hidden">News</span>
+              </a>
+              <a class="sidebar-link" href="companies.html">
+                <span data-lang="tr">Şirketler</span>
+                <span data-lang="en" class="hidden">Companies</span>
+              </a>
+              <a class="sidebar-link" href="sponsor.html">
+                <span data-lang="tr">İşbirliği ve Sponsorluk</span>
+                <span data-lang="en" class="hidden">Collaboration and Sponsorship</span>
+              </a>
+            </nav>
+          </div>
+        </aside>
+
+        <section id="drawer-mini-news" class="drawer-mini-news" aria-label="Canlı mini haber akışı">
+          <p class="drawer-mini-title" data-lang="tr">Canlı Mini Haber</p>
+          <p class="drawer-mini-title hidden" data-lang="en">Live Mini News</p>
+          <ul id="drawer-mini-news-list" class="drawer-mini-news-list">
+            <li class="drawer-mini-item" data-lang="tr">Haberler yükleniyor...</li>
+            <li class="drawer-mini-item hidden" data-lang="en">Loading latest news...</li>
+          </ul>
+        </section>
+      </div>
+    </div>
   </section>
 
-  <div class="page-layout">
+  <div class="page-layout" id="home-page-layout">
     <main class="container">
     <section id="hero">
-      <p data-lang="tr">Amator ve bagimsiz bir arastirmaci olarak AI + robotik alanindaki gelismeleri duzenli notlar ve kaynaklarla paylasiyorum.</p>
+      <p data-lang="tr">Amatör ve bağımsız bir araştırmacı olarak AI + robotik alanındaki gelişmeleri düzenli notlar ve kaynaklarla paylaşıyorum.</p>
       <p data-lang="en" class="hidden">As an independent hobby researcher, I share regular notes and sources on AI + robotics developments.</p>
     </section>
 
     <section id="home-news-hub">
       <div class="home-news-head">
         <div>
-          <h2 data-lang="tr">Sirketlerde Son Guncel Haberler</h2>
+          <h2 data-lang="tr">Şirketlerde Son Güncel Haberler</h2>
           <h2 data-lang="en" class="hidden">Latest Company News Updates</h2>
-          <p data-lang="tr">Humanoid robotik ve yapay zeka sirketlerinden son haberler ve haber gorselleri.</p>
+          <p data-lang="tr">Humanoid robotik ve yapay zeka şirketlerinden son haberler ve haber görselleri.</p>
           <p data-lang="en" class="hidden">Latest updates and news visuals from humanoid robotics and AI companies.</p>
-          <p id="home-news-source-badge" class="home-news-source-badge loading">Durum: Yukleniyor...</p>
+          <p id="home-news-source-badge" class="home-news-source-badge loading">Durum: Yükleniyor...</p>
         </div>
         <a class="mini-tab" href="news.html">
-          <span data-lang="tr">Tum haberler</span>
+          <span data-lang="tr">Tüm haberler</span>
           <span data-lang="en" class="hidden">All news</span>
         </a>
+      </div>
+
+      <div id="home-news-filters" class="home-news-filters" aria-label="Haber filtreleri">
+        <button class="post-filter active" type="button" data-news-filter="all">
+          <span data-lang="tr">Tümü</span>
+          <span data-lang="en" class="hidden">All</span>
+        </button>
+        <button class="post-filter" type="button" data-news-filter="production">
+          <span data-lang="tr">Üretim</span>
+          <span data-lang="en" class="hidden">Production</span>
+        </button>
+        <button class="post-filter" type="button" data-news-filter="partnership">
+          <span data-lang="tr">Ortaklık</span>
+          <span data-lang="en" class="hidden">Partnership</span>
+        </button>
+        <button class="post-filter" type="button" data-news-filter="investment">
+          <span data-lang="tr">Yatırım</span>
+          <span data-lang="en" class="hidden">Investment</span>
+        </button>
+        <button class="post-filter" type="button" data-news-filter="demo">
+          <span data-lang="tr">Demo</span>
+          <span data-lang="en" class="hidden">Demo</span>
+        </button>
       </div>
 
       <div class="home-news-grid">
@@ -148,10 +214,10 @@
           <div class="home-featured-body">
             <div class="news-meta">
               <span class="news-source">RoboLogAI</span>
-              <span class="news-time" data-lang="tr">Simdi</span>
+              <span class="news-time" data-lang="tr">Şimdi</span>
               <span class="news-time hidden" data-lang="en">Now</span>
             </div>
-            <a class="home-featured-title" href="news.html" data-lang="tr">Canli haber akisi yukleniyor, tum guncel basliklar icin tikla.</a>
+            <a class="home-featured-title" href="news.html" data-lang="tr">Canlı haber akışı yükleniyor, tüm güncel başlıklar için tıkla.</a>
             <a class="home-featured-title hidden" href="news.html" data-lang="en">Live news feed is loading, click for all latest headlines.</a>
           </div>
         </article>
@@ -163,7 +229,7 @@
                 <div class="news-meta">
                   <span class="news-source">Tesla</span>
                 </div>
-                <a class="home-news-link" href="news.html" data-lang="tr">Tesla ve diger sirketler icin son haberleri gor.</a>
+                <a class="home-news-link" href="news.html" data-lang="tr">Tesla ve diğer şirketler için son haberleri gör.</a>
                 <a class="home-news-link hidden" href="news.html" data-lang="en">See the latest updates for Tesla and other companies.</a>
               </div>
             </li>
@@ -173,7 +239,7 @@
                 <div class="news-meta">
                   <span class="news-source">Figure AI</span>
                 </div>
-                <a class="home-news-link" href="news.html" data-lang="tr">Figure AI, Unitree, OpenAI ve daha fazlasi burada.</a>
+                <a class="home-news-link" href="news.html" data-lang="tr">Figure AI, Unitree, OpenAI ve daha fazlası burada.</a>
                 <a class="home-news-link hidden" href="news.html" data-lang="en">Figure AI, Unitree, OpenAI and more are listed here.</a>
               </div>
             </li>
@@ -182,26 +248,143 @@
       </div>
     </section>
 
+    <section id="dashboard-head" class="dashboard-head">
+      <p class="dashboard-kicker" data-lang="tr">RoboLogAI Kontrol Paneli</p>
+      <p class="dashboard-kicker hidden" data-lang="en">RoboLogAI Control Panel</p>
+      <h3 data-lang="tr">Günlük içgörü, karşılaştırma ve takip araçları</h3>
+      <h3 data-lang="en" class="hidden">Daily insights, comparison, and tracking tools</h3>
+    </section>
+
+    <section id="insight-hub" class="insight-hub">
+      <article id="daily-summary-card" class="insight-card insight-card-summary">
+        <h3 data-lang="tr">Günün Özeti</h3>
+        <h3 data-lang="en" class="hidden">Daily Snapshot</h3>
+        <ul id="daily-summary-list" class="insight-list">
+          <li data-lang="tr">Haberler yüklenirken özet hazırlanıyor...</li>
+          <li data-lang="en" class="hidden">Summary is being prepared while news loads...</li>
+        </ul>
+      </article>
+
+      <article id="company-compare-card" class="insight-card insight-card-compare">
+        <h3 data-lang="tr">Şirket Karşılaştırma Mini Tablosu</h3>
+        <h3 data-lang="en" class="hidden">Company Mini Compare Table</h3>
+        <div class="table-wrap">
+          <table class="mini-compare-table">
+            <thead>
+              <tr>
+                <th data-lang="tr">Şirket</th>
+                <th data-lang="en" class="hidden">Company</th>
+                <th data-lang="tr">Odak</th>
+                <th data-lang="en" class="hidden">Focus</th>
+                <th data-lang="tr">Son Haber</th>
+                <th data-lang="en" class="hidden">Last Update</th>
+                <th data-lang="tr">Momentum</th>
+                <th data-lang="en" class="hidden">Momentum</th>
+              </tr>
+            </thead>
+            <tbody id="mini-compare-body">
+              <tr>
+                <td>Tesla</td>
+                <td data-lang="tr">Bekleniyor</td>
+                <td data-lang="en" class="hidden">Pending</td>
+                <td data-lang="tr">Bekleniyor</td>
+                <td data-lang="en" class="hidden">Pending</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="insight-card insight-card-radar">
+        <h3 data-lang="tr">Haftalık Radar</h3>
+        <h3 data-lang="en" class="hidden">Weekly Radar</h3>
+        <ul class="insight-list">
+          <li data-lang="tr">Tesla ve Figure üretim hattı kapasite haberleri</li>
+          <li data-lang="en" class="hidden">Tesla and Figure production-line capacity updates</li>
+          <li data-lang="tr">Depo otomasyonunda Unitree ve Agility pilotları</li>
+          <li data-lang="en" class="hidden">Unitree and Agility pilots in warehouse automation</li>
+          <li data-lang="tr">OpenAI + robotik yazılım ortaklık sinyalleri</li>
+          <li data-lang="en" class="hidden">OpenAI + robotics software partnership signals</li>
+          <li data-lang="tr">Maliyet düşüşü ve yatırım turu duyuruları</li>
+          <li data-lang="en" class="hidden">Cost-down trends and funding round announcements</li>
+          <li data-lang="tr">Saha güvenliği ve regülasyon haberleri</li>
+          <li data-lang="en" class="hidden">Field safety and regulation news</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="onboarding-hub" class="insight-card insight-card-guide">
+      <h3 data-lang="tr">Yeni Başlayanlar için 7 Adım Rehber</h3>
+      <h3 data-lang="en" class="hidden">7-Step Beginner Guide</h3>
+      <ol class="insight-list ordered">
+        <li data-lang="tr">Önce şirketleri tanı: Tesla, Figure, Unitree, OpenAI.</li>
+        <li data-lang="en" class="hidden">Start with core companies: Tesla, Figure, Unitree, OpenAI.</li>
+        <li data-lang="tr">Üretim ve demo haberlerini ayrı takip et.</li>
+        <li data-lang="en" class="hidden">Track production and demo updates separately.</li>
+        <li data-lang="tr">Ortaklık haberlerini not al, ekosistemi gösterir.</li>
+        <li data-lang="en" class="hidden">Watch partnerships; they reveal ecosystem direction.</li>
+        <li data-lang="tr">Maliyet ve yatırım sinyallerini karşılaştır.</li>
+        <li data-lang="en" class="hidden">Compare cost and funding signals.</li>
+        <li data-lang="tr">Haftalık radar listesini düzenli kontrol et.</li>
+        <li data-lang="en" class="hidden">Review weekly radar items regularly.</li>
+        <li data-lang="tr">Üye Blog yorumlarında sahadan içgörü topla.</li>
+        <li data-lang="en" class="hidden">Use member comments for field-level insights.</li>
+        <li data-lang="tr">Takip modunda 2-3 şirkete odaklanıp derinleş.</li>
+        <li data-lang="en" class="hidden">Use follow mode to focus on 2-3 companies deeply.</li>
+      </ol>
+    </section>
+
+    <section id="newsletter-hub" class="insight-card insight-card-digest">
+      <h3 data-lang="tr">Haftalık E-posta Bülteni</h3>
+      <h3 data-lang="en" class="hidden">Weekly Email Digest</h3>
+      <p data-lang="tr">Her hafta 5 önemli robotik/AI gelişmesini tek e-postada al.</p>
+      <p data-lang="en" class="hidden">Get 5 key robotics/AI updates in one weekly email.</p>
+      <form id="newsletter-form" class="newsletter-form" novalidate>
+        <input id="newsletter-email" type="email" required data-ph-tr="ornek@eposta.com" data-ph-en="name@email.com" placeholder="ornek@eposta.com" />
+        <button class="btn" type="submit">
+          <span data-lang="tr">Bültene Katıl</span>
+          <span data-lang="en" class="hidden">Join Digest</span>
+        </button>
+      </form>
+      <p id="newsletter-status" class="form-status" aria-live="polite"></p>
+    </section>
+
+    <section id="follow-mode" class="insight-card insight-card-follow">
+      <h3 data-lang="tr">Şirket Takip Modu</h3>
+      <h3 data-lang="en" class="hidden">Company Follow Mode</h3>
+      <p data-lang="tr">2-3 şirket seç, haber akışı seçtiklerine göre filtrelensin.</p>
+      <p data-lang="en" class="hidden">Pick 2-3 companies and filter the feed accordingly.</p>
+      <div id="follow-company-chips" class="follow-company-chips">
+        <label><input type="checkbox" value="Tesla" /> Tesla</label>
+        <label><input type="checkbox" value="Figure AI" /> Figure AI</label>
+        <label><input type="checkbox" value="Unitree" /> Unitree</label>
+        <label><input type="checkbox" value="OpenAI" /> OpenAI</label>
+        <label><input type="checkbox" value="Agility Robotics" /> Agility Robotics</label>
+        <label><input type="checkbox" value="Boston Dynamics" /> Boston Dynamics</label>
+      </div>
+    </section>
+
     <section id="about">
       <h2 data-lang="tr">Robotik ve AI ile Yeni Ekonomi</h2>
       <h2 data-lang="en" class="hidden">A New Economy with Robotics and AI</h2>
       <ul>
-        <li data-lang="tr">Bu site bir sirket veya is ilani platformu degildir</li>
+        <li data-lang="tr">Bu site bir şirket veya iş ilanı platformu değildir</li>
         <li data-lang="en" class="hidden">This website is not a company or a job-offer platform</li>
-        <li data-lang="tr">Amac: guvenilir kaynaklari derleyip sade bir arastirma arsivi olusturmak</li>
+        <li data-lang="tr">Amaç: güvenilir kaynakları derleyip sade bir araştırma arşivi oluşturmak</li>
         <li data-lang="en" class="hidden">Goal: curate reliable sources and build a simple research archive</li>
       </ul>
     </section>
 
     <section id="lead-hub">
       <div class="lead-copy">
-        <h2 data-lang="tr">Bagimsiz Arastirma Notlari ve Topluluk</h2>
+        <h2 data-lang="tr">Bağımsız Araştırma Notları ve Topluluk</h2>
         <h2 data-lang="en" class="hidden">Independent Research Notes and Community</h2>
-        <p data-lang="tr">Bu alanda ogrendiklerimi derleyip paylasiyorum. Gorus, kaynak veya duzeltme onerin varsa memnuniyetle eklerim.</p>
+        <p data-lang="tr">Bu alanda öğrendiklerimi derleyip paylaşıyorum. Görüş, kaynak veya düzeltme önerin varsa memnuniyetle eklerim.</p>
         <p data-lang="en" class="hidden">I collect and share what I learn in this field. If you have suggestions, sources, or corrections, I would be happy to include them.</p>
 
         <div class="lead-badges">
-          <span class="lead-pill" data-lang="tr">Bagimsiz arastirmaci</span>
+          <span class="lead-pill" data-lang="tr">Bağımsız araştırmacı</span>
           <span class="lead-pill hidden" data-lang="en">Independent researcher</span>
           <span class="lead-pill" data-lang="tr">Ticari hizmet sunulmaz</span>
           <span class="lead-pill hidden" data-lang="en">No commercial services</span>
@@ -210,7 +393,7 @@
         </div>
 
         <div class="lead-actions">
-          <a class="btn" href="mailto:robologai@gmail.com?subject=RoboLogAI%20Okur%20Mesaji" data-lang="tr">E-posta ile ulas</a>
+          <a class="btn" href="mailto:robologai@gmail.com?subject=RoboLogAI%20Okur%20Mesaji" data-lang="tr">E-posta ile ulaş</a>
           <a class="btn hidden" href="mailto:robologai@gmail.com?subject=RoboLogAI%20Reader%20Message" data-lang="en">Send email</a>
           <a class="btn btn-alt" href="https://wa.me/905000000000" target="_blank" rel="noopener noreferrer" data-lang="tr">WhatsApp yaz</a>
           <a class="btn btn-alt hidden" href="https://wa.me/905000000000" target="_blank" rel="noopener noreferrer" data-lang="en">Message on WhatsApp</a>
@@ -218,14 +401,14 @@
       </div>
 
       <form id="lead-form" class="lead-form" novalidate>
-        <h3 data-lang="tr">Okur Mesaji Formu</h3>
+        <h3 data-lang="tr">Okur Mesajı Formu</h3>
         <h3 data-lang="en" class="hidden">Reader Message Form</h3>
 
         <label for="lead-name">
           <span data-lang="tr">Ad Soyad</span>
           <span data-lang="en" class="hidden">Full Name</span>
         </label>
-        <input id="lead-name" name="name" type="text" required data-ph-tr="Adiniz Soyadiniz" data-ph-en="Your full name" />
+        <input id="lead-name" name="name" type="text" required data-ph-tr="Adınız Soyadınız" data-ph-en="Your full name" />
 
         <label for="lead-email">
           <span data-lang="tr">E-posta</span>
@@ -234,13 +417,13 @@
         <input id="lead-email" name="email" type="email" required data-ph-tr="ornek@eposta.com" data-ph-en="name@email.com" />
 
         <label for="lead-focus">
-          <span data-lang="tr">Mesajiniz</span>
+          <span data-lang="tr">Mesajınız</span>
           <span data-lang="en" class="hidden">Your Message</span>
         </label>
-        <textarea id="lead-focus" name="focus" rows="4" required data-ph-tr="Gorusunu, kaynak onerini veya duzeltmeni yazabilirsin." data-ph-en="You can share your opinion, source suggestion, or correction."></textarea>
+        <textarea id="lead-focus" name="focus" rows="4" required data-ph-tr="Görüşünü, kaynak önerini veya düzeltmeni yazabilirsin." data-ph-en="You can share your opinion, source suggestion, or correction."></textarea>
 
         <button class="btn" type="submit">
-          <span data-lang="tr">Mesaji gonder</span>
+          <span data-lang="tr">Mesajı gönder</span>
           <span data-lang="en" class="hidden">Send message</span>
         </button>
         <p id="lead-status" class="form-status" aria-live="polite"></p>
@@ -255,13 +438,13 @@
         <a class="footer-social-link" href="https://youtube.com/@robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI YouTube">YouTube</a>
         <a class="footer-social-link" href="https://x.com/robologai" target="_blank" rel="noopener noreferrer" aria-label="RoboLogAI X">X</a>
       </div>
-      <p>© 2026 RoboLogAI | Bagimsiz Arastirma Notlari | TR + EN</p>
+      <p>© 2026 RoboLogAI | Bağımsız Araştırma Notları | TR + EN</p>
     </div>
   </footer>
 
   <script>
     window.ROBOLOGAI_AI_ENDPOINT = "";
   </script>
-  <script src="script.js?v=20260405a"></script>
+  <script src="script.js?v=20260405e"></script>
 </body>
 </html>
