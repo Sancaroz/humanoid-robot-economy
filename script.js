@@ -673,8 +673,19 @@ if (adMarquee) {
   let startX = 0;
   let startScrollLeft = 0;
   let draggedDistance = 0;
+  let suppressClick = false;
+  const DRAG_THRESHOLD = 8;
 
   const stopDrag = () => {
+    if (!isDragging) return;
+
+    if (draggedDistance > DRAG_THRESHOLD) {
+      suppressClick = true;
+      window.setTimeout(() => {
+        suppressClick = false;
+      }, 0);
+    }
+
     isDragging = false;
     adMarquee.classList.remove('is-dragging');
   };
@@ -686,6 +697,7 @@ if (adMarquee) {
     startX = event.clientX;
     startScrollLeft = adMarquee.scrollLeft;
     draggedDistance = 0;
+    suppressClick = false;
     adMarquee.classList.add('is-dragging');
 
     if (typeof adMarquee.setPointerCapture === 'function') {
@@ -703,12 +715,13 @@ if (adMarquee) {
 
   adMarquee.addEventListener('pointerup', stopDrag);
   adMarquee.addEventListener('pointercancel', stopDrag);
+  adMarquee.addEventListener('pointerleave', stopDrag);
   adMarquee.addEventListener('dragstart', (event) => event.preventDefault());
 
   adMarquee.addEventListener(
     'click',
     (event) => {
-      if (draggedDistance > 5) {
+      if (suppressClick) {
         event.preventDefault();
         event.stopPropagation();
       }
