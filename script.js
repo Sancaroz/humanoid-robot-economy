@@ -42,6 +42,8 @@ const siteSearchStatus = document.getElementById('site-search-status');
 const aiQuestionInput = document.getElementById('ai-question-input');
 const aiAskBtn = document.getElementById('ai-ask-btn');
 const aiAnswerBox = document.getElementById('ai-answer-box');
+var homeNewsSourceBadge = null;
+var latestHomeNewsMode = 'loading';
 const AI_PLATFORM_CONFIG = {
   endpoint: window.ROBOLOGAI_AI_ENDPOINT || '',
   timeoutMs: 20000,
@@ -432,8 +434,7 @@ const newsStatusEn = document.getElementById('news-status-en');
 const refreshNewsBtn = document.getElementById('refresh-news');
 const homeFeaturedNews = document.getElementById('home-featured-news');
 const homeNewsStream = document.getElementById('home-news-stream');
-const homeNewsSourceBadge = document.getElementById('home-news-source-badge');
-let latestHomeNewsMode = 'loading';
+homeNewsSourceBadge = document.getElementById('home-news-source-badge');
 
 const NEWS_SOURCES = [
   {
