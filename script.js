@@ -52,6 +52,7 @@ const followCompanyChips = document.querySelectorAll('#follow-company-chips inpu
 const drawerDock = document.getElementById('drawer-dock');
 const leftDrawer = document.getElementById('left-drawer-nav');
 const leftDrawerToggle = document.getElementById('left-drawer-toggle');
+const adMarquee = document.querySelector('.ad-marquee');
 var homeNewsSourceBadge = null;
 var latestHomeNewsMode = 'loading';
 const AI_PLATFORM_CONFIG = {
@@ -665,6 +666,55 @@ if (drawerDock && leftDrawer && leftDrawerToggle) {
   } else if (typeof narrowScreenQuery.addListener === 'function') {
     narrowScreenQuery.addListener(handleScreenChange);
   }
+}
+
+if (adMarquee) {
+  let isDragging = false;
+  let startX = 0;
+  let startScrollLeft = 0;
+  let draggedDistance = 0;
+
+  const stopDrag = () => {
+    isDragging = false;
+    adMarquee.classList.remove('is-dragging');
+  };
+
+  adMarquee.addEventListener('pointerdown', (event) => {
+    if (event.button !== 0) return;
+
+    isDragging = true;
+    startX = event.clientX;
+    startScrollLeft = adMarquee.scrollLeft;
+    draggedDistance = 0;
+    adMarquee.classList.add('is-dragging');
+
+    if (typeof adMarquee.setPointerCapture === 'function') {
+      adMarquee.setPointerCapture(event.pointerId);
+    }
+  });
+
+  adMarquee.addEventListener('pointermove', (event) => {
+    if (!isDragging) return;
+
+    const deltaX = event.clientX - startX;
+    draggedDistance = Math.max(draggedDistance, Math.abs(deltaX));
+    adMarquee.scrollLeft = startScrollLeft - deltaX;
+  });
+
+  adMarquee.addEventListener('pointerup', stopDrag);
+  adMarquee.addEventListener('pointercancel', stopDrag);
+  adMarquee.addEventListener('dragstart', (event) => event.preventDefault());
+
+  adMarquee.addEventListener(
+    'click',
+    (event) => {
+      if (draggedDistance > 5) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    },
+    true
+  );
 }
 
 if (siteSearchInput) {

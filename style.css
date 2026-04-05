@@ -1626,12 +1626,21 @@ body {
   padding:0.85rem 0; overflow:hidden; margin-bottom:0; width:100%;
 }
 .ad-marquee{
-  overflow:hidden; border-radius:0.7rem;
-  border:1px solid var(--border2); background:var(--bg); padding:0.4rem 0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  border-radius:0.7rem;
+  border:1px solid var(--border2);
+  background:var(--bg);
+  padding:0.4rem 0;
+  cursor:grab;
+  scrollbar-width:none;
 }
+.ad-marquee::-webkit-scrollbar{ display:none; }
+.ad-marquee.is-dragging{ cursor:grabbing; }
 .ad-track{
   display:flex; gap:0.85rem; width:max-content;
   animation:adScroll 34s linear infinite;
+  user-select:none;
 }
 .ad-item{
   position:relative; width:190px; height:120px; flex:0 0 auto;
@@ -1675,6 +1684,9 @@ body {
 .ad-item-link:focus-visible{
   outline:2px solid var(--accent2);
   outline-offset:2px;
+}
+.ad-marquee.is-dragging .ad-item-link{
+  pointer-events:none;
 }
 .ad-marquee:hover .ad-track{ animation-play-state:paused; }
 @keyframes adScroll{ 0%{transform:translateX(0);} 100%{transform:translateX(-50%);} }
