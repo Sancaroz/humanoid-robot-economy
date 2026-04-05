@@ -809,6 +809,125 @@ if (siteSearchInput) {
 
 const postFilters = document.querySelectorAll('.post-filter');
 const filterablePosts = document.querySelectorAll('.filterable-post');
+const filmSearchInput = document.getElementById('films-search-input');
+const filmFilterButtons = document.querySelectorAll('#films-filters [data-film-filter]');
+const filterableFilms = document.querySelectorAll('.filterable-film');
+const filmsResultsStatus = document.getElementById('films-results-status');
+
+if (filterableFilms.length) {
+  const FILM_FILTER_KEY = 'filmsFilter';
+  const FILM_SEARCH_KEY = 'filmsSearch';
+  const FILM_RATING_KEY = 'filmsRatingsV1';
+
+  const getSavedFilmRatings = () => {
+    try {
+      return JSON.parse(localStorage.getItem(FILM_RATING_KEY) || '{}');
+    } catch (error) {
+      return {};
+    }
+  };
+
+  const saveFilmRatings = (ratings) => {
+    localStorage.setItem(FILM_RATING_KEY, JSON.stringify(ratings));
+  };
+
+  const ratings = getSavedFilmRatings();
+
+  const updateFilmResultsStatus = (visibleCount, totalCount) => {
+    if (!filmsResultsStatus) return;
+
+    const lang = document.documentElement.lang === 'en' ? 'en' : (localStorage.getItem('lang') || 'tr');
+    filmsResultsStatus.textContent =
+      lang === 'en'
+        ? `${visibleCount} of ${totalCount} titles shown`
+        : `${visibleCount} / ${totalCount} icerik gosteriliyor`;
+  };
+
+  const applyFilmRatings = () => {
+    filterableFilms.forEach((card) => {
+      const filmTitle = card.dataset.filmTitle || card.querySelector('h4')?.textContent?.trim() || 'film';
+
+      if (!card.querySelector('.film-rating')) {
+        const wrap = document.createElement('div');
+        wrap.className = 'film-rating';
+
+        const label = document.createElement('span');
+        label.className = 'film-rating-label';
+        label.textContent = 'Senin puanin';
+
+        const stars = document.createElement('div');
+        stars.className = 'film-rating-stars';
+
+        for (let index = 1; index <= 5; index += 1) {
+          const star = document.createElement('button');
+          star.type = 'button';
+          star.className = 'film-rating-star';
+          star.dataset.ratingValue = String(index);
+          star.setAttribute('aria-label', `${filmTitle} ${index} puan`);
+          star.textContent = '★';
+          stars.appendChild(star);
+        }
+
+        wrap.appendChild(label);
+        wrap.appendChild(stars);
+        card.appendChild(wrap);
+      }
+
+      const currentRating = Number(ratings[filmTitle] || 0);
+      card.querySelectorAll('.film-rating-star').forEach((star) => {
+        const starValue = Number(star.dataset.ratingValue || 0);
+        star.classList.toggle('active', starValue <= currentRating);
+        star.onclick = () => {
+          ratings[filmTitle] = starValue;
+          saveFilmRatings(ratings);
+          applyFilmRatings();
+        };
+      });
+    });
+  };
+
+  const applyFilmFilters = () => {
+    const selectedFilter = localStorage.getItem(FILM_FILTER_KEY) || 'all';
+    const searchValue = String(filmSearchInput?.value || '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    filmFilterButtons.forEach((button) => {
+      button.classList.toggle('active', button.dataset.filmFilter === selectedFilter);
+    });
+
+    filterableFilms.forEach((card) => {
+      const filterGroup = card.dataset.filmFilterGroup || 'all';
+      const searchableText = card.textContent.toLowerCase();
+      const matchesFilter = selectedFilter === 'all' || filterGroup === selectedFilter;
+      const matchesSearch = !searchValue || searchableText.includes(searchValue);
+      const isVisible = matchesFilter && matchesSearch;
+
+      card.classList.toggle('is-filtered-out', !isVisible);
+      if (isVisible) visibleCount += 1;
+    });
+
+    updateFilmResultsStatus(visibleCount, filterableFilms.length);
+  };
+
+  if (filmSearchInput) {
+    const savedSearch = localStorage.getItem(FILM_SEARCH_KEY) || '';
+    filmSearchInput.value = savedSearch;
+    filmSearchInput.addEventListener('input', () => {
+      localStorage.setItem(FILM_SEARCH_KEY, filmSearchInput.value);
+      applyFilmFilters();
+    });
+  }
+
+  filmFilterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      localStorage.setItem(FILM_FILTER_KEY, button.dataset.filmFilter || 'all');
+      applyFilmFilters();
+    });
+  });
+
+  applyFilmRatings();
+  applyFilmFilters();
+}
 
 if (postFilters.length && filterablePosts.length) {
   const BLOG_FILTER_KEY = 'blogFilter';

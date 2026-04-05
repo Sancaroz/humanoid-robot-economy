@@ -76,12 +76,53 @@
       </ul>
     </section>
 
+    <section id="films-controls" class="insight-card films-controls-card">
+      <div class="films-controls-head">
+        <div>
+          <h2 data-lang="tr">Ara ve Filtrele</h2>
+          <h2 data-lang="en" class="hidden">Search and Filter</h2>
+          <p data-lang="tr">Film, dizi veya belgeselleri konuya gore hizlica daralt.</p>
+          <p data-lang="en" class="hidden">Quickly narrow films, series, or documentaries by topic.</p>
+        </div>
+        <p id="films-results-status" class="films-results-status" aria-live="polite"></p>
+      </div>
+      <div class="films-search-row">
+        <input id="films-search-input" type="search" data-ph-tr="Ornek: Ex Machina, belgesel, robotik" data-ph-en="Example: Ex Machina, documentary, robotics" placeholder="Ornek: Ex Machina, belgesel, robotik" />
+      </div>
+      <div id="films-filters" class="post-filters" aria-label="Film filtreleri">
+        <button class="post-filter active" type="button" data-film-filter="all">
+          <span data-lang="tr">Tumu</span>
+          <span data-lang="en" class="hidden">All</span>
+        </button>
+        <button class="post-filter" type="button" data-film-filter="ai">
+          <span data-lang="tr">AI</span>
+          <span data-lang="en" class="hidden">AI</span>
+        </button>
+        <button class="post-filter" type="button" data-film-filter="robotics">
+          <span data-lang="tr">Robotik</span>
+          <span data-lang="en" class="hidden">Robotics</span>
+        </button>
+        <button class="post-filter" type="button" data-film-filter="both">
+          <span data-lang="tr">AI + Robotik</span>
+          <span data-lang="en" class="hidden">AI + Robotics</span>
+        </button>
+        <button class="post-filter" type="button" data-film-filter="documentary">
+          <span data-lang="tr">Belgesel</span>
+          <span data-lang="en" class="hidden">Documentary</span>
+        </button>
+        <button class="post-filter" type="button" data-film-filter="series">
+          <span data-lang="tr">Dizi</span>
+          <span data-lang="en" class="hidden">Series</span>
+        </button>
+      </div>
+    </section>
+
     <section id="films-library">
       <div class="company-group">
         <h3 data-lang="tr">Yapay Zeka Odakli Filmler</h3>
         <h3 data-lang="en" class="hidden">AI Focused Films</h3>
         <div class="link-grid films-grid">
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="ai" data-film-kind="film" data-film-title="Ex Machina">
             <div class="badges"><span class="badge ai">AI</span></div>
             <h4>Ex Machina</h4>
             <p data-lang="tr">Bilinclilik, manipülasyon ve kontrol temalarini tek bir kapali ortam deneyinde isleyen modern AI gerilimi.</p>
@@ -98,7 +139,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="ai" data-film-kind="film" data-film-title="Her">
             <div class="badges"><span class="badge ai">AI</span></div>
             <h4>Her</h4>
             <p data-lang="tr">Insan ile yazilim arasindaki duygusal bagin, yalnizlik ve baglanma uzerindeki etkilerini sade ama derin bir dille anlatir.</p>
@@ -115,7 +156,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="ai" data-film-kind="film" data-film-title="A.I. Artificial Intelligence">
             <div class="badges"><span class="badge ai">AI</span></div>
             <h4>A.I. Artificial Intelligence</h4>
             <p data-lang="tr">Makine arzusu, aidiyet ve insanlastirilmis bilinç fikrini daha klasik ve duygusal bir bilimkurgu diliyle ele alir.</p>
@@ -132,7 +173,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="ai" data-film-kind="film" data-film-title="Blade Runner 2049">
             <div class="badges"><span class="badge ai">AI</span></div>
             <h4>Blade Runner 2049</h4>
             <p data-lang="tr">Kimlik, bellek, insanlik ve yapay varliklarin toplumsal konumu uzerine guclu bir gelecek vizyonu sunar.</p>
@@ -155,7 +196,7 @@
         <h3 data-lang="tr">Robotik ve Insansi Robot Filmleri</h3>
         <h3 data-lang="en" class="hidden">Robotics and Humanoid Robot Films</h3>
         <div class="link-grid films-grid">
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="robotics" data-film-kind="film" data-film-title="I, Robot">
             <div class="badges"><span class="badge robot">Robotik</span></div>
             <h4>I, Robot</h4>
             <p data-lang="tr">Robot yasalarinin pratikte nasil kirilabilecegini, guvenlik ve otorite acisindan popüler bir tempoyla sorgular.</p>
@@ -172,7 +213,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="robotics" data-film-kind="film" data-film-title="Bicentennial Man">
             <div class="badges"><span class="badge robot">Robotik</span></div>
             <h4>Bicentennial Man</h4>
             <p data-lang="tr">Bir robotun hak, kisilik ve insan olma arzusu etrafinda donen uzun vadeli etik sorulari daha sicak bir tonla anlatir.</p>
@@ -189,7 +230,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="both" data-film-kind="film" data-film-title="The Creator">
             <div class="badges"><span class="badge both">AI + Robotik</span></div>
             <h4>The Creator</h4>
             <p data-lang="tr">AI savasi, otonom sistemler ve insan benzeri makinelerin politik anlamini daha guncel bir gorsel dil ile kurar.</p>
@@ -206,7 +247,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="robotics" data-film-kind="film" data-film-title="WALL-E">
             <div class="badges"><span class="badge robot">Robotik</span></div>
             <h4>WALL-E</h4>
             <p data-lang="tr">Robotik otomasyon, cevre, tuketim ve insan tembelligi uzerine hafif ama guclu bir teknolojik gelecek elestirisi sunar.</p>
@@ -229,7 +270,7 @@
         <h3 data-lang="tr">Belgesel ve Dizi Onerileri</h3>
         <h3 data-lang="en" class="hidden">Documentary and Series Picks</h3>
         <div class="link-grid films-grid">
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="documentary" data-film-kind="documentary" data-film-title="AlphaGo">
             <div class="badges"><span class="badge media">Belgesel</span></div>
             <h4>AlphaGo</h4>
             <p data-lang="tr">Derin ogrenmenin rekabet, strateji ve insan uzmanligi uzerindeki etkisini gercek bir donum noktasi uzerinden anlatir.</p>
@@ -246,7 +287,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="series" data-film-kind="series" data-film-title="Black Mirror">
             <div class="badges"><span class="badge media">Dizi</span></div>
             <h4>Black Mirror</h4>
             <p data-lang="tr">Teknolojinin birey, toplum ve kontrol duzenleri uzerindeki yan etkilerini bolum bazli senaryolarla tartistirir.</p>
@@ -263,7 +304,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="documentary" data-film-kind="documentary" data-film-title="The Social Dilemma">
             <div class="badges"><span class="badge media">Belgesel</span></div>
             <h4>The Social Dilemma</h4>
             <p data-lang="tr">Algoritmalar, veri odakli tavsiye sistemleri ve dijital platform davranisinin toplumsal etkilerine odaklanir.</p>
@@ -280,7 +321,7 @@
             </div>
           </article>
 
-          <article class="link-card film-card">
+          <article class="link-card film-card filterable-film" data-film-filter-group="documentary" data-film-kind="documentary" data-film-title="Do You Trust This Computer?">
             <div class="badges"><span class="badge media">Belgesel</span></div>
             <h4>Do You Trust This Computer?</h4>
             <p data-lang="tr">AI hizlanmasinin stratejik, askeri ve etik risklerini uzman gorusleriyle daha dogrudan bir tonda isler.</p>
