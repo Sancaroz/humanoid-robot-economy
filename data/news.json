@@ -1,11 +1,17 @@
 {
-  "generatedAt": "2026-04-06T03:39:07.510Z",
+  "generatedAt": "2026-04-06T08:00:46.667Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
+      "company": "Boston Dynamics",
+      "title": "US moves to curb China robots, opens door for Hyundai - The Korea Herald",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VNm5hN043M2sxWTlsTG5VM0JvenJrWVEtdVZSUmxzMXlzUXVsUy03VmkyMzhNVjJLV3NHOGZjOXpjZ2dUd2t6eGxUZmc3YTJUazBlcV9vYw?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 05:01:35 GMT"
+    },
+    {
       "company": "Figure AI",
-      "title": "Meet Figure AI - USD39 Billion Robot Startup Backed By Bezos, Nvidia And OpenAI - Moomoo",
+      "title": "Meet Figure AI - USD39 Billion Robot Startup Backed By Bezos, Nvidia And OpenAI - moomoo.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObWxiR3hzam00NUhjMmxoSDM2UENnZkROOFd3X1pUTXlETTBuMDZvajcwYlBJWWVTS3pJdW9pVUU4T2ZtZWt3Z0cxcTlUMkdFMkotQVBtTDl3eFpmcFYzZzhMRDFMSXZIZld4WEJQSkdBMmg1R05fZEJta2RMLUFNWHBWRmg4cDFiMkw1SUFkbm5Bd1RCcnREZ194Q3hEUzFMZjlEeHhFeVN2YU1SMGVfeXNn?oc=5",
       "pubDate": "Sun, 05 Apr 2026 11:20:59 GMT"
     },
@@ -22,6 +28,12 @@
       "pubDate": "Sat, 04 Apr 2026 11:01:04 GMT"
     },
     {
+      "company": "OpenAI",
+      "title": "OpenAI expands Bay Area footprint to relaunch robotics push - CHOSUNBIZ - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xeURGRUpRQThHVTE2aGxIZjlrS1VjWmpZTG0tdVpBblVtM0hTQjhfbTlLTjlKMGpSZjF1U2lMUVRXUExtQnh0YlVNT2RjZEFjNTF5ckhqV2tqVGI5OXZHLWE2WVVON1JLNEdvcUl0bUY0WXNyYjFPVDl30gGOAUFVX3lxTE5Ib2VwVWJ6WnR4Smp0eTVKY1dnNXBxVGU0NS02TWMwajgyMmNXRk1QemhYMFNjbVVsbTYtQlQ0U3NERGt3YVQyTXp5Ykd3YUJqWm5kWEV4LTFlUXpoWHRFWVkxbUdHcERCWndKaThlMVdoRG5Pb2dVWFlwa3hMU0doVDNkSS1ncjgwcVFzR1E?oc=5",
+      "pubDate": "Sat, 04 Apr 2026 00:52:00 GMT"
+    },
+    {
       "company": "Unitree",
       "title": "We've All Misjudged Unitree: Telling Humanoid Robot Stories, Making Money from Robotic Dogs - 36 Kr",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16QWUybEFrZlNiNG0xN3paYTMwenV4WHFqYkVJSDJUUFZCZm01Z2l3S0lVUHg3cjdfd0w0b2EwWFlVREZ2VFhFaXAwb3dtOFUtU3hJ?oc=5",
@@ -35,7 +47,7 @@
     },
     {
       "company": "Figure AI",
-      "title": "Figure AI Demonstrates Humanoid Robot Mobility - Let's Data Science",
+      "title": "Figure AI Demonstrates Humanoid Robot Mobility - letsdatascience.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZzFvXzQtcEtrSFYxQnQxNktTNDZOWXhnMFpybXRMNk00eUZZLUdSeWZkRllMR0RIZGhkNDdXNGVMeG5wV0NHM1FlWVFUTGdWUUlacjctV2NIOUJDQ3Z4ZFZiamR2eWFzV0JTUjNOVVNiVmxWZk1iSXE4MURaNzZWZWZXLVppQnZGMjh1eVNaam1nZw?oc=5",
       "pubDate": "Thu, 02 Apr 2026 13:12:53 GMT"
     },
@@ -82,12 +94,6 @@
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
     },
     {
-      "company": "OpenAI",
-      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
-      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
-    },
-    {
       "company": "Unitree",
       "title": "Who's laughing now? China’s humanoid robots go from viral stumbles to kung fu flips in one year - CNBC",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUjhnVHZ4U0k2eEFfUUc2Z0tvWlhlal9vdzQzUzYzUEdtb0lYT3hIS3YxeG8tS250RE9LTkdvanE5V2RGZFpLeG4zSTlicERxVldpR1RvT1J6MDVwN3RkU3BKQ0Z3amQxX0h3SEtpdUhWS3RzMzdEUFJQZmVYdW94TnFzQWJTUkd3WjE5SDFkc0wyem1MZHo5UlotWXFNdVBVLTFJ0gGoAUFVX3lxTFBiX2c0NnB0S3dRUTUxQUhWaXU3VkFxRXFZazlzU0FIbDVHNHY0Wnp4T1VVaDg0a25tRk91R19JQUpJSGx5T0VTNXFDUDRteHpoSUtaMmRHdTFoQ2hlc0FtSnNQSTdIVjRTRzJZMS1uVzFZYWh2SjRlR01kUWc0aEpoMWQzdWQzYV9NYm5weVpaZ0xZdWNzVHJvOGY5U2xQdWVmUjV3bko4NQ?oc=5",
@@ -98,12 +104,6 @@
       "title": "Toyota deploying humanoid robots at Canadian assembly plant - Automotive News",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYl90blJkMWtrVExMbHhBSjc0MXNOSTV5N213S0dDVy1aOFNucnpBSUcwMFozQjFaT3R0SW5pQ3lkRGNjbTRIcDNNUnFmRER0N2VXXzNZUTNRZVRCVlp3VWNlLURNbFNNRWdQN1UyZDFCUXpmOXM1Smw2N3NjY21OV0J0UjFmUWhfeHVoWlZqa0E?oc=5",
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "I Got Up Close and Personal With Boston Dynamics' New Atlas Robot - CNET",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNm9KZzAxUWNiY2h3ZXZDbFNocy1GWWVJakxDRVZmYnRQN1o4NExnSjRHenBPUjhsb2JpY1U4c09CX1hudW15VHVTM056Y3E0Z05JVGpyUmNfMFk1c1B5dGZOc1BjTWFhMkJRQ2hoVnc5OGdINm4yMGg5N3ZKb2tlY3gzWV9ZTXVIUC1WbnNGOGF6QXhjOXpGUXJfQzNRX2lQNGwzeF9KNlFhdXFfX0JWdG9Bbw?oc=5",
-      "pubDate": "Thu, 08 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -137,7 +137,7 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI Ramps Up Robotics Work in Race Toward AGI - wired.com",
+      "title": "OpenAI Ramps Up Robotics Work in Race Toward AGI - WIRED",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRUl6NjB0MGZDZDRiYjNOWnBTTF9wOWJpV21hTlFNSzJVcVcyaUNkcFNrV0Z4Sk1aaDM2TjlSdFVwUVFCbnBueE1CSUo4MVR4bUI1d0hfdERDclpXOUVvVmdMWkxFU240S2t0QWNIR21mWHF6dERpcHpHcDBYX3R2UWg1WQ?oc=5",
       "pubDate": "Mon, 15 Sep 2025 07:00:00 GMT"
     },
