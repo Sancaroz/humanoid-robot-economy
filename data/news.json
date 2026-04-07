@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-07T14:00:33.116Z",
+  "generatedAt": "2026-04-07T19:21:34.451Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "OpenAI",
+      "title": "OpenAI calls for a four-day workweek — and a ‘robot tax’ - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzBHWTJkemRvVzd5NmNXSnZZYjZPOUVMOTNlbFQ4NGIyRktqNGEwUXZ6SXFnUW1HeWtvSTVFSHVYWUdUZXFjZHJBS2F6c3JvYmtEWVkwcnlxRmluOUZidnVNd3NYWWUyOTlxTENEVTlINjNnM3Q1OWhBNTQ3MlRGVkJpQ2xKTzh5bUJiXzdWNFFmQVFjZ3B4aEh0d2s4NjNa?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 16:02:14 GMT"
+    },
     {
       "company": "Figure AI",
       "title": "WSJ exposes Chinese parts inside America’s humanoid robots, and Congress is already running the DJI playbook - DroneXL.co",
@@ -16,10 +22,10 @@
       "pubDate": "Tue, 07 Apr 2026 12:21:47 GMT"
     },
     {
-      "company": "OpenAI",
-      "title": "OpenAI backs robot taxes and shorter workweeks in AI push - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajVyeWttVEVCaGsxQnFNZGhfZm91dExzRXJOYnJyX1RkU3dxZTNpaWxST2ppTzctUW9jNlcwTzQzVUpfSWxKbGl5c0M5UDUxV0EyU2prOVJHMkFXWExLRG8xM2xsVjJzUndsRUFOZTBDV1g4ZU5yd3Q5ckhHQVZUb0V3eGo5Q0wzdGZrRUJnSDEyZUEtMzZTRFVrajh5M1U5cFdVeFlKOThyTWp6T2FwREwzNUFZeVk?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 10:13:28 GMT"
+      "company": "Tesla",
+      "title": "Tesla Robot Land Grab Turns Fremont Into Ground Zero for Optimus - Hoodline",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ0l1Y2NEa21sckQtN2tVSC1MeTZWUG5yUmJrTHFENVEwMnZXWllnWjItTTJwdFlBZmxWY0x2SHBGNUpwaFBqcVZpR3dwZjh4OXU1dW1ndnFDZmFVOXR4SGFQcWhSWnB4Y1ozVWtVUUo1NEswc3laYktjdHlFbmFRZnp3aXY3QkZCQlM3ZnU4WWRSc1M3ZHh1VXdR?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 23:17:41 GMT"
     },
     {
       "company": "Tesla",
@@ -41,21 +47,15 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI calls for robot taxes and a public wealth fund to cushion AI job losses - qz.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6c1NrWjZ5VlJPb0hzODdROWFvTVBtQ1ZZb2dsMXRSbnR4WW5TekNkWmpYa1dCSjl3c1V2V19QT0ZYNUtSX2tQb3dNWTMzcUlFa01oZVpTczNwQzdnd3MtVHpTNEd1emMtYVZnRg?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 15:35:06 GMT"
-    },
-    {
-      "company": "OpenAI",
       "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
       "pubDate": "Mon, 06 Apr 2026 13:05:00 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Robot Trails China — 30x Shipment Gap Emerges - Tesla (NASDAQ:TSLA) - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORVNCOVRqcU1iY3E3STg5bXhtRm9ZQVBjR1lnb3M2QWFWOUZ0bVV6LVdXUnZDdzFOQXZSWWtUWVZsUmpZS1dOZGpId2w5Zy1xd3p1a0VaSGJjVWZYakltX1VrZmZFNkZGSnVHZ1FRUFFLTnppLXJhbkl2dUF5Vk43WGNWbm53RUxOLVMyeTNGT3FmRU1UamhoUjFLaUhzZmVUNmZYbjVaTHQwYi1wSV91SlU5ZFQ0b2c2MGRQYnlMdjF6Z0FXMXc?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 12:42:39 GMT"
+      "company": "OpenAI",
+      "title": "OpenAI calls for robot taxes, a public wealth fund, and a 4-day workweek to tackle AI disruption - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSDd0aVA5N29BcDUybDFkZXh4LUtRdWVTVHg4d0VjR2ctVzh3SmJaQVBNV2tBOGlPVkItMHUzU1pJcGdDY1hSYzJrajRwOXo2Z1FIS3M0RV9BSURBSUtHZVdaMnY5b0dpN3BpTmNjTTdyd3lpQklRVWJQYmxhbzQ0eGdFYlF2U245WWYtWThrU3htci1lTGhzRVdZbVgwdkdaRmQ2Tng2bV83T2dWYVM2TEh2LS1vZw?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 11:20:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -96,7 +96,7 @@
     {
       "company": "Figure AI",
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWc?oc=5",
       "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
     },
     {
