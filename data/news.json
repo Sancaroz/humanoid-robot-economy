@@ -1,17 +1,29 @@
 {
-  "generatedAt": "2026-04-07T07:48:52.440Z",
+  "generatedAt": "2026-04-07T14:00:33.116Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
+      "company": "Figure AI",
+      "title": "WSJ exposes Chinese parts inside America’s humanoid robots, and Congress is already running the DJI playbook - DroneXL.co",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBISVNVUXlOd1FtUFpwODBWTnZNanNmNmVNY1g5TFBlRVVUMV9CeVRTTFJ3NzA4VTZuNHpybkpYQ1RBZTViTnpaVkFKNzdXcmFJZk9fUl94bDJIQjFQb0VlSXNQNjNFbTgwQUk1OG1JZThqZS1pOG9j?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 12:29:48 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Next-Gen Humanoid & Embodied AI Robotics Market (2026-2033) | - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcjRVcDZTaEhCcUtBZVN6eVpXSVZKTV9tdm9lQlR1S0x2ZHpMbmlfYXAxMWN0UXFtc1EwaHdLNEJnY1BJX2IzcU45cl9sT0ZtemxtVGRDa3BpUEl0QlJvWnVLR0s1UVFiWENhdnlweUFZU0R5WENVOU13ZkxtSkRqTnQ1YmpuRlNXYm93TFNLZERxU1EzWmc?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 12:21:47 GMT"
+    },
+    {
       "company": "OpenAI",
-      "title": "OpenAI calls for robot taxes and a public wealth fund to cushion AI job losses - qz.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6c1NrWjZ5VlJPb0hzODdROWFvTVBtQ1ZZb2dsMXRSbnR4WW5TekNkWmpYa1dCSjl3c1V2V19QT0ZYNUtSX2tQb3dNWTMzcUlFa01oZVpTczNwQzdnd3MtVHpTNEd1emMtYVZnRg?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 21:19:01 GMT"
+      "title": "OpenAI backs robot taxes and shorter workweeks in AI push - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQajVyeWttVEVCaGsxQnFNZGhfZm91dExzRXJOYnJyX1RkU3dxZTNpaWxST2ppTzctUW9jNlcwTzQzVUpfSWxKbGl5c0M5UDUxV0EyU2prOVJHMkFXWExLRG8xM2xsVjJzUndsRUFOZTBDV1g4ZU5yd3Q5ckhHQVZUb0V3eGo5Q0wzdGZrRUJnSDEyZUEtMzZTRFVrajh5M1U5cFdVeFlKOThyTWp6T2FwREwzNUFZeVk?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 10:13:28 GMT"
     },
     {
       "company": "Tesla",
-      "title": "Tesla makes big move in Fremont for global robotics hub - The Business Journals",
+      "title": "Optimus time: Tesla makes big move in Fremont for global robotics hub - The Business Journals",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTRJU1FjbUJxV21fWjY5ZHJnTjRfOEc4a3FNeVI1RjZhcXNsVU94bDluMmNrcXNmQ19vUHJjQlc5LVhLVW1NNEJPa3Rja3FqeEViSjQ2ZnRyZnl0RFdONFhBOHZ1UUtFZTJITXYzRnlUUkVZc2tGYnoxa0dCT0oyQnRaMGxDdlA3V1FSTi1NNUp3aXVoUXdUdkNUdTNZRklEQWc?oc=5",
       "pubDate": "Mon, 06 Apr 2026 21:00:00 GMT"
     },
@@ -29,6 +41,12 @@
     },
     {
       "company": "OpenAI",
+      "title": "OpenAI calls for robot taxes and a public wealth fund to cushion AI job losses - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6c1NrWjZ5VlJPb0hzODdROWFvTVBtQ1ZZb2dsMXRSbnR4WW5TekNkWmpYa1dCSjl3c1V2V19QT0ZYNUtSX2tQb3dNWTMzcUlFa01oZVpTczNwQzdnd3MtVHpTNEd1emMtYVZnRg?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 15:35:06 GMT"
+    },
+    {
+      "company": "OpenAI",
       "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
       "pubDate": "Mon, 06 Apr 2026 13:05:00 GMT"
@@ -40,28 +58,10 @@
       "pubDate": "Mon, 06 Apr 2026 12:42:39 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "Tesla Robot Trails China — 30x Shipment Gap Emerges - Tesla (NASDAQ:TSLA) - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORVNCOVRqcU1iY3E3STg5bXhtRm9ZQVBjR1lnb3M2QWFWOUZ0bVV6LVdXUnZDdzFOQXZSWWtUWVZsUmpZS1dOZGpId2w5Zy1xd3p1a0VaSGJjVWZYakltX1VrZmZFNkZGSnVHZ1FRUFFLTnppLXJhbkl2dUF5Vk43WGNWbm53RUxOLVMyeTNGT3FmRU1UamhoUjFLaUhzZmVUNmZYbjVaTHQwYi1wSV91SlU5ZFQ0b2c2MGRQYnlMdjF6Z0FXMXc?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 12:42:39 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI calls for robot taxes, a public wealth fund, and a 4-day workweek to tackle AI disruption - Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSDd0aVA5N29BcDUybDFkZXh4LUtRdWVTVHg4d0VjR2ctVzh3SmJaQVBNV2tBOGlPVkItMHUzU1pJcGdDY1hSYzJrajRwOXo2Z1FIS3M0RV9BSURBSUtHZVdaMnY5b0dpN3BpTmNjTTdyd3lpQklRVWJQYmxhbzQ0eGdFYlF2U245WWYtWThrU3htci1lTGhzRVdZbVgwdkdaRmQ2Tng2bV83T2dWYVM2TEh2LS1vZw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 11:20:00 GMT"
-    },
-    {
       "company": "Boston Dynamics",
       "title": "US moves to curb China robots, opens door for Hyundai - The Korea Herald",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VNm5hN043M2sxWTlsTG5VM0JvenJrWVEtdVZSUmxzMXlzUXVsUy03VmkyMzhNVjJLV3NHOGZjOXpjZ2dUd2t6eGxUZmc3YTJUazBlcV9vYw?oc=5",
       "pubDate": "Mon, 06 Apr 2026 05:01:35 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Meet Figure AI - USD39 Billion Robot Startup Backed By Bezos, Nvidia And OpenAI - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObWxiR3hzam00NUhjMmxoSDM2UENnZkROOFd3X1pUTXlETTBuMDZvajcwYlBJWWVTS3pJdW9pVUU4T2ZtZWt3Z0cxcTlUMkdFMkotQVBtTDl3eFpmcFYzZzhMRDFMSXZIZld4WEJQSkdBMmg1R05fZEJta2RMLUFNWHBWRmg4cDFiMkw1SUFkbm5Bd1RCcnREZ194Q3hEUzFMZjlEeHhFeVN2YU1SMGVfeXNn?oc=5",
-      "pubDate": "Sun, 05 Apr 2026 11:20:59 GMT"
     },
     {
       "company": "Unitree",
@@ -71,7 +71,7 @@
     },
     {
       "company": "Figure AI",
-      "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - interestingengineering.com",
+      "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
       "pubDate": "Thu, 02 Apr 2026 13:13:00 GMT"
     },
@@ -88,8 +88,14 @@
       "pubDate": "Tue, 31 Mar 2026 21:50:09 GMT"
     },
     {
+      "company": "Unitree",
+      "title": "The world’s largest humanoid robot maker is going public - Rest of World",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OZ3Q1Q09BWHRuNGxkdlNxTmJ3dFNrZ0U4ZGpRcWNxWUNyQ0FHcGpUS2pxZFBySkdpU3lDTk81STZXTW9QQ0VEeXJBbUZkc0lDTkQzNDRQZ3ZCUjVzZjFKbnUzbm5qc0p2VE5mLUJ0R3BUSGJHR2NDV0ZpNA?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 10:04:08 GMT"
+    },
+    {
       "company": "Figure AI",
-      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - cnbc.com",
+      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
       "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
     },
@@ -101,7 +107,7 @@
     },
     {
       "company": "Unitree",
-      "title": "First humanoid robot ‘arrested’ after startling a 70-year-old woman in China - interestingengineering.com",
+      "title": "First humanoid robot ‘arrested’ after startling a 70-year-old woman in China - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU040WG4xUFhCQjJJeWhOMHU0UGItdEdkQXBhNmo5NVRxYlY3SnJqX2oyUFRpb0ZLSlZheExyUDFYMzN1NU9Gdm1QQU1SRmlZRTJ6Um05aGlWVlNCc0FpMmowdUpfU05ybVBONjh4U3lOUEY2S2liLWxBX2s3cmhhNEZKclN0YUpMUGZCeDlMWC1LdndCTHhV?oc=5",
       "pubDate": "Fri, 13 Mar 2026 07:00:00 GMT"
     },
@@ -122,12 +128,6 @@
       "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES - AP News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGNCdE5ZeWNTMHFEQy1oM0VHLTFlMHFqMWVBMTlxRWRCM2JvTHlxQWxDWG1wM0tKZVRQdTQ3blNSX2ZzQXFBUlRYUi1zMnFMU0I2VGNPc2FpckRUUlI4SzRtV3dpaldiZXRiTGFpb3Jvb3dNYnRZZ3lvY3RXNGt4d0tEVFpqRUtfMlExaWZudHcxTXMybzFqcjRHSUc4enY5WE0wWVZBMTFoWldvQVE?oc=5",
       "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Boston Dynamics is training an AI-powered humanoid robot to do factory work - CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZkpMYnhHZTdvbklmQWhjUU1zNWd2aldGNEtVT2YzN3daNjJXaXhRRjZNa0hOZ1FrNTdhTVNDVjBSWU1BX3U5RmFUdDVfQTlQYnFhb0lCZWFKTkZIZGxxZmd6LXEzTUYyc0tFRUN5SDZ2Y2dFWDVKWkxDNWJIdWpxRFVZelFvUUlwYUd0d3FCVGk4dTdPcVltQ0twSmRNM280amfSAacBQVVfeXFMT0M5NlVrdWhVYWFEMERwRUNpdTJqc182TENyOTNFSnlvUnZ3RVNNMXFrVzdzbk1LXzFrMVk4YWRySHA0dUF4R1h1MU5XUE1wUzFMUkhrSnlWM28xMG5JTGJUSlVVc1F5QVJqS1l3TkpLbW9lRkZVYkp4NjYtaWxFUHBMRklwWWlJaHpmc2hJSUJnd2RFaXRVZVNzLV9fODB6ODRZY3BJQU0?oc=5",
-      "pubDate": "Sun, 04 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
