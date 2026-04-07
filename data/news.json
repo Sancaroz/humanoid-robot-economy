@@ -1,19 +1,25 @@
 {
-  "generatedAt": "2026-04-07T03:29:23.660Z",
+  "generatedAt": "2026-04-07T07:48:52.440Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
-      "company": "Tesla",
-      "title": "Tesla leases 267,000 square feet in Fremont for robotics R&D hub - The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeThVVlVoQXV0VlE1Tmg1aEdlcDRlMjhzajRqX0VIcnpldEJLTFFuT3pVRnpXempJbWtQaHpETHRVOTJjZy0yVkthOGlnMEpYR3hjdHdyV3NTaE1ybndNU2N6NWFZME15Y0Z3WnBTNC15UVdyT1h0ZDZsekstZU04dWoxamN2aHZmU09sMlZVWWNXLVRfQzRHZW9Ycw?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 21:10:00 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "OpenAI calls for robot taxes and a public wealth fund to cushion AI job losses - qz.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6c1NrWjZ5VlJPb0hzODdROWFvTVBtQ1ZZb2dsMXRSbnR4WW5TekNkWmpYa1dCSjl3c1V2V19QT0ZYNUtSX2tQb3dNWTMzcUlFa01oZVpTczNwQzdnd3MtVHpTNEd1emMtYVZnRg?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 16:06:13 GMT"
+      "pubDate": "Mon, 06 Apr 2026 21:19:01 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla makes big move in Fremont for global robotics hub - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTRJU1FjbUJxV21fWjY5ZHJnTjRfOEc4a3FNeVI1RjZhcXNsVU94bDluMmNrcXNmQ19vUHJjQlc5LVhLVW1NNEJPa3Rja3FqeEViSjQ2ZnRyZnl0RFdONFhBOHZ1UUtFZTJITXYzRnlUUkVZc2tGYnoxa0dCT0oyQnRaMGxDdlA3V1FSTi1NNUp3aXVoUXdUdkNUdTNZRklEQWc?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 21:00:00 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Optimus Gen 3 Silhouette Revealed by Program Lead - Not a Tesla App",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbVRWLUlOQnkwY1RmT2prN1ZIM3RUeTBna0FCenNnbV9OX01kcGR1UlBqaHBEc2JlV0k4UUhaVHM1Qy14UG51elRFUnhiZnBhNG5YU1VDaFY3cVZEclVERVNOdjktdjU4WHBHQjlmY2RuUXRMTWtXek9kTFJCRkZqWW9nZ25vaXgxRnFZZ2UtMXZkWEMxdldhS1B3?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 18:04:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -65,7 +71,7 @@
     },
     {
       "company": "Figure AI",
-      "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
+      "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - interestingengineering.com",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
       "pubDate": "Thu, 02 Apr 2026 13:13:00 GMT"
     },
@@ -77,19 +83,13 @@
     },
     {
       "company": "Tesla",
-      "title": "Elon Musk Says This About Tesla's Optimus Release And SpaceX IPO - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMlJSbnV1MHF1eXdGd3NzdW5kZGVOTlBrOWtwbUJOQmlqc3NoZnVGZUJMdGpWOUdrQ1hNbnZiQ1ZPdnVDcnBZRnpCYzFuYTFmRDVIUjZKbVBGN1pyUkltd2d3U3Q5NmViSFNHT2h1YU43OXJpQnQxVko1b0E5RmlZNTItSE5wTk5PSWJLd3M2LXFjcXVubmJ0Vg?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 20:01:00 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Musk has a plan to make human labor obsolete. Billionaires are joining in. - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOE9HbWl6SEtGRVR0emUybGdXcXpTSU9EWjdEczg1MXhnVU1fbTlqWkJ4Rmd3ckJyOUU5YmdydzB5WVFMWGxTRTNVRWJSQU4xYTJzcHhsZVRLU0V3RW1Da1hFa0Y1NGtrSHR3U3lKc2gteFNoS1RFVVJnZVZDWkZzSi1ZdmFyYkM3eTVkZw?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
+      "title": "Elon Musk announces disappointing Tesla Optimus update - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVVlibVZCXzFsLVpQQTZ2dlhEdEIyOHNfaG5NNlNlWkxkSjZrLXBIUDJtakt3aXRFMTY3cV9nMVVxb0R3emU5OUFpdWQtMHM5QW9WRjFWS0JsMXRBc09OaTVPYnl2cVQ1LWg0SDVkaEphZnBPbnV4MnlXQ2ZIc2xNbWE2dHVYVTYw?oc=5",
+      "pubDate": "Tue, 31 Mar 2026 21:50:09 GMT"
     },
     {
       "company": "Figure AI",
-      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
+      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
       "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
     },
@@ -101,7 +101,7 @@
     },
     {
       "company": "Unitree",
-      "title": "First humanoid robot ‘arrested’ after startling a 70-year-old woman in China - Interesting Engineering",
+      "title": "First humanoid robot ‘arrested’ after startling a 70-year-old woman in China - interestingengineering.com",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU040WG4xUFhCQjJJeWhOMHU0UGItdEdkQXBhNmo5NVRxYlY3SnJqX2oyUFRpb0ZLSlZheExyUDFYMzN1NU9Gdm1QQU1SRmlZRTJ6Um05aGlWVlNCc0FpMmowdUpfU05ybVBONjh4U3lOUEY2S2liLWxBX2s3cmhhNEZKclN0YUpMUGZCeDlMWC1LdndCTHhV?oc=5",
       "pubDate": "Fri, 13 Mar 2026 07:00:00 GMT"
     },
@@ -131,7 +131,7 @@
     },
     {
       "company": "Agility Robotics",
-      "title": "How Agility Robotics uses artificial intelligence, from its humanoid ‘Digit’ to everyday workflow - post-gazette.com",
+      "title": "How Agility Robotics uses artificial intelligence, from its humanoid ‘Digit’ to everyday workflow - Pittsburgh Post-Gazette",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOODFKd3FCY0lDZ3FMc2FQMlExRVE2WldjczEyZ29QTklhY3dsU0p4UXlYTG1RYldhVGlPcHNfeEh1d3dLRE1ZYjlhZC04YzB0R0d0c1F2MGlNSVJDanpnSDhaV3UtVGxhWlJTWjB5cXBOWDRLR1JZVW9ZTWJmNmF5UTAwSmRJZmlGYjFzYXdGVkQ1eHdyV04xZUV5Z0p3UEx4cERyRF9xMFpLQ3Jxb3hEM3BPZGZQa2RVdVpoRXkyU2ZoaVozT2hnUzNSTTRpUFh0akgxYnh4cjE?oc=5",
       "pubDate": "Mon, 22 Dec 2025 08:00:00 GMT"
     },
