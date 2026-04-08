@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-08T14:01:08.969Z",
+  "generatedAt": "2026-04-08T19:39:13.140Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Boston Dynamics",
+      "title": "Taking the jobs humans don’t want: The ironic promise of the humanoid robot - wardsauto.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWxIS1ZZeF84UFlRNmxnUkY4TjBUMnRrbVl6ajNWam9keGYyMmV5VHBWbl9jSkl0MzZpSEVWeFp5TkdsRDNDTkFJSUxtSUFEdWVhVlpBVXVfaXBSQmNYT1NfMDR1VjhTcXFXdG94QUZLeW12UVByaWRlNVluOThkQmV0ZG5nb0RTcFpJa1lVdmpLTFAtcVZxZ1ZwTWNSeTlFbWJBTVQ1RmY3X0RQUjNaeDd3?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 16:04:44 GMT"
+    },
     {
       "company": "OpenAI",
       "title": "OpenAI Warns AI Could Leave Households Behind—Now, It Wants Robot Taxes and a Public Wealth Fund - Realtor.com",
@@ -77,8 +83,8 @@
     },
     {
       "company": "Unitree",
-      "title": "Unitree plans Shanghai IPO, testing interest in humanoid robots - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTGhjaHBtUU9QcWY3QWhQYnFzeTZfeVVoZjJwRHdKSEtqVVdrSzZ6RnZqb2F3cTRKY0FfZlpsSVJJWU1fM2wyREdZckVvMGczUlNoTkJZcUVPWkJaMHctaXFLSVRlWmdKVUJKUU00U0J2M2JOUkNGWHFhM3BQTHB2NUJhVmM4cWJSRnNpSU5VMmxvUGQ2WTJfYmVIQ2pTakdKbGxKV1hVN0dOc2lZSG1jT2VOdDU?oc=5",
+      "title": "China’s Unitree Robotics rides humanoid tide as it targets US$610m IPO - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNDBOc2xsUzl0bkN5SExCaV8zYUF6US1jaE04a1hscFYwOTFHUGNOTVlIMW5oT3ZQUTNNYW1ZRGY3MV95LXJDTFI5X2R6SGxHNm02a1E3YWZnVUR2NXRPRXNzXzZpWnFfSmtPRnV4UUxiREtldkJMV0Y5a1ZMSHJxc2RYbFo3QzJQY2lqSE95dnhzMl9LYV9JSVFfVVZ5RVRMZzBONzhxYjNGdjdCM29RcWwwUEZydE03MGpMQUpiMXptYmp3MFHSAcYBQVVfeXFMT05uMWIyRnlEbDg1MTNQSDg4LVAteUUtWmYtdFZoN0lzcTlRUzVOUTZlN1hnMzFTb0NNcDhMNUdTTFVVRTZvX3dmVXJVY3ZVbDh0UllmVUFtVHdSNDAyanNYeHRSSXlLd3ljWDFpUEhRMmZ0SUlZbjNaYXZYSVRqbGltbGpHTmRFV1dKbFM5eHc5bU5vY1hoUUJkcmJBdUZjX2h0cDBYTlJoZTNWcnh6bENNb1JQRlhWZXdna0dXb05ZNFNCN3pn?oc=5",
       "pubDate": "Fri, 20 Mar 2026 07:00:00 GMT"
     },
     {
@@ -109,12 +115,6 @@
       "company": "Boston Dynamics",
       "title": "Boston Dynamics Unveils New Atlas Robot to Revolutionize Industry - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXlFMk1OUUNDVjU3RC1WZmJsMDUyY1VRNkRkdkhTNzh1SVlCdzhqOEZjbWV2a2ZleFBNSmd3OEFuRl9UODVfWjl6VkFOTzNWT3JoZFYycnRyOW5HdlhxZ2tuZlI4NEV5S0FjdTJ6a2JJdE96TTlkXzhzT1FNdmhudkZKM0ZsN1g3SFVzMV9wTUxONVZ3aGMxMUpyY3ZXbjg?oc=5",
-      "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES - AP News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGNCdE5ZeWNTMHFEQy1oM0VHLTFlMHFqMWVBMTlxRWRCM2JvTHlxQWxDWG1wM0tKZVRQdTQ3blNSX2ZzQXFBUlRYUi1zMnFMU0I2VGNPc2FpckRUUlI4SzRtV3dpaldiZXRiTGFpb3Jvb3dNYnRZZ3lvY3RXNGt4d0tEVFpqRUtfMlExaWZudHcxTXMybzFqcjRHSUc4enY5WE0wWVZBMTFoWldvQVE?oc=5",
       "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
     },
     {
