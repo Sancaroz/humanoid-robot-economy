@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-10T13:48:06.214Z",
+  "generatedAt": "2026-04-10T19:10:49.490Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Unitree",
+      "title": "China’s Unitree Sells Cheapest Humanoid Robots Online with R1 Global Launch - Gizmochina",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ1NpV25nQXBFclNHMXVYRmk5NUVRd0VQNTBJMTV1ckxvLXhUdmpDLTEzdFdhaFc3aEkyd2xySXN1RDhYYjdPdEstdUVCSXpmbDI0Y1NjTTl3Mm0wQ3dhaFpzUkg0bERtZmFUeDdVcVg0QzBFMkJFclJUNjh6RFhjTnJWOVFPUnFrcVVaM1dB?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 12:21:10 GMT"
+    },
     {
       "company": "Unitree",
       "title": "Unitree’s cheapest $4K sport-ready R1 humanoid robot to hit US markets via AliExpress - Interesting Engineering",
@@ -22,12 +28,6 @@
       "pubDate": "Thu, 09 Apr 2026 21:33:31 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "Kia Deploys Atlas Robots, Transforms into Robotics Company - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWEVBby1mX0NHbWMyMl9HRGtISloxRGE1akZvTWV5dktTc3FXbDEzNllFNGVmTFhYSUctY01wMkp4WWNTQVd1TFI3MVlVd29uWHVnNUhQcjdlOEZxSkZOLXVhRDFaVmZoR0x0YWxNdzEzbVpzRkZvVmQzaTNENFJYME93QllrWFV3?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 19:09:33 GMT"
-    },
-    {
       "company": "Unitree",
       "title": "Unitree to debut cheapest humanoid robot globally via Alibaba: sources - South China Morning Post",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnVxUjBPVUpjcXdGWHlNNFVjSFMwbXFoUE9Xc29Ld2xNSVVZVWVBVkdrVV9IUENjVFptdy02UnIxWWV1ZkswS0M5OW9qQ1M2eVJCQlFSZHE1a0duSFZCUnZEUTQ3Q281OHM4WmNfLXp1SUcyNzlubTV0RHRCdl82OHhVMC1vc1kzX2RTZ1RvaExXb1lvUDBXREVMVExCZl8xdkV4dEtIbWN0eE1ZZW50WWtJckM0WGPSAbcBQVVfeXFMTTFMdWJYYlRmVHlVRTJTZW9nZE5iSnpoV0tPSDBTTWpMLVItMGFFc0psN1BZVWRsSmJhZlN6T1FYQ2cwbXNycWgtTlpONFJrMDAySFV0VnZDTzRnUFhUR1FtQTlQamR3bGpyaGR4bXlVRmpIMWl5TXRxMnlYSTU3c1pEc21PRUhFNmI2WWgzZ3RiSlFqS0Rnbkp4SU9mNW1ENm5CQ0VON1k2dmpPR3RXV0hDZ1d1RFZF?oc=5",
@@ -38,6 +38,12 @@
       "title": "China’s Humanoid Robot Output to Surge 94% in 2026; Unitree and AgiBot to Capture Nearly 80% Market Share, Says TrendForce - TrendForce",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Zd3NLZGlzX1NjdkFHRmgyck81QzRkTHhuZXlJYWhvSDVSNDlTbkZWRHJzRmRVVVRaWkFLbjlUeE5KaUhNU3l5MFRQSWtMY2NjbDF1TDVMdmJjZnFMZ0w0RTBwZjc2aWJjYS1pcXVrWkQ?oc=5",
       "pubDate": "Thu, 09 Apr 2026 07:05:22 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Signs New Fremont R&D Lease Ahead Of Optimus Robot Pivot - Bisnow",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXNBeWJXVjhBdDBwYmN2cXdHblFxbFcyRGRvLVJQZFllSVZDb3QwOE10NnFyRWRKZ3g4VnVfbTFKanRhVTZYOHYzMDZ2SUg3NUkwbWptYVIteWluSXRSOFRYNEZ2Tnh3WUJ6eUVjWm1tRmpscDBkaHF6QmZvNHA4NTlic2dvTWJBcFJfdHhCRXlMSE1DcHN3X3QtcnNIWW82X1hXRUxIT3ZveXVQcUE?oc=5",
+      "pubDate": "Wed, 08 Apr 2026 22:41:56 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -88,12 +94,6 @@
       "pubDate": "Thu, 02 Apr 2026 13:12:00 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "The world’s largest humanoid robot maker is going public - Rest of World",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OZ3Q1Q09BWHRuNGxkdlNxTmJ3dFNrZ0U4ZGpRcWNxWUNyQ0FHcGpUS2pxZFBySkdpU3lDTk81STZXTW9QQ0VEeXJBbUZkc0lDTkQzNDRQZ3ZCUjVzZjFKbnUzbm5qc0p2VE5mLUJ0R3BUSGJHR2NDV0ZpNA?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
-    },
-    {
       "company": "Figure AI",
       "title": "Figure AI Robot Makes History at White House Event - The Tech Buzz",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRFhVM1ppaW42cE9ZTkxzQ2NHU2k4c3lTMU90VWhycEhWQUFjeG1VMlpzd2UtM1pnQlBKWE85S0hwZ0xKN0R5VDhUdS1JWDFWb0V1MXJKZUJ0VS01Q3NkLW85b0ZISmlLeWZ6UVNTenJxcTN3UHB0Q3dqMGNHemhKZ3d2ZmJjYTdfWVFn?oc=5",
@@ -118,16 +118,16 @@
       "pubDate": "Wed, 25 Mar 2026 07:00:00 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Stock: This Is Elon Musk's Latest Optimus 3 Production Timeline - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wSkRKS0dEV1k5TTNuVTJiN3FSbzZUaWdVOEQ1d2RYVVI1dElXYkcycTFNSmRJT3U2WHhwdk5yOG96dFlyNC1KS3JObEtaSnM5cVlYNXNHUmh4VWZRZ1c5WXRDNGI0eUtEZXV2c193MzVyZG5UMzc4Sg?oc=5",
-      "pubDate": "Fri, 13 Mar 2026 07:00:00 GMT"
-    },
-    {
       "company": "Agility Robotics",
       "title": "Toyota deploying humanoid robots at Canadian assembly plant - Automotive News",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYl90blJkMWtrVExMbHhBSjc0MXNOSTV5N213S0dDVy1aOFNucnpBSUcwMFozQjFaT3R0SW5pQ3lkRGNjbTRIcDNNUnFmRER0N2VXXzNZUTNRZVRCVlp3VWNlLURNbFNNRWdQN1UyZDFCUXpmOXM1Smw2N3NjY21OV0J0UjFmUWhfeHVoWlZqa0E?oc=5",
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Boston Dynamics Unveils New Atlas Robot to Revolutionize Industry - Boston Dynamics",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXlFMk1OUUNDVjU3RC1WZmJsMDUyY1VRNkRkdkhTNzh1SVlCdzhqOEZjbWV2a2ZleFBNSmd3OEFuRl9UODVfWjl6VkFOTzNWT3JoZFYycnRyOW5HdlhxZ2tuZlI4NEV5S0FjdTJ6a2JJdE96TTlkXzhzT1FNdmhudkZKM0ZsN1g3SFVzMV9wTUxONVZ3aGMxMUpyY3ZXbjg?oc=5",
+      "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
