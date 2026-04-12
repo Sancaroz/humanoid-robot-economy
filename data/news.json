@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T07:43:30.286Z",
+  "generatedAt": "2026-04-12T13:33:47.506Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -8,12 +8,6 @@
       "title": "Here’s The Most Affordable Humanoid Robot You Can Buy Now - Forbes",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWjl0VjIwMDB6MU1nQkMxZ2FDSWdsNzBybG9TQk54VktMWXVwdGdnaEpEZ3R1c3pxdHFGc2V6dHNla3hidzRlUVBoOVMybFYxb1N6UlowMW93VU1IcUJydENCR1lmNUg1dlhOTFhMQmhMM1FRS01qZnJXdi0zZl8xN1FqeV9Jbk9MNUd4TW9zNUZJdUh0ZVdjZkU3Y1M2a1ZKbmJ3bHVvWDFuMWE2WG5z?oc=5",
       "pubDate": "Sun, 12 Apr 2026 05:39:07 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla and SpaceX deepen vertical integration push for supply chain control - digitimes",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV1dUVDA3ZGdza2ptQWFSemRPbk5jYUl1cjZpWVRBZ3ItZENUNktrTnhVWkJyOWtQUEpoVXdZRGV1MHdVR1JVX0Y2dDJmZ3VjYnlUa3gwRXJKNUdyOGlWYVA5Q2JwTDdvSUp2U01DRFNIcU9oRGpzclowWnBWWjdvS2VlbUZxRjY5VWxvVlhYRGhxbnEtRHFmTQ?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 00:50:24 GMT"
     },
     {
       "company": "Tesla",
@@ -35,12 +29,6 @@
     },
     {
       "company": "Unitree",
-      "title": "China’s Unitree Sells Cheapest Humanoid Robots Online with R1 Global Launch - Gizmochina",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ1NpV25nQXBFclNHMXVYRmk5NUVRd0VQNTBJMTV1ckxvLXhUdmpDLTEzdFdhaFc3aEkyd2xySXN1RDhYYjdPdEstdUVCSXpmbDI0Y1NjTTl3Mm0wQ3dhaFpzUkg0bERtZmFUeDdVcVg0QzBFMkJFclJUNjh6RFhjTnJWOVFPUnFrcVVaM1dB?oc=5",
-      "pubDate": "Fri, 10 Apr 2026 12:21:10 GMT"
-    },
-    {
-      "company": "Unitree",
       "title": "Unitree’s cheapest $4K sport-ready R1 humanoid robot to hit US markets via AliExpress - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaHA2RlVoUGM5dmRLQXRTVXNHSmFIS2kza29ueHRxNWlYNmY5c05QYVRob1J4VTJxajNoOHVid2lscmdoTmN0MlV0TmgwRFJ1dXhuR21MRHVuZnlFR05LSkdmUkotOWhleWRnSVVxMTVjM2tzZFpsRDNsWExsNFl5eEJ5V045WHg1eS1xSURzTks?oc=5",
       "pubDate": "Thu, 09 Apr 2026 22:31:00 GMT"
@@ -58,6 +46,12 @@
       "pubDate": "Thu, 09 Apr 2026 21:33:31 GMT"
     },
     {
+      "company": "Unitree",
+      "title": "Unitree to debut cheapest humanoid robot globally via Alibaba: sources - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnVxUjBPVUpjcXdGWHlNNFVjSFMwbXFoUE9Xc29Ld2xNSVVZVWVBVkdrVV9IUENjVFptdy02UnIxWWV1ZkswS0M5OW9qQ1M2eVJCQlFSZHE1a0duSFZCUnZEUTQ3Q281OHM4WmNfLXp1SUcyNzlubTV0RHRCdl82OHhVMC1vc1kzX2RTZ1RvaExXb1lvUDBXREVMVExCZl8xdkV4dEtIbWN0eE1ZZW50WWtJckM0WGPSAbcBQVVfeXFMTTFMdWJYYlRmVHlVRTJTZW9nZE5iSnpoV0tPSDBTTWpMLVItMGFFc0psN1BZVWRsSmJhZlN6T1FYQ2cwbXNycWgtTlpONFJrMDAySFV0VnZDTzRnUFhUR1FtQTlQamR3bGpyaGR4bXlVRmpIMWl5TXRxMnlYSTU3c1pEc21PRUhFNmI2WWgzZ3RiSlFqS0Rnbkp4SU9mNW1ENm5CQ0VON1k2dmpPR3RXV0hDZ1d1RFZF?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 07:30:11 GMT"
+    },
+    {
       "company": "Boston Dynamics",
       "title": "Taking the jobs humans don’t want: the ironic promise of the humanoid robot - WardsAuto",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWxIS1ZZeF84UFlRNmxnUkY4TjBUMnRrbVl6ajNWam9keGYyMmV5VHBWbl9jSkl0MzZpSEVWeFp5TkdsRDNDTkFJSUxtSUFEdWVhVlpBVXVfaXBSQmNYT1NfMDR1VjhTcXFXdG94QUZLeW12UVByaWRlNVluOThkQmV0ZG5nb0RTcFpJa1lVdmpLTFAtcVZxZ1ZwTWNSeTlFbWJBTVQ1RmY3X0RQUjNaeDd3?oc=5",
@@ -68,12 +62,6 @@
       "title": "OpenAI’s Vision: Four-Day Week, Robot Taxes & Wealth Fund - AI Magazine",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0xtelhvWnI5TWJ0UzZuSlBZN3FvZUYtb3V6NFJ5MHl4WVA0N1pCNUFQbktHemU0aEVpSE1FbE5IMjAyamJKZkRRRzNDSEYtMERpaDRYSHhFdkZ3SGpVM0RKQ29LWXNSMWR6WEsxMVY2NDUxUXo2MlpZRDAwRUs4UmZZZW9WZVk?oc=5",
       "pubDate": "Wed, 08 Apr 2026 13:07:54 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI Warns AI Could Leave Households Behind—Now, It Wants Robot Taxes and a Public Wealth Fund - Realtor.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2FkaGxhSWdiYzBJcFFwUkVIRlMwcnNpLVYzZHk4dDZRMUhfMUZqQW5SRV9FU0NSbmoxdk1CZ2VjaDU4VXF4ekItdzI0aTV2c0JldU05d1Qxem91YkFwYjNOakttQ2RUMmI5dHFPRktfSVhMdTBKbXNlaFM5X0E3T2ZUTzd3MHYzeTJFcUI5bw?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 03:11:25 GMT"
     },
     {
       "company": "OpenAI",
@@ -94,6 +82,12 @@
       "pubDate": "Thu, 02 Apr 2026 13:12:00 GMT"
     },
     {
+      "company": "OpenAI",
+      "title": "News | OpenAI inks deal for potential robotics hub in California’s Bay Area - CoStar",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOWVRM1E4TXlxTXZwaERRYmJtSXByZjEwLTE0ams2SkM5NFVPcnI3czVaOUp5al9uY3dRUTMyRHFuVVlXMlB3QmxJaDNfdV9jaU80a0VaZEtzZ3plNWx4TlhBQ0djeEk4Qm9FZkI0NW9DYUVBUmh6bGhfT2hYVGNLR0Frb1ladTNKQ05saG5NN2ZKZ3Bvd3VWMmlaWnJYc1dzeW9nZ2JoNzhyQTNuVXZqeDM3WEgyckV1UldoaXVFSFY?oc=5",
+      "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
+    },
+    {
       "company": "Figure AI",
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
@@ -104,6 +98,12 @@
       "title": "Elon Musk’s $10 Trillion robot: Inside Tesla’s push to mass produce Optimus - Teslarati",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OV1JzdXBIWWROYVFZMVJqeEVBMk1RdU5kNkNrYlNqY0NHTGstLWNHTmZLX081ajEyNWZ3TlVjOHphOUpPb2tMZUJ3eG5rbGZhN0FYYW0taVFydHkwQWhkZ2F6NA?oc=5",
       "pubDate": "Wed, 25 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Stock: This Is Elon Musk's Latest Optimus 3 Production Timeline - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wSkRKS0dEV1k5TTNuVTJiN3FSbzZUaWdVOEQ1d2RYVVI1dElXYkcycTFNSmRJT3U2WHhwdk5yOG96dFlyNC1KS3JObEtaSnM5cVlYNXNHUmh4VWZRZ1c5WXRDNGI0eUtEZXV2c193MzVyZG5UMzc4Sg?oc=5",
+      "pubDate": "Fri, 13 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
