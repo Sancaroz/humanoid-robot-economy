@@ -1,25 +1,19 @@
 {
-  "generatedAt": "2026-04-13T03:51:25.390Z",
+  "generatedAt": "2026-04-13T08:21:44.467Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
-      "company": "Boston Dynamics",
-      "title": "Hyundai Motor Group to Deploy Atlas Robots in U.S. by 2028 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdHk5WUhteDFmZ3RicmJKVXA3cFVoYnI3Tl9WMjFYM19DLXV0TXY5MDhDSFc3aE9kNUp4b0liUWhicVNIOWhtR1NlMnNkNkdPd2FGZ0RMLWoxdXpxdGlYX1JLOERxc2Jjal9HU2NldERfdThSX0s1V1VzZC1rd2ZhZ2d4V0VTRHVf?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 01:26:24 GMT"
+      "company": "Unitree",
+      "title": "Unitree's Humanoid Sets 10.1 m/s Record - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0pqbkdWSkJsYnFORXBKendiOWpsZjZhNVlfUHdkWGtNZm14SlZDdW5uY01MaW8yWXdHXzd2X25RbE1EdEw1Q1B3azk3TWp0T2hEYjJScmpaU1FNWVhDUng5TDVmbk15aWNsbXRyay1BbWdadk9nN09hem4tZWpqZ1JSS1Q?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 07:16:28 GMT"
     },
     {
       "company": "Tesla",
       "title": "Musk Has Been Running Tesla Blind - planetearthandbeyond.co",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ncWU0U2s0c1FVaGNDOWUzRUZPWXg3dnB4d0pTTkI4TWRjLVlIdEhSRmVrZW04Q0hfUjZvTFBNUUNiNU5Tc0Z6Y05GVld4d1dUNGdhc2xBUHRJV0Q2ZVk1ZUFiWlk4bExhWXpRVHhDSTdzRE1uYzVEUzBSaw?oc=5",
       "pubDate": "Sun, 12 Apr 2026 21:01:09 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Steel, silicon and artificial intelligence: Who will win the race of humanoid robots? - Xpert.Digital - Konrad Wolfenstein",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mRC02SlZtZV9oeERlYjBpYml6MzRBM0Fpb09Wa2lHR2NPY3hFWmotVjZwU0t5WEZQYlBZWEtMaXpaalNsVUdyUWF1NHo1NktmWlQ4X2RCZUN6LXRzNFhaZk1JcjlzVnc?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 15:57:03 GMT"
     },
     {
       "company": "OpenAI",
@@ -34,10 +28,16 @@
       "pubDate": "Sun, 12 Apr 2026 05:39:07 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "Unitree to launch cheapest humanoid robot globally next week, starting at over $4,000 - VnExpress International",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPXzZwSlJyZTA0TzhxN2dBUGMyUkFUbTMxYWNKR1Y5SUZCekRfZml6bThMeGNxdHJVRXl3X1g2Z3NaMGk3T1l0Zi1RdE41czY1S0F1dER2M1JWNGo2SGEyVVRCVkJoMm9MSThyQVcwV1plaTg2SHhRSllhaHlZUEVLMEJkQ0prbzVKT29rMl8zU1k5WWVSLWNra1JkNGhWdktuVXhNZWU2dE9jUXR3RkFvbGpBcS1QOVp6MUxEaklVa2VRWnRMY3NUT0RsWnhOblBFbGNneVp2WQ?oc=5",
-      "pubDate": "Fri, 10 Apr 2026 13:22:43 GMT"
+      "company": "Tesla",
+      "title": "Tesla's Optimus robots at 'We, Robot' event were not very autonomous - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LVmJ3SkxCZVByTFVUTURha2J0a2R0aU9ZeUFoc0RuRzI5QTdlalVhbFA3aVpEbngyYTFCdU1yV0UxdnZCaUpmaUplX19ROUxta0RNMnZScXY5czc3cGdSbXBEM2dhU0pJbTFraXRMTnQ?oc=5",
+      "pubDate": "Sat, 11 Apr 2026 20:13:10 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Axios C-Suite: A glimpse at the humanoid future - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcFRjdm56T2lGcl8zVWN6VC1fMEZadFdtWEwxWWxkMzM3R1VoRHk4T3RqUUVySzBWUnAwdjgzU3NNN1ZzbzJxUDIzMzNZWDBGODZ3Mkh4WlZPaHZfY0pENUFiaEVoR0s5dUY1RWw5R3EzbEdLOU13OGwzNmg2MUk?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 20:33:40 GMT"
     },
     {
       "company": "Unitree",
@@ -53,15 +53,15 @@
     },
     {
       "company": "Boston Dynamics",
-      "title": "Kia to Use Atlas Robots in US Plant, Develop First Software Car - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN2FIelFYZ3EzSE1lMDdkQmFRRFJBU0VYb0xwaFRRWFV5V3UxNjd0NmNpN2g5dU8zTVctZGxxdGN4bWtyQ0dnUXdBUkFqZlpJSmFCdVlfVTNzTFlmcFp0MXdITHVkb0ozVWxLSTRicEFhOVVxZ2lBNHdSUzNVa3JHYlNyZjdINjRIVjJtM1plaWcxQVZOSkpKektjei1EbFgtZXk3bE9jTkF0eHJRU2Y5VDRlaw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 21:33:31 GMT"
+      "title": "Hyundai’s factory humanoid will differ from the Atlas that you know - Korea JoongAng Daily",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeG9HWGR3dVBneE00Z3B5LTViWWp5eWVVdi13anRfZTlfeXpHNGpzRXBPSjROYmhQaHJsNHZCbTlSR2h4OWxOUlpMcGFobmxKSXJrcDVza216STNUc25EWloxQnFES3hOZDBFcHA1OGJqdE5IZHlOck9tVFQtZlUzQXBicTlSTmk1akwycjZob0FwZ21Vc3VndDlHU0hXY3ZrdVFxMzc2QVRIVGVkUGhGOUVURkREWURFOGotV0xSek9uVDBNam13V3VTcWE5ZnFyeHNBSDhmVTROcEl0S0E?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 22:00:01 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Signs New Fremont R&D Lease Ahead Of Optimus Robot Pivot - Bisnow",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXNBeWJXVjhBdDBwYmN2cXdHblFxbFcyRGRvLVJQZFllSVZDb3QwOE10NnFyRWRKZ3g4VnVfbTFKanRhVTZYOHYzMDZ2SUg3NUkwbWptYVIteWluSXRSOFRYNEZ2Tnh3WUJ6eUVjWm1tRmpscDBkaHF6QmZvNHA4NTlic2dvTWJBcFJfdHhCRXlMSE1DcHN3X3QtcnNIWW82X1hXRUxIT3ZveXVQcUE?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 22:41:56 GMT"
+      "company": "Boston Dynamics",
+      "title": "Kia to Use Atlas Robots in US Plant, Develop First Software Car - Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN2FIelFYZ3EzSE1lMDdkQmFRRFJBU0VYb0xwaFRRWFV5V3UxNjd0NmNpN2g5dU8zTVctZGxxdGN4bWtyQ0dnUXdBUkFqZlpJSmFCdVlfVTNzTFlmcFp0MXdITHVkb0ozVWxLSTRicEFhOVVxZ2lBNHdSUzNVa3JHYlNyZjdINjRIVjJtM1plaWcxQVZOSkpKektjei1EbFgtZXk3bE9jTkF0eHJRU2Y5VDRlaw?oc=5",
+      "pubDate": "Thu, 09 Apr 2026 21:33:31 GMT"
     },
     {
       "company": "Boston Dynamics",
