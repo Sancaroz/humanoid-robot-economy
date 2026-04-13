@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-13T14:06:05.048Z",
+  "generatedAt": "2026-04-13T19:38:34.235Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Unitree",
+      "title": "Video Shows Humanoid Robot Chasing a Pack of Wild Boars - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BYVJBVHBIVE0tYjUwZ1hkX3A3T1N3ZkRWaDBnLWtUd0pjX3dxMEJCa0pFNXh5WG11Tkl1c05fSE9DRVdPQ2x0ckNaNElLUF93Z1E1QjJhWk5JQS0wMlF3UXh6ckpSdnFxQmZPNEVvWEl1VzhsV2pNYjM5V1lTajA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 19:17:11 GMT"
+    },
     {
       "company": "Unitree",
       "title": "China's humanoid robot inches closer to Usain Bolt-like speed on track - Interesting Engineering",
@@ -17,15 +23,9 @@
     },
     {
       "company": "Unitree",
-      "title": "Chinese Humanoid Robot Nears Bolt's Speed Record - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0pqbkdWSkJsYnFORXBKendiOWpsZjZhNVlfUHdkWGtNZm14SlZDdW5uY01MaW8yWXdHXzd2X25RbE1EdEw1Q1B3azk3TWp0T2hEYjJScmpaU1FNWVhDUng5TDVmbk15aWNsbXRyay1BbWdadk9nN09hem4tZWpqZ1JSS1Q?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 09:01:36 GMT"
-    },
-    {
-      "company": "Unitree",
-      "title": "Humanoid robot reaches 10 m/s in test, company says - news.cgtn.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOUxWaUVaOUlrak9aUmtWQWxJaHJuMW83V0w4Q0RRUkRwdHJwUU8tZF9fQXhuWDBWdEp1c0RmWVppUzFxWlRla2pORjRzV0xQZk9HcWdSOWxSRWUyWUhLUGV6aEczcGY0dHhGS2N1bmpmcUgwNndaclpvbnhGcFJJdldMdmUzaWVDM1lobXlUclM1eFZ6RDF2NDJ0eGl0a25iXzhhX2V2LS1DMTA?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 06:17:59 GMT"
+      "title": "Unitree’s H1 robot hits 10 m/s sprint speed, getting close to Usain Bolt’s 100m world record - Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SR1dtYWJ6b05PWHUtUWpCMUE1cVliNzhtS1ZjRDVhTU5sRE8tOS1zX2R4c3VSTVZJTU0xV3VFdGkxNGNpblhjTzJkeV9oWlpITENsWVc5TU1taUE0NHVWNkhB?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 10:27:00 GMT"
     },
     {
       "company": "OpenAI",
