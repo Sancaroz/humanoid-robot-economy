@@ -1,13 +1,31 @@
 {
-  "generatedAt": "2026-04-14T03:40:11.530Z",
+  "generatedAt": "2026-04-14T08:02:39.113Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Figure AI",
+      "title": "Humanoid Robots’ 88% Fail Rate: Completing Home Tasks - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX2t6QmxYVmxvMTRpQkVwZENJaDhHREFhLWJzYXVDX0IwdXVfNkRBWmNteS12ajF1ejE0LVJDV0JxM19Hby1YSWtndm5NQWFEcjlQdFAzdXhXLWwzVjRpQXNtcVpYbnQteVkyQWxva2pVakM2REtDSnBLUy1CS3hFd3llaVFqYzI5cnNsSXJBNTlLcjZSMUdoNlNzVXQyY0VCYWc1bTVBWQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 05:06:26 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Hyundai maps robotics, AI push beyond cars - Tech in Asia",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zbDVoY0huRV9GYVhGZGJQRTJRa0E1RjN2Q3dZWTBWRC0yckpUYlVaajR6ZkpxRWU3ZjdWcTVERm9ZNnJfVWhpbk15bnlQdURDUlRHR0JneERwTmFYR1RUUHZkMUlpNDdRQlNPSlBkRHlaTFZXSE14a0ZWQmZXUQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 04:41:00 GMT"
+    },
     {
       "company": "Boston Dynamics",
       "title": "Hyundai Expands US Investment, Scales Robotics and AI - Let's Data Science",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVZkUDQxRjFVYzhGMFZFMFdmNFVVdUNXMFFxRS1DZlVsN3M0T0tmMmk2bFQySWF0WGlIX1NWSUY3aHpqMThpRDNlNkFEbGExZ0dOSHg4bTdHbDNPR21lYWIyaHhfTWM3N3lQeEo0MTAwNlgxMEREY3lycUdWSkFWcGtETUxhUU9lTTdBWjdvdHNpYWpIX0pHbk13?oc=5",
       "pubDate": "Tue, 14 Apr 2026 02:22:03 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Unitree's $4,370 Humanoid Robot Hits AliExpress Shelves - The Tech Buzz",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZVU3SUc4S1ZPMnBnMkF3RHN3TDNGdXZTd2FqdmVDQ21FbGVGODJUVVpSTUNjWWhXOVdwU1B0NFVNUlBsNmtmendTNl9PSHhxQTNWM0FJa1dENEpORGNKT0pteF9pOVNTdnpibDl4cUZDaVloSkJpNC1UdU1YTFUwQlB6U2lncXRnQTctd2xSa2M?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 00:52:00 GMT"
     },
     {
       "company": "Unitree",
@@ -28,10 +46,10 @@
       "pubDate": "Mon, 13 Apr 2026 19:17:11 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "Hyundai Motor Group Prioritizes Robotics, Physical AI in Strategy - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdERSUllLeHRKZjZjc01obHRRTmFEeVRUZlBPMEM3eFMyN2pBdVpra0dQdVM2RTI3N1dJcjFUWEh6cFVZSnVTd2VhMVNucE1yVk5ka1U4Z0pobnlCNkN3dnlBUm5tU0dIQ1J2WjA4V0lYaU4zQVlMblpmRmVsNEJUczBJUG5odmZ5?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 19:02:14 GMT"
+      "company": "Unitree",
+      "title": "China's humanoid robot inches closer to Usain Bolt-like speed on track - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQVB0aVktTzMzUl9nWWduRGJjMDM2Nm84cGNkQ0FhQ00tQmpoSHpYa2FxV1JucnZNcnpzV0tKQjREN2dZaG5zOEtZSjlEazhNWjRrNnYyMW5jLVhUMVVxOXVTMzJob1d1cWNwakdsdW5FQjloRmxocHlLZEJjM3hxemxha21VTzBOOXpOV3BoeGlCZ2c?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 09:14:00 GMT"
     },
     {
       "company": "Unitree",
@@ -46,28 +64,16 @@
       "pubDate": "Sun, 12 Apr 2026 10:14:21 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "Here’s The Most Affordable Humanoid Robot You Can Buy Now - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWjl0VjIwMDB6MU1nQkMxZ2FDSWdsNzBybG9TQk54VktMWXVwdGdnaEpEZ3R1c3pxdHFGc2V6dHNla3hidzRlUVBoOVMybFYxb1N6UlowMW93VU1IcUJydENCR1lmNUg1dlhOTFhMQmhMM1FRS01qZnJXdi0zZl8xN1FqeV9Jbk9MNUd4TW9zNUZJdUh0ZVdjZkU3Y1M2a1ZKbmJ3bHVvWDFuMWE2WG5z?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 05:39:07 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Axios C-Suite: A glimpse at the humanoid future - Axios",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcFRjdm56T2lGcl8zVWN6VC1fMEZadFdtWEwxWWxkMzM3R1VoRHk4T3RqUUVySzBWUnAwdjgzU3NNN1ZzbzJxUDIzMzNZWDBGODZ3Mkh4WlZPaHZfY0pENUFiaEVoR0s5dUY1RWw5R3EzbEdLOU13OGwzNmg2MUk?oc=5",
-      "pubDate": "Fri, 10 Apr 2026 20:33:40 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Kia to Use Atlas Robots in US Plant, Develop First Software Car - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN2FIelFYZ3EzSE1lMDdkQmFRRFJBU0VYb0xwaFRRWFV5V3UxNjd0NmNpN2g5dU8zTVctZGxxdGN4bWtyQ0dnUXdBUkFqZlpJSmFCdVlfVTNzTFlmcFp0MXdITHVkb0ozVWxLSTRicEFhOVVxZ2lBNHdSUzNVa3JHYlNyZjdINjRIVjJtM1plaWcxQVZOSkpKektjei1EbFgtZXk3bE9jTkF0eHJRU2Y5VDRlaw?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 21:33:31 GMT"
+      "company": "Tesla",
+      "title": "Elon Musk's Tesla robot needs help walking. He says Tesla needs help improving it. - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95TVBwanVZWWI5UEFBNDE3aVktY1hUWHBrODBZTi1jNzF4SnYwRS1OblVTdFZDeEVtUUNRZDRWWXZGNWFpTFMyY2FIRVNiWTVoeU14ekFTOTViQURBczBYS0NfaWJGYXpYdHgw?oc=5",
+      "pubDate": "Sat, 11 Apr 2026 20:13:10 GMT"
     },
     {
       "company": "Tesla",
-      "title": "Tesla Signs New Fremont R&D Lease Ahead Of Optimus Robot Pivot - Bisnow",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXNBeWJXVjhBdDBwYmN2cXdHblFxbFcyRGRvLVJQZFllSVZDb3QwOE10NnFyRWRKZ3g4VnVfbTFKanRhVTZYOHYzMDZ2SUg3NUkwbWptYVIteWluSXRSOFRYNEZ2Tnh3WUJ6eUVjWm1tRmpscDBkaHF6QmZvNHA4NTlic2dvTWJBcFJfdHhCRXlMSE1DcHN3X3QtcnNIWW82X1hXRUxIT3ZveXVQcUE?oc=5",
-      "pubDate": "Wed, 08 Apr 2026 22:41:56 GMT"
+      "title": "Tesla Optimus Gen 3 Silhouette Revealed by Program Lead - Not a Tesla App",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbVRWLUlOQnkwY1RmT2prN1ZIM3RUeTBna0FCenNnbV9OX01kcGR1UlBqaHBEc2JlV0k4UUhaVHM1Qy14UG51elRFUnhiZnBhNG5YU1VDaFY3cVZEclVERVNOdjktdjU4WHBHQjlmY2RuUXRMTWtXek9kTFJCRkZqWW9nZ25vaXgxRnFZZ2UtMXZkWEMxdldhS1B3?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 18:04:00 GMT"
     },
     {
       "company": "Figure AI",
@@ -92,12 +98,6 @@
       "title": "Elon Musk’s $10 Trillion robot: Inside Tesla’s push to mass produce Optimus - Teslarati",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OV1JzdXBIWWROYVFZMVJqeEVBMk1RdU5kNkNrYlNqY0NHTGstLWNHTmZLX081ajEyNWZ3TlVjOHphOUpPb2tMZUJ3eG5rbGZhN0FYYW0taVFydHkwQWhkZ2F6NA?oc=5",
       "pubDate": "Wed, 25 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla Stock: This Is Elon Musk's Latest Optimus 3 Production Timeline - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wSkRKS0dEV1k5TTNuVTJiN3FSbzZUaWdVOEQ1d2RYVVI1dElXYkcycTFNSmRJT3U2WHhwdk5yOG96dFlyNC1KS3JObEtaSnM5cVlYNXNHUmh4VWZRZ1c5WXRDNGI0eUtEZXV2c193MzVyZG5UMzc4Sg?oc=5",
-      "pubDate": "Fri, 13 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
