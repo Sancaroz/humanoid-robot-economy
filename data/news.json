@@ -1,13 +1,31 @@
 {
-  "generatedAt": "2026-04-14T19:40:18.049Z",
+  "generatedAt": "2026-04-15T03:38:08.865Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
+      "company": "Boston Dynamics",
+      "title": "Boston Dynamics and Google Deepmind are using Gemini to make Spot smarter - The Robot Report",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ05uQnBSMDRvbkZTS1N2RVI4QXNuOUFkeFIxZDdKckdNMXhrRXd5NGNoYkkzZVhCOHY3bFpqWDJITzBSNUlkS2dUTWNHTWd6TVV6NVBHUUhJWWlOVzNFaG1uak1SYW83aUZjdTRiM2hDb0ZYUEItdzg1YjVTVjJ4QjBsQmRUS045N3FKWHpEYlZ0azIzeUhaQXg5cUthR0dlc0RPQzUyNXc?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 21:23:32 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "​Boston Dynamics and Google DeepMind Teach Spot to Reason​ - IEEE Spectrum",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03Y1ZNdE5lYjhudzYwV1NPWXczM1JNM2dZTHRqVWpsYkdIbUVMUGFrb2VIR2ZJV1A2M1NKblV5V3dXN1FIeTZoV3p2QWJTdXhBUjJVREx1ZUJCYzRRQnZ1ZDhabVBNa1RIelJhdk9xQdIBgwFBVV95cUxQM2lSTFYtRjBWVXZ0RDc4dTVIWjNiMGt2Z05iSWdfTjVzVTc3S0NSQ2RoQUlLbnRJWVI0VUd5Q1p4bU8xLUdmcnlUMS1OcTVqc2F1TEJVd3FmbDFXY2RGM1RieVBaQ0tvNlFMbGk2ZjZ2QlI1cXZGSEpseVhzcG5scGV4WQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 19:50:01 GMT"
+    },
+    {
       "company": "Tesla",
       "title": "Has Tesla Found a Solution for Producing Its Optimus Robot at Scale? - TipRanks",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQW1xd1FvXzhvOFcxUXBscGpReExsbHBSajlsQ1d6bWVHa0Jhc1c5SHhSQzhfSXM5dGJjcnZiLWlZQXQ3aUd2NjdnUFQ4aGFfNXFvT29WZHV3QkUwU3JnUzRjQ0ItLUNoRlpobHFfUW1lVWg2Z1pBU0JSRFNaLUNldVN5bTFhWWNEcFRLNUhRVFRsVGQwTVRYTWZhTzNiZw?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 19:11:14 GMT"
+      "pubDate": "Tue, 14 Apr 2026 19:11:34 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla eyes Gigafactory Shanghai for humanoid robot production (TSLA:NASDAQ) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOXQwZHJPQ0toMk4yTkZvb1dScThFSXl1LXA4ckxac3lkZVRMV3Myc1Z3NldpTm5rNDJ6MnNCV0Jta0ZQa1BhQnRHSVVDOV9SUE9fTjhRUDdxRzZMLWw5NmRhWFZPV2FWS0k5UEhlVktfX2JsdjFacGdSdXBwdGxNd3MxNDlCYTd5YXZNVGpYV2dVb3E4bG1DbG0ySGVoYXdx?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 18:39:46 GMT"
     },
     {
       "company": "Tesla",
@@ -28,28 +46,16 @@
       "pubDate": "Tue, 14 Apr 2026 13:00:42 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla leader believes Shanghai factory operations will play a role in robot mass production - abcnews.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa193dnZzR3JGdXVZMDJ4VVFqalJQZnZnU180N0lvTlNzQ3Y5Q19vS1FuVlI2NHV6QmJzYU4xekp4SVYtZGR1LXRhS0k0UDZOZXdxdllZckVmOG9ST3lEWWFLeHZ5SzFyWEZteXMtX2pyTjBkNi1EZ3JLWVF3TVA4U2t0VXJ3dWhtZWU0dXhhYmtKT3dqWUJuRVE1TzdsV3NWbmFBY2wxc190VW41V0lKMEJFRdIBuAFBVV95cUxNZ2xiUF94ZFEwRWpRQjRUanhFVU55NnBvZ1Y1S2hXZjU3TW9CVzB1bkVqeHdnUF9XTkRZWGVYMVdaMFF6VGhvX24yTmdhWS1pNUdFS093eC1Yd0tGTkg3S1V2UjJxM0RJMHpTWDB3S3lyU1lKZkpsX2pGM1RoX3psb1UzaUl0MDRBbnItNVoxZ09IcUdxMVFId0RqQndEQmI3WUVTdlhKLVZrc09GYU5oblcxUXlYNlFW?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 11:50:50 GMT"
+      "company": "Unitree",
+      "title": "Poland street sees humanoid robot chasing boars in unusual AI showcase - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMzl4YWxiMFRycjBLcTNtVE1mVGl2TU9tQlNza2VmbVlKRlFNdzdTaEd5NVZNYWtDbUZOU29jNVk3SkVFOS1aQ1VEWUtUc09PSnpVR0tDZEUtek9QYV83bWJIcWxwUkpscTV5TGgyOFQ4Y21oUHVUaFk5MDU0VHVfWFA0SzVMcUt0YllCeQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 09:57:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Humanoid Robots’ 88% Fail Rate: Completing Home Tasks - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX2t6QmxYVmxvMTRpQkVwZENJaDhHREFhLWJzYXVDX0IwdXVfNkRBWmNteS12ajF1ejE0LVJDV0JxM19Hby1YSWtndm5NQWFEcjlQdFAzdXhXLWwzVjRpQXNtcVpYbnQteVkyQWxva2pVakM2REtDSnBLUy1CS3hFd3llaVFqYzI5cnNsSXJBNTlLcjZSMUdoNlNzVXQyY0VCYWc1bTVBWQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 05:06:26 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Hyundai maps robotics, AI push beyond cars - Tech in Asia",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zbDVoY0huRV9GYVhGZGJQRTJRa0E1RjN2Q3dZWTBWRC0yckpUYlVaajR6ZkpxRWU3ZjdWcTVERm9ZNnJfVWhpbk15bnlQdURDUlRHR0JneERwTmFYR1RUUHZkMUlpNDdRQlNPSlBkRHlaTFZXSE14a0ZWQmZXUQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 04:41:00 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Hyundai Expands US Investment, Scales Robotics and AI - Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVZkUDQxRjFVYzhGMFZFMFdmNFVVdUNXMFFxRS1DZlVsN3M0T0tmMmk2bFQySWF0WGlIX1NWSUY3aHpqMThpRDNlNkFEbGExZ0dOSHg4bTdHbDNPR21lYWIyaHhfTWM3N3lQeEo0MTAwNlgxMEREY3lycUdWSkFWcGtETUxhUU9lTTdBWjdvdHNpYWpIX0pHbk13?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 02:22:03 GMT"
+      "company": "Unitree",
+      "title": "Humanoid robots show off their language and boxing skills in Hong Kong - VnExpress International",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR0lGV1NJbFNBNjVxeHpOOEloUlcyT1E2dTR3MXhoRUlqZ1ZrZmFVNjM5LTlDbHc5aEg0NzJ6YjhvaXFPQUphWk1GMVpFNU5Db05CYzdqZnNoSmpXbWc0bGdmU1MzWXVzUUczWWM3VTdTZGM4Y2d2amlHM010UVpubFk3emZLbzZ5WEJ4TDJGaXE0XzFIT3NvMjBXMnNKR21NamZtcDQ2UlRfSGt5VHJ0aUJjdV9jcldGUDRzT2lwY2tjRUxKWnc?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 03:29:18 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -70,22 +76,16 @@
       "pubDate": "Mon, 13 Apr 2026 19:17:11 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "China's humanoid robot inches closer to Usain Bolt-like speed on track - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQVB0aVktTzMzUl9nWWduRGJjMDM2Nm84cGNkQ0FhQ00tQmpoSHpYa2FxV1JucnZNcnpzV0tKQjREN2dZaG5zOEtZSjlEazhNWjRrNnYyMW5jLVhUMVVxOXVTMzJob1d1cWNwakdsdW5FQjloRmxocHlLZEJjM3hxemxha21VTzBOOXpOV3BoeGlCZ2c?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 09:14:00 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "Robot taxes, four-day work week: Inside OpenAI’s plan for an AI-driven economy - Yahoo News Canada",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtME80TFpsdU9jTGZVWlpCMURFUFM0bmlGd0VJWUZWVDM4NXpGbF95MGJJMVpqcm9tRHBCSlVHR3FrQWRSMFg2NTRsanRWLUhuMWQzOW9DNnNLLVJLekxudG5DckY1S20tTmFJbGtkU2M2LUxS?oc=5",
       "pubDate": "Sun, 12 Apr 2026 10:14:21 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "Here’s The Most Affordable Humanoid Robot You Can Buy Now - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWjl0VjIwMDB6MU1nQkMxZ2FDSWdsNzBybG9TQk54VktMWXVwdGdnaEpEZ3R1c3pxdHFGc2V6dHNla3hidzRlUVBoOVMybFYxb1N6UlowMW93VU1IcUJydENCR1lmNUg1dlhOTFhMQmhMM1FRS01qZnJXdi0zZl8xN1FqeV9Jbk9MNUd4TW9zNUZJdUh0ZVdjZkU3Y1M2a1ZKbmJ3bHVvWDFuMWE2WG5z?oc=5",
-      "pubDate": "Sun, 12 Apr 2026 05:39:07 GMT"
+      "company": "Figure AI",
+      "title": "Axios C-Suite: A glimpse at the humanoid future - Axios",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcFRjdm56T2lGcl8zVWN6VC1fMEZadFdtWEwxWWxkMzM3R1VoRHk4T3RqUUVySzBWUnAwdjgzU3NNN1ZzbzJxUDIzMzNZWDBGODZ3Mkh4WlZPaHZfY0pENUFiaEVoR0s5dUY1RWw5R3EzbEdLOU13OGwzNmg2MUk?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 19:32:59 GMT"
     },
     {
       "company": "Figure AI",
@@ -119,6 +119,12 @@
     },
     {
       "company": "Agility Robotics",
+      "title": "Toyota & Agility Robotics: The Age of Robots-as-a-Service - Technology Magazine",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1RwTmZNZFlwZGZoNl9TdXRBX1hPVXlycUZWZUd2VkstUVJvVjVOYUc1b04tLTU3ZHVfWlk2aEhSbW9peG9MMkpmSlptRXpVMkt5WTVYMzJtb2sxbTUyRzZIRjdod1N2X1pmS2tZSkpkeFJCZG55YWtocndXd2UwSmFwRmdiQUs4Z2l6UldkT04yQQ?oc=5",
+      "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "company": "Agility Robotics",
       "title": "Toyota deploying humanoid robots at Canadian assembly plant - Automotive News",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYl90blJkMWtrVExMbHhBSjc0MXNOSTV5N213S0dDVy1aOFNucnpBSUcwMFozQjFaT3R0SW5pQ3lkRGNjbTRIcDNNUnFmRER0N2VXXzNZUTNRZVRCVlp3VWNlLURNbFNNRWdQN1UyZDFCUXpmOXM1Smw2N3NjY21OV0J0UjFmUWhfeHVoWlZqa0E?oc=5",
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
@@ -140,12 +146,6 @@
       "title": "Introducing Figure 03 - Figure",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
       "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
-    },
-    {
-      "company": "Agility Robotics",
-      "title": "See Digit the humanoid robot works at Agility Robotics in Salem - Statesman Journal",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYk1BUmhwdEhUX3FzNENYS1llOTMwTjA5RU9FaXJaT0xLaW5sWHBFMDVPaVJUSm5mMEhsQXpIU1FTYXdMX0F1TGduS19zanVLMy00V2tGTnBpcVhUYzNXQm03bF9tUWkzTTlGc3BFeHlVRkx5cC1qWS1RQ1o4dElGYklTYm1VMTJRS09qemhnaVFhUW5NM2VTNUlXOHkyazN6WUt3dk4xLWE1eDJwU3c?oc=5",
-      "pubDate": "Fri, 12 Sep 2025 07:00:00 GMT"
     }
   ]
 }
