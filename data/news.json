@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-04-17T13:57:25.327Z",
+  "generatedAt": "2026-04-17T19:20:29.175Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Tesla",
+      "title": "Tesla China President Highlights Shanghai Gigafactory as Key for Humanoid Robot Mass Production - MLQ.ai",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQjZaYlBVbmVHSXp5TFBKOU1rdnZLNkZoMFBqNEZ4WGFBckRMTkFhaG00QUllemhmR0JwQjJkUXhGSkJ6ZVVQUlJzZlBhazl2YUd6cWhYejBaY2hwQjFkUXpjczVIUTY0OFdac0NJUUl0WE9PaUNoUGxsR1RHRWZERUVNSWVna092ZXQ5eFQ4Unc4X19NQmpvNEZkdkZuRTkyZHg0SG50Ul9DUjh5eUJGTXBjTXpHN1k?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 16:24:26 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "Meet the robot that performs cartwheels — but can’t do the dishes - The Times",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYlF2aTh3Y3lZSHJ1dHd1cGVfaU9rdDNpd0pLcjU2SVVCbFFEeEZCalNmZUZzSkRabGQ5ZnRtVmhqcG11T0RPNkdfRGpQaUdMdmpkcE56bG1Cb19TZjZYSUV1WTJyTGJXcW13elJCZkZpMWFYMEFiX3pKTW9HcTZBcWNqbVJ4UzlhNko3V1FsbVJGRTBNclVnYWNRTHJCMHd2TFg5WElUemJBQThiMm1GQg?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 16:00:00 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "This humanoid robot can almost run as fast as a human sprinter - TechSpot",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2lxSHc1d0hVVFFsaGZaaUZpRnRqWm4yTElBRUt1Q2NDUWZheElvWmxwMTdNS09Ed0ZkWF9aSW9YM2VTMks3Zlk3dl9tMXZmV1NLYWw5Rl9tUWF2bVNMWmpha2QweElLOS01OXMzVUY5Z044U0tnVVpYeWNERFNCMTVSUHh3a1dRUXFESzdGbEhIZEY4RWc?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 15:27:21 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 09:23:42 GMT"
+    },
     {
       "company": "Tesla",
       "title": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
@@ -14,12 +38,6 @@
       "title": "Unitree R1: An affordable robot poised to reshape home technology - 3DVF",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS291UjJfTHgyVktrcFZsREp1NmFkS2VkbkNDcHFQdy1SRHRoMFZfUTh1SHVpVEpsaUpJa0oyX1lad1U3U3BTd2NpUWZKY195LTdOdUg3UFdDTkJoazRQLXh3clVKblNoOXlRZTJQclZIYlk1QndWNXJ5N1FxV0plTWNJaEcxZ0V0eWJvd1ZB?oc=5",
       "pubDate": "Thu, 16 Apr 2026 20:23:02 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 18:00:53 GMT"
     },
     {
       "company": "Figure AI",
@@ -40,28 +58,16 @@
       "pubDate": "Thu, 16 Apr 2026 12:47:14 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Has Some Robot Competition. The Stock Is Up. - Barron's",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CSXR0ZVR3Uk4zTEFnV1AxMTNLTVh5a3RTTDI4cDhfMVNxbmpRZ0s1LU8zRTJ6b2FzT0FGQVliSXZPV0UzRGZzMHZ0akVDU1hGWVYxQUVQMXl6MnI0ZnRsUm9UV2VJYy1Zd0lnTVVKdw?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 15:32:00 GMT"
-    },
-    {
-      "company": "Unitree",
-      "title": "Unitree Announces Free Shipping of Humanoid Robots to the U.S. in New Challenge to Tesla - TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGRlbGdUQllOM2NpUEx2QVdXNlNGSVNSeE1GQ3B0VlphNm1YV1dFTEF6bWMwdy14WnlkSHF3Um9UYnZ2SlFVY0I3VjBCS1ZVb19qSUw3bmJHTURwY1ZNdXZFa0R6QjlBUTZQTkpzMkkxYlVZNGhzS0Y1bXdfOE1maENhXzdXeHUzemtmZjJWTzJyeXV0UnROTk9sdWp6QzZaTTdFY3hzLU1FdmNBRVBOTnlNZmhienRz?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 12:42:53 GMT"
-    },
-    {
-      "company": "Unitree",
+      "company": "Figure AI",
       "title": "Glitching robots are funny but AI experts say they signal 'Terminator'-level danger: 'Early warning signs' - New York Post",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUDdUOHBsdWRKeXNodlhRWElSdGdEZmhla3U4MEsyTVN5cDJOY3BCdUp1UW1kOHFyaFhtclVSNFoweE9sekhqaWhONUIzSmxIWndnaFo3SUI1MDl6b09DRXpnd19EY2RwX0lwR2pJMTZOYmdieTlscldodVg2c2JmbXktaFFCZ2VHajZyUTY5NFM5RVRvc3hqV0QyNU9VUThja25Td25NTnlsYUxKLU1MZXZ3cGxtMDRYQWc1V2V3cERkTU9xRkhRZE1lRVN5ak1JRF9z?oc=5",
       "pubDate": "Wed, 15 Apr 2026 11:00:00 GMT"
     },
     {
       "company": "Unitree",
-      "title": "Chinese robot chases away boars in Poland - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN0Zidjd4ZG4wdUxLSGlwTWFhZmVBQTNZa1VpblBYZ2VpWmJGeVhsenRZbnJKWUdXOG9wYmQ5aGJfNVlrdnpIcTEyQ2xrOVB1eEZkamVsejhtTDF5UmRvMWJUczM4WjUwNnhlQllGdmJXZlhNQTM2Vk82Y1FhZUtZaDd6R3ZCNnk2cVRBQ1NINlk4aTN6VkdHTHZtM255Nm5vTGpPU05HcG1SQQ?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 06:18:20 GMT"
+      "title": "Tesla’s Chinese Robot Rival Ramps Pre-IPO Global Push - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVi1wVWU5N3lRaWVJenRFZndGSmFFeGtqbURRRU5EZW55eHQwU2QyNFVkOGxGUXhlUEJWSVYybkZSX09sZXRZTTRuZ1JKdmpQclFGNTV2UTdlbWVFWm1GTnl4N05sRks0WTNTX2ZTUnRoRldIT0l4aVpFcUtTS0hzSG5NVktvdmx0WTJkbzZvNFlHS2t4Z3ZBamFhNGN2dUhPTGJuX2NaX0swT0tXbGE2SENB?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 09:26:09 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -104,12 +110,6 @@
       "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
       "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "First humanoid robot introduced in Plant Leipzig - BMW Group",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRGtGUmpNa01zSDFsUmFmQXk0bEU0MU1OVE5QSlFndGFMaFlmWDRKVS1fUThqQmNGX3pjaEhTa1JycXF0TW9sQkZwWnNDSDdsRkJsd042YU1yRDZ0YU5iRHpQWDRSZ04tczI2aXloYUZrMWtid0ttY0FVMWhzRnpnQkFn?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 09:29:00 GMT"
     },
     {
       "company": "OpenAI",
