@@ -1,13 +1,19 @@
 {
-  "generatedAt": "2026-04-16T19:37:07.926Z",
+  "generatedAt": "2026-04-17T03:44:18.574Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
       "company": "Tesla",
-      "title": "Tesla’s Robot Hand Patent Reveals the Clever Engineering Inside Optimus’s Fingers - TeslaNorth.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMDBqNGpQYnlpbWc5TFdaV3ZXOFJIRGlyZ1NqTUJVZWgxUjJpbjVUbExiM3lGZTBKX2JSOUVGVlpCMWNOLTVfd2NPeEp2SXl4amRwRjBIUmdxMVlzZ2pqdGdFRGVfLWYtUWJhRG9icHNzMU9KT2xxMUNoV2c4TVF4dXQ0V2NBSFFkYktEVXVpdE15WERjSExlcFB2bmlhU0NERnZEcjhxd1hjV2hhVHExdWZTeEw?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 18:14:11 GMT"
+      "title": "Musk discusses details and cost of Optimus robot, working prototype this year - Not a Tesla App",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwLW8tWG42bUN1SWtoUmMxMjdQLVJVNTVfWTNhdi1SYUNUSlplTzhJdk05dkF6UmRmZEFjUzVBV2hzMkhDdE1MVDhMY0Nsdk1I?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 19:05:22 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 16:59:31 GMT"
     },
     {
       "company": "Tesla",
@@ -20,12 +26,6 @@
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVUZjQVNuVlBOV2FrRlRoSWlQWHY3T1Y1Q0FuMkM2X2o5WUVYcm5oQzM3bTU3bGVCUEFLdHo3Rlk5OTVyaGhBSjNidnUyOWVPMTBzSy1wcFhnY1FWbDNQSTZ5bE0ydFFpQlNEamlVS3NUQXVKZWJvQ2Zrai0tLXpWWnJnbGlFR2tGMkRvLUc3akotNGg1MG14alJOc1U2RUJyZTI5NW54ekxBRlZmY2VXcGotUXVudHk1cDZLU2pWNVliR1YtOUdQUEVUdVNXRFdqeDB1M3FnbkprZjJZVkpB?oc=5",
       "pubDate": "Thu, 16 Apr 2026 16:47:02 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 16:40:39 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -88,6 +88,12 @@
       "pubDate": "Mon, 13 Apr 2026 23:37:00 GMT"
     },
     {
+      "company": "OpenAI",
+      "title": "Robot taxes, four-day work week: Inside OpenAI’s plan for an AI-driven economy - Yahoo News Canada",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtME80TFpsdU9jTGZVWlpCMURFUFM0bmlGd0VJWUZWVDM4NXpGbF95MGJJMVpqcm9tRHBCSlVHR3FrQWRSMFg2NTRsanRWLUhuMWQzOW9DNnNLLVJLekxudG5DckY1S20tTmFJbGtkU2M2LUxS?oc=5",
+      "pubDate": "Sun, 12 Apr 2026 10:14:21 GMT"
+    },
+    {
       "company": "Figure AI",
       "title": "Axios C-Suite: A glimpse at the humanoid future - Axios",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcFRjdm56T2lGcl8zVWN6VC1fMEZadFdtWEwxWWxkMzM3R1VoRHk4T3RqUUVySzBWUnAwdjgzU3NNN1ZzbzJxUDIzMzNZWDBGODZ3Mkh4WlZPaHZfY0pENUFiaEVoR0s5dUY1RWw5R3EzbEdLOU13OGwzNmg2MUk?oc=5",
@@ -104,12 +110,6 @@
       "title": "News | OpenAI inks deal for potential robotics hub in California’s Bay Area - CoStar",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOWVRM1E4TXlxTXZwaERRYmJtSXByZjEwLTE0ams2SkM5NFVPcnI3czVaOUp5al9uY3dRUTMyRHFuVVlXMlB3QmxJaDNfdV9jaU80a0VaZEtzZ3plNWx4TlhBQ0djeEk4Qm9FZkI0NW9DYUVBUmh6bGhfT2hYVGNLR0Frb1ladTNKQ05saG5NN2ZKZ3Bvd3VWMmlaWnJYc1dzeW9nZ2JoNzhyQTNuVXZqeDM3WEgyckV1UldoaXVFSFY?oc=5",
       "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
     },
     {
       "company": "OpenAI",
