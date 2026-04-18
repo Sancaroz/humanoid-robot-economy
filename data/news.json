@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T19:20:29.175Z",
+  "generatedAt": "2026-04-18T03:29:18.520Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -16,22 +16,10 @@
       "pubDate": "Fri, 17 Apr 2026 16:00:00 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "This humanoid robot can almost run as fast as a human sprinter - TechSpot",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2lxSHc1d0hVVFFsaGZaaUZpRnRqWm4yTElBRUt1Q2NDUWZheElvWmxwMTdNS09Ed0ZkWF9aSW9YM2VTMks3Zlk3dl9tMXZmV1NLYWw5Rl9tUWF2bVNMWmpha2QweElLOS01OXMzVUY5Z044U0tnVVpYeWNERFNCMTVSUHh3a1dRUXFESzdGbEhIZEY4RWc?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:27:21 GMT"
-    },
-    {
       "company": "Tesla",
       "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
       "pubDate": "Fri, 17 Apr 2026 09:23:42 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwY0R6VDhqUUFGZ04wSWtmRkhlZXlSY0pBTG1iSnZkUWJFdmdyZ2lwcG50bG5KMDNJM2FRWUpuNnNlbmsyTGhZRXlsOTRLVDNNSE5odVhhYUhnOHA3bXJfQVQwdktFOUVxY092eU9VcExWOEhFaktmckRjeErSAYABQVVfeXFMUGtmcFdoZFNDemtvejF5QmFHVHNYdHZ5QnBCVHN6UlE4Q1BHSGlzMFpUSVF1SW1TUnhhTUo4VDFrQklQQWJlLXVCQXpraWFYRUYzRGxQN3NOWHFUcS1WWFliOWh1bFMyM0RLVl83emQyZkhmM0RyS1ZqNm1nRGlxM1c?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 23:16:04 GMT"
     },
     {
       "company": "Unitree",
@@ -52,22 +40,34 @@
       "pubDate": "Thu, 16 Apr 2026 14:00:00 GMT"
     },
     {
+      "company": "Tesla",
+      "title": "Tesla Files Patents Revealing Optimus Gen 3 Mechanical Blueprint - eletric-vehicles.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNekxOT2h4NkJObTZicHN2bkd3TFNHa1dXYUdJMkprM0ZEWVVEM2dLLUZOOFBqQjREYjZDMWROaEs5RlMtRHR2WndkdU5LX19CcDg5aG1qemtUYzdwUlRVWERNdVljeWNLcHMxeEJLd1pLRFM1SWphcXV6QU5XcFBsQW5fdTR2N01LTW5vNkkxZmd4Rm5FdGRHM0dxVHNRWVpVWUE?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 13:54:47 GMT"
+    },
+    {
       "company": "Boston Dynamics",
       "title": "Industry Insights: Boston Dynamics Atlas' Product Manager on Humanoid Market Fit - A3 Association for Advancing Automation",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWFgteDQxak92M0VadzFrTjV0enZpdXBUQ2xPNnh0bkdSQzU2VXpzR0ZNeHBrNTJlaXFueHE2UG5FZVFuOU5sTzk0cXk1ZmNBUGZDVDRoMG1DUS16a1hWM1ZyX1hHcWQ5NVBJZ3NMbzI4ZkRDWGV3ZlV4UHFRcXFqYUlMZlBvcncwY3JxcXMyemtJd0twMFJvTmxSQ19vYTZEdl9HbA?oc=5",
       "pubDate": "Thu, 16 Apr 2026 12:47:14 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Glitching robots are funny but AI experts say they signal 'Terminator'-level danger: 'Early warning signs' - New York Post",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUDdUOHBsdWRKeXNodlhRWElSdGdEZmhla3U4MEsyTVN5cDJOY3BCdUp1UW1kOHFyaFhtclVSNFoweE9sekhqaWhONUIzSmxIWndnaFo3SUI1MDl6b09DRXpnd19EY2RwX0lwR2pJMTZOYmdieTlscldodVg2c2JmbXktaFFCZ2VHajZyUTY5NFM5RVRvc3hqV0QyNU9VUThja25Td25NTnlsYUxKLU1MZXZ3cGxtMDRYQWc1V2V3cERkTU9xRkhRZE1lRVN5ak1JRF9z?oc=5",
-      "pubDate": "Wed, 15 Apr 2026 11:00:00 GMT"
+      "company": "Tesla",
+      "title": "Tesla Has Some Robot Competition. The Stock Is Up. - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CSXR0ZVR3Uk4zTEFnV1AxMTNLTVh5a3RTTDI4cDhfMVNxbmpRZ0s1LU8zRTJ6b2FzT0FGQVliSXZPV0UzRGZzMHZ0akVDU1hGWVYxQUVQMXl6MnI0ZnRsUm9UV2VJYy1Zd0lnTVVKdw?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 15:32:00 GMT"
     },
     {
       "company": "Unitree",
       "title": "Tesla’s Chinese Robot Rival Ramps Pre-IPO Global Push - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVi1wVWU5N3lRaWVJenRFZndGSmFFeGtqbURRRU5EZW55eHQwU2QyNFVkOGxGUXhlUEJWSVYybkZSX09sZXRZTTRuZ1JKdmpQclFGNTV2UTdlbWVFWm1GTnl4N05sRks0WTNTX2ZTUnRoRldIT0l4aVpFcUtTS0hzSG5NVktvdmx0WTJkbzZvNFlHS2t4Z3ZBamFhNGN2dUhPTGJuX2NaX0swT0tXbGE2SENB?oc=5",
       "pubDate": "Wed, 15 Apr 2026 09:26:09 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "Humanoid robot chases wild boars across Poland parking lot - the-independent.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZnRWemQ4MVQxZndlaTBvR0hQTGRCMk9CZko3TFFrcVc3WWQxQS04aklYSW5VdUh5dmx1RUFFbVhpc2otam5md3hNQzhvY1JYZzY1aXVKSUdZeTlMRjVsanVyNEx1Nmw5c29CS0VmSkVNRHNXVW02TDJjMTRXMmJqRTFHN1pHUGFpN201amFtQjBHcjdOM0RxVWhqbnAzZXB4S2IyRw?oc=5",
+      "pubDate": "Wed, 15 Apr 2026 06:07:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -88,12 +88,6 @@
       "pubDate": "Tue, 14 Apr 2026 07:00:00 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Optimus, Tesla’s First Humanoid Robot, is Far From Prime - Man of Many",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhQ3lyRVUyV2ZvMDJldldlUlFYb1I5ZnRrclNYRHhINDZSbi1TQzdLbG9jTEpxOTJVUzNTN1NKYUx3dEpJS0Q3WDlvUHhYdTdrWWxQXzhhM0YwZw?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
-    },
-    {
       "company": "Figure AI",
       "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
@@ -106,10 +100,16 @@
       "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "First humanoid robot introduced in Plant Leipzig - BMW Group",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRGtGUmpNa01zSDFsUmFmQXk0bEU0MU1OVE5QSlFndGFMaFlmWDRKVS1fUThqQmNGX3pjaEhTa1JycXF0TW9sQkZwWnNDSDdsRkJsd042YU1yRDZ0YU5iRHpQWDRSZ04tczI2aXloYUZrMWtid0ttY0FVMWhzRnpnQkFn?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 09:29:00 GMT"
+    },
+    {
       "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
+      "title": "OpenAI robotics head resigns over Pentagon deal - The Robot Report",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUduNzRYSjVxUzhtdXBWNjI5bl9EUGo2WVBXalp5ZkNrZ1B0MnBlbngtSnAtbkk3OVRwWEhrRGMxMzdLSXZwaDlZYXh1UmZ4bW9FY0owQUhHVnE0X0Q4RUFORVVCeWdSbFpEZ2x6UlNiTFZ0dFB0WjN3ekVvOTFMVldTUnItUQ?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
