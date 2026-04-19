@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-19T03:48:48.587Z",
+  "generatedAt": "2026-04-19T07:44:47.343Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Boston Dynamics",
+      "title": "Tools for Your To Do List with Spot and Gemini Robotics - Boston Dynamics",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGFTb3BWRkxrWUVaSlBSR1RmYlBoekNTR0NDSWs5RlBid1ZyQWdiUG1TbWxSZ3ByNDRWd2NRUzV3LWdLNHYzSXFMeGtWSmpVbFNfMUtzc1laTWI4dXkwSmdjQmtlY2lRRUoybG9lSno3dWN2R3JwU2JDMENjV1lialNPUzF5MWMxZGFBQ3dQWThZQQ?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 05:56:16 GMT"
+    },
     {
       "company": "Unitree",
       "title": "Meet the robot that performs cartwheels — but can’t do the dishes - The Times",
@@ -76,12 +82,6 @@
       "pubDate": "Wed, 15 Apr 2026 15:32:00 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "Tools for Your To Do List with Spot and Gemini Robotics - Boston Dynamics",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGFTb3BWRkxrWUVaSlBSR1RmYlBoekNTR0NDSWs5RlBid1ZyQWdiUG1TbWxSZ3ByNDRWd2NRUzV3LWdLNHYzSXFMeGtWSmpVbFNfMUtzc1laTWI4dXkwSmdjQmtlY2lRRUoybG9lSno3dWN2R3JwU2JDMENjV1lialNPUzF5MWMxZGFBQ3dQWThZQQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 15:05:21 GMT"
-    },
-    {
       "company": "Figure AI",
       "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
@@ -98,12 +98,6 @@
       "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
       "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "First humanoid robot introduced in Plant Leipzig - BMW Group",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRGtGUmpNa01zSDFsUmFmQXk0bEU0MU1OVE5QSlFndGFMaFlmWDRKVS1fUThqQmNGX3pjaEhTa1JycXF0TW9sQkZwWnNDSDdsRkJsd042YU1yRDZ0YU5iRHpQWDRSZ04tczI2aXloYUZrMWtid0ttY0FVMWhzRnpnQkFn?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 09:29:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -140,6 +134,12 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
+      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
     },
     {
       "company": "Figure AI",
