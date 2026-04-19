@@ -1,13 +1,31 @@
 {
-  "generatedAt": "2026-04-19T07:44:47.343Z",
+  "generatedAt": "2026-04-19T13:34:15.668Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Unitree",
+      "title": "Humanoid Robot Filmed Chasing a Pack of Wild Boars, and It Looks as Weird as It Sounds - VICE",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMXg1UWd3Y3ZsdC1VUm5aS3pjejVLOWdKY0VnbFdkejRRQ1ZpbWRJcHE3WnM3ZjMzLXhnUkotN0FudGNERlZrT2w5U1AwaVlzUm1ZTnlza09EbHNIOXJSOFk5T195WWJTZ0dNNXNsTlQwZ21OUTlwSVFtV2FkTnFwZFZaUkMxQ3NPV3RsM3JweHZFdFVVdGxHM25EZjFrTURQYm54Nzh3VU1IS3N0X280aUtJd1k2WUxZQmc?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 08:30:00 GMT"
+    },
     {
       "company": "Boston Dynamics",
       "title": "Tools for Your To Do List with Spot and Gemini Robotics - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGFTb3BWRkxrWUVaSlBSR1RmYlBoekNTR0NDSWs5RlBid1ZyQWdiUG1TbWxSZ3ByNDRWd2NRUzV3LWdLNHYzSXFMeGtWSmpVbFNfMUtzc1laTWI4dXkwSmdjQmtlY2lRRUoybG9lSno3dWN2R3JwU2JDMENjV1lialNPUzF5MWMxZGFBQ3dQWThZQQ?oc=5",
       "pubDate": "Sun, 19 Apr 2026 05:56:16 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Musk discusses details and cost of Optimus robot, working prototype this year - Not a Tesla App",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tMVZtY1kwOHBBN0FZRU80eWMteUs0SmRfUGhfWV9qb0xrSjhIREFFbGRuTjN2bEwyeXpDeXExb05WZXZRZ3ZjeGlidHB3eVh2ZXVWa1RuclRzSzZZN0s2T0VxaHJkZTBJV0V2SjBiOU5UeFlDM0tzQ09n?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 13:47:08 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwY0R6VDhqUUFGZ04wSWtmRkhlZXlSY0pBTG1iSnZkUWJFdmdyZ2lwcG50bG5KMDNJM2FRWUpuNnNlbmsyTGhZRXlsOTRLVDNNSE5odVhhYUhnOHA3bXJfQVQwdktFOUVxY092eU9VcExWOEhFaktmckRjeErSAYABQVVfeXFMUGtmcFdoZFNDemtvejF5QmFHVHNYdHZ5QnBCVHN6UlE4Q1BHSGlzMFpUSVF1SW1TUnhhTUo4VDFrQklQQWJlLXVCQXpraWFYRUYzRGxQN3NOWHFUcS1WWFliOWh1bFMyM0RLVl83emQyZkhmM0RyS1ZqNm1nRGlxM1c?oc=5",
+      "pubDate": "Sat, 18 Apr 2026 01:29:10 GMT"
     },
     {
       "company": "Unitree",
@@ -28,22 +46,10 @@
       "pubDate": "Fri, 17 Apr 2026 09:23:42 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla’s Optimus Robot Learns to Walk Without Vision [VIDEO] - Not a Tesla App",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXJWNGRzTGZfZEtxanE5endSbkgyM1NsSTFWbF85czlQUzR4bFRZM3NFSkQ2NWFPRXZYSlN2Qkl4bllHUFhpMFd3QTh0TkVUWV9fRUFIYUtmd2lmSkFKZ1hEWFhGX3RILWExWWpOcjBmd1RyRHZLRFpyWFpJbnN5NUFhOWVWMm9veElUdFJyS0hETld5YzNGRHY0MA?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 05:31:44 GMT"
-    },
-    {
       "company": "Unitree",
       "title": "Unitree R1: An affordable robot poised to reshape home technology - 3DVF",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS291UjJfTHgyVktrcFZsREp1NmFkS2VkbkNDcHFQdy1SRHRoMFZfUTh1SHVpVEpsaUpJa0oyX1lad1U3U3BTd2NpUWZKY195LTdOdUg3UFdDTkJoazRQLXh3clVKblNoOXlRZTJQclZIYlk1QndWNXJ5N1FxV0plTWNJaEcxZ0V0eWJvd1ZB?oc=5",
       "pubDate": "Thu, 16 Apr 2026 20:23:02 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla eyes Shanghai Gigafactory for Optimus humanoid robot mass production - The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU1dKT2M2V3ZMVDYwV21qZGIzdkJ3aGZlUUwxdjBUZGNJMks1UmxlR3Z6X25Xb1drMXl0a0MtOFMtM3YxY3hTLTJxVVZkU0hpMTM2cG8xR2RUWDBTdXFtUy1UWFRMR0Ztd0VxdFA5WlQwakZvVXNpYnc0bDJMcXdrQW1ETzM5Smk4ckdWTW11d1A4UQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 16:53:00 GMT"
     },
     {
       "company": "Figure AI",
@@ -64,12 +70,6 @@
       "pubDate": "Thu, 16 Apr 2026 12:47:14 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "China's Humanoid Robot Hits 10 Metres/Second Sprint, Edges Toward Usain Bolt's Legendary Speed - NDTV",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONzZtNEM1Tk9zUW5XWEg2VkdtdWc0djJIN0VZbWhJZ2xEcDFjbG9Pb2ZIQlUxc1UtQ0wzZUt0QnI0RXZEdGIweDM4X2Yyb2NST09lUFVzRUdoZ1dpU2ZjeDU3ZVZlSnBmSXNzY1BSalMxX0NTaExTR0JSQlVWVllUdEcwWENRdXplSVdDR1RMYTZQaHF1clJPbnpsU2JfUldDQWw0MGNvdzhTTWdBdlRlSWZYYmYtNWtsUW1veEx6aG9BcWU1Y1RXTdIB0AFBVV95cUxPZ1Ywa2lNd3JKdjNPOGFjWDlESVlfaHFoM0xfWW9DcGluWnVmMTVjbnhYRG9sakFPR3dtQVZPU18xbmdnV29lOTFXcmJUX3oxQmc3UGxqcmJvR2JIajQ4c0VsQXR3VDBvdDkyVlVRNGYyOThBUFU0VjNqdUt1em94cm9VTHZyRTZCdmJ2eXBTZHRobG5EQnQ2NUNtcHJnVmtJSmlKQmF2S1ZadWZGdGYxNGFlRmEwXzB6NVNiVkxIMU4wRWtoQjRHMzR1Y3NnT2Yy?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 09:37:38 GMT"
-    },
-    {
       "company": "Boston Dynamics",
       "title": "​Boston Dynamics and Google DeepMind Teach Spot to Reason​ - IEEE Spectrum",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03Y1ZNdE5lYjhudzYwV1NPWXczM1JNM2dZTHRqVWpsYkdIbUVMUGFrb2VIR2ZJV1A2M1NKblV5V3dXN1FIeTZoV3p2QWJTdXhBUjJVREx1ZUJCYzRRQnZ1ZDhabVBNa1RIelJhdk9xQdIBgwFBVV95cUxQM2lSTFYtRjBWVXZ0RDc4dTVIWjNiMGt2Z05iSWdfTjVzVTc3S0NSQ2RoQUlLbnRJWVI0VUd5Q1p4bU8xLUdmcnlUMS1OcTVqc2F1TEJVd3FmbDFXY2RGM1RieVBaQ0tvNlFMbGk2ZjZ2QlI1cXZGSEpseVhzcG5scGV4WQ?oc=5",
@@ -80,6 +80,12 @@
       "title": "Tesla Has Some Robot Competition. The Stock Is Up. - Barron's",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CSXR0ZVR3Uk4zTEFnV1AxMTNLTVh5a3RTTDI4cDhfMVNxbmpRZ0s1LU8zRTJ6b2FzT0FGQVliSXZPV0UzRGZzMHZ0akVDU1hGWVYxQUVQMXl6MnI0ZnRsUm9UV2VJYy1Zd0lnTVVKdw?oc=5",
       "pubDate": "Wed, 15 Apr 2026 15:32:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Humanoids Hit the Factory Floor - EE Times",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44SUtXdWxxa2lNMGRodFo2RFF4cC1qbHhUTlQ0LWJ3Z1htODFwU2g5d3JGbnZHd0JqV3U5OTFZTlRYdEEteTNyeWJ3ZFJmOURCa2xwTnNNcDF1M0pKRGNSV1hDUkt2bzA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 17:01:47 GMT"
     },
     {
       "company": "Figure AI",
@@ -95,9 +101,9 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
+      "title": "OpenAI robotics head resigns over Pentagon deal - The Robot Report",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUduNzRYSjVxUzhtdXBWNjI5bl9EUGo2WVBXalp5ZkNrZ1B0MnBlbngtSnAtbkk3OVRwWEhrRGMxMzdLSXZwaDlZYXh1UmZ4bW9FY0owQUhHVnE0X0Q4RUFORVVCeWdSbFpEZ2x6UlNiTFZ0dFB0WjN3ekVvOTFMVldTUnItUQ?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -134,12 +140,6 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
-      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
     },
     {
       "company": "Figure AI",
