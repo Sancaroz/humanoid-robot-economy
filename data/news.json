@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-20T08:26:31.068Z",
+  "generatedAt": "2026-04-20T14:09:32.296Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Tesla",
+      "title": "Why Tesla Stock Could Double as Optimus Reaches Human-Level Proficiency This Year - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM0QtUmgySjhyc3ZCb1pvQ1FjM01qTnY4X01PczR3bjQzWk9yTVlJdmNicEw2NngyOTZIRFpTdXJha2JFemw1MzlsQ1Bya0JjUl91Um4xZnh1bGk4RG9lYmtiTUhSOVBVeEFBZ204YUl3WkRYdS1TRkR4c3BUcVlRQkVpRHBtM2gxcEk1X3lOenpMYkl3ckh4aA?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 12:50:00 GMT"
+    },
     {
       "company": "Tesla",
       "title": "Tesla is sending its humanoid Optimus robot to the Boston Marathon - Teslarati",
@@ -22,16 +28,16 @@
       "pubDate": "Sun, 19 Apr 2026 20:01:20 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "One Incident Away - Futurist Speaker",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0ta2J5RmRNNUc0YkJDS0poZnlraGhTZTNsaS1OYUpvdmJPakh6NTY5YnFwbVVZNEJuamdNRDRMcnNhVXp0Y1pmLUhWelNWMEF1Q0QtU2l6Nl9LbmhPY3BTUjI2T05BZk15eWpJWlM5WkZPZ21YeEdKTWF3?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 13:05:33 GMT"
-    },
-    {
       "company": "Figure AI",
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVUZjQVNuVlBOV2FrRlRoSWlQWHY3T1Y1Q0FuMkM2X2o5WUVYcm5oQzM3bTU3bGVCUEFLdHo3Rlk5OTVyaGhBSjNidnUyOWVPMTBzSy1wcFhnY1FWbDNQSTZ5bE0ydFFpQlNEamlVS3NUQXVKZWJvQ2Zrai0tLXpWWnJnbGlFR2tGMkRvLUc3akotNGg1MG14alJOc1U2RUJyZTI5NW54ekxBRlZmY2VXcGotUXVudHk1cDZLU2pWNVliR1YtOUdQUEVUdVNXRFdqeDB1M3FnbkprZjJZVkpB?oc=5",
       "pubDate": "Sun, 19 Apr 2026 11:23:44 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "Unitree humanoid robot goes viral after chasing wild boars on Warsaw street - VnExpress International",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkpJemJ6Z2YzVmhsMjFSSlNyc1BrYzhySjZIOVE4a3p6SUFRRnpKMWVHcmdCQnJXRHFVWTRCY2ZyZmItX09Kd0ZUcjUxZUJsaVRWR1hQX2FSMjhnWVhWYUd5U1JoYUxLZXBkenRVQk4tbHVFQ0RTZUpxYkJEVWNtaENtOWZOeXE2TVI4TnVZbkhvanAyVzdZMjhJQUthd2hWQlhSa0p1c2owdXBLcXFYNGM4eHlGMUx4anZlUHpHQkhyR2ExRkZMTld6MHM?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 05:36:00 GMT"
     },
     {
       "company": "Unitree",
@@ -40,16 +46,10 @@
       "pubDate": "Fri, 17 Apr 2026 16:00:00 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "This humanoid robot can almost run as fast as a human sprinter - TechSpot",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2lxSHc1d0hVVFFsaGZaaUZpRnRqWm4yTElBRUt1Q2NDUWZheElvWmxwMTdNS09Ed0ZkWF9aSW9YM2VTMks3Zlk3dl9tMXZmV1NLYWw5Rl9tUWF2bVNMWmpha2QweElLOS01OXMzVUY5Z044U0tnVVpYeWNERFNCMTVSUHh3a1dRUXFESzdGbEhIZEY4RWc?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 15:27:21 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Tesla eyes Shanghai Gigafactory for Optimus humanoid robot mass production - The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU1dKT2M2V3ZMVDYwV21qZGIzdkJ3aGZlUUwxdjBUZGNJMks1UmxlR3Z6X25Xb1drMXl0a0MtOFMtM3YxY3hTLTJxVVZkU0hpMTM2cG8xR2RUWDBTdXFtUy1UWFRMR0Ztd0VxdFA5WlQwakZvVXNpYnc0bDJMcXdrQW1ETzM5Smk4ckdWTW11d1A4UQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 16:53:00 GMT"
+      "company": "Boston Dynamics",
+      "title": "Google’s New Model Makes Robotic Brains Slightly Smarter - The Information",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNXzc4aERvTDFyY3VoS1ozT0xuT3htOHRGN2o5dG9hZ0JxRGJkaHdDcG5qV3NnUlpHX195MzEzZlROZFlLRF9VdTVLY1JZdUNMelV4OHpSeTlTZmoyb0Ntdmh2bFpnQ3VHQlpZNjQxTkpVakozSEJtcVV4ZFlCZ0Z0bHlZMHlEWFVkV2s1czhENGV3eXA0dUtuOVI1WHZXdnZNLVpOMUFoY1p0c3BJ?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 14:00:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -71,15 +71,15 @@
     },
     {
       "company": "Unitree",
-      "title": "Poland street sees humanoid robot chasing boars in unusual AI showcase - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMzl4YWxiMFRycjBLcTNtVE1mVGl2TU9tQlNza2VmbVlKRlFNdzdTaEd5NVZNYWtDbUZOU29jNVk3SkVFOS1aQ1VEWUtUc09PSnpVR0tDZEUtek9QYV83bWJIcWxwUkpscTV5TGgyOFQ4Y21oUHVUaFk5MDU0VHVfWFA0SzVMcUt0YllCeQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 09:57:00 GMT"
-    },
-    {
-      "company": "Unitree",
       "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
       "pubDate": "Mon, 13 Apr 2026 23:37:00 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "China's humanoid robot inches closer to Usain Bolt-like speed on track - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQVB0aVktTzMzUl9nWWduRGJjMDM2Nm84cGNkQ0FhQ00tQmpoSHpYa2FxV1JucnZNcnpzV0tKQjREN2dZaG5zOEtZSjlEazhNWjRrNnYyMW5jLVhUMVVxOXVTMzJob1d1cWNwakdsdW5FQjloRmxocHlLZEJjM3hxemxha21VTzBOOXpOV3BoeGlCZ2c?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 09:14:00 GMT"
     },
     {
       "company": "Figure AI",
@@ -100,16 +100,16 @@
       "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
     },
     {
+      "company": "OpenAI",
+      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
+    },
+    {
       "company": "Figure AI",
       "title": "First humanoid robot introduced in Plant Leipzig - BMW Group",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRGtGUmpNa01zSDFsUmFmQXk0bEU0MU1OVE5QSlFndGFMaFlmWDRKVS1fUThqQmNGX3pjaEhTa1JycXF0TW9sQkZwWnNDSDdsRkJsd042YU1yRDZ0YU5iRHpQWDRSZ04tczI2aXloYUZrMWtid0ttY0FVMWhzRnpnQkFn?oc=5",
       "pubDate": "Mon, 09 Mar 2026 09:29:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI robotics head resigns over Pentagon deal - The Robot Report",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUduNzRYSjVxUzhtdXBWNjI5bl9EUGo2WVBXalp5ZkNrZ1B0MnBlbngtSnAtbkk3OVRwWEhrRGMxMzdLSXZwaDlZYXh1UmZ4bW9FY0owQUhHVnE0X0Q4RUFORVVCeWdSbFpEZ2x6UlNiTFZ0dFB0WjN3ekVvOTFMVldTUnItUQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
