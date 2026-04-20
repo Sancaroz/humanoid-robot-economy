@@ -1,19 +1,25 @@
 {
-  "generatedAt": "2026-04-20T03:50:38.086Z",
+  "generatedAt": "2026-04-20T08:26:31.068Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
-      "company": "Agility Robotics",
-      "title": "Digit Humanoid Nails a 65-Pound Deadlift and Reveals How Agility Trains Its Robots - TechEBlog -",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYm9qNHAxWW11SHVYdU1odml4RzJtVGRjUzhxYk94VXhmZ1JGMllodDBxUnJ1bmY2emluQjRadkstSXVnSjBYYzdhcHF3M3ZEYzVxM2VDY0tPd0haMDRJTFM0eXh3aHVyUjd4cmowcm9rcnBGamhYVVp0dndDbUtBcm0telU1YjY1?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 20:01:20 GMT"
+      "company": "Tesla",
+      "title": "Tesla is sending its humanoid Optimus robot to the Boston Marathon - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aVlFfQVo4ZGpELWxKbXpqdGt2Rm1iTVpUdGtjWjJya3lJNG1MYW94LXZ1bk8yRlI4ZlhJWnNSRWNJdXd3UXE5c2RaYTZXak56ME5oWi1La1dvcVAxYXB3Ni1qQWxsVzg?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 07:14:31 GMT"
     },
     {
       "company": "Boston Dynamics",
       "title": "Tools for Your To Do List with Spot and Gemini Robotics - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGFTb3BWRkxrWUVaSlBSR1RmYlBoekNTR0NDSWs5RlBid1ZyQWdiUG1TbWxSZ3ByNDRWd2NRUzV3LWdLNHYzSXFMeGtWSmpVbFNfMUtzc1laTWI4dXkwSmdjQmtlY2lRRUoybG9lSno3dWN2R3JwU2JDMENjV1lialNPUzF5MWMxZGFBQ3dQWThZQQ?oc=5",
-      "pubDate": "Sun, 19 Apr 2026 17:56:03 GMT"
+      "pubDate": "Mon, 20 Apr 2026 05:57:24 GMT"
+    },
+    {
+      "company": "Agility Robotics",
+      "title": "Digit Humanoid Nails a 65-Pound Deadlift and Reveals How Agility Trains Its Robots - TechEBlog -",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYm9qNHAxWW11SHVYdU1odml4RzJtVGRjUzhxYk94VXhmZ1JGMllodDBxUnJ1bmY2emluQjRadkstSXVnSjBYYzdhcHF3M3ZEYzVxM2VDY0tPd0haMDRJTFM0eXh3aHVyUjd4cmowcm9rcnBGamhYVVp0dndDbUtBcm0telU1YjY1?oc=5",
+      "pubDate": "Sun, 19 Apr 2026 20:01:20 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -34,16 +40,10 @@
       "pubDate": "Fri, 17 Apr 2026 16:00:00 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
-      "pubDate": "Fri, 17 Apr 2026 09:23:42 GMT"
-    },
-    {
       "company": "Unitree",
-      "title": "Unitree R1: An affordable robot poised to reshape home technology - 3DVF",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS291UjJfTHgyVktrcFZsREp1NmFkS2VkbkNDcHFQdy1SRHRoMFZfUTh1SHVpVEpsaUpJa0oyX1lad1U3U3BTd2NpUWZKY195LTdOdUg3UFdDTkJoazRQLXh3clVKblNoOXlRZTJQclZIYlk1QndWNXJ5N1FxV0plTWNJaEcxZ0V0eWJvd1ZB?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 20:23:02 GMT"
+      "title": "This humanoid robot can almost run as fast as a human sprinter - TechSpot",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc2lxSHc1d0hVVFFsaGZaaUZpRnRqWm4yTElBRUt1Q2NDUWZheElvWmxwMTdNS09Ed0ZkWF9aSW9YM2VTMks3Zlk3dl9tMXZmV1NLYWw5Rl9tUWF2bVNMWmpha2QweElLOS01OXMzVUY5Z044U0tnVVpYeWNERFNCMTVSUHh3a1dRUXFESzdGbEhIZEY4RWc?oc=5",
+      "pubDate": "Fri, 17 Apr 2026 15:27:21 GMT"
     },
     {
       "company": "Tesla",
@@ -71,21 +71,15 @@
     },
     {
       "company": "Unitree",
-      "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 23:37:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Humanoids Hit the Factory Floor - EE Times",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44SUtXdWxxa2lNMGRodFo2RFF4cC1qbHhUTlQ0LWJ3Z1htODFwU2g5d3JGbnZHd0JqV3U5OTFZTlRYdEEteTNyeWJ3ZFJmOURCa2xwTnNNcDF1M0pKRGNSV1hDUkt2bzA?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 17:01:47 GMT"
+      "title": "Poland street sees humanoid robot chasing boars in unusual AI showcase - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMzl4YWxiMFRycjBLcTNtVE1mVGl2TU9tQlNza2VmbVlKRlFNdzdTaEd5NVZNYWtDbUZOU29jNVk3SkVFOS1aQ1VEWUtUc09PSnpVR0tDZEUtek9QYV83bWJIcWxwUkpscTV5TGgyOFQ4Y21oUHVUaFk5MDU0VHVfWFA0SzVMcUt0YllCeQ?oc=5",
+      "pubDate": "Tue, 14 Apr 2026 09:57:00 GMT"
     },
     {
       "company": "Unitree",
-      "title": "China's humanoid robot inches closer to Usain Bolt-like speed on track - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQVB0aVktTzMzUl9nWWduRGJjMDM2Nm84cGNkQ0FhQ00tQmpoSHpYa2FxV1JucnZNcnpzV0tKQjREN2dZaG5zOEtZSjlEazhNWjRrNnYyMW5jLVhUMVVxOXVTMzJob1d1cWNwakdsdW5FQjloRmxocHlLZEJjM3hxemxha21VTzBOOXpOV3BoeGlCZ2c?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 09:14:00 GMT"
+      "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 23:37:00 GMT"
     },
     {
       "company": "Figure AI",
@@ -104,6 +98,12 @@
       "title": "News | OpenAI inks deal for potential robotics hub in California’s Bay Area - CoStar",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOWVRM1E4TXlxTXZwaERRYmJtSXByZjEwLTE0ams2SkM5NFVPcnI3czVaOUp5al9uY3dRUTMyRHFuVVlXMlB3QmxJaDNfdV9jaU80a0VaZEtzZ3plNWx4TlhBQ0djeEk4Qm9FZkI0NW9DYUVBUmh6bGhfT2hYVGNLR0Frb1ladTNKQ05saG5NN2ZKZ3Bvd3VWMmlaWnJYc1dzeW9nZ2JoNzhyQTNuVXZqeDM3WEgyckV1UldoaXVFSFY?oc=5",
       "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "First humanoid robot introduced in Plant Leipzig - BMW Group",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRGtGUmpNa01zSDFsUmFmQXk0bEU0MU1OVE5QSlFndGFMaFlmWDRKVS1fUThqQmNGX3pjaEhTa1JycXF0TW9sQkZwWnNDSDdsRkJsd042YU1yRDZ0YU5iRHpQWDRSZ04tczI2aXloYUZrMWtid0ttY0FVMWhzRnpnQkFn?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 09:29:00 GMT"
     },
     {
       "company": "OpenAI",
