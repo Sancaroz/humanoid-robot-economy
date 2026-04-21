@@ -1,19 +1,25 @@
 {
-  "generatedAt": "2026-04-21T03:44:43.629Z",
+  "generatedAt": "2026-04-21T08:07:18.399Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
-    {
-      "company": "Tesla",
-      "title": "Tesla is sending its humanoid Optimus robot to the Boston Marathon - Teslarati",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aVlFfQVo4ZGpELWxKbXpqdGt2Rm1iTVpUdGtjWjJya3lJNG1MYW94LXZ1bk8yRlI4ZlhJWnNSRWNJdXd3UXE5c2RaYTZXak56ME5oWi1La1dvcVAxYXB3Ni1qQWxsVzg?oc=5",
-      "pubDate": "Tue, 21 Apr 2026 00:25:17 GMT"
-    },
     {
       "company": "Boston Dynamics",
       "title": "Honor's Robot Beats Human Half-Marathon Record by 7 Minutes - The Tech Buzz",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQnFoRC1tQWdQZVd2UjZQcUVLb1E5UzlCVVhBSHAwYVJuTEt4Ym5sdExMbjVSYktaSjdwTzNBVDl4NGIyeFo0OVFWNnlqMU0xQnk3aTBpUk14OHpPbkRmeVlqNmd0SV8za3N4T2VMblVySkhDZEFWM3BkWG44UVRWVVB6ZDM4ZTZQZGpscXhsOHhlcHBPTmlz?oc=5",
       "pubDate": "Mon, 20 Apr 2026 23:44:00 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla is sending its humanoid Optimus robot to the Boston Marathon - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aVlFfQVo4ZGpELWxKbXpqdGt2Rm1iTVpUdGtjWjJya3lJNG1MYW94LXZ1bk8yRlI4ZlhJWnNSRWNJdXd3UXE5c2RaYTZXak56ME5oWi1La1dvcVAxYXB3Ni1qQWxsVzg?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 23:06:44 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Tesla Brings Optimus To Boston Marathon — But China's Robots Are The Ones Winning Races - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTDVWVHVtSUh0cjhBOHJBLU9UbG5ETHFxS3pKSm94cGdPWEtPc2ZHb3RLbWxrNTBDblJqWi1wRHdxTUc4WVFzeUZ6cmFZczRwR3BfQWREMnVnRXI4bDZGWHRLY2tOT0tCYmdSeklnQmFGVFV3QzlTZmVTZTBfdTRlQWJ1bW9SdzJDbWhwdTFDS0p1ZmtoQ2dBQ25tR1FIblUyeGdpcG9ZYmJwdDNIUERjS1N0Mkl5c3lNQkZja21KazdFdzI0RFc0TEJ3U0RvREVNb2FR?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 20:48:42 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -64,12 +70,6 @@
       "pubDate": "Sun, 19 Apr 2026 00:08:15 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 16:04:35 GMT"
-    },
-    {
       "company": "Boston Dynamics",
       "title": "Industry Insights: Boston Dynamics Atlas' Product Manager on Humanoid Market Fit - A3 Association for Advancing Automation",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWFgteDQxak92M0VadzFrTjV0enZpdXBUQ2xPNnh0bkdSQzU2VXpzR0ZNeHBrNTJlaXFueHE2UG5FZVFuOU5sTzk0cXk1ZmNBUGZDVDRoMG1DUS16a1hWM1ZyX1hHcWQ5NVBJZ3NMbzI4ZkRDWGV3ZlV4UHFRcXFqYUlMZlBvcncwY3JxcXMyemtJd0twMFJvTmxSQ19vYTZEdl9HbA?oc=5",
@@ -112,12 +112,6 @@
       "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "First humanoid robot introduced in Plant Leipzig - BMW Group",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRGtGUmpNa01zSDFsUmFmQXk0bEU0MU1OVE5QSlFndGFMaFlmWDRKVS1fUThqQmNGX3pjaEhTa1JycXF0TW9sQkZwWnNDSDdsRkJsd042YU1yRDZ0YU5iRHpQWDRSZ04tczI2aXloYUZrMWtid0ttY0FVMWhzRnpnQkFn?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 09:29:00 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
@@ -140,6 +134,12 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
+      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
     },
     {
       "company": "Figure AI",
