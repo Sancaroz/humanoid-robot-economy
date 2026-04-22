@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T03:40:57.543Z",
+  "generatedAt": "2026-04-22T08:04:40.554Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -37,13 +37,7 @@
       "company": "Tesla",
       "title": "Tesla's Optimus Robot Scored the Boston Marathon's Hottest Marketing Campaign—for Free - inc.com",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQckFUQkluZ01nb2pmLTA0bk14dFNSWmw4aEdIb1g5eFQ0U0RidHZqZW9LVlZNNnRSNHNTZ0x4YXF3dXN6UHFXLXRwcFlMZ0tpNHFYbXczMnprUXNsRlQxVDktTEJCa3lPNmQ3bjhPcnluaW5sd0NLcklRcVhPajVhWlN6aGpzZw?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 17:03:07 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Elon Musk reveals shocking Tesla Optimus patent detail - Teslarati",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdl92Ym80ZGtRa1UtMFo0am5uZWx2SGg5RUJieDR0TnBsVHZXc0VaeEpLMld4Szh1WlpEUEJVOVRLMVhtREtNUERhQV9hRUlveHBEQ2xaVUVHSDg4ODJKZ1NlUXZhOC1vV0VlYTJjM1Qza1dUU1plZ0pqMmZySFJZbno3X0tmRmNK?oc=5",
-      "pubDate": "Mon, 20 Apr 2026 14:05:27 GMT"
+      "pubDate": "Mon, 20 Apr 2026 16:54:24 GMT"
     },
     {
       "company": "Agility Robotics",
@@ -56,6 +50,12 @@
       "title": "Tesla is sending its humanoid Optimus robot to the Boston Marathon - Teslarati",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aVlFfQVo4ZGpELWxKbXpqdGt2Rm1iTVpUdGtjWjJya3lJNG1MYW94LXZ1bk8yRlI4ZlhJWnNSRWNJdXd3UXE5c2RaYTZXak56ME5oWi1La1dvcVAxYXB3Ni1qQWxsVzg?oc=5",
       "pubDate": "Mon, 20 Apr 2026 07:12:31 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Elon Musk reveals shocking Tesla Optimus patent detail - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdl92Ym80ZGtRa1UtMFo0am5uZWx2SGg5RUJieDR0TnBsVHZXc0VaeEpLMld4Szh1WlpEUEJVOVRLMVhtREtNUERhQV9hRUlveHBEQ2xaVUVHSDg4ODJKZ1NlUXZhOC1vV0VlYTJjM1Qza1dUU1plZ0pqMmZySFJZbno3X0tmRmNK?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 05:49:45 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -89,15 +89,15 @@
     },
     {
       "company": "Figure AI",
+      "title": "Melania and the Robot - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJakR0UXBocTl1MTBQYTdFcFJ6SXFFRll3WktHd3NXakRWeXRyZVhnOUJ0OEpOV2RObk9EV0VyR09FZ2J3Yk90LVN5SERlai1WcHI5a2czUHJrSllzd3gwWGJpWDF3QnNSa2JPTmdTOVIxVC1UVWZtZUY5TQ?oc=5",
+      "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
       "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
     },
     {
       "company": "OpenAI",
@@ -130,22 +130,22 @@
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
+      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI Seeks US-Based Suppliers for Planned Robotics, AI Device Push - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYW9RT0dzeTNQVVhxbWppRjBuZFpJZFhvZzFwa0daZmpCcGN2WjNURVBSS1dDSWtGLUtEdG9uRzNoYzFpVWprbG1vQ09sSTNuXzE0SVJmM1I3Z1paZHlkdUwzRVo1ZVNaeGhiYUZmcGFSUmJmeGZRYk5uR0JfQjZBRnJtNGx4VzdLWEVoRFFmdEYyRFdoa2psVEphTExoR2pVREVuM0RrTFZxSDhyVGRjTmtJY1V1MG45TFE?oc=5",
+      "pubDate": "Thu, 15 Jan 2026 08:00:00 GMT"
+    },
+    {
       "company": "Agility Robotics",
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
-      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Introducing Figure 03 - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
-      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
     }
   ]
 }
