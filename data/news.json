@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-04-23T08:09:29.733Z",
+  "generatedAt": "2026-04-23T14:09:13.187Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
+      "company": "OpenAI",
+      "title": "OpenAI robotics head Caitlin Kalinowski quits, raises concerns over AI use in Pentagon systems - MSN",
+      "link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxNSTlQRjFOWVlaenFrZTBlTkFSUVFucGx6ak1UNG9IU0x4cU9fN0FCZEJtaUI4VXV3d25vajdrNjA2dnJIakd5dlpJSXl3Q3dvdEZ1WlFCQjhOdnJQcVk4dlhnWC1PVVpSbm85eVlmRUZRbzA2dnQzV00yUUEzbHBuX2luSWxWRG44S0NvTE9ENUJwbk1QZ2ltMXBlbHZkcWtsUTFtZlBUTFlmWXN3c1FEcG9ma2V4M3RfRzFXTmgzdnNIRDBwQ2Jma2c1V1dzVXNLU3hPR1lYQ2FuTUxHWDlySERxT25CekhRSEZrVFBNU1FCUkp5VmZfbnFxVE5mWWlMaVhyNTZqMUNCOFlZWjdOYlpTbkhhTmNRV2pVdWhPN2RqR0l1TEZzQU1URGNDNlRNN0daU002X1NrNnNPSlhaYWZsRGF3N3FNTVllS0FaVF9HQVdhdDhhdkw2bnR5SkxxMnFJdUdQQUNTSXB0QVdqT0FIM2FhTmVyV1FIck5hckhMdkRaaDdFdmE0a21QUQ?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 04:09:47 GMT"
+    },
+    {
       "company": "Tesla",
       "title": "Elon Musk says copycats are to blame for pushing Tesla's Optimus humanoid robot unveiling - Business Insider",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnFtMVBTNm5pOTRZM1p2WHpJQ2p3bDRfdGxacU9xN0N3WlFLbklGRzQxYXFtNlVST3BFWkJFa0NDcC1zS1JaLWlxU2NBNlA3VEU5M3I2Z1R0VUlhMnlTdmI5M1lDTHR6emFRcUI0MzhReVhqS1NzS3M5bmdSX3hUVmJMRGIxbzZoYkJfS05pLUZuQ3pnMzhV?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 01:34:00 GMT"
+      "pubDate": "Thu, 23 Apr 2026 01:35:09 GMT"
     },
     {
       "company": "Tesla",
       "title": "Tesla pushes Optimus V3 reveal later this year – again - Electrek",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNTYxMW9XclFDMmtza0VONERTQlAyQXdqMU9sVWl6Nkk3WmJQVjAtempBZnpMakJnV01ubnZMT2I5ZTlUZjRaVVRjbFJ0cVM4OUlmRU0zSjVhYmRSSjdxamhHdWhtSXYwdlExbTBFQW84ekdxcV9nTlBiRmJQRFZUa1poVUQ?oc=5",
       "pubDate": "Thu, 23 Apr 2026 00:15:00 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Elon Musk says Tesla’s Optimus robot could be its 'biggest product ever' - USA Today",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZElKcHktYzJibUZsTnBKczBSSkR6V1Jyb3oycGV3UlplbmF6TGJKUEotU1FPYnQtMnNTeGF1cWNERVhLU3EyLXR4cThRVi1CajZZblk5SUFBNlROejFqRkI1Z1ZNa2NVa29tWDlucjBSZU9WX3dXOVJpTXdTVVRaN1RRQ0lrNWF4RV8wcnJQOF9ia0k2XzFtNlVPMFFITVp1MVREb2REVkxhSENj?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 23:33:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -76,6 +76,12 @@
       "pubDate": "Mon, 20 Apr 2026 17:57:24 GMT"
     },
     {
+      "company": "Tesla",
+      "title": "Why Tesla Stock Could Double as Optimus Reaches Human-Level Proficiency This Year - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUGNsMXB2UDlxSTMzdUh5T0tqczBuN0piRWhQd1pldkhoWGtNd3o5N1FZRWhRRV9kTGJFX3BiTFd4UUpxX0REb2cwOEJrd25ld1RuTDJzWTJrbmJLcV9RMmVzRTlZYmR1S2ktUEJQbnlnYVdzc0lULWpZaW9oUnE2MnY1Yzg2V0RXN09ZY0tCZzBvTXdSQTB0Qw?oc=5",
+      "pubDate": "Mon, 20 Apr 2026 13:30:00 GMT"
+    },
+    {
       "company": "Agility Robotics",
       "title": "Humanoid robot Digit deadlifts 65 lbs with advanced coordination - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOXy1sLWxlSjBERHhLVWswVzMzc1hzNmxhYndtLXZCZkdlVjZKVGFXR1J0MzZIejNrYkRtdGRxS1RBMWgwcE5qbjlrV1R4aUZ1cE1hOGhLdkxwdjE4UDh3bFZOQ296X0dOQWR0XzFaM0hyTldjVkNaUXViNEVVOXMxQjlvcmwzdw?oc=5",
@@ -119,12 +125,6 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
-    },
-    {
-      "company": "OpenAI",
       "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
@@ -143,9 +143,9 @@
     },
     {
       "company": "Figure AI",
-      "title": "Introducing Figure 03 - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
-      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
+      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
+      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
     }
   ]
 }
