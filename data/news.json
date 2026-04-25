@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-25T03:30:47.195Z",
+  "generatedAt": "2026-04-25T07:44:42.798Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "OpenAI",
+      "title": "About principle, not people, OpenAI's robotics head quits after company's Pentagon deal — Who is Caitlin Kalinowski? - MSN",
+      "link": "https://news.google.com/rss/articles/CBMixwNBVV95cUxObVNZekxQLXpzZmlrSklDak1Jc1NUS2F4TEs0emJBMEVnZVd3Qk5JSWNaVFUyR0hxdUZwdjk5WjZqRVEyalBOMzd6ZjlaaGY4NVZqVHpEY0xJd1J2Z0VFbjFqTFFDQWRRelJZR1docDBBQXEtSU1xY0UwazZFdmVTU19OLUpCNDZkLUFnWHJadjVQNHJ2Q0JJbHd3LVppd1lJS3NZakctU19oY1c3Q3IyWFFINDJHYV9MQm9SQTBDMWF2MDRvUm9aV1h1T3pxbUxqckFiVFV5S05KZG9pYjBYQ2ZXdXNvVi03U0VpWjVCYTRQQi1oeEI1RkxNa1E1YWdfVFd1N2dUbWNJbWxJeEpsbnZGSWtITGFPblVDYmdaZ0xnZzY4eThSNkpVazEwS3RfWVNFUDFGa2ExbnJ3dl9KUmVVbDdnTF9fNGVtTEp4M2hNNXpjZ0ZpNmhfWlJpTHI4aDdGZ0tTVXVNMDR5VTVsZV9pVzVPcjIxV29XYTc4RmVpcjJqLWdUQkZoTmxXVDhDOFlULWlCd2VnM3VpaE0wZDhldEpWalRNRkFpeV9nem1oek5Oa2cyeEtEanVlak1qOExpaWxUUQ?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 22:28:15 GMT"
+    },
     {
       "company": "Tesla",
       "title": "Tesla Optimus Robot Launch Timeline Targets 2027 Scale - eWeek",
@@ -106,12 +112,6 @@
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
     },
     {
-      "company": "OpenAI",
-      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
-      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
-    },
-    {
       "company": "Agility Robotics",
       "title": "Toyota & Agility Robotics: The Age of Robots-as-a-Service - Technology Magazine",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1RwTmZNZFlwZGZoNl9TdXRBX1hPVXlycUZWZUd2VkstUVJvVjVOYUc1b04tLTU3ZHVfWlk2aEhSbW9peG9MMkpmSlptRXpVMkt5WTVYMzJtb2sxbTUyRzZIRjdod1N2X1pmS2tZSkpkeFJCZG55YWtocndXd2UwSmFwRmdiQUs4Z2l6UldkT04yQQ?oc=5",
@@ -122,6 +122,12 @@
       "title": "Toyota deploying humanoid robots at Canadian assembly plant - Automotive News",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYl90blJkMWtrVExMbHhBSjc0MXNOSTV5N213S0dDVy1aOFNucnpBSUcwMFozQjFaT3R0SW5pQ3lkRGNjbTRIcDNNUnFmRER0N2VXXzNZUTNRZVRCVlp3VWNlLURNbFNNRWdQN1UyZDFCUXpmOXM1Smw2N3NjY21OV0J0UjFmUWhfeHVoWlZqa0E?oc=5",
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
+      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -140,12 +146,6 @@
       "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
       "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Introducing Figure 03 - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
-      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
     }
   ]
 }
