@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T19:11:56.150Z",
+  "generatedAt": "2026-04-25T03:30:47.195Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -29,7 +29,7 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI's GPT-5.5 masters agentic coding with 82.7% benchmark score - Interesting Engineering",
+      "title": "1 GPT-5.5 crushes Claude Opus 4.7 in agentic coding with 82.7% terminal-bench score - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTklYM1ZwbXY2ZXpMald1eUoyZnVUczdPeFpwVlFpZU1zUVF2M2gzaUlrVUxJLVp0bDA4U2Y3UXVlMDktcENuZkFpOElCSzdmaHRuVXVuM2hSZXJyeW9ZN2poNFA1SVM3Q1VOVlhkNklFNFBURGdXYTBnUHJIU1g4cW1JNlRZWWpKWmc?oc=5",
       "pubDate": "Thu, 23 Apr 2026 19:32:00 GMT"
     },
@@ -88,12 +88,6 @@
       "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "OpenAI to Expand to East Bay With Plans For Huge New Robotics Facility - SFist",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2IzejVvVkhOdU9YZE16LUJUNW1RWWU0YVJwSTVmZElMa0NXNUFMb0p1VUQ5ZHhlWVJrYmk2ZnNNdEVmRV9zcFA0anU1Z2RsLVU0bGFaWklxMVFLQjJCdGdwYXhEbHU5T0xEd2hOZkNTeXkyeFJxMnRJbzB3S1p5UGZNQ1g1amhXc01MVGtRTkJkNE1oTW9raGJjeVFvM2FsWFdmbnc3R3FZYjFZUm41OXBGbE1mZw?oc=5",
@@ -130,12 +124,6 @@
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
-      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
-    },
-    {
       "company": "Boston Dynamics",
       "title": "Boston Dynamics Unveils New Atlas Robot to Revolutionize Industry - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXlFMk1OUUNDVjU3RC1WZmJsMDUyY1VRNkRkdkhTNzh1SVlCdzhqOEZjbWV2a2ZleFBNSmd3OEFuRl9UODVfWjl6VkFOTzNWT3JoZFYycnRyOW5HdlhxZ2tuZlI4NEV5S0FjdTJ6a2JJdE96TTlkXzhzT1FNdmhudkZKM0ZsN1g3SFVzMV9wTUxONVZ3aGMxMUpyY3ZXbjg?oc=5",
@@ -146,6 +134,18 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
+      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Introducing Figure 03 - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
+      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
     }
   ]
 }
