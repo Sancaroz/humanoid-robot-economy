@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T03:54:44.498Z",
+  "generatedAt": "2026-04-26T07:53:49.108Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -88,6 +88,12 @@
       "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
     },
     {
+      "company": "Unitree",
+      "title": "Video Shows Humanoid Robot Chasing a Pack of Wild Boars - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BYVJBVHBIVE0tYjUwZ1hkX3A3T1N3ZkRWaDBnLWtUd0pjX3dxMEJCa0pFNXh5WG11Tkl1c05fSE9DRVdPQ2x0ckNaNElLUF93Z1E1QjJhWk5JQS0wMlF3UXh6ckpSdnFxQmZPNEVvWEl1VzhsV2pNYjM5V1lTajA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
+    },
+    {
       "company": "OpenAI",
       "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
@@ -97,12 +103,6 @@
       "company": "OpenAI",
       "title": "OpenAI to Expand to East Bay With Plans For Huge New Robotics Facility - SFist",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2IzejVvVkhOdU9YZE16LUJUNW1RWWU0YVJwSTVmZElMa0NXNUFMb0p1VUQ5ZHhlWVJrYmk2ZnNNdEVmRV9zcFA0anU1Z2RsLVU0bGFaWklxMVFLQjJCdGdwYXhEbHU5T0xEd2hOZkNTeXkyeFJxMnRJbzB3S1p5UGZNQ1g1amhXc01MVGtRTkJkNE1oTW9raGJjeVFvM2FsWFdmbnc3R3FZYjFZUm41OXBGbE1mZw?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "company": "Unitree",
-      "title": "The world’s largest humanoid robot maker is going public - Rest of World",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OZ3Q1Q09BWHRuNGxkdlNxTmJ3dFNrZ0U4ZGpRcWNxWUNyQ0FHcGpUS2pxZFBySkdpU3lDTk81STZXTW9QQ0VEeXJBbUZkc0lDTkQzNDRQZ3ZCUjVzZjFKbnUzbm5qc0p2VE5mLUJ0R3BUSGJHR2NDV0ZpNA?oc=5",
       "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
     },
     {
@@ -124,12 +124,6 @@
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
-      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
-    },
-    {
       "company": "Boston Dynamics",
       "title": "Boston Dynamics Unveils New Atlas Robot to Revolutionize Industry - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXlFMk1OUUNDVjU3RC1WZmJsMDUyY1VRNkRkdkhTNzh1SVlCdzhqOEZjbWV2a2ZleFBNSmd3OEFuRl9UODVfWjl6VkFOTzNWT3JoZFYycnRyOW5HdlhxZ2tuZlI4NEV5S0FjdTJ6a2JJdE96TTlkXzhzT1FNdmhudkZKM0ZsN1g3SFVzMV9wTUxONVZ3aGMxMUpyY3ZXbjg?oc=5",
@@ -146,6 +140,12 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Introducing Figure 03 - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
+      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
     }
   ]
 }
