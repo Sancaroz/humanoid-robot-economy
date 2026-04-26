@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T19:09:51.330Z",
+  "generatedAt": "2026-04-26T03:54:44.498Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -22,6 +22,12 @@
       "pubDate": "Fri, 24 Apr 2026 11:38:00 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "This Humanoid Robot Maker Is Doubling Deliveries Every Month - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlUtTGM5VnI2Zm9vQ3lJVk5MbmZ2UUJ6b29OMlpDWGtycEJQMkxzeUhpTUU4cm96dl9abEJwN09KYnNQUl91dGdCRGhLZmhSRWhocWNsNDN0aVltQXpqRTIyam5ST0FHajgzbi0wajJ5UzF1QlgtTnNJa2FsbFRfWTg4VE9xdURVMEhHdFg4LXZPbjVGVmwwS0xwQ0s3dEwxNC1aY05Eb2xYX2RFLTJN?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 21:31:45 GMT"
+    },
+    {
       "company": "Unitree",
       "title": "China's humanoid robotics boom is no startup success story - Nikkei Asia",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdTEyM2t6U3VfajR1b3FyUmRydWF5ams1MkRZSXRseHVJb0w0MDEydnFHZlhaLWtvOUU2R3NYMkNKTTZsTWMyWnhXSExEbjFuZmhHdzUzNHZ1QlBRX3E2VEpESkpDMDZNRXhEYURQQTZObVJPd3d0a3RUTlJIS0JXMTJydmgwSjRYT0VQRzY4U2xXT1Mz?oc=5",
@@ -29,9 +35,15 @@
     },
     {
       "company": "OpenAI",
-      "title": "1 GPT-5.5 crushes Claude Opus 4.7 in agentic coding with 82.7% terminal-bench score - Interesting Engineering",
+      "title": "GPT-5.5 crushes Claude Opus 4.7 in agentic coding with 82.7% terminal-bench score - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTklYM1ZwbXY2ZXpMald1eUoyZnVUczdPeFpwVlFpZU1zUVF2M2gzaUlrVUxJLVp0bDA4U2Y3UXVlMDktcENuZkFpOElCSzdmaHRuVXVuM2hSZXJyeW9ZN2poNFA1SVM3Q1VOVlhkNklFNFBURGdXYTBnUHJIU1g4cW1JNlRZWWpKWmc?oc=5",
       "pubDate": "Thu, 23 Apr 2026 19:32:00 GMT"
+    },
+    {
+      "company": "Tesla",
+      "title": "Elon Musk says copycats are to blame for pushing Tesla's Optimus humanoid robot unveiling - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnFtMVBTNm5pOTRZM1p2WHpJQ2p3bDRfdGxacU9xN0N3WlFLbklGRzQxYXFtNlVST3BFWkJFa0NDcC1zS1JaLWlxU2NBNlA3VEU5M3I2Z1R0VUlhMnlTdmI5M1lDTHR6emFRcUI0MzhReVhqS1NzS3M5bmdSX3hUVmJMRGIxbzZoYkJfS05pLUZuQ3pnMzhV?oc=5",
+      "pubDate": "Thu, 23 Apr 2026 01:34:00 GMT"
     },
     {
       "company": "Tesla",
@@ -44,12 +56,6 @@
       "title": "Elon Musk says Tesla’s Optimus robot could be its 'biggest product ever' - USA Today",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZElKcHktYzJibUZsTnBKczBSSkR6V1Jyb3oycGV3UlplbmF6TGJKUEotU1FPYnQtMnNTeGF1cWNERVhLU3EyLXR4cThRVi1CajZZblk5SUFBNlROejFqRkI1Z1ZNa2NVa29tWDlucjBSZU9WX3dXOVJpTXdTVVRaN1RRQ0lrNWF4RV8wcnJQOF9ia0k2XzFtNlVPMFFITVp1MVREb2REVkxhSENj?oc=5",
       "pubDate": "Wed, 22 Apr 2026 23:42:36 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Elon Musk's Optimus dream inches closer to reality - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWU04ZzZRRjFEdTVBSkJyU2d6MlVfSmVIek5oSjJQaVU4RnpsVkMwWXRWbWhKUmFlQ2o4VURaVFBUdWxEUFlCYXF0eXp4R3EzcGZaV1d3RFg3MG8xVW5RYnREeHhlQlVUdXUyaWxBemlvTE5jcHFLdmp6QlFwaHdzSjZBR29LNm45eTZLVVlNSi1DX0dNQ1B4cGdxUlRheEkyS1JGVXNCc1RJajdwTGpEcmxZUQ?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 23:19:47 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -70,10 +76,22 @@
       "pubDate": "Tue, 21 Apr 2026 10:35:30 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "Figure AI Unveils Helix 02: A Breakthrough in Full-Body Robot Autonomy (Video) - Thomasnet",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xMVdhNVBOdnI3Z2JLbUd5TWxQQjlGM0Vld2hfSzF1RExHWWlGRzk0UFNyWmN4SFRYWUh0cUloVnF3VkE2Q0tUWUlLQ1ZZZnRyMG15QWVyelZ1Um1oNjhyektzYTRVVjJNUF9RU3dNTQ?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
+    },
+    {
       "company": "Unitree",
       "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
       "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -88,22 +106,10 @@
       "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Figure AI Robot Appears With Melania Trump Amid Rollout - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNGJuUTlqOWNmSGo5RE96ZXdBVnUtRnZ0cVBkamxqd04tQXFjMFJSWXpMUFlVcmhlOHBZemM4U1Y2VkplMmJKbUdDbkFyQklPWjdWSW80dFBYaTdFcklpb3RYRUthM0lVZWdIV2oyS3BvZ0ZmMXgwcGZkNnVmcFRSci1EVTBJeEc5S0pVNDZQbkp1MkJsQjJhMXE1OTJRZkk4WHQ0c1lUZC1qUzZmdmpWXzVsMG5VZHhCbExVR01nV2pPTDIzZEI1XzhhalFIamhQaGo4ZGZXcEtXUy0xWmpXbDRB?oc=5",
-      "pubDate": "Wed, 25 Mar 2026 07:00:00 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
-      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
@@ -140,12 +146,6 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
-      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
     }
   ]
 }
