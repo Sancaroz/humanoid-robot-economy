@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-04-27T08:40:15.793Z",
+  "generatedAt": "2026-04-27T14:25:06.367Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Unitree",
+      "title": "Unitree humanoid robot executes skating, flips and spins - VnExpress International",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjQ4T295WG1rV0NHX1BjYm5BLUd5emx2Zi1JLTdRVlV4WE43dmp5WDlHYTRzVnVuVVRpM1FSZ3VuTzQ1X2R0NWlSWEpzVG5LejJYdmhtdDhQalcycXYzR3V0d1lWT08wN2hDcFRLNXhmRGI0WXlCMTZHLTZmVm43LUhzX0pVcTZqeDN3bDBERjkwRmRjTFZHVXJPUEk5Vjd0YlJYb2xpeGNSLUp0aWhwNXlR?oc=5",
+      "pubDate": "Sun, 26 Apr 2026 23:52:10 GMT"
+    },
     {
       "company": "Boston Dynamics",
       "title": "Do humanoids dream of becoming human? - Popular Science",
@@ -28,18 +34,6 @@
       "pubDate": "Fri, 24 Apr 2026 03:50:50 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "Unitree Robotics demonstrates wheeled-legged humanoid robot capable of skating and advanced flips - Pandaily",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzNTYUpUMFh3NGZTVTA4djN0Z0o0anNFTWpYY1lUZ1c1T3JLTEdhRzFNYzlyTVM3YW1nb1NFYjRrTm1mQ1ZteWVrSVVvVkg0R3BhQk5IOUExa2RxQmlZeXNteUFsMUlKcjMxSzVyUjhiQk9TWlRIdE9WSmVCSml4TW1QVXdieVNzbVd0elJ3eDJmN0RFUEdxVDN5Y3NETXpaMm41YnNzTkNza2kzM09NS1hXSW5fLXV0V2c?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 01:05:25 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "This Humanoid Robot Maker Is Doubling Deliveries Every Month - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlUtTGM5VnI2Zm9vQ3lJVk5MbmZ2UUJ6b29OMlpDWGtycEJQMkxzeUhpTUU4cm96dl9abEJwN09KYnNQUl91dGdCRGhLZmhSRWhocWNsNDN0aVltQXpqRTIyam5ST0FHajgzbi0wajJ5UzF1QlgtTnNJa2FsbFRfWTg4VE9xdURVMEhHdFg4LXZPbjVGVmwwS0xwQ0s3dEwxNC1aY05Eb2xYX2RFLTJN?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 21:31:45 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "GPT-5.5 crushes Claude Opus 4.7 in agentic coding with 82.7% terminal-bench score - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTklYM1ZwbXY2ZXpMald1eUoyZnVUczdPeFpwVlFpZU1zUVF2M2gzaUlrVUxJLVp0bDA4U2Y3UXVlMDktcENuZkFpOElCSzdmaHRuVXVuM2hSZXJyeW9ZN2poNFA1SVM3Q1VOVlhkNklFNFBURGdXYTBnUHJIU1g4cW1JNlRZWWpKWmc?oc=5",
@@ -52,10 +46,10 @@
       "pubDate": "Thu, 23 Apr 2026 01:34:00 GMT"
     },
     {
-      "company": "Agility Robotics",
-      "title": "US humanoid robot Digit deadlifts 29 kg - VnExpress International",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUFGVVdWVnlENldiYU9zMlJUeVp5YVNoMklYTk1BUVdsV0lmeGFUa3NkenBLbkU4TGhLc2ZUREYzNU5kOU9EaFRRX2Z2LWtyaUtCTDlWMF9nSnhMSXgyU1FTQnpjR0E2OEN5eGpDeEpGSDdLM0tfX3pibTl1OENJZWVYY2NYcGFtZFZKeURwbE9KblJtamlXeWEydk0?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 10:23:17 GMT"
+      "company": "Figure AI",
+      "title": "Top Examples of Humanoid Robots in Use Right Now - Built In",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02WFMyMGFvN3ZkTl8ybFNQNUd4bnFWSDhtajZoaGNjRG1VYjBUbUptTjdYd2xzQkZNR2t2dVFpS2p2TEhRekNFel9rOUVRV1B0cTBPUXoyOA?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "Tesla",
@@ -64,16 +58,22 @@
       "pubDate": "Mon, 20 Apr 2026 07:12:31 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Figure AI Unveils Helix 02: A Breakthrough in Full-Body Robot Autonomy (Video) - Thomasnet",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xMVdhNVBOdnI3Z2JLbUd5TWxQQjlGM0Vld2hfSzF1RExHWWlGRzk0UFNyWmN4SFRYWUh0cUloVnF3VkE2Q0tUWUlLQ1ZZZnRyMG15QWVyelZ1Um1oNjhyektzYTRVVjJNUF9RU3dNTQ?oc=5",
-      "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
+      "company": "Unitree",
+      "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "Unitree to debut cheapest humanoid robot globally via Alibaba: sources - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUnVxUjBPVUpjcXdGWHlNNFVjSFMwbXFoUE9Xc29Ld2xNSVVZVWVBVkdrVV9IUENjVFptdy02UnIxWWV1ZkswS0M5OW9qQ1M2eVJCQlFSZHE1a0duSFZCUnZEUTQ3Q281OHM4WmNfLXp1SUcyNzlubTV0RHRCdl82OHhVMC1vc1kzX2RTZ1RvaExXb1lvUDBXREVMVExCZl8xdkV4dEtIbWN0eE1ZZW50WWtJckM0WGPSAbcBQVVfeXFMTTFMdWJYYlRmVHlVRTJTZW9nZE5iSnpoV0tPSDBTTWpMLVItMGFFc0psN1BZVWRsSmJhZlN6T1FYQ2cwbXNycWgtTlpONFJrMDAySFV0VnZDTzRnUFhUR1FtQTlQamR3bGpyaGR4bXlVRmpIMWl5TXRxMnlYSTU3c1pEc21PRUhFNmI2WWgzZ3RiSlFqS0Rnbkp4SU9mNW1ENm5CQ0VON1k2dmpPR3RXV0hDZ1d1RFZF?oc=5",
-      "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT"
+      "company": "OpenAI",
+      "title": "OpenAI calls for a four-day workweek — and a ‘robot tax’ - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzBHWTJkemRvVzd5NmNXSnZZYjZPOUVMOTNlbFQ4NGIyRktqNGEwUXZ6SXFnUW1HeWtvSTVFSHVYWUdUZXFjZHJBS2F6c3JvYmtEWVkwcnlxRmluOUZidnVNd3NYWWUyOTlxTENEVTlINjNnM3Q1OWhBNTQ3MlRGVkJpQ2xKTzh5bUJiXzdWNFFmQVFjZ3B4aEh0d2s4NjNa?oc=5",
+      "pubDate": "Tue, 07 Apr 2026 16:02:20 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
+      "pubDate": "Mon, 06 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -94,18 +94,6 @@
       "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
     },
     {
-      "company": "OpenAI",
-      "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
-      "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
-      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
-    },
-    {
       "company": "Agility Robotics",
       "title": "Toyota & Agility Robotics: The Age of Robots-as-a-Service - Technology Magazine",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT1RwTmZNZFlwZGZoNl9TdXRBX1hPVXlycUZWZUd2VkstUVJvVjVOYUc1b04tLTU3ZHVfWlk2aEhSbW9peG9MMkpmSlptRXpVMkt5WTVYMzJtb2sxbTUyRzZIRjdod1N2X1pmS2tZSkpkeFJCZG55YWtocndXd2UwSmFwRmdiQUs4Z2l6UldkT04yQQ?oc=5",
@@ -116,12 +104,6 @@
       "title": "Toyota deploying humanoid robots at Canadian assembly plant - Automotive News",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYl90blJkMWtrVExMbHhBSjc0MXNOSTV5N213S0dDVy1aOFNucnpBSUcwMFozQjFaT3R0SW5pQ3lkRGNjbTRIcDNNUnFmRER0N2VXXzNZUTNRZVRCVlp3VWNlLURNbFNNRWdQN1UyZDFCUXpmOXM1Smw2N3NjY21OV0J0UjFmUWhfeHVoWlZqa0E?oc=5",
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
-      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Boston Dynamics",
@@ -143,9 +125,27 @@
     },
     {
       "company": "Agility Robotics",
+      "title": "How Agility Robotics uses artificial intelligence, from its humanoid ‘Digit’ to everyday workflow - Pittsburgh Post-Gazette",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOODFKd3FCY0lDZ3FMc2FQMlExRVE2WldjczEyZ29QTklhY3dsU0p4UXlYTG1RYldhVGlPcHNfeEh1d3dLRE1ZYjlhZC04YzB0R0d0c1F2MGlNSVJDanpnSDhaV3UtVGxhWlJTWjB5cXBOWDRLR1JZVW9ZTWJmNmF5UTAwSmRJZmlGYjFzYXdGVkQ1eHdyV04xZUV5Z0p3UEx4cERyRF9xMFpLQ3Jxb3hEM3BPZGZQa2RVdVpoRXkyU2ZoaVozT2hnUzNSTTRpUFh0akgxYnh4cjE?oc=5",
+      "pubDate": "Mon, 22 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "company": "Agility Robotics",
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "What I Learned Watching a Humanoid Robot Do Laundry - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vTUo4b1NzR1k3dkpYVGpvblZGeEpTUnBzalEweFZQeTViTGM3U2xMVGpiUmd6alpKTnNhaGdiYmNwXzIzWC02MHVsNTZYWXVRYkQxQ0Q1aFQ4cHBIMmZF?oc=5",
+      "pubDate": "Tue, 14 Oct 2025 07:00:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Introducing Figure 03 - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
+      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
     }
   ]
 }
