@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T03:58:50.401Z",
+  "generatedAt": "2026-04-27T08:40:15.793Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
@@ -22,16 +22,22 @@
       "pubDate": "Fri, 24 Apr 2026 11:38:00 GMT"
     },
     {
+      "company": "Tesla",
+      "title": "After Cars, Tesla Wants To Sell Robots In India - Cartoq",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XUHNCZjRPamJGdHU3LVdjMUQ5TkNZV3pfTXVPdWdfQWxvU29HYmU3bGRuNzZvSGdZNENVMl9ILV9kX3o2UG5MbFlQUW9kMHA0Vk1qQ1VVSGdjWVBweFhlRXVXS1h2bnU3S3hIQlFTVElSS01Pdkh3?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 03:50:50 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "Unitree Robotics demonstrates wheeled-legged humanoid robot capable of skating and advanced flips - Pandaily",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzNTYUpUMFh3NGZTVTA4djN0Z0o0anNFTWpYY1lUZ1c1T3JLTEdhRzFNYzlyTVM3YW1nb1NFYjRrTm1mQ1ZteWVrSVVvVkg0R3BhQk5IOUExa2RxQmlZeXNteUFsMUlKcjMxSzVyUjhiQk9TWlRIdE9WSmVCSml4TW1QVXdieVNzbVd0elJ3eDJmN0RFUEdxVDN5Y3NETXpaMm41YnNzTkNza2kzM09NS1hXSW5fLXV0V2c?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 01:05:25 GMT"
+    },
+    {
       "company": "Figure AI",
       "title": "This Humanoid Robot Maker Is Doubling Deliveries Every Month - Forbes",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlUtTGM5VnI2Zm9vQ3lJVk5MbmZ2UUJ6b29OMlpDWGtycEJQMkxzeUhpTUU4cm96dl9abEJwN09KYnNQUl91dGdCRGhLZmhSRWhocWNsNDN0aVltQXpqRTIyam5ST0FHajgzbi0wajJ5UzF1QlgtTnNJa2FsbFRfWTg4VE9xdURVMEhHdFg4LXZPbjVGVmwwS0xwQ0s3dEwxNC1aY05Eb2xYX2RFLTJN?oc=5",
       "pubDate": "Thu, 23 Apr 2026 21:31:45 GMT"
-    },
-    {
-      "company": "Unitree",
-      "title": "China's humanoid robotics boom is no startup success story - Nikkei Asia",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdTEyM2t6U3VfajR1b3FyUmRydWF5ams1MkRZSXRseHVJb0w0MDEydnFHZlhaLWtvOUU2R3NYMkNKTTZsTWMyWnhXSExEbjFuZmhHdzUzNHZ1QlBRX3E2VEpESkpDMDZNRXhEYURQQTZObVJPd3d0a3RUTlJIS0JXMTJydmgwSjRYT0VQRzY4U2xXT1Mz?oc=5",
-      "pubDate": "Thu, 23 Apr 2026 20:05:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -46,28 +52,22 @@
       "pubDate": "Thu, 23 Apr 2026 01:34:00 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "Purpose-Built Humanoids for Specific Jobs - ETF Trends",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLTNiTGJQTkVYQ0xYOUpQZ21sZjgybU5sSk0ydW82T29KLWlLZDNZNjhxdWpBMmJKN1lqWmJsdGozeHMtTGFtNEdacERYajNJRmZvMDlBV0ZVYVBJY2hiUXRZTjVxV3FBOU1IZVVXTTZuR1dOY3UyVm84NXdyQVh5Ukhsa3REZ0g4cFVrdFlhSWl5ajZqQVk2dEY3bWhlX1Z4dlHSAacBQVVfeXFMUGtLeVlIQnFXd3Z4T29RNFpTWjlKWVZNYW5wNlZ0cUdoWlhxZHlULXRfb1JkZXliX0c0ZkgzV0JLMW1janJxSGhIVEpweFZxaFNKVTBlUGVuVW96Z3RBN3YtVlpHZ0FDbHFHbjVkcjRTTFcyaXhtSEQ3blFnY2g3NFhRcUhGZHFhZ3g1T3RRNkk3VmQ0OWViMWtESzE0b1YtUnFTQ1dMa28?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 11:00:37 GMT"
-    },
-    {
       "company": "Agility Robotics",
       "title": "US humanoid robot Digit deadlifts 29 kg - VnExpress International",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUFGVVdWVnlENldiYU9zMlJUeVp5YVNoMklYTk1BUVdsV0lmeGFUa3NkenBLbkU4TGhLc2ZUREYzNU5kOU9EaFRRX2Z2LWtyaUtCTDlWMF9nSnhMSXgyU1FTQnpjR0E2OEN5eGpDeEpGSDdLM0tfX3pibTl1OENJZWVYY2NYcGFtZFZKeURwbE9KblJtamlXeWEydk0?oc=5",
       "pubDate": "Wed, 22 Apr 2026 10:23:17 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Top Examples of Humanoid Robots in Use Right Now - Built In",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02WFMyMGFvN3ZkTl8ybFNQNUd4bnFWSDhtajZoaGNjRG1VYjBUbUptTjdYd2xzQkZNR2t2dVFpS2p2TEhRekNFel9rOUVRV1B0cTBPUXoyOA?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT"
-    },
-    {
       "company": "Tesla",
       "title": "Tesla is sending its humanoid Optimus robot to the Boston Marathon - Teslarati",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aVlFfQVo4ZGpELWxKbXpqdGt2Rm1iTVpUdGtjWjJya3lJNG1MYW94LXZ1bk8yRlI4ZlhJWnNSRWNJdXd3UXE5c2RaYTZXak56ME5oWi1La1dvcVAxYXB3Ni1qQWxsVzg?oc=5",
       "pubDate": "Mon, 20 Apr 2026 07:12:31 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Figure AI Unveils Helix 02: A Breakthrough in Full-Body Robot Autonomy (Video) - Thomasnet",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xMVdhNVBOdnI3Z2JLbUd5TWxQQjlGM0Vld2hfSzF1RExHWWlGRzk0UFNyWmN4SFRYWUh0cUloVnF3VkE2Q0tUWUlLQ1ZZZnRyMG15QWVyelZ1Um1oNjhyektzYTRVVjJNUF9RU3dNTQ?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "Unitree",
@@ -86,12 +86,6 @@
       "title": "The world’s largest humanoid robot maker is going public - Rest of World",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OZ3Q1Q09BWHRuNGxkdlNxTmJ3dFNrZ0U4ZGpRcWNxWUNyQ0FHcGpUS2pxZFBySkdpU3lDTk81STZXTW9QQ0VEeXJBbUZkc0lDTkQzNDRQZ3ZCUjVzZjFKbnUzbm5qc0p2VE5mLUJ0R3BUSGJHR2NDV0ZpNA?oc=5",
       "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "Musk has a plan to make human labor obsolete. Billionaires are joining in. - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOE9HbWl6SEtGRVR0emUybGdXcXpTSU9EWjdEczg1MXhnVU1fbTlqWkJ4Rmd3ckJyOUU5YmdydzB5WVFMWGxTRTNVRWJSQU4xYTJzcHhsZVRLU0V3RW1Da1hFa0Y1NGtrSHR3U3lKc2gteFNoS1RFVVJnZVZDWkZzSi1ZdmFyYkM3eTVkZw?oc=5",
-      "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "Figure AI",
@@ -124,9 +118,21 @@
       "pubDate": "Thu, 19 Feb 2026 08:00:00 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "Introducing Helix 02: Full-Body Autonomy - Figure",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dnlOSG9PREVQTFJ3MjJKWVExVjBwZ1VEdUpEMDUzOFlhWTVGMFlVZTRlcmJodzg4di1iMnQ0MmZ1LWItTkZsMFk5aw?oc=5",
+      "pubDate": "Tue, 27 Jan 2026 08:00:00 GMT"
+    },
+    {
       "company": "Boston Dynamics",
       "title": "Boston Dynamics Unveils New Atlas Robot to Revolutionize Industry - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXlFMk1OUUNDVjU3RC1WZmJsMDUyY1VRNkRkdkhTNzh1SVlCdzhqOEZjbWV2a2ZleFBNSmd3OEFuRl9UODVfWjl6VkFOTzNWT3JoZFYycnRyOW5HdlhxZ2tuZlI4NEV5S0FjdTJ6a2JJdE96TTlkXzhzT1FNdmhudkZKM0ZsN1g3SFVzMV9wTUxONVZ3aGMxMUpyY3ZXbjg?oc=5",
+      "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES - AP News",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGNCdE5ZeWNTMHFEQy1oM0VHLTFlMHFqMWVBMTlxRWRCM2JvTHlxQWxDWG1wM0tKZVRQdTQ3blNSX2ZzQXFBUlRYUi1zMnFMU0I2VGNPc2FpckRUUlI4SzRtV3dpaldiZXRiTGFpb3Jvb3dNYnRZZ3lvY3RXNGt4d0tEVFpqRUtfMlExaWZudHcxTXMybzFqcjRHSUc4enY5WE0wWVZBMTFoWldvQVE?oc=5",
       "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
     },
     {
@@ -140,12 +146,6 @@
       "title": "Mercado Libre and Agility Robotics Announce Commercial Agreement to Deploy Humanoid Robots - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDByYnZGV2VrQnpZNUpoNjFRNHRHWDFHdDFFLVpST016WjJzdi1PUXBEUVNhR2VCN0M0RHYzZmNtejlBYjJNQjBMUS1SQS05Z1J1V29rZktweXR2YWM5WHhkMDVBNEZDWndicDN2MDlTNUR3LVJ4LUhkeUJXWjZaQTRWNmg1VHhwS1pDUmdR?oc=5",
       "pubDate": "Wed, 10 Dec 2025 08:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Introducing Figure 03 - Figure",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93aGRXVDVYN0JpMmRieEQ0d2oySElRM2owclRUYkU2aWFRTnhaczltVGVyZWl2MklrXzE2R0lOOE94TGVDUHVEM0w3RFlDcFBuVk9XRk9lRHFndnZz?oc=5",
-      "pubDate": "Thu, 09 Oct 2025 07:00:00 GMT"
     }
   ]
 }
