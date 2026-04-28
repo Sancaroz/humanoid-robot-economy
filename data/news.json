@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-04-28T04:03:56.686Z",
+  "generatedAt": "2026-04-28T08:38:59.119Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Boston Dynamics",
+      "title": "China takes the lead, the US follows suit: The 'singularity moment' for humanoid robots has arrived! - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbzcxUUZSTzRHM1FWSEVUX3kzamJfSjI2ZjNrWTZtaldQN3NhR2hqMGk5V0lFLWpsY2VUWkt3cUdSLW91VXhFRnBxM09aSHQwMzBDbi14d2R6bUI2Y0VUZ2VzMXlGank4WlBTM1dZU195U3dMSGFOQkpGTnh0UlgtcFFXZDdVbXBNcXlIMHp6dEMtS2hlTS0td3JzSG5JcUE?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 04:05:02 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "About principle, not people, OpenAI's robotics head quits after company's Pentagon deal — Who is Caitlin Kalinowski? - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxOZE9ybWZFbDFHaUhSTzZSVlNtWjN2X21XLVdiVnowbzBqUkhfVW9JMVFYZ0lRMEFvUHkzYmpsTkdVNjdDUEZmNGE2SHg3emVpZUZ1eTNFQ1F4TlBubmNBNnd6cGJoQzh2NTlINDF3VENIanZNb2dkaTVSakY2Tm9ENVZqMC1mcGszY2hkTDYwQmFERU10dkdlYzdQVlNwT3FyYUhLMHRfX3A1V0MtOFhNNGVvaWRoSHM1VHA4ekZoR0ZaMzg1WUZ1NTJET2dwbWdJMmJrMlY0aDB3WnI4ZFdxVUllVDlHWFZsVnBQUm1VeWFIdWM0VzlhWDRORWRzOTljaGY2LWVNTVZleXZQWUVxTUZoaFBHZjdNT2ZTSGcydVU4eGdkdm55bkhCNFQ5Rmx4LUl2MXNobW9BR1JQYklNWkNwTXJwdDRjQXdKejlhVWFzYjlpSnJFblg4UUdRX0ExczVlSGNuZnRYaGlNcFdJVjdNZlktT0ZsSTRaVUZmU0pCS1RMNHhmQVVwQl9IRnZlUi1zMHBseWJHcG5jakI4TEZmTQ?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 02:15:00 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek - BIEN — Basic Income Earth Network",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1BSVXN1ZHBfWk41c1dQRGhiTXpjRXBxcU40Z0dMMGZDLVF6VVVVZ0Qybm92dGRTY0t1b1F3VUE2TkdyRl9rVmgtUlRpaFpHMFZLV2pQVGc4S3poeVBlQktPbHkwSUY1Rk9mSjhQWGllU1pMd0tJSW8zd3pMekdTWFdldmxCa0t3OU1WUkt6QUttblhQYU1UdFk5Q2w3QUx3OFVIWF9nd29sdkpRS0k0b25ULU5KMVdOU3lfY1hTWTU4VVRRQ3c?oc=5",
+      "pubDate": "Mon, 27 Apr 2026 20:15:35 GMT"
+    },
     {
       "company": "Unitree",
       "title": "Unitree G1 Humanoid Robots Are Reshaping The Robotics Investment Stack - Forbes",
@@ -29,12 +47,6 @@
     },
     {
       "company": "Tesla",
-      "title": "Tesla Optimus Robot Launch Timeline Targets 2027 Scale - eWeek",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3THlvb1JiallMendkcFM4VTZDRURDOTBGTVJUTzdYbjN1OTNucXlVSHVPWkU0aVp1V0FRczJySGRKT1p1LTNVZEZ4SjRqRlEtSXN2MWYzTzlHcVR5a3BKa3NGWWRfYXpOZUYtUF9kamRQRldrenc?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 17:37:57 GMT"
-    },
-    {
-      "company": "Tesla",
       "title": "Elon Musk says copycats are to blame for pushing Tesla's Optimus humanoid robot unveiling - Business Insider",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnFtMVBTNm5pOTRZM1p2WHpJQ2p3bDRfdGxacU9xN0N3WlFLbklGRzQxYXFtNlVST3BFWkJFa0NDcC1zS1JaLWlxU2NBNlA3VEU5M3I2Z1R0VUlhMnlTdmI5M1lDTHR6emFRcUI0MzhReVhqS1NzS3M5bmdSX3hUVmJMRGIxbzZoYkJfS05pLUZuQ3pnMzhV?oc=5",
       "pubDate": "Thu, 23 Apr 2026 01:34:00 GMT"
@@ -46,21 +58,21 @@
       "pubDate": "Thu, 23 Apr 2026 00:15:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Top Examples of Humanoid Robots in Use Right Now - Built In",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE02WFMyMGFvN3ZkTl8ybFNQNUd4bnFWSDhtajZoaGNjRG1VYjBUbUptTjdYd2xzQkZNR2t2dVFpS2p2TEhRekNFel9rOUVRV1B0cTBPUXoyOA?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "company": "Unitree",
-      "title": "Poland street sees humanoid robot chasing boars in unusual AI showcase - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMzl4YWxiMFRycjBLcTNtVE1mVGl2TU9tQlNza2VmbVlKRlFNdzdTaEd5NVZNYWtDbUZOU29jNVk3SkVFOS1aQ1VEWUtUc09PSnpVR0tDZEUtek9QYV83bWJIcWxwUkpscTV5TGgyOFQ4Y21oUHVUaFk5MDU0VHVfWFA0SzVMcUt0YllCeQ?oc=5",
-      "pubDate": "Tue, 14 Apr 2026 07:00:00 GMT"
+      "company": "Tesla",
+      "title": "Tesla Optimus V3 hand and arm details revealed in new patents - Teslarati",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSE96MDc4NC1JY21yTm40YVZ4aE53UU01NDQwc2pKY2g0QVR2d25PWHo0Sl9zX1VHcWxOQlM1MlR2UUN2SG5kbWh3NWtEYXVLMElQeHJtVHpDWk0zSWV4RjZtcGdKVVdxNUpvanJnR2ZCRjdLUmhPSmlkUG5hN3BzVXViQ3FoQkpV?oc=5",
+      "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "Unitree",
       "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
+      "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "Video Shows Humanoid Robot Chasing a Pack of Wild Boars - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BYVJBVHBIVE0tYjUwZ1hkX3A3T1N3ZkRWaDBnLWtUd0pjX3dxMEJCa0pFNXh5WG11Tkl1c05fSE9DRVdPQ2x0ckNaNElLUF93Z1E1QjJhWk5JQS0wMlF3UXh6ckpSdnFxQmZPNEVvWEl1VzhsV2pNYjM5V1lTajA?oc=5",
       "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
     },
     {
@@ -82,22 +94,16 @@
       "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
     },
     {
-      "company": "OpenAI",
-      "title": "OpenAI to Expand to East Bay With Plans For Huge New Robotics Facility - SFist",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2IzejVvVkhOdU9YZE16LUJUNW1RWWU0YVJwSTVmZElMa0NXNUFMb0p1VUQ5ZHhlWVJrYmk2ZnNNdEVmRV9zcFA0anU1Z2RsLVU0bGFaWklxMVFLQjJCdGdwYXhEbHU5T0xEd2hOZkNTeXkyeFJxMnRJbzB3S1p5UGZNQ1g1amhXc01MVGtRTkJkNE1oTW9raGJjeVFvM2FsWFdmbnc3R3FZYjFZUm41OXBGbE1mZw?oc=5",
-      "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
-    },
-    {
       "company": "Figure AI",
       "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
       "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
     },
     {
-      "company": "OpenAI",
-      "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
-      "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
+      "company": "Figure AI",
+      "title": "Figure AI Robot Appears With Melania Trump Amid Rollout - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNGJuUTlqOWNmSGo5RE96ZXdBVnUtRnZ0cVBkamxqd04tQXFjMFJSWXpMUFlVcmhlOHBZemM4U1Y2VkplMmJKbUdDbkFyQklPWjdWSW80dFBYaTdFcklpb3RYRUthM0lVZWdIV2oyS3BvZ0ZmMXgwcGZkNnVmcFRSci1EVTBJeEc5S0pVNDZQbkp1MkJsQjJhMXE1OTJRZkk4WHQ0c1lUZC1qUzZmdmpWXzVsMG5VZHhCbExVR01nV2pPTDIzZEI1XzhhalFIamhQaGo4ZGZXcEtXUy0xWmpXbDRB?oc=5",
+      "pubDate": "Wed, 25 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
@@ -115,12 +121,6 @@
       "company": "Boston Dynamics",
       "title": "Boston Dynamics Unveils New Atlas Robot to Revolutionize Industry - Boston Dynamics",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXlFMk1OUUNDVjU3RC1WZmJsMDUyY1VRNkRkdkhTNzh1SVlCdzhqOEZjbWV2a2ZleFBNSmd3OEFuRl9UODVfWjl6VkFOTzNWT3JoZFYycnRyOW5HdlhxZ2tuZlI4NEV5S0FjdTJ6a2JJdE96TTlkXzhzT1FNdmhudkZKM0ZsN1g3SFVzMV9wTUxONVZ3aGMxMUpyY3ZXbjg?oc=5",
-      "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES - AP News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGNCdE5ZeWNTMHFEQy1oM0VHLTFlMHFqMWVBMTlxRWRCM2JvTHlxQWxDWG1wM0tKZVRQdTQ3blNSX2ZzQXFBUlRYUi1zMnFMU0I2VGNPc2FpckRUUlI4SzRtV3dpaldiZXRiTGFpb3Jvb3dNYnRZZ3lvY3RXNGt4d0tEVFpqRUtfMlExaWZudHcxTXMybzFqcjRHSUc4enY5WE0wWVZBMTFoWldvQVE?oc=5",
       "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
     },
     {
