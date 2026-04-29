@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-04-28T19:55:25.747Z",
+  "generatedAt": "2026-04-29T04:01:07.127Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "OpenAI",
+      "title": "Elon Musk accuses Google co-founder of loving robots as much as people: ‘Larry Page called me a ‘specieist” - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbkFqYk1hbWg1RlhhUUthWG9NYllHSXhxeVlPa2F1MEhXdklkNjFSQUM0Y0ZCLTFwMUh4d3FoT1d1SG80ZVZJdTViaVUyMTNMcUVTTHNBRTIzY1pDdndoMFpJS1plcXFRS2R4cGlRNUtZZE1LQkJYX3JxaFNSX01LSlU2OHRPaHEtaFgtWGlMUE82bDNtakVacW1tcWJQT0E?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 21:55:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOV1lvVEZzdW5sUGhnRVQzbjFaREFBS2dCa3N2RGJTV0FtVEgweWJHbmctcHJnSWtfbTNtalgxajI4MzZNdm5oTTU0T0RDaWZQWmlFdzRlYk5MQXBXYUF2Q3ZTNmdyVlVDRWdMenpEeGswOHdIcVlXMXJNVjNKOXl4NHZXaENIYjR0dUcxOGlFOHlKcW9DOWsySkVuSWFQZWhKazBTOHBhYnlGTC0tX1oxbGszZFJqd3NGSVY3SHR1YTVsVlk2RjJzVUNlam9QMU5ReXplMzVIUHNOUl9iaHB4ZFNrVnZGZFoxVmJMTkJsWUxGSXA0SW1WQnBxXzRURFl1TlAyOWVrcG54UEVrWmI4LVBzMzIzTlFkRDhqdUNCQ1BLUXZhV00tbHJLdVNMZ2xPbzNMRm5nNEI2bFB4U1JVZ0dQLVB3YVVzYXY4MmNVaU5mbDBOcTA0ckZ4S1JrbzhTdHpPRGo2Qmx5VlpfZWdINGZZemlnRnZCeVNua2F3?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 21:44:33 GMT"
+    },
     {
       "company": "Figure AI",
       "title": "UniX AI’s new robot can tackle your household chores - R&D World",
@@ -65,6 +77,12 @@
     },
     {
       "company": "Tesla",
+      "title": "Tesla Optimus Robot Launch Timeline Targets 2027 Scale - eWeek",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3THlvb1JiallMendkcFM4VTZDRURDOTBGTVJUTzdYbjN1OTNucXlVSHVPWkU0aVp1V0FRczJySGRKT1p1LTNVZEZ4SjRqRlEtSXN2MWYzTzlHcVR5a3BKa3NGWWRfYXpOZUYtUF9kamRQRldrenc?oc=5",
+      "pubDate": "Fri, 24 Apr 2026 17:37:57 GMT"
+    },
+    {
+      "company": "Tesla",
       "title": "Elon Musk says Tesla’s Optimus robot could be its 'biggest product ever' - USA Today",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZElKcHktYzJibUZsTnBKczBSSkR6V1Jyb3oycGV3UlplbmF6TGJKUEotU1FPYnQtMnNTeGF1cWNERVhLU3EyLXR4cThRVi1CajZZblk5SUFBNlROejFqRkI1Z1ZNa2NVa29tWDlucjBSZU9WX3dXOVJpTXdTVVRaN1RRQ0lrNWF4RV8wcnJQOF9ia0k2XzFtNlVPMFFITVp1MVREb2REVkxhSENj?oc=5",
       "pubDate": "Fri, 24 Apr 2026 14:15:00 GMT"
@@ -82,28 +100,10 @@
       "pubDate": "Thu, 23 Apr 2026 00:15:00 GMT"
     },
     {
-      "company": "Tesla",
-      "title": "From EVs to robotics: Tesla targets 10M Optimus units with new Texas plant - The Robot Report",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUEJLZXdwemxZVEpOQnZOM2dRQkJRSENVTkxndW80RFFaaVdnVGxraFV3UktEbGV2TnFlSVBXNWVvSEhJd0VEYnBaWkNoZmpuZm9SZzktOXp3TURsYW01dzdVTU1oOGQ5aXJ6UWtTOHJ1aklhOVNNZjkwcjBDLVY1bllQc1NrQ0FHeDQ4SmNKMC1nMV8yQ01wTGZfNjlMZ0pUcDVNbHBJdVk?oc=5",
-      "pubDate": "Wed, 22 Apr 2026 21:52:45 GMT"
-    },
-    {
       "company": "Figure AI",
       "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
       "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnNFVHU5MXE5RFBaUHk4OFROVVZNak9KRnJRdzRJLWxHa1M3Y2FxY1gtZ3Z1NUNsZ0tWenZTVTJFeVlzbC1QMTBKYVgycktrN0hzc2otLVFYMElfc0U4MW5FVHhFLVVVVTBKVTZqUFdFcm1sdjB1bjdlN0JtMWJRNXlYSDJrUDZ3UGhSYlhZZ19VUUlvaWfSAZsBQVVfeXFMUHZkUlUyQ0VFUWx0ci1JSUNwN2lmOUZiWUNoMHpBeHZtenpGR0dUM21RMS01MVc2SkNlUm1EZVFjd1BFRXB6cmtHRW9BX2xselgyR05URlN1b3IxbEU4MWNobXFLTExTWnNPNG03MXFPUl96QkVJeU9QLURJVFVuaVYtMWp5S09RWmJFamNVRk0yQ2pjc0NjX3dqWEk?oc=5",
-      "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
     },
     {
       "company": "OpenAI",
