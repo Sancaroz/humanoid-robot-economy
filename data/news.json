@@ -1,13 +1,19 @@
 {
-  "generatedAt": "2026-04-30T14:22:45.428Z",
+  "generatedAt": "2026-04-30T19:47:54.840Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
     {
       "company": "Figure AI",
-      "title": "Figure ramps humanoid production to one per hour - Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMEViNTBTVEtYajNTb2xCUXdFWFpGMmN3RVdYejJET0VWYWpLV1JoQnNfMmZxVmZXakUwUEpzdkNrZ2hOU0RqNkdZWVF6MWdGeWY1RTBpY0tEQXMwRXBHVUV2ZHl0YlNMdS1DVE9ubi1rYkFlOFZQNWhxSFQ1UlJEckdKQ2lGZVZCMkxDdl9Xc0FvUk5M?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 10:50:11 GMT"
+      "title": "Figure’s Humanoid Robot Factory Just Hit a Major Production Milestone - eWeek",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMMzkxRlY5XzRoUk5wWkp4RDZvcU85el9hOG80aWdJMTZVeXBESVJMODUyNGVDS3ZOUXpBdHktT2VZY0RBN3RaeUJXTnh4aTFJbHdSY19vcmhoZFBBYkNubWFIUjRPNUVrZ2dWQVpkTTZDdXdVUFJhYWhFOG0?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 19:05:12 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Boston Dynamics: 2026 TIME100 Most Influential Companies - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMnVqRlpJYTRKeGhkMkd0ZmtTczRXT2l5ZUZvN016QlExb2lrR0hTRUVwTkI2R21yVVJ3LWtFTFZXamM4Z1ZQb3dvQzc5UFRZeE1LLUFQVkVNTWxMMFFpSjRoZGlkV2xRX1hOaDg3YWdmYWZiREV3RWpnRi1UaUtkejVES1pnVzdpcExxMw?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 13:13:48 GMT"
     },
     {
       "company": "Figure AI",
@@ -16,10 +22,10 @@
       "pubDate": "Thu, 30 Apr 2026 10:50:00 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "Hyundai accelerates physical AI to deploy robots across Korea’s industry - CHOSUNBIZ - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZXBwaUE3WFNOeVduOFJ3ckxFUE05V1FfczdKbWF1dTZla3U0SG5CX3ltR1I1Zmo5ZDlENkdQZTdwYXQ5OVZPMTRVZnIxWHc5aTFMR3FqZ2FyTHh3SHAyajUxUjVIR0wxaVQtRzNXbWoyM3ZaUFJJR0xNSklKLXpPZndR0gGWAUFVX3lxTE9FVklUTDFld0MzVE92RWE1UmxpSllySXRpODJXT0w4Sl9pbXBsWTZWM1ZGOHVuMDBRZC1aODhhdG5QbEJHUEhJOTFmSkZXRG9hR1ljRWlPdHNnaWxDY2V0Z25vMC1VdUV5ejVqUEQwUGwwbU1JS094dXNuWFRDSXpYaHFUcEMwZnRtVnBUT3RfcGFoM3VBQQ?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 06:11:00 GMT"
+      "company": "Tesla",
+      "title": "Tesla Optimus Robot Launch Timeline Targets 2027 Scale - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYXBWWjFKQTVwZXc3ZWJwdEl1QlAtNC01ektPbWxGYTBTZ1RTaFhZUmxLbHZXWnMyUmVLXzFlT0Fkc1pURm9yME1zRk9PS293b0xPS3pPdmZuVkd5LW9xd0VkX2QyT3FOSi1feG4xb19oQ1hJbVphSHhNZzhDdzhSeDYyQUE?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 00:56:12 GMT"
     },
     {
       "company": "Tesla",
@@ -28,7 +34,19 @@
       "pubDate": "Wed, 29 Apr 2026 20:16:00 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOTmViTFdiUEM2Qmc3aDViZ0tQaEtOVVRGVjBBLVpXQ3htNjB6cmxxQWxUZml0bWo1eXduRlJtRUxrdDVra2tDT2hkMDhVWXFEVFVnejU3bWp0LTg2SFZRY1FadTRNdUhhZExCaS1WbW9lWUpLZmVxZS1ZZXJhM0w0bTFSNnFia3JyT2dJekwwakxQTGZlNzhzbDFQYzc1MW0zNmhQVjlGQVJHUzRRclotSDhwSHdXR0VQVHVwXzhOU0hkZDMtaGc0U21teDhaRktVRFdxLUxzcGxqa2VRcmR2bzhfLUU0cmJGeHRVN0tSX3dSQ2Z2bXBCVlpyblV2RUpVbFIyZTkwYUxyb1dDeHVpTnQwOVI3M2ptZFlnQU9VdmhaZVhmS2U0UlJtbEhkb01pSG5iWkRYYVB2Q1Nkc2x6N0s1bGJVRXVQS1hZclNqSUJqV0lEaW9ld2tzQ2FMZ1NRdmVJUDk0QnFpNnFCMU1CNFZ3aXhGSUtGSXpseU53?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 19:19:13 GMT"
+    },
+    {
       "company": "Unitree",
+      "title": "The Top 10 Humanoid Robots, Ranked: Tesla, Unitree, and More - eWeek",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rRWhLclk4dkltTEk2TDBvcEhiVE1PNkhKdThObnF6aU5WemdrcWl2cXJmdnU4VGREbHR2eVJtSFR4Q25BZWFsekVzV0VPRU9kcVVGWm4xZWxlaDdBYWVkQW1yTlMwSHo0U3hMYXlwOA?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 10:19:57 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
       "title": "The Top 10 Humanoid Robots, Ranked: Tesla, Unitree, and More - eWeek",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rRWhLclk4dkltTEk2TDBvcEhiVE1PNkhKdThObnF6aU5WemdrcWl2cXJmdnU4VGREbHR2eVJtSFR4Q25BZWFsekVzV0VPRU9kcVVGWm4xZWxlaDdBYWVkQW1yTlMwSHo0U3hMYXlwOA?oc=5",
       "pubDate": "Wed, 29 Apr 2026 10:19:57 GMT"
@@ -40,22 +58,10 @@
       "pubDate": "Wed, 29 Apr 2026 09:00:00 GMT"
     },
     {
-      "company": "Figure AI",
-      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOTmViTFdiUEM2Qmc3aDViZ0tQaEtOVVRGVjBBLVpXQ3htNjB6cmxxQWxUZml0bWo1eXduRlJtRUxrdDVra2tDT2hkMDhVWXFEVFVnejU3bWp0LTg2SFZRY1FadTRNdUhhZExCaS1WbW9lWUpLZmVxZS1ZZXJhM0w0bTFSNnFia3JyT2dJekwwakxQTGZlNzhzbDFQYzc1MW0zNmhQVjlGQVJHUzRRclotSDhwSHdXR0VQVHVwXzhOU0hkZDMtaGc0U21teDhaRktVRFdxLUxzcGxqa2VRcmR2bzhfLUU0cmJGeHRVN0tSX3dSQ2Z2bXBCVlpyblV2RUpVbFIyZTkwYUxyb1dDeHVpTnQwOVI3M2ptZFlnQU9VdmhaZVhmS2U0UlJtbEhkb01pSG5iWkRYYVB2Q1Nkc2x6N0s1bGJVRXVQS1hZclNqSUJqV0lEaW9ld2tzQ2FMZ1NRdmVJUDk0QnFpNnFCMU1CNFZ3aXhGSUtGSXpseU53?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 03:12:05 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "Elon Musk accuses Google co-founder of loving robots as much as people: ‘Larry Page called me a ‘specieist” - Fortune",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbkFqYk1hbWg1RlhhUUthWG9NYllHSXhxeVlPa2F1MEhXdklkNjFSQUM0Y0ZCLTFwMUh4d3FoT1d1SG80ZVZJdTViaVUyMTNMcUVTTHNBRTIzY1pDdndoMFpJS1plcXFRS2R4cGlRNUtZZE1LQkJYX3JxaFNSX01LSlU2OHRPaHEtaFgtWGlMUE82bDNtakVacW1tcWJQT0E?oc=5",
       "pubDate": "Tue, 28 Apr 2026 21:55:00 GMT"
-    },
-    {
-      "company": "Tesla",
-      "title": "What Robotics Experts Think of Tesla’s Optimus Robot - IEEE Spectrum",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MX3pnRUlFYUZuNGw4OGhLTFFTZ1hLUGlYd0VhdHZENHVpRldlQnhVSy1aU3ZXRDZYVVNGREU1TjFjQkJyVV9fLUlDMFc5WkFQRDk2em9jeXF5UHpoU0hTdTBhZmFsM2xPRHJlM2ExTUs4N2FUcExJQTE4Zk3SAYABQVVfeXFMUGtmcFdoZFNDemtvejF5QmFHVHNYdHZ5QnBCVHN6UlE4Q1BHSGlzMFpUSVF1SW1TUnhhTUo4VDFrQklQQWJlLXVCQXpraWFYRUYzRGxQN3NOWHFUcS1WWFliOWh1bFMyM0RLVl83emQyZkhmM0RyS1ZqNm1nRGlxM1c?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 18:55:01 GMT"
     },
     {
       "company": "Unitree",
@@ -83,21 +89,21 @@
     },
     {
       "company": "Tesla",
-      "title": "Tesla Optimus Robot Launch Timeline Targets 2027 Scale - eWeek",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3THlvb1JiallMendkcFM4VTZDRURDOTBGTVJUTzdYbjN1OTNucXlVSHVPWkU0aVp1V0FRczJySGRKT1p1LTNVZEZ4SjRqRlEtSXN2MWYzTzlHcVR5a3BKa3NGWWRfYXpOZUYtUF9kamRQRldrenc?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 17:37:57 GMT"
+      "title": "Elon Musk says copycats are to blame for pushing Tesla's Optimus humanoid robot unveiling - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnFtMVBTNm5pOTRZM1p2WHpJQ2p3bDRfdGxacU9xN0N3WlFLbklGRzQxYXFtNlVST3BFWkJFa0NDcC1zS1JaLWlxU2NBNlA3VEU5M3I2Z1R0VUlhMnlTdmI5M1lDTHR6emFRcUI0MzhReVhqS1NzS3M5bmdSX3hUVmJMRGIxbzZoYkJfS05pLUZuQ3pnMzhV?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "Tesla",
-      "title": "Elon Musk says Tesla’s Optimus robot could be its 'biggest product ever' - USA Today",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZElKcHktYzJibUZsTnBKczBSSkR6V1Jyb3oycGV3UlplbmF6TGJKUEotU1FPYnQtMnNTeGF1cWNERVhLU3EyLXR4cThRVi1CajZZblk5SUFBNlROejFqRkI1Z1ZNa2NVa29tWDlucjBSZU9WX3dXOVJpTXdTVVRaN1RRQ0lrNWF4RV8wcnJQOF9ia0k2XzFtNlVPMFFITVp1MVREb2REVkxhSENj?oc=5",
-      "pubDate": "Fri, 24 Apr 2026 14:15:00 GMT"
+      "title": "Tesla pushes Optimus V3 reveal later this year – again - Electrek",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNTYxMW9XclFDMmtza0VONERTQlAyQXdqMU9sVWl6Nkk3WmJQVjAtempBZnpMakJnV01ubnZMT2I5ZTlUZjRaVVRjbFJ0cVM4OUlmRU0zSjVhYmRSSjdxamhHdWhtSXYwdlExbTBFQW84ekdxcV9nTlBiRmJQRFZUa1poVUQ?oc=5",
+      "pubDate": "Wed, 22 Apr 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
-      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
+      "title": "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February - Crunchbase News",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNlhKbFFobFpJQW4zZktfcTFTRFpabXY5UW03WjdoblBmTW5NWWwyWlNZd3JILXN1cXJQUzNSS0p3UEQzMFByWEpVVTIwcFRHNFVZWkRHZXpfT2hsNkdjckY0OVNzQmtWMEhHS1dkR04xOWdCczJjcEhuaDdVUF9UY09rWnJ1dHdxME9IQzN6cw?oc=5",
+      "pubDate": "Thu, 12 Mar 2026 07:00:00 GMT"
     },
     {
       "company": "OpenAI",
@@ -128,12 +134,6 @@
       "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES - AP News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGNCdE5ZeWNTMHFEQy1oM0VHLTFlMHFqMWVBMTlxRWRCM2JvTHlxQWxDWG1wM0tKZVRQdTQ3blNSX2ZzQXFBUlRYUi1zMnFMU0I2VGNPc2FpckRUUlI4SzRtV3dpaldiZXRiTGFpb3Jvb3dNYnRZZ3lvY3RXNGt4d0tEVFpqRUtfMlExaWZudHcxTXMybzFqcjRHSUc4enY5WE0wWVZBMTFoWldvQVE?oc=5",
       "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
-    },
-    {
-      "company": "Boston Dynamics",
-      "title": "Boston Dynamics is training an AI-powered humanoid robot to do factory work - CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZkpMYnhHZTdvbklmQWhjUU1zNWd2aldGNEtVT2YzN3daNjJXaXhRRjZNa0hOZ1FrNTdhTVNDVjBSWU1BX3U5RmFUdDVfQTlQYnFhb0lCZWFKTkZIZGxxZmd6LXEzTUYyc0tFRUN5SDZ2Y2dFWDVKWkxDNWJIdWpxRFVZelFvUUlwYUd0d3FCVGk4dTdPcVltQ0twSmRNM280amfSAacBQVVfeXFMT0M5NlVrdWhVYWFEMERwRUNpdTJqc182TENyOTNFSnlvUnZ3RVNNMXFrVzdzbk1LXzFrMVk4YWRySHA0dUF4R1h1MU5XUE1wUzFMUkhrSnlWM28xMG5JTGJUSlVVc1F5QVJqS1l3TkpLbW9lRkZVYkp4NjYtaWxFUHBMRklwWWlJaHpmc2hJSUJnd2RFaXRVZVNzLV9fODB6ODRZY3BJQU0?oc=5",
-      "pubDate": "Sun, 04 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
