@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-04-30T08:35:22.075Z",
+  "generatedAt": "2026-04-30T14:22:45.428Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Figure AI",
+      "title": "Figure ramps humanoid production to one per hour - Let's Data Science",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMEViNTBTVEtYajNTb2xCUXdFWFpGMmN3RVdYejJET0VWYWpLV1JoQnNfMmZxVmZXakUwUEpzdkNrZ2hOU0RqNkdZWVF6MWdGeWY1RTBpY0tEQXMwRXBHVUV2ZHl0YlNMdS1DVE9ubi1rYkFlOFZQNWhxSFQ1UlJEckdKQ2lGZVZCMkxDdl9Xc0FvUk5M?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 10:50:11 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Figure claims new BotQ facility can make one humanoid robot per hour - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWHowTm9lemhzdEVmd2plWG1zQmZMWWcxM3hlVTFEYUpLVWd3ZC1zRUVLWWoxMl8zNXYyZGdPdnB5QXJIekRkMzY1RVI5el8tVVFuWkJvcjUzdFo1RTdzWEgtdmg5N3lYOW9id19DbDFrZEhTUzdlS3NFY3Ezd1lwV25WQ2ZYb1pRX0RuRFdVOXo0UQ?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 10:50:00 GMT"
+    },
     {
       "company": "Boston Dynamics",
       "title": "Hyundai accelerates physical AI to deploy robots across Korea’s industry - CHOSUNBIZ - Chosunbiz",
@@ -28,22 +40,16 @@
       "pubDate": "Wed, 29 Apr 2026 09:00:00 GMT"
     },
     {
+      "company": "Figure AI",
+      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOTmViTFdiUEM2Qmc3aDViZ0tQaEtOVVRGVjBBLVpXQ3htNjB6cmxxQWxUZml0bWo1eXduRlJtRUxrdDVra2tDT2hkMDhVWXFEVFVnejU3bWp0LTg2SFZRY1FadTRNdUhhZExCaS1WbW9lWUpLZmVxZS1ZZXJhM0w0bTFSNnFia3JyT2dJekwwakxQTGZlNzhzbDFQYzc1MW0zNmhQVjlGQVJHUzRRclotSDhwSHdXR0VQVHVwXzhOU0hkZDMtaGc0U21teDhaRktVRFdxLUxzcGxqa2VRcmR2bzhfLUU0cmJGeHRVN0tSX3dSQ2Z2bXBCVlpyblV2RUpVbFIyZTkwYUxyb1dDeHVpTnQwOVI3M2ptZFlnQU9VdmhaZVhmS2U0UlJtbEhkb01pSG5iWkRYYVB2Q1Nkc2x6N0s1bGJVRXVQS1hZclNqSUJqV0lEaW9ld2tzQ2FMZ1NRdmVJUDk0QnFpNnFCMU1CNFZ3aXhGSUtGSXpseU53?oc=5",
+      "pubDate": "Wed, 29 Apr 2026 03:12:05 GMT"
+    },
+    {
       "company": "OpenAI",
       "title": "Elon Musk accuses Google co-founder of loving robots as much as people: ‘Larry Page called me a ‘specieist” - Fortune",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbkFqYk1hbWg1RlhhUUthWG9NYllHSXhxeVlPa2F1MEhXdklkNjFSQUM0Y0ZCLTFwMUh4d3FoT1d1SG80ZVZJdTViaVUyMTNMcUVTTHNBRTIzY1pDdndoMFpJS1plcXFRS2R4cGlRNUtZZE1LQkJYX3JxaFNSX01LSlU2OHRPaHEtaFgtWGlMUE82bDNtakVacW1tcWJQT0E?oc=5",
       "pubDate": "Tue, 28 Apr 2026 21:55:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOV1lvVEZzdW5sUGhnRVQzbjFaREFBS2dCa3N2RGJTV0FtVEgweWJHbmctcHJnSWtfbTNtalgxajI4MzZNdm5oTTU0T0RDaWZQWmlFdzRlYk5MQXBXYUF2Q3ZTNmdyVlVDRWdMenpEeGswOHdIcVlXMXJNVjNKOXl4NHZXaENIYjR0dUcxOGlFOHlKcW9DOWsySkVuSWFQZWhKazBTOHBhYnlGTC0tX1oxbGszZFJqd3NGSVY3SHR1YTVsVlk2RjJzVUNlam9QMU5ReXplMzVIUHNOUl9iaHB4ZFNrVnZGZFoxVmJMTkJsWUxGSXA0SW1WQnBxXzRURFl1TlAyOWVrcG54UEVrWmI4LVBzMzIzTlFkRDhqdUNCQ1BLUXZhV00tbHJLdVNMZ2xPbzNMRm5nNEI2bFB4U1JVZ0dQLVB3YVVzYXY4MmNVaU5mbDBOcTA0ckZ4S1JrbzhTdHpPRGo2Qmx5VlpfZWdINGZZemlnRnZCeVNua2F3?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 21:44:33 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "UniX AI’s new robot can tackle your household chores - R&D World",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcnM4NmFGVFNiSGI5TXBJVUVrcEZNcGtRTGxxRHQ1MTRER3RVem1Tc1FQdmpvNnFLNzN3NVVzUXBpbEE0UkFMY0lQRGRjMlpLcTYtWlFxNkxfYWU3Vi1XaTYzQnpKWE9xY0d0dFd1YUI2NTdnOGQzdVgwYzdoRlRVQklrSVpONUVVaEE?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 19:26:57 GMT"
     },
     {
       "company": "Tesla",
@@ -76,12 +82,6 @@
       "pubDate": "Mon, 27 Apr 2026 15:10:30 GMT"
     },
     {
-      "company": "Boston Dynamics",
-      "title": "Do humanoids dream of becoming human? - Popular Science",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tbTBKV3JnYU5NVzVILTUwZG1TNW4zbTdZaC1lcWRPY0Jhd0lPQ01hTFJmS3A1V1ZmdEc0SzUxd3hfaDNPRG9vLWtrV2x1MWI0eTJ3Y3FmQV80ZDZGcVJBcjJpRlpHYUpTU1RPUTBqZUxIVG8yVjlURF9SMA?oc=5",
-      "pubDate": "Sun, 26 Apr 2026 18:07:00 GMT"
-    },
-    {
       "company": "Tesla",
       "title": "Tesla Optimus Robot Launch Timeline Targets 2027 Scale - eWeek",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3THlvb1JiallMendkcFM4VTZDRURDOTBGTVJUTzdYbjN1OTNucXlVSHVPWkU0aVp1V0FRczJySGRKT1p1LTNVZEZ4SjRqRlEtSXN2MWYzTzlHcVR5a3BKa3NGWWRfYXpOZUYtUF9kamRQRldrenc?oc=5",
@@ -95,21 +95,15 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI calls for a four-day workweek — and a ‘robot tax’ - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzBHWTJkemRvVzd5NmNXSnZZYjZPOUVMOTNlbFQ4NGIyRktqNGEwUXZ6SXFnUW1HeWtvSTVFSHVYWUdUZXFjZHJBS2F6c3JvYmtEWVkwcnlxRmluOUZidnVNd3NYWWUyOTlxTENEVTlINjNnM3Q1OWhBNTQ3MlRGVkJpQ2xKTzh5bUJiXzdWNFFmQVFjZ3B4aEh0d2s4NjNa?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 16:02:20 GMT"
+      "title": "OpenAI robotics chief quits over Pentagon deal - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVExMbjlHc01EQlZ2R2ZTVnpETE00VGR5b0xOY3NyRW5UbS1pSU45UEIyOXR5aHFSbE00ejBiYVlSX0s3Q3BTcW85TVdvZzhXUHNwOFJ5S2JFeVdwV2hPWHhMUHFzclJ4QTNJdy1YUTZULURYZ1Y3WWZ2UmpzdS1yZ0pTbW5WVGs3aUdxOWViSVJVQ19YRDNVamNPNTZYQQ?oc=5",
+      "pubDate": "Mon, 09 Mar 2026 12:23:55 GMT"
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Video: Figure humanoid robot stuns Shawn Ryan with balance, grip and smooth walking - Interesting Engineering",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3ozd0RfX0RuNjkzck9HNzdWeDBTV1Y5ZzhzOV9jUjVwUzNHMGhtQi1QT28zbWhmdUVFRDZrWXdNcER3bk1LbDBxMVlQNHdfUWNnekFhMkwyY21yeGtQWVQ0TVVra2tJSjBhd2JIUzF0cnZmR3ptX0dwSG9XNXoycWxMcjhOdDZXeThr?oc=5",
-      "pubDate": "Thu, 02 Apr 2026 07:00:00 GMT"
+      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
+      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
@@ -134,6 +128,12 @@
       "title": "Hyundai and Boston Dynamics unveil humanoid robot Atlas at CES - AP News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGNCdE5ZeWNTMHFEQy1oM0VHLTFlMHFqMWVBMTlxRWRCM2JvTHlxQWxDWG1wM0tKZVRQdTQ3blNSX2ZzQXFBUlRYUi1zMnFMU0I2VGNPc2FpckRUUlI4SzRtV3dpaldiZXRiTGFpb3Jvb3dNYnRZZ3lvY3RXNGt4d0tEVFpqRUtfMlExaWZudHcxTXMybzFqcjRHSUc4enY5WE0wWVZBMTFoWldvQVE?oc=5",
       "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT"
+    },
+    {
+      "company": "Boston Dynamics",
+      "title": "Boston Dynamics is training an AI-powered humanoid robot to do factory work - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZkpMYnhHZTdvbklmQWhjUU1zNWd2aldGNEtVT2YzN3daNjJXaXhRRjZNa0hOZ1FrNTdhTVNDVjBSWU1BX3U5RmFUdDVfQTlQYnFhb0lCZWFKTkZIZGxxZmd6LXEzTUYyc0tFRUN5SDZ2Y2dFWDVKWkxDNWJIdWpxRFVZelFvUUlwYUd0d3FCVGk4dTdPcVltQ0twSmRNM280amfSAacBQVVfeXFMT0M5NlVrdWhVYWFEMERwRUNpdTJqc182TENyOTNFSnlvUnZ3RVNNMXFrVzdzbk1LXzFrMVk4YWRySHA0dUF4R1h1MU5XUE1wUzFMUkhrSnlWM28xMG5JTGJUSlVVc1F5QVJqS1l3TkpLbW9lRkZVYkp4NjYtaWxFUHBMRklwWWlJaHpmc2hJSUJnd2RFaXRVZVNzLV9fODB6ODRZY3BJQU0?oc=5",
+      "pubDate": "Sun, 04 Jan 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
