@@ -1,8 +1,20 @@
 {
-  "generatedAt": "2026-05-01T08:24:14.216Z",
+  "generatedAt": "2026-05-01T13:53:13.173Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
+    {
+      "company": "Unitree",
+      "title": "Unitree unveils $4,290 humanoid robot with upper-body-only design - Interesting Engineering",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPXzAzMlVueHA2UkJDREcyaWpNRWp2d1Nfb1VmLXhnZGhkX0xTT2JndEl5dU54M0QtV1M3b2Z1OV9mS3VxSktmNmZlaUFWdXFhODlNbzZfem11TGZQMUNjdEhGSDFza1hVSndZejE4R1Y1ZDUxYmQybnRmQTduX3B4YQ?oc=5",
+      "pubDate": "Fri, 01 May 2026 13:27:00 GMT"
+    },
+    {
+      "company": "Unitree",
+      "title": "Unitree G1 humanoid robot ice skates and rollerblades - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSWMxNFpUbDJEakIzb0NDaUlLektoY3RwdW05dXlfbnBZYVdqT05DUllrc0VRdmNfMHZGNmdfZDQ4UnAtQWdiUVJXYVB5Wkw4ZmZhcnhCYi1RM1owSXBqVEltQ2loSndqRWJ4TGxJYXRUZS04TmF6eWhhcHNHVDJOWURYNnbSAYoBQVVfeXFMT0RyeXhGbDQzd3BYWG42ZzFrWVdDOTUtd2ZsSEU5M210aWhMVXU0cUtGY2FxQ3BYSlVsQVZrVXJuWnYxS2N5NGpReHl2V3pUX2VhMW5EX2V3UFJXUGVUYjdhQzktSDRpcUJjbzgyQ1hjb05Edlh2dnJrbXhWT29lUDUybmxUUDRfelhB?oc=5",
+      "pubDate": "Fri, 01 May 2026 11:19:55 GMT"
+    },
     {
       "company": "Figure AI",
       "title": "Figure’s Humanoid Robot Factory Just Hit a Major Production Milestone - eWeek",
@@ -14,12 +26,6 @@
       "title": "Boston Dynamics: 2026 TIME100 Most Influential Companies - Time Magazine",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMnVqRlpJYTRKeGhkMkd0ZmtTczRXT2l5ZUZvN016QlExb2lrR0hTRUVwTkI2R21yVVJ3LWtFTFZXamM4Z1ZQb3dvQzc5UFRZeE1LLUFQVkVNTWxMMFFpSjRoZGlkV2xRX1hOaDg3YWdmYWZiREV3RWpnRi1UaUtkejVES1pnVzdpcExxMw?oc=5",
       "pubDate": "Thu, 30 Apr 2026 13:13:48 GMT"
-    },
-    {
-      "company": "Figure AI",
-      "title": "Figure ramps humanoid production to one per hour - Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMEViNTBTVEtYajNTb2xCUXdFWFpGMmN3RVdYejJET0VWYWpLV1JoQnNfMmZxVmZXakUwUEpzdkNrZ2hOU0RqNkdZWVF6MWdGeWY1RTBpY0tEQXMwRXBHVUV2ZHl0YlNMdS1DVE9ubi1rYkFlOFZQNWhxSFQ1UlJEckdKQ2lGZVZCMkxDdl9Xc0FvUk5M?oc=5",
-      "pubDate": "Thu, 30 Apr 2026 10:50:11 GMT"
     },
     {
       "company": "Figure AI",
@@ -58,10 +64,10 @@
       "pubDate": "Tue, 28 Apr 2026 21:55:00 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "China’s Unitree G1 Humanoid Robot Skates, Spins, and Flips in New Demo - eWeek",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVFGdV9QdVZUeVJEZUljUmRKM0l3R0Q0MU5iakdSZU85eFpoN25kRjNGeEhjSHhSOXhZWkVTZkJ5eHREd2tWM25MOFFFY3I3V2t1VmJDNnFCbmxPYmJUdGJUTHlGZzg0SDBxTlBKMlVmb0JkcmhhTmxubHFMaUtFSjctNF9YdTU5cENqbGln?oc=5",
-      "pubDate": "Tue, 28 Apr 2026 16:05:08 GMT"
+      "company": "Figure AI",
+      "title": "Meet Figure AI: The company behind the humanoid robot hosted by Melania Trump - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOV1lvVEZzdW5sUGhnRVQzbjFaREFBS2dCa3N2RGJTV0FtVEgweWJHbmctcHJnSWtfbTNtalgxajI4MzZNdm5oTTU0T0RDaWZQWmlFdzRlYk5MQXBXYUF2Q3ZTNmdyVlVDRWdMenpEeGswOHdIcVlXMXJNVjNKOXl4NHZXaENIYjR0dUcxOGlFOHlKcW9DOWsySkVuSWFQZWhKazBTOHBhYnlGTC0tX1oxbGszZFJqd3NGSVY3SHR1YTVsVlk2RjJzVUNlam9QMU5ReXplMzVIUHNOUl9iaHB4ZFNrVnZGZFoxVmJMTkJsWUxGSXA0SW1WQnBxXzRURFl1TlAyOWVrcG54UEVrWmI4LVBzMzIzTlFkRDhqdUNCQ1BLUXZhV00tbHJLdVNMZ2xPbzNMRm5nNEI2bFB4U1JVZ0dQLVB3YVVzYXY4MmNVaU5mbDBOcTA0ckZ4S1JrbzhTdHpPRGo2Qmx5VlpfZWdINGZZemlnRnZCeVNua2F3?oc=5",
+      "pubDate": "Tue, 28 Apr 2026 21:44:33 GMT"
     },
     {
       "company": "Unitree",
@@ -94,22 +100,16 @@
       "pubDate": "Thu, 16 Apr 2026 07:00:00 GMT"
     },
     {
-      "company": "Unitree",
-      "title": "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaDdwS2p6VG5DR094bGliZFRaaGtwV01zeFBqNGJHazFxaTdBeE5CMUpHY1I4OTRtYkdGbGdLVTF3STdwYUFNcjMwUm4tVEdEbUpGaWQxNjZXaFUxWWRXM2VQQldmOGI3V05kN2dxazhxQzFFV0hXQU4zdlhWOFZyX1o5MA?oc=5",
-      "pubDate": "Mon, 13 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI calls for a four-day workweek — and a ‘robot tax’ - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdzBHWTJkemRvVzd5NmNXSnZZYjZPOUVMOTNlbFQ4NGIyRktqNGEwUXZ6SXFnUW1HeWtvSTVFSHVYWUdUZXFjZHJBS2F6c3JvYmtEWVkwcnlxRmluOUZidnVNd3NYWWUyOTlxTENEVTlINjNnM3Q1OWhBNTQ3MlRGVkJpQ2xKTzh5bUJiXzdWNFFmQVFjZ3B4aEh0d2s4NjNa?oc=5",
-      "pubDate": "Tue, 07 Apr 2026 16:02:20 GMT"
-    },
-    {
       "company": "OpenAI",
       "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
       "pubDate": "Mon, 06 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
+      "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
