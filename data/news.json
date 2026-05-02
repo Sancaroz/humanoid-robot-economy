@@ -1,14 +1,8 @@
 {
-  "generatedAt": "2026-05-02T13:46:37.914Z",
+  "generatedAt": "2026-05-02T19:16:13.346Z",
   "sourceCount": 6,
   "itemCount": 24,
   "items": [
-    {
-      "company": "Figure AI",
-      "title": "Meta buys robotic startup to bolster its humanoid AI ambitions - The Tech Buzz",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUVEc1ZKVEk3V3NVSTNONWpGVHdvUlpQM05TZHE5VXVGSTdGSjI1YjExN1pxdS01UXRBSzJwLXp5M0UzZHlfXzJkX0RDeGR2OW5sS2ZVQ0hic1pDcmZaeGlYd3hWZ1ZhcUJ3SE1oZGN2TFZGZ0Zqa1puRWdsTTJhS2x3bl9NenZjcVZ5VmE5N3Y2Z25pN04tZkJTQQ?oc=5",
-      "pubDate": "Fri, 01 May 2026 22:39:00 GMT"
-    },
     {
       "company": "Figure AI",
       "title": "Figure AI Ramps Up Production to One Humanoid Robot Per Hour - AI Insider",
@@ -34,6 +28,18 @@
       "pubDate": "Fri, 01 May 2026 00:44:00 GMT"
     },
     {
+      "company": "OpenAI",
+      "title": "Judge Tells Elon Musk to Cool It on the Robot Apocalypse Talk - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdUl4R0g5ZmxjNkg3eTI0bkR6TFp3eWdpU2FGQlFEeTB3dl95a2E5RHVfeGp2VXpxRGlyRVVJSTkycnhHa1VXQ1hvODg0NDlNY2hidFhnYUNvWWh1dWpwOENIVDhhLU5TWmZ1WEJpT1pYdEY2Y3ROdHcyR1NGbUxqRURPY1Mxc2xKdlNJNW5xYWdGS1ZQUGF1RlFMcF93b1AxTXIteGxyS2h3UQ?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 21:05:00 GMT"
+    },
+    {
+      "company": "Figure AI",
+      "title": "Figure’s Humanoid Robot Factory Just Hit a Major Production Milestone - eWeek",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMMzkxRlY5XzRoUk5wWkp4RDZvcU85el9hOG80aWdJMTZVeXBESVJMODUyNGVDS3ZOUXpBdHktT2VZY0RBN3RaeUJXTnh4aTFJbHdSY19vcmhoZFBBYkNubWFIUjRPNUVrZ2dWQVpkTTZDdXdVUFJhYWhFOG0?oc=5",
+      "pubDate": "Thu, 30 Apr 2026 19:05:12 GMT"
+    },
+    {
       "company": "Boston Dynamics",
       "title": "Boston Dynamics: 2026 TIME100 Most Influential Companies - Time Magazine",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMnVqRlpJYTRKeGhkMkd0ZmtTczRXT2l5ZUZvN016QlExb2lrR0hTRUVwTkI2R21yVVJ3LWtFTFZXamM4Z1ZQb3dvQzc5UFRZeE1LLUFQVkVNTWxMMFFpSjRoZGlkV2xRX1hOaDg3YWdmYWZiREV3RWpnRi1UaUtkejVES1pnVzdpcExxMw?oc=5",
@@ -55,7 +61,7 @@
       "company": "Tesla",
       "title": "Tesla Stock Falls. Elon Musk Talks Up ‘Special’ Optimus 3 Robot. - Barron's",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTXhCYkFLLVI4S3BFTnhBVy13RWZBQTBFa0dvdW1hdzZsZUY4NFJGMl81RXlTQTJHQVM0dnhHNTEtcjdvODdtVHRjTF9LUVBKakhoeTJmZFZCY1Q3b2pBUmdVbVhwMnJEWEhlVGxIc2xKYXdlYk44dC1jVkFwQnZSNVFpWQ?oc=5",
-      "pubDate": "Wed, 29 Apr 2026 20:16:00 GMT"
+      "pubDate": "Wed, 29 Apr 2026 11:16:56 GMT"
     },
     {
       "company": "Figure AI",
@@ -74,12 +80,6 @@
       "title": "The Best Robots Ready for the Factory Floor - Innovation & Tech Today",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwa1o3dXByem44NVdjTk5TNmpKNzdTZ1dBZ2NsdVlZNThoMmhqQ0tvbkN2ZjJyeEg1eU5jZ3drQkhkZnhVNE5YRGZ1WUJjU054WkRaTUJsalM1OWpDOUEwYndXYW1fd1lvZjdwc0V1VzBfSXM3RTJjNzFn?oc=5",
       "pubDate": "Tue, 28 Apr 2026 15:41:06 GMT"
-    },
-    {
-      "company": "OpenAI",
-      "title": "OpenAI’s vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek - Basic Income Earth Network",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1BSVXN1ZHBfWk41c1dQRGhiTXpjRXBxcU40Z0dMMGZDLVF6VVVVZ0Qybm92dGRTY0t1b1F3VUE2TkdyRl9rVmgtUlRpaFpHMFZLV2pQVGc4S3poeVBlQktPbHkwSUY1Rk9mSjhQWGllU1pMd0tJSW8zd3pMekdTWFdldmxCa0t3OU1WUkt6QUttblhQYU1UdFk5Q2w3QUx3OFVIWF9nd29sdkpRS0k0b25ULU5KMVdOU3lfY1hTWTU4VVRRQ3c?oc=5",
-      "pubDate": "Mon, 27 Apr 2026 20:15:35 GMT"
     },
     {
       "company": "Tesla",
@@ -101,15 +101,15 @@
     },
     {
       "company": "OpenAI",
-      "title": "OpenAI calls for robot taxes, a public wealth fund, and a four-day week - The Next Web",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRUFHSXNMaWFwRjQyaVFaX3FBTXo5WFV4YlRRNDdrSm5IR0p0RVlrOEpqSHpaN0JaMjFZRUl0LXkzb2g1YzFLWFRhcTVPMng2b3k3WnhDWm94U0IyWHhiMjByemJfXzJ5OWQ5dkpjeGhVNWY2UmhYWW1idUFmODdhUzlJTnJTNFpJcEN3?oc=5",
-      "pubDate": "Mon, 06 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "company": "OpenAI",
       "title": "OpenAI robotics leader resigns over concerns about Pentagon AI deal - NPR",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHBiUlU2eVU1R2JKNEduRjNTdjA3aGdPdVNZaHFFUDVwbTlaaGNFcmlOWFpTOTBZLVE1ZjJvQ0NZaWNrR2hzV01ISlFjSG5sZ0FKSTNjM1dsT0RGdWhFU05OaGhyOTlKM29obUp1dUd3TTd3cW1SbDVvRFdrWktLalNrYUNobEdFcldIVElQTDNyckphc2c?oc=5",
       "pubDate": "Sun, 08 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "company": "OpenAI",
+      "title": "OpenAI robotics head quits over military deal concerns - The San Francisco Standard",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkpMQkJfUnNkYlZISkxXS0huZHBoajF5NUFhMk0yQUVhaFktTGkyTTgxU21seGpXYnZXNFQ0M1JxOE1XQmZmejF1X2NTUkVsWUtwVjRBTDctdEExbGF6Rko2SEl6RjY0ZFZSVWhUTlFkVkVFRmJLYUNzTEVtdXNCTUlkU2ljV0F5dUdhTA?oc=5",
+      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
     },
     {
       "company": "Agility Robotics",
